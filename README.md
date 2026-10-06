@@ -9,7 +9,7 @@
   - 本輪全部內容都是 v0 初稿或 PROPOSED，**沒有任何一項經客戶核准**。
   - 本輪沒有建立帳號、沒有發布、沒有修改客戶網站、沒有付費生圖，也沒有訓練人物。
 
-> 重要背景：網站研究證實 LUSCENA 是 18+ 成人直播與內容平台（`research/LUSCENA_AUDIT.md` §1）。這會大幅影響導流方式與平台合規，請先讀 `brief/CLIENT_REQUIREMENTS.md` §H 的衝突一覽。
+> 重要背景：網站研究證實 LUSCENA 是 18+ 成人直播與內容平台（`research/LUSCENA_AUDIT.md` §1）。Meta 規範禁止連結色情網站，也禁止品牌內容推廣成人服務（EV-M02、EV-M24）。所以本稿把**中期導流（官方文、LUSCENA 連結）列為 BLOCKED**，要等客戶法務判定；初期的帳號經營照常規劃。請先讀 `brief/CLIENT_REQUIREMENTS.md` §H 的衝突一覽。
 
 ## 文件導航
 

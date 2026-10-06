@@ -13,7 +13,7 @@
 | G-2 | 10 個角色全部是虛擬（AI 生成）角色，不是真人 | owner 指示；客戶圖片沒有寫（Q-A01） |
 | G-3 | 全部是成年人。設定年齡 24–36 歲，外觀也必須明顯是成年人：不做幼態化造型，不穿學生制服 | PROPOSED；理由見 CLIENT_REQUIREMENTS E-5 |
 | G-4 | 市場是台灣，語言是台灣華語（繁中）；10 人都設定為台灣人，住在不同縣市 | PROPOSED；依據 LUSCENA_AUDIT §4 |
-| G-5 | 每個帳號的簡介都揭露「虛擬角色／AI 生成」，也揭露「同一個創作團隊」 | PROPOSED；owner 紅線、CLIENT_REQUIREMENTS E-2、E-3 |
+| G-5 | 每個帳號的簡介都揭露「虛擬角色／AI 生成」，也揭露「同一個創作團隊」；如果 Threads 提供「AI 生成個人檔案標籤」就啟用（EV-M20） | PROPOSED；owner 紅線、CLIENT_REQUIREMENTS E-2、E-3 |
 | G-6 | 只有主帳號（L01–L03）會提到 LUSCENA，而且在初期不導流；中期的官方文與連結目前列為 **BLOCKED**，要等法務判定（§7、CLIENT_REQUIREMENTS E-1）；流量帳號（L04–L10）不放 LUSCENA 連結，也不提 LUSCENA | PROPOSED；客戶 CR-053（虛線＝中期才導流）＋E-4（保護未成年人） |
 | G-7 | 不做裸露、性招攬、露骨性描述。「性感」以 Threads 社群規範為上限 | PROPOSED；E-1、E-5 |
 | G-8 | 不捏造真實的消費、療效、專業資格或使用心得。虛擬背景不當成真實經驗來陳述；也不宣稱親身到過特定的真實場合（例如某場真實比賽的「我在現場」） | owner 指示 |

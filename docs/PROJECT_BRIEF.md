@@ -25,7 +25,9 @@
 | F-4 | 目前沒有任何「不露骨」的網站頁面適合直接從 Threads 連過去 | LUSCENA_AUDIT §10 |
 | F-5 | 客戶要求官方文由真人手動發，不開官方帳號，初期不導流 | CR-043、CR-004、CR-053 |
 | F-6 | 舊專案（Virtual_KOL_Studio）實際發生過：撞臉、真人來源被認出、檔案不同步、狀態宣稱和證據不符 | `research/REFERENCE_METHODS.md` §4 |
-| F-7 | Meta 的相關規則（成人性招攬、不實行為、AI 標示、Threads 功能） | `research/THREADS_RESEARCH.md` §B（查核結果與未確認項目都在該檔） |
+| F-7 | Meta〈成人性招攬〉禁止貼文含「usernames or links to pornographic websites」（EV-M02）；品牌內容「must not promote the sale or use of adult products or services」（EV-M24）。這兩句原文主管已獨立重新查核 | `research/THREADS_RESEARCH.md` §B；`research/EVIDENCE_INDEX.md` |
+| F-8 | Meta 禁止用不實帳號欺騙受眾來源、協同操作與「coordinated comment networks」（EV-M05、EV-M07、EV-M20）；不禁止不付費的公開交叉推廣（EV-M06） | THREADS_RESEARCH §B.2、§B.4 |
+| F-9 | 建立 Threads 個人檔案要用 IG 或 FB 帳號；最低 13 歲；未滿 18 歲預設私人帳號（EV-M10、EV-M12、EV-M13） | THREADS_RESEARCH §B.1 |
 
 ## 3. 提案（PROPOSED，未經客戶核准）
 
@@ -56,6 +58,7 @@
 
 ## 5. 主要風險（研究推論）
 
+0. **最重要的結論**：客戶設想的完整結構——AI 角色、加上 7 個不同主題的帳號協同推主帳號、再導向成人站——在 Meta 官方條文下同時碰到成人招攬、不實行為、帳號網絡、身分不實、品牌內容與推薦規範，無法靠發文技巧變成合規（THREADS_RESEARCH §D 總結）。所以本稿把**中期導流列為 BLOCKED**，只規劃可以公開揭露的帳號經營。客戶要先回答 Q-A03 與 Q-A11。
 1. 品牌本身是成人平台：直接在 Threads 導流，有被認定為性招攬的高風險。
 2. 「協同留言／轉發」可能構成協同不實行為；也違反 owner 的紅線。
 3. 流量帳號的受眾可能有未成年人。
