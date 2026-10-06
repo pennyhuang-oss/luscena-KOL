@@ -25,17 +25,21 @@ out.append(f'[SE] referenced in Lxx but undefined: {undefined or "none"}')
 for sid in se_ids:
     miss = sorted(part.get(sid, set()) - used.get(sid, set()))
     out.append(f'[SE] {sid} participants={sorted(part.get(sid,set()))} referenced_in={sorted(used.get(sid,set()))} missing_ref={miss or "none"}')
-# 2 W numbers on lines that also carry SE tags
+# 2 W numbers near SE tags on the same line: candidate matches only, judged by hand.
+# The regex stops at ｜ or |, allows 40 (W→SE) / 10 (SE→W) chars, and can pair an
+# unrelated W with a later SE, so it neither finds every case nor proves a dependency.
+cand, cand_lines = 0, set()
 for lid, s in L.items():
-    for ln in body(s).split('\n'):
+    for no, ln in enumerate(body(s).split('\n'), 1):
         if 'SE-' in ln:
             for m in re.finditer(r'(W\d+)[^｜|]{0,40}SE-\d\d|SE-\d\d[^｜|]{0,10}(W\d+)', ln):
-                out.append(f'[W+SE] {lid}: {ln.strip()[:150]}')
+                cand += 1; cand_lines.add((lid, no))
+                out.append(f'[W+SE] {lid} line {no}: match="{m.group(0)[:60]}"')
+out.append(f'[W+SE] candidate matches={cand} distinct source lines={len(cand_lines)} (manual judgement required)')
 # 3 leftover phrases (body only)
 bad = ['最貼客戶', '不同縣市', '先用尺度 1 做候選', 'VISUAL_BRIEF', '矩陣', '視覺規格', '弱光', '兩邊差多少', '莊家', '賭一句', '我的心痛是真的', '真實流程', '懂球的女生本來就稀有', '太常見', '押哪', '一律標 AI', '全部 AI 生成', '卡關點：一直在等', '同團隊互相留言為什麼不算刷留言', '表演日的真實時間表']
 for name, s in list(L.items()) + [('00_OVERVIEW', ov), ('PENNY_CHOICES', ch), ('PRODUCER', pr), ('SHARED_EVENTS', se)]:
     b = body(s) if name.startswith('L') else s
-    if name == 'PENNY_CHOICES': b = b.split('## 六、')[0]
     for w in bad:
         for m in re.finditer(re.escape(w), b):
             ln = b[b.rfind('\n', 0, m.start())+1:b.find('\n', m.end())]
@@ -57,8 +61,9 @@ for lid, s in L.items():
     ids = sorted(set(re.findall(rf'C-{lid}-\d', sec9)))
     missing = [i for i in ids if i not in ch]
     out.append(f'[CHOICES] {lid} §9 ids={ids} missing_in_PENNY_CHOICES={missing or "none"}')
-extra = sorted(i for i in set(re.findall(r'C-L\d\d-\d', ch)) if i not in L[i[2:5]])
-out.append(f'[CHOICES] ids in PENNY_CHOICES not found in Lxx: {extra or "none"}')
+def sec9(s): return s[s.find('## 9.'):s.find('## 10.')]
+extra = sorted(i for i in set(re.findall(r'C-L\d\d-\d', ch)) if i not in sec9(L[i[2:5]]))
+out.append(f'[CHOICES] ids in PENNY_CHOICES not found in Lxx §9: {extra or "none"}')
 # 6 posts per file
 for lid, s in L.items():
     sec3 = s[s.find('## 3.'):s.find('## 4.')]

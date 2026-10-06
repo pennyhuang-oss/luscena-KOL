@@ -7,6 +7,7 @@
 - **執行者**：Claude
 - **目前階段**：TASK-001 R3（人設局部修訂），**等 Penny 與主管審閱**
   - R3 依主管 R2 人設覆核（`review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md`）做局部修訂：設定與事實分開、跨角色共同事件編號、Penny 的決定順序、製作師的估價假設、內部核查更正。逐條修正見 `review/CHANGELOG_TASK_001_R3.md`。
+  - 主管 R3 覆核（`review/REVIEW_RESPONSE_TASK_001_R3.md`）判定可交 Penny 比較、選角，局部 REVISE；F-01～F-06 的局部補正見 `review/CORRECTION_TASK_001_R3_F01-F06.md`。
   - 2026-10-06 Penny 調整範圍：先把 10 個人設規劃清楚，讓 Penny 選定，再交給 AIGC 製作師評估人物形象。導流與網站轉換延後到角色建立、帳號創建、實際每日經營之後另案討論（`review/SCOPE_CHANGE_TASK_001_2026-10-06.md`）。
   - 全部內容都是 PROPOSED，**沒有任何一項經 Penny 或客戶核准**。
   - 沒有建立帳號、沒有發布、沒有修改客戶網站、沒有生圖或付費、沒有訓練人物。
@@ -26,6 +27,7 @@
 | ★ | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 給 AIGC 製作師的參考需求（OK／NG 都是待選）與估價假設 |
 | ★ | `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` | 範圍調整紀錄 |
 | ★ | `review/REVIEW_REQUEST_TASK_001_R3.md`、`review/INTERNAL_QA_TASK_001_R3.md`、`review/CHANGELOG_TASK_001_R3.md` | R3 覆核請求、內部核查、逐條修正表 |
+| R3 | `review/REVIEW_RESPONSE_TASK_001_R3.md`、`review/CORRECTION_TASK_001_R3_F01-F06.md` | R3 主管覆核結果；F-01～F-06 局部補正紀錄 |
 | R2 | `review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md` | R2 主管人設覆核結果 |
 | R2 | `review/REVIEW_REQUEST_TASK_001_R2_PERSONA.md`、`review/INTERNAL_QA_TASK_001_R2_PERSONA.md` | R2 人設覆核請求與內部核查（R3 在核查檔內加了更正） |
 | R1 | `review/REVIEW_RESPONSE_TASK_001_R1.md` | R1 主管覆核結果 |
