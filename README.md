@@ -5,12 +5,13 @@
 - **Owner**：Penny
 - **規劃主管與覆核**：ChatGPT
 - **執行者**：Claude
-- **目前階段**：TASK-001 R2（人設優先），**等 Penny 與主管審閱人設**
+- **目前階段**：TASK-001 R3（人設局部修訂），**等 Penny 與主管審閱**
+  - R3 依主管 R2 人設覆核（`review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md`）做局部修訂：設定與事實分開、跨角色共同事件編號、Penny 的決定順序、製作師的估價假設、內部核查更正。逐條修正見 `review/CHANGELOG_TASK_001_R3.md`。
   - 2026-10-06 Penny 調整範圍：先把 10 個人設規劃清楚，讓 Penny 選定，再交給 AIGC 製作師評估人物形象。導流與網站轉換延後到角色建立、帳號創建、實際每日經營之後另案討論（`review/SCOPE_CHANGE_TASK_001_2026-10-06.md`）。
   - 全部內容都是 PROPOSED，**沒有任何一項經 Penny 或客戶核准**。
   - 沒有建立帳號、沒有發布、沒有修改客戶網站、沒有生圖或付費、沒有訓練人物。
 
-> **Penny 請從這裡看**：`persona_pack_v1/00_OVERVIEW.md`（十角色總覽）→ 各角色 `persona_pack_v1/Lxx.md` → `persona_pack_v1/PENNY_CHOICES.md`（勾選）→ `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md`（交給製作師）。
+> **Penny 請從這裡看**：`persona_pack_v1/00_OVERVIEW.md`（十角色總覽）→ 各角色 `persona_pack_v1/Lxx.md` → `persona_pack_v1/PENNY_CHOICES.md`（依建議順序勾選）→ `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md`（交給製作師）。跨角色的故事節點見 `persona_pack_v1/SHARED_EVENTS.md`。
 
 > R1 背景（保留，不在本輪討論）：LUSCENA 是 18+ 成人直播與內容平台；R1 主管覆核把中期導流判定為 BLOCK（`review/REVIEW_RESPONSE_TASK_001_R1.md`）。
 
@@ -18,12 +19,15 @@
 
 | 順序 | 文件 | 內容 |
 |---|---|---|
-| ★ | `persona_pack_v1/00_OVERVIEW.md` | **R2 人設審閱包：十角色總覽** |
+| ★ | `persona_pack_v1/00_OVERVIEW.md` | **人設審閱包（R3）：十角色總覽、以哪份為準、標記慣例** |
 | ★ | `persona_pack_v1/L01.md`～`L10.md` | 每個角色的詳細提案（取代 v0 的人設部分） |
 | ★ | `persona_pack_v1/PENNY_CHOICES.md` | Penny 需要選擇的事項 |
-| ★ | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 給 AIGC 製作師的參考需求（OK／NG 都是待選） |
+| ★ | `persona_pack_v1/SHARED_EVENTS.md` | 跨角色共同事件（SE-01～SE-13）：只排先後，不排日曆 |
+| ★ | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 給 AIGC 製作師的參考需求（OK／NG 都是待選）與估價假設 |
 | ★ | `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` | 範圍調整紀錄 |
-| ★ | `review/REVIEW_REQUEST_TASK_001_R2_PERSONA.md`、`review/INTERNAL_QA_TASK_001_R2_PERSONA.md` | R2 人設覆核請求與內部核查 |
+| ★ | `review/REVIEW_REQUEST_TASK_001_R3.md`、`review/INTERNAL_QA_TASK_001_R3.md`、`review/CHANGELOG_TASK_001_R3.md` | R3 覆核請求、內部核查、逐條修正表 |
+| R2 | `review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md` | R2 主管人設覆核結果 |
+| R2 | `review/REVIEW_REQUEST_TASK_001_R2_PERSONA.md`、`review/INTERNAL_QA_TASK_001_R2_PERSONA.md` | R2 人設覆核請求與內部核查（R3 在核查檔內加了更正） |
 | R1 | `review/REVIEW_RESPONSE_TASK_001_R1.md` | R1 主管覆核結果 |
 | 1 | `review/REVIEW_REQUEST_TASK_001_R1.md` | 主管覆核包：結論、風險、Q1–Q7 |
 | 2 | `brief/CLIENT_IMAGE_TRANSCRIPT.md` | 客戶圖片逐字稿（原圖：`brief/source/`） |
@@ -65,6 +69,10 @@
 | UNKNOWN／待確認 | 尚未確認 |
 | INTERPRETATION | 執行者對客戶原文的解讀 |
 | 【站證】【推論】【待確】 | 網站研究的證據等級 |
+| 「角色日記」 | 角色在設定中的生活，是虛構故事，不是真人經歷（R3） |
+| 【】＋「事實型」 | 真實世界的資料，發文前要換成查證過的內容 |
+| 「示範版本」 | 代表貼文用的是哪個待選選項（R3） |
+| SE-xx | 跨角色共同事件，見 `persona_pack_v1/SHARED_EVENTS.md`（R3） |
 
 ## Repo 規則
 
