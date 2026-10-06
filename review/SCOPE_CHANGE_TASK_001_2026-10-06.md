@@ -67,7 +67,14 @@ R1 的 BLOCKED 判定與風險記錄完整保留在原文件中。
 | 文件 | 狀態 |
 |---|---|
 | `personas/Lxx/character_v0.md` | 保留為歷史紀錄。人設部分由 `persona_pack_v1/Lxx.md` 取代；營運與導流部分依本調整延後 |
-| `plan/ACCOUNT_MATRIX_V0.md` | 保留。角色事實以 `persona_pack_v1/00_OVERVIEW.md` 為準；L02 定位與 L08 選項以審閱包為準 |
+| `plan/ACCOUNT_MATRIX_V0.md` | 保留為歷史紀錄，不作為現行依據。現行的角色設定見下方「版本權威」 |
 | `plan/THREADS_OPERATING_PLAN_V0.md`、`plan/PILOT_PLAN_V0.md` | 保留，延後另案 |
-| `production/VISUAL_BRIEF_V0.md` | 保留為規格背景；製作師的參考需求以 `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` 為準 |
+| `production/VISUAL_BRIEF_V0.md` | 保留為歷史紀錄，不作為製作依據；身分測試標準與製作師的參考需求，以 `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` 為準 |
 | `research/`、`brief/` | 保留，不變 |
+
+**版本權威（R3 依主管 R2 覆核 P6 修正）**：
+- `persona_pack_v1/00_OVERVIEW.md` 是**比較用**的總覽，不含生日、詳細職業、親屬等欄位。
+- 每個角色的詳細設定，以 `persona_pack_v1/Lxx.md` 為來源。
+- 總覽與 `PENNY_CHOICES.md` 必須和各 `Lxx.md` 一致；不一致時以 `Lxx.md` 為準並修正摘要。
+- 跨角色共同事件的編號與順序，以 `persona_pack_v1/SHARED_EVENTS.md` 為準。
+- Penny 選角之後，另外記錄核准版本（檔案、commit、選了哪些選項）。在那之前全部是 PROPOSED。
