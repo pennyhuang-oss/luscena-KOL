@@ -1,5 +1,7 @@
 # L07 程翊（Yi Cheng）— 角色檔 v0
 
+> **2026-10-06 範圍調整後**：本檔的人設部分已由 `persona_pack_v1/L07.md` 取代。導流、品牌、營運相關內容依 `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` 延後另案討論。本檔保留為歷史紀錄，不再更新。
+
 > **狀態：v0 初稿／PROPOSED／未經客戶核准。** 角色基本事實以 `plan/ACCOUNT_MATRIX_V0.md` 為準；視覺以 `production/VISUAL_BRIEF_V0.md` 為準；兩者若與本檔不一致，以矩陣為準並回頭修本檔。
 > 對應 CR：CR-019（T4 AI 科技／愛玩新工具的科技宅／科技愛好者）、CR-023～025、CR-001、CR-003；相關衝突：E-2、E-3、E-4、E-6。
 > 本檔標記：**客戶明說（附 CR）**／**PROPOSED**（執行者提案）／**UNKNOWN**（待確認）。未標記的設定一律視為 PROPOSED。

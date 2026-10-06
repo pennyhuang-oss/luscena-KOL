@@ -1,5 +1,7 @@
 # L03 周以晨（Chloe Chou）— 角色檔 v0
 
+> **2026-10-06 範圍調整後**：本檔的人設部分已由 `persona_pack_v1/L03.md` 取代。導流、品牌、營運相關內容依 `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` 延後另案討論。本檔保留為歷史紀錄，不再更新。
+
 > **狀態：v0 初稿／PROPOSED／未經客戶核准。** 角色事實以 `plan/ACCOUNT_MATRIX_V0.md` 為準；視覺以 `production/VISUAL_BRIEF_V0.md` 為準。本檔若與矩陣不一致，以矩陣為準，並在 E 節回報。
 > 對應 CR：CR-012、CR-013、CR-014、CR-015、CR-030、CR-032、CR-033；共通 CR-001～006、CR-040～044、CR-050～054。相關衝突：E-1、E-2、E-3、E-4、E-5。
 > 標記方式：【客戶明說 CR-xxx】＝客戶圖片上的要求；【PROPOSED】＝執行者提案；【UNKNOWN】＝待確認。沒有標記的段落一律視為 PROPOSED。

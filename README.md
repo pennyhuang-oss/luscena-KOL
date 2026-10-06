@@ -5,16 +5,26 @@
 - **Owner**：Penny
 - **規劃主管與覆核**：ChatGPT
 - **執行者**：Claude
-- **目前階段**：TASK-001 第一輪（R1）初稿已完成，**等主管覆核**
-  - 本輪全部內容都是 v0 初稿或 PROPOSED，**沒有任何一項經客戶核准**。
-  - 本輪沒有建立帳號、沒有發布、沒有修改客戶網站、沒有付費生圖，也沒有訓練人物。
+- **目前階段**：TASK-001 R2（人設優先），**等 Penny 與主管審閱人設**
+  - 2026-10-06 Penny 調整範圍：先把 10 個人設規劃清楚，讓 Penny 選定，再交給 AIGC 製作師評估人物形象。導流與網站轉換延後到角色建立、帳號創建、實際每日經營之後另案討論（`review/SCOPE_CHANGE_TASK_001_2026-10-06.md`）。
+  - 全部內容都是 PROPOSED，**沒有任何一項經 Penny 或客戶核准**。
+  - 沒有建立帳號、沒有發布、沒有修改客戶網站、沒有生圖或付費、沒有訓練人物。
 
-> 重要背景：網站研究證實 LUSCENA 是 18+ 成人直播與內容平台（`research/LUSCENA_AUDIT.md` §1）。Meta 規範禁止連結色情網站，也禁止品牌內容推廣成人服務（EV-M02、EV-M24）。所以本稿把**中期導流（官方文、LUSCENA 連結）列為 BLOCKED**，要等客戶法務判定；初期的帳號經營照常規劃。請先讀 `brief/CLIENT_REQUIREMENTS.md` §H 的衝突一覽。
+> **Penny 請從這裡看**：`persona_pack_v1/00_OVERVIEW.md`（十角色總覽）→ 各角色 `persona_pack_v1/Lxx.md` → `persona_pack_v1/PENNY_CHOICES.md`（勾選）→ `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md`（交給製作師）。
+
+> R1 背景（保留，不在本輪討論）：LUSCENA 是 18+ 成人直播與內容平台；R1 主管覆核把中期導流判定為 BLOCK（`review/REVIEW_RESPONSE_TASK_001_R1.md`）。
 
 ## 文件導航
 
 | 順序 | 文件 | 內容 |
 |---|---|---|
+| ★ | `persona_pack_v1/00_OVERVIEW.md` | **R2 人設審閱包：十角色總覽** |
+| ★ | `persona_pack_v1/L01.md`～`L10.md` | 每個角色的詳細提案（取代 v0 的人設部分） |
+| ★ | `persona_pack_v1/PENNY_CHOICES.md` | Penny 需要選擇的事項 |
+| ★ | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 給 AIGC 製作師的參考需求（OK／NG 都是待選） |
+| ★ | `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` | 範圍調整紀錄 |
+| ★ | `review/REVIEW_REQUEST_TASK_001_R2_PERSONA.md`、`review/INTERNAL_QA_TASK_001_R2_PERSONA.md` | R2 人設覆核請求與內部核查 |
+| R1 | `review/REVIEW_RESPONSE_TASK_001_R1.md` | R1 主管覆核結果 |
 | 1 | `review/REVIEW_REQUEST_TASK_001_R1.md` | 主管覆核包：結論、風險、Q1–Q7 |
 | 2 | `brief/CLIENT_IMAGE_TRANSCRIPT.md` | 客戶圖片逐字稿（原圖：`brief/source/`） |
 | 3 | `brief/CLIENT_REQUIREMENTS.md` | CR-001 起的結構化需求；需求衝突 E-1～E-7 |
@@ -22,8 +32,8 @@
 | 5 | `research/THREADS_RESEARCH.md` | Threads 帳號樣本、Meta 官方規則查核、政策風險初判 |
 | 6 | `research/REFERENCE_METHODS.md` | 舊 KOL Studio 可沿用的方法與失敗教訓 |
 | 7 | `research/EVIDENCE_INDEX.md` | 證據總索引（EV 編號） |
-| 8 | `plan/ACCOUNT_MATRIX_V0.md` | 10 個帳號總體矩陣（**角色事實的唯一來源**） |
-| 9 | `personas/L01`～`L10/character_v0.md` | 10 個角色的詳細初稿 |
+| 8 | `plan/ACCOUNT_MATRIX_V0.md` | 10 個帳號總體矩陣 v0（角色事實已改以 persona_pack_v1 為準） |
+| 9 | `personas/L01`～`L10/character_v0.md` | 10 個角色的 v0 初稿（歷史紀錄，人設部分已由 persona_pack_v1 取代） |
 | 10 | `production/VISUAL_BRIEF_V0.md` | 視覺與 AIGC 製作規格（只有規格） |
 | 11 | `plan/THREADS_OPERATING_PLAN_V0.md` | 營運、產能、成本、導流、UTM、指標、追蹤規格 |
 | 12 | `plan/PILOT_PLAN_V0.md` | 分批上線、檢查點、中期條件、停止條件 |
@@ -61,4 +71,4 @@
 - 不提交帳密、token、私人聯絡資料。帳號的帳密存在客戶指定的密碼管理工具。
 - 不提交含真實創作者影像或性內容的截圖。
 - 參考 repo `pennyhuang-oss/Virtual_KOL_Studio` 只讀，不修改。
-- 角色事實以 `plan/ACCOUNT_MATRIX_V0.md` 為準。其他文件和它不一致時，要修正其他文件。
+- 角色事實以 `persona_pack_v1/` 為準；v0 文件保留為歷史紀錄。
