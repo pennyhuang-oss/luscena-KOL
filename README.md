@@ -27,7 +27,7 @@
 | ★ | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 給 AIGC 製作師的參考需求（OK／NG 都是待選）與估價假設 |
 | ★ | `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` | 範圍調整紀錄 |
 | ★ | `review/REVIEW_REQUEST_TASK_001_R3.md`、`review/INTERNAL_QA_TASK_001_R3.md`、`review/CHANGELOG_TASK_001_R3.md` | R3 覆核請求、內部核查、逐條修正表 |
-| R3 | `review/REVIEW_RESPONSE_TASK_001_R3.md`、`review/CORRECTION_TASK_001_R3_F01-F06.md` | R3 主管覆核結果；F-01～F-06 局部補正紀錄 |
+| R3 | `review/REVIEW_RESPONSE_TASK_001_R3.md`、`review/CORRECTION_TASK_001_R3_F01-F06.md`、`review/REVIEW_RESPONSE_TASK_001_R3_F01-F06.md`、`review/CORRECTION_TASK_001_R3_F01_FINAL.md` | R3 主管覆核；F-01～F-06 局部補正與其覆核；F-01 讀者反應文字的最終補正 |
 | R2 | `review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md` | R2 主管人設覆核結果 |
 | R2 | `review/REVIEW_REQUEST_TASK_001_R2_PERSONA.md`、`review/INTERNAL_QA_TASK_001_R2_PERSONA.md` | R2 人設覆核請求與內部核查（R3 在核查檔內加了更正） |
 | R1 | `review/REVIEW_RESPONSE_TASK_001_R1.md` | R1 主管覆核結果 |
