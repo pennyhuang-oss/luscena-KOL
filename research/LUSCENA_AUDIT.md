@@ -217,7 +217,9 @@
 
 ## 10. 哪些頁面適合由 Threads 具體話題導入【推論＋PROPOSED】
 
-**判斷：** 依 Meta 對成人性招攬與連結的規範（見 `research/THREADS_RESEARCH.md` §B、§D），本案不建議任何帳號在 Threads 直接連到會顯示露骨內容的頁面。現有頁面沒有一個完全符合，所以提出下列方案：
+**判斷：** 依 Meta 對成人性招攬與連結的規範（見 `research/THREADS_RESEARCH.md` §B、§D），本案不建議任何帳號在 Threads 直接連到會顯示露骨內容的頁面。現有頁面沒有一個完全符合，所以提出下列方案。
+
+> **查核後更新（2026-10-06）**：Meta〈成人性招攬〉規範禁止貼文含「links to pornographic websites」，〈垃圾訊息〉規範禁止 cloaking 與欺騙性轉址（EV-M02、EV-M06）。所以下表的安全落地頁**不能當成繞過規範的工具**，只有在客戶法務判定可行、頁面也清楚揭露目的地的前提下才考慮採用。在那之前，導流連結一律列為 BLOCKED（見 CLIENT_REQUIREMENTS E-1）。
 
 | 方案 | 內容 | 狀態 |
 |---|---|---|

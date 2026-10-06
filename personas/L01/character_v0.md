@@ -203,6 +203,8 @@
 
 ### B5 示範貼文 6 則
 
+> **導流貼文狀態：BLOCKED。** 本節的兩則「導流」示範（官方合作文）在客戶法務判定前不得發布。原因：Meta〈成人性招攬〉禁止含「links to pornographic websites」的內容（EV-M02），品牌內容政策禁止推廣「Adult products or services」（EV-M24）。詳見 `brief/CLIENT_REQUIREMENTS.md` E-1。示範文保留，是為了讓主管與法務檢視措辭。
+
 > 每則 ≤ 500 字（Threads 單則上限待 THREADS_RESEARCH 確認）。主題標籤每則只建議 1 個（標籤規則待確認），建議用「感情」。
 
 **#1 吸新｜白話翻譯機**　目的：用一則高共鳴、好轉發的翻譯，建立「講話很直但有分寸」的第一印象。格式：純文字（可另做單張文字卡）。

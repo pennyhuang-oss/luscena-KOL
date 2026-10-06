@@ -199,6 +199,8 @@
 
 ### B5 示範貼文 6 則
 
+> **導流貼文狀態：BLOCKED。** 本節的兩則「導流」示範（官方合作文）在客戶法務判定前不得發布。原因：Meta〈成人性招攬〉禁止含「links to pornographic websites」的內容（EV-M02），品牌內容政策禁止推廣「Adult products or services」（EV-M24）。詳見 `brief/CLIENT_REQUIREMENTS.md` E-1。示範文保留，是為了讓主管與法務檢視措辭。
+
 > 字數已自查，每則全文都在 500 字以內；全文的換行以原始 Markdown 檔為準（引用區塊在渲染時可能合併成一段）。主題標籤每則只建議 1 個（Threads 標籤規則待確認）。所有人物圖都是 AI 生成，發布時依 Meta 規定標示 AI（VISUAL_BRIEF V-6）。
 
 #### 貼文 1（吸新）肩寬女生的 3 個穿搭公式

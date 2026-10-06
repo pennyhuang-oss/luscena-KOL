@@ -171,6 +171,8 @@
 
 ### B5 示範貼文 6 則
 
+> **導流貼文狀態：BLOCKED。** 本節的兩則「導流」示範（官方合作文）在客戶法務判定前不得發布。原因：Meta〈成人性招攬〉禁止含「links to pornographic websites」的內容（EV-M02），品牌內容政策禁止推廣「Adult products or services」（EV-M24）。詳見 `brief/CLIENT_REQUIREMENTS.md` E-1。示範文保留，是為了讓主管與法務檢視措辭。
+
 > 全部為範例格式；實際發文前要依當週素材與 QA 結果調整。角色名、作品名不得換成特定 IP。
 
 **#1 吸新｜今日登場：Vera**
