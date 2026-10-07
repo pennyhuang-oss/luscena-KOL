@@ -1,11 +1,14 @@
 # Luscena KOL
 
-依客戶要求，在 Threads 規劃 10 個虛擬角色帳號：3 個主帳號、7 個流量帳號。在符合平台規範、揭露虛擬身分與品牌關係的前提下，把流量導向 LUSCENA。
+依客戶要求，在 Threads 規劃 10 個虛擬角色帳號：3 個主帳號、7 個流量帳號。在符合平台規範、揭露虛擬身分與品牌關係的前提下，把流量導向 LUSCENA。（2026-10-07 客戶回饋：AI 揭露方式改由團隊依實際操作評估，尚未決定；被問到時不否認；十個帳號是同一團隊這件事先不公開。導流仍延後另案。）
 
 - **Owner**：Penny
 - **規劃主管與覆核**：ChatGPT
 - **執行者**：Claude
-- **目前階段**：TASK-001 R3（人設局部修訂），**等 Penny 與主管審閱**
+- **目前階段**：TASK-002 建模交付包整理中。**客戶在 2026-10-07 看過十個人設，接受整體方向**；未回答的選項（L08 定位、L02／L03 尺度與 IP 等）仍待選，人設仍是 PROPOSED，形象尚未生成或驗收。
+  - 客戶回饋：十個帳號是同一團隊這件事先不公開，角色互動與客串照常；AI 揭露方式交由團隊評估，尚未決定；被問到時不否認。逐字紀錄與處理方式見 `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md`。
+  - TASK-001 人設包已完成主管覆核（F-01 最終補正結案，`review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md`）；合併到 main 的覆核見 `review/REVIEW_RESPONSE_TASK_001_MERGE_MAIN.md`。
+  - 以下是 TASK-001 的歷程，保留：
   - R3 依主管 R2 人設覆核（`review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md`）做局部修訂：設定與事實分開、跨角色共同事件編號、Penny 的決定順序、製作師的估價假設、內部核查更正。逐條修正見 `review/CHANGELOG_TASK_001_R3.md`。
   - 主管 R3 覆核（`review/REVIEW_RESPONSE_TASK_001_R3.md`）判定可交 Penny 比較、選角，局部 REVISE；F-01～F-06 的局部補正見 `review/CORRECTION_TASK_001_R3_F01-F06.md`。
   - 2026-10-06 Penny 調整範圍：先把 10 個人設規劃清楚，讓 Penny 選定，再交給 AIGC 製作師評估人物形象。導流與網站轉換延後到角色建立、帳號創建、實際每日經營之後另案討論（`review/SCOPE_CHANGE_TASK_001_2026-10-06.md`）。
@@ -13,6 +16,17 @@
   - 沒有建立帳號、沒有發布、沒有修改客戶網站、沒有生圖或付費、沒有訓練人物。
 
 > **Penny 請從這裡看**：`persona_pack_v1/00_OVERVIEW.md`（十角色總覽）→ 各角色 `persona_pack_v1/Lxx.md` → `persona_pack_v1/PENNY_CHOICES.md`（依建議順序勾選）→ `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md`（交給製作師）。跨角色的故事節點見 `persona_pack_v1/SHARED_EVENTS.md`。
+
+### TASK-002 建模交付包（給製作師）
+
+- 從這裡開始：[production/modeling_pack_v1/00_START_HERE.md](production/modeling_pack_v1/00_START_HERE.md)
+- 客戶回饋紀錄：[production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md](production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md)
+- 建模選項與工具能力：[production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md](production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md)
+- 參考素材與驗收：[production/modeling_pack_v1/REFERENCE_AND_ACCEPTANCE.md](production/modeling_pack_v1/REFERENCE_AND_ACCEPTANCE.md)
+- 製作師的 Claude 交接 prompt：[production/modeling_pack_v1/PRODUCER_CLAUDE_HANDOFF_PROMPT.md](production/modeling_pack_v1/PRODUCER_CLAUDE_HANDOFF_PROMPT.md)
+- 十角色建模頁：[L01](production/modeling_pack_v1/L01.md)、[L02](production/modeling_pack_v1/L02.md)、[L03](production/modeling_pack_v1/L03.md)、[L04](production/modeling_pack_v1/L04.md)、[L05](production/modeling_pack_v1/L05.md)、[L06](production/modeling_pack_v1/L06.md)、[L07](production/modeling_pack_v1/L07.md)、[L08](production/modeling_pack_v1/L08.md)、[L09](production/modeling_pack_v1/L09.md)、[L10](production/modeling_pack_v1/L10.md)
+
+建模交付包也是 PROPOSED：沒有生成任何圖片，人物形象要 Penny／客戶看圖選定後才鎖定。
 
 ### Penny 的入口（可直接點開）
 
@@ -41,6 +55,8 @@
 
 | 順序 | 文件 | 內容 |
 |---|---|---|
+| ★ | `production/modeling_pack_v1/00_START_HERE.md` | **TASK-002 十角色 AIGC 建模交付包**（給製作師；含十角色建模頁、工具選項、驗收規則、交接 prompt） |
+| ★ | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 2026-10-07 客戶回饋：原文、解讀、決策、未選定事項 |
 | ★ | `persona_pack_v1/00_OVERVIEW.md` | **人設審閱包（R3）：十角色總覽、以哪份為準、標記慣例** |
 | ★ | `persona_pack_v1/L01.md`～`L10.md` | 每個角色的詳細提案（取代 v0 的人設部分） |
 | ★ | `persona_pack_v1/PENNY_CHOICES.md` | Penny 需要選擇的事項 |
