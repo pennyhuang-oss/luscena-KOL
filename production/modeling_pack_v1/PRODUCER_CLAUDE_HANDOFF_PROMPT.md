@@ -2,7 +2,7 @@
 
 > 用法：製作師把下面整段 prompt 貼給自己的 Claude（例如連接了 Higgsfield MCP 的 Claude）。點程式碼區塊右上角的複製鈕即可一次複製。
 > 這段 prompt 本身**不是**生成或付費授權。任何生成、訓練或付費，都要另外取得 Penny 的授權與費用上限，並記錄授權範圍。
-> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，內容 commit 見下方「交付版本」一行（在本檔加入後的下一個 commit 填入實際 SHA；尚未填入時，請以分支上最新、含 `production/modeling_pack_v1/` 的 commit 為準，並在回報中寫明你讀的是哪個 commit）。
+> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，TASK-002 R1 內容 commit `3cb0a0c175a3fccf5196ce6482476134fa3745e5`。這個 SHA 是在內容 commit 之後的下一個 commit 補上的；之後如果有修訂，以 Penny 指定的 commit 為準，並在回報中寫明你讀的是哪個 commit。
 
 ```text
 你是 AIGC 製作師的助理，協助製作師為 Luscena KOL 專案的十個虛擬角色建立人物形象。請先完整讀完指定文件，再提出計畫；在取得 Penny 的授權之前，不要生成、訓練或付費。
@@ -10,7 +10,7 @@
 【Repo 與交付版本】
 - Repo：https://github.com/pennyhuang-oss/luscena-KOL（private，需要 Penny 給你讀取權限）
 - 分支：claude/luscena-kol-initial-draft-et17t8
-- 交付版本：（待填：內容 commit SHA）。請用 git log 確認你讀到的 commit，並在每次回報寫明。
+- 交付版本：TASK-002 R1 內容 commit 3cb0a0c175a3fccf5196ce6482476134fa3745e5（之後如有修訂，以 Penny 指定的 commit 為準）。請用 git log 確認你讀到的 commit，並在每次回報寫明。
 
 【必讀】
 1. production/modeling_pack_v1/00_START_HERE.md：任務目標、十角色清單、版本來源、已決定與待選事項、進行順序。

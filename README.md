@@ -57,6 +57,7 @@
 |---|---|---|
 | ★ | `production/modeling_pack_v1/00_START_HERE.md` | **TASK-002 十角色 AIGC 建模交付包**（給製作師；含十角色建模頁、工具選項、驗收規則、交接 prompt） |
 | ★ | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 2026-10-07 客戶回饋：原文、解讀、決策、未選定事項 |
+| ★ | `review/REVIEW_REQUEST_TASK_002_MODELING_PACK_R1.md`、`review/INTERNAL_QA_TASK_002_MODELING_PACK_R1.md`、`review/CHANGELOG_TASK_002_CLIENT_FEEDBACK.md` | TASK-002 覆核請求、內部核查、客戶回饋相關修改紀錄 |
 | ★ | `persona_pack_v1/00_OVERVIEW.md` | **人設審閱包（R3）：十角色總覽、以哪份為準、標記慣例** |
 | ★ | `persona_pack_v1/L01.md`～`L10.md` | 每個角色的詳細提案（取代 v0 的人設部分） |
 | ★ | `persona_pack_v1/PENNY_CHOICES.md` | Penny 需要選擇的事項 |
