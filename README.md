@@ -5,7 +5,7 @@
 - **Owner**：Penny
 - **規劃主管與覆核**：ChatGPT
 - **執行者**：Claude
-- **目前階段**：TASK-002 建模交付包 R2 局部補正完成，等主管覆核（R1 主管覆核：`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`；R2 補正紀錄：`review/CORRECTION_TASK_002_MODELING_PACK_R2.md`）。**客戶在 2026-10-07 看過十個人設，接受整體方向**；未回答的選項（L08 定位、L02／L03 尺度與 IP 等）仍待選，人設仍是 PROPOSED，形象尚未生成或驗收。
+- **目前階段**：TASK-002 建模交付包 R2 最後兩項補正（R2-M01、R2-M02）完成，等主管最後核對（主管覆核：`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`、`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md`；補正紀錄：`review/CORRECTION_TASK_002_MODELING_PACK_R2.md`、`review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md`）。**客戶在 2026-10-07 看過十個人設，接受整體方向**；未回答的選項（L08 定位、L02／L03 尺度與 IP 等）仍待選，人設仍是 PROPOSED，形象尚未生成或驗收。
   - 客戶回饋：十個帳號是同一團隊這件事先不公開，角色互動與客串照常；AI 揭露方式交由團隊評估，尚未決定；被問到時不否認。逐字紀錄與處理方式見 `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md`。
   - TASK-001 人設包已完成主管覆核（F-01 最終補正結案，`review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md`）；合併到 main 的覆核見 `review/REVIEW_RESPONSE_TASK_001_MERGE_MAIN.md`。
   - 以下是 TASK-001 的歷程，保留：
@@ -59,6 +59,7 @@
 | ★ | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 2026-10-07 客戶回饋：原文、解讀、決策、未選定事項 |
 | ★ | `review/REVIEW_REQUEST_TASK_002_MODELING_PACK_R1.md`、`review/INTERNAL_QA_TASK_002_MODELING_PACK_R1.md`、`review/CHANGELOG_TASK_002_CLIENT_FEEDBACK.md` | TASK-002 覆核請求、內部核查、客戶回饋相關修改紀錄 |
 | ★ | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`、`review/CORRECTION_TASK_002_MODELING_PACK_R2.md` | TASK-002 主管覆核 R1（REVISE，六組局部必修）與 R2 局部補正紀錄 |
+| ★ | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md`、`review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md` | TASK-002 主管覆核 R2（REVISE，僅剩兩項）與最後兩項補正紀錄 |
 | ★ | `persona_pack_v1/00_OVERVIEW.md` | **人設審閱包（R3）：十角色總覽、以哪份為準、標記慣例** |
 | ★ | `persona_pack_v1/L01.md`～`L10.md` | 每個角色的詳細提案（取代 v0 的人設部分） |
 | ★ | `persona_pack_v1/PENNY_CHOICES.md` | Penny 需要選擇的事項 |

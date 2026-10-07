@@ -2,8 +2,8 @@
 
 > 用法：製作師把下面整段 prompt 貼給自己的 Claude（例如連接了 Higgsfield MCP 的 Claude）。點程式碼區塊右上角的複製鈕即可一次複製。
 > 這段 prompt 本身**不是**生成或付費授權。任何生成、訓練或付費，都要另外取得 Penny 的授權與費用上限，並記錄授權範圍。
-> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，TASK-002 R2 內容 commit `43bfa51e94c0fcbd653193cb6e11d0e7ae1c9290`。這個 commit 含下面【必讀】列出的全部檔案（含主管覆核 R1 與 R2 補正紀錄）。SHA 在內容 commit 之後的下一個 commit 補上；R1 的內容 commit `3cb0a0c` 缺少部分必讀檔案，**不要再用**。之後如果有修訂，以 Penny 指定的 commit 為準；不論讀哪個 commit，都先記錄 `git rev-parse HEAD`，並確認必讀檔案都存在。
-> 交接時，Penny 要把主管覆核 `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` 和本包一起交給製作師（該報告的結論：可以做可行性討論與條件式詢價，測試範圍仍待對齊）。
+> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，TASK-002 R2 最後補正（R2-M01、R2-M02）的內容 commit `[R2M_CONTENT_SHA]`。這個 commit 含下面【必讀】列出的全部檔案（含主管覆核 R1、R2 與兩份補正紀錄）。SHA 在內容 commit 之後的下一個 commit 補上。舊的 `3cb0a0c`（R1）缺少部分必讀檔案，`43bfa51`（R2）沒有主管 R2 報告與最後兩項補正，**都不要再用**。之後如果有修訂，以 Penny 指定的 commit 為準；不論讀哪個 commit，都先記錄 `git rev-parse HEAD`，並確認必讀檔案都存在。
+> 交接時，Penny 要把主管覆核 `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`、`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md` 和本包一起交給製作師（R2 報告的結論：可以進行可行性討論與條件式詢價；正式完整交接前要補 R2-M01、R2-M02 兩項，本版本已補，仍待主管最後核對）。
 
 ```text
 你是 AIGC 製作師的助理，協助製作師為 Luscena KOL 專案的十個虛擬角色建立人物形象。請先完整讀完指定文件，再提出計畫；在取得 Penny 的授權之前，不要生成、訓練或付費。
@@ -11,10 +11,10 @@
 【Repo 與交付版本】
 - Repo：https://github.com/pennyhuang-oss/luscena-KOL（private，需要 Penny 給你讀取權限）
 - 分支：claude/luscena-kol-initial-draft-et17t8
-- 交付版本：TASK-002 R2 內容 commit 43bfa51e94c0fcbd653193cb6e11d0e7ae1c9290（之後如有修訂，以 Penny 指定的 commit 為準；不要用 R1 的 3cb0a0c，那個版本缺檔）。
+- 交付版本：TASK-002 R2 最後補正的內容 commit [R2M_CONTENT_SHA]（之後如有修訂，以 Penny 指定的 commit 為準；不要用 3cb0a0c 或 43bfa51，那兩個版本缺檔或缺最後補正）。
 - 第一步：切到交付版本後執行 `git rev-parse HEAD`，把完整 SHA 寫進第一次回報；再逐一確認下面【必讀】的每個檔案都存在（例如對每個路徑執行 `test -f <路徑> && echo OK <路徑> || echo MISSING <路徑>`），把結果列表回報。有任何檔案缺少，就停下來回報 Penny，不要用其他版本的檔案補。
 
-【必讀】（共 28 個檔案；每個都要確認存在）
+【必讀】（共 30 個檔案；每個都要確認存在）
 1. production/modeling_pack_v1/00_START_HERE.md：任務目標、十角色清單、版本來源、已決定與待選事項、進行順序。
 2. production/modeling_pack_v1/L01.md、L02.md、L03.md、L04.md、L05.md、L06.md、L07.md、L08.md、L09.md、L10.md：每個角色的外型規格、必須維持的身分特徵、撞臉配對、中性建角照、形象照、英文 prompt 與使用方式。
 3. production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md：可行流程與工具能力（分已查證、推論、需製作師確認）。
@@ -23,7 +23,9 @@
 6. 角色的完整設定：persona_pack_v1/L01.md、L02.md、L03.md、L04.md、L05.md、L06.md、L07.md、L08.md、L09.md、L10.md；撞臉配對與身分測試標準：persona_pack_v1/00_OVERVIEW.md、persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md（§2、§4、§6）。
 7. review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md：主管覆核 R1。結論是可以做可行性討論與條件式詢價，但測試範圍仍待對齊；這份報告要和本包一起看。
 8. review/CORRECTION_TASK_002_MODELING_PACK_R2.md：R2 依主管覆核做的局部補正（原句、新句、驗證方式）。
-如果 Penny 指定的版本裡有更新的 TASK-002 主管覆核（review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md 之類），也一起讀，並以較新的為準。
+9. review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md：主管覆核 R2。T2-F01～T2-F06 的指定部分已通過；可以進行可行性討論與條件式詢價；正式完整交接前要補 R2-M01（L08 A 版頭像）、R2-M02（形象照備選的計費邊界）。
+10. review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md：R2-M01、R2-M02 的補正紀錄。
+如果 Penny 指定的版本裡有更新的 TASK-002 主管覆核（review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R3.md 之類），也一起讀，並以較新的為準。
 
 【你可以怎麼做】
 - 製作師可以採用自己的 Higgsfield MCP 工作流程或其他工具，不必照本包的 prompt 逐字使用；但要保留各建模頁 B、C 節「必須維持」的身分特徵，並回報改了什麼。

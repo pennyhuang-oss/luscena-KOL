@@ -40,6 +40,8 @@
 | [persona_pack_v1/00_OVERVIEW.md](../../persona_pack_v1/00_OVERVIEW.md) | 十角色總覽、外型差異地圖、撞臉配對優先順序 |
 | [review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md](../../review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md) | 主管覆核 R1：可以做可行性討論與條件式詢價，但測試範圍仍待對齊；交接時和本包一起看 |
 | [review/CORRECTION_TASK_002_MODELING_PACK_R2.md](../../review/CORRECTION_TASK_002_MODELING_PACK_R2.md) | R2 局部補正紀錄：依主管覆核改了哪些句子、怎麼驗證 |
+| [review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md](../../review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md) | 主管覆核 R2：指定補正已通過，另列最後兩項 R2-M01、R2-M02；交接時和本包一起看 |
+| [review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md](../../review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md) | 最後兩項補正紀錄：L08 A 版頭像、形象照備選的計費邊界 |
 
 ## 3. 版本來源與決定狀態
 

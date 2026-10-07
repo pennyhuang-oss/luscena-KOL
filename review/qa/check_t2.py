@@ -163,8 +163,19 @@ for l in l07.split('\n'):
 g3 = rd(os.path.join(M, 'L09.md')).split('### G-3')[1].split('### G-4')[0]
 if '[HAIR]' not in re.findall(r'```text\n(.*?)```', g3, re.S)[0]:
     r2.append('L09.md: G-3 template has no [HAIR]')
-if '## 7.' not in rd(os.path.join(M, 'REFERENCE_AND_ACCEPTANCE.md')):
+ra = rd(os.path.join(M, 'REFERENCE_AND_ACCEPTANCE.md'))
+if '## 7.' not in ra:
     r2.append('REFERENCE_AND_ACCEPTANCE.md: no §7')
+# R2-M02: last §7 row keeps the mid-plan alternates (field check only)
+if '中方案已含的備選不重複收費' not in ra:
+    r2.append('REFERENCE_AND_ACCEPTANCE.md: §7 does not say mid-plan alternates are not billed twice')
+# R2-M01: L08 A-version headshot block (field check only)
+l08 = rd(os.path.join(M, 'L08.md'))
+a_blk = [b for b in re.findall(r'```text\n(.*?)```', l08, re.S) if 'baseball cap' in b and 'Chest-up portrait' in b]
+if len(a_blk) != 1:
+    r2.append(f'L08.md: A-version headshot blocks={len(a_blk)}')
+elif 'Light everyday makeup' in a_blk[0] or 'Bare face' not in a_blk[0] or 'freckles' not in a_blk[0]:
+    r2.append('L08.md: A-version headshot makeup or freckles wrong')
 if '替團隊算' in ov:
     r2.append('00_OVERVIEW.md: residual "替團隊算"')
 se12 = [l for l in rd(os.path.join(P, 'SHARED_EVENTS.md')).split('\n') if l.startswith('| SE-12 |')]
@@ -176,7 +187,9 @@ MUST = (['production/modeling_pack_v1/' + x for x in
          ['MODEL_AND_WORKFLOW_OPTIONS.md', 'REFERENCE_AND_ACCEPTANCE.md', 'CLIENT_FEEDBACK_2026-10-07.md']] +
         [f'persona_pack_v1/L{i:02d}.md' for i in range(1, 11)] +
         ['persona_pack_v1/00_OVERVIEW.md', 'persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md',
-         'review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md', 'review/CORRECTION_TASK_002_MODELING_PACK_R2.md'])
+         'review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md', 'review/CORRECTION_TASK_002_MODELING_PACK_R2.md',
+         'review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md',
+         'review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md'])
 ho = rd(os.path.join(M, 'PRODUCER_CLAUDE_HANDOFF_PROMPT.md'))
 miss = [x for x in MUST if not os.path.exists(os.path.join(R, x))]
 unlisted = [x for x in MUST if os.path.basename(x) not in ho]
@@ -189,7 +202,8 @@ BLOBS = {'REVIEW_RESPONSE_TASK_001_R1.md': '0163fc243b1145c0c9e9c68a095fc4390b08
          'REVIEW_RESPONSE_TASK_001_R3_F01-F06.md': 'cc4706bc98d1b39db9706a7468f594e7abac1843',
          'REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md': '742a03d2ad2dc720a233ef652b5b4eb833be9b75',
          'REVIEW_RESPONSE_TASK_001_MERGE_MAIN.md': '6e915d243025764a467b6133799856f4130f99f7',
-         'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md': '11d897b48a3c0594de27212024f031ce023a3c4f'}
+         'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md': '11d897b48a3c0594de27212024f031ce023a3c4f',
+         'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md': 'f8e4930b450a1ccca9394d618d59a14c2c6c045c'}
 for f, want in BLOBS.items():
     b = open(os.path.join(R, 'review', f), 'rb').read()
     got = hashlib.sha1(b'blob %d\0' % len(b) + b).hexdigest()
