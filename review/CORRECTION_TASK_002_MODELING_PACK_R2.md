@@ -4,6 +4,8 @@
 - 執行者：Claude；Owner：Penny
 - 依據：主管覆核 `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`（主管 commit `86407a5906f2f4ef75578c1db28eaa2936a38b06`，判定 REVISE，六組局部必修 T2-F01～T2-F06）
 - 分支：`claude/luscena-kol-initial-draft-et17t8`；開工時的來源 HEAD `86407a5`；遠端 main `2283244aa0c01343361d0100b185732809b617af`（本輪沒有更新 main）
+- R2 內容 commit：`43bfa51e94c0fcbd653193cb6e11d0e7ae1c9290`（全部補正都在這個版本；中間的工作存檔 commit 是 `6ec0a79`）。下一個 commit 只把這個 SHA 填進交接 prompt 與本檔（§5 的存在性欄、§7 第 6 點），不改其他內容。看全部改動：`git diff 86407a5 43bfa51`。
+- 本檔 §2 引用的新句是內容 commit 當時的文字，所以交接 prompt 的兩句仍顯示 `[R2_CONTENT_SHA]` 佔位；實際檔案已在下一個 commit 填入上面的 SHA。
 - 本輪只依 T2-F01～T2-F06 做局部補正：不整批重寫十角色，不替客戶選定任何待選項目，保留已接受的整體方向與 PROPOSED／未驗收的區別。
 - 本輪沒有生成、付費、訓練、開帳號、發布、聯絡製作師或重開導流；沒有修改任何主管覆核文件；沒有 force push，也沒有改寫歷史。
 - 全部仍是 PROPOSED。Penny 未回答不等於同意；主管覆核也不代替 Penny 或客戶選角。
@@ -1282,38 +1284,38 @@ $ grep -rln "\[R2_CONTENT_SHA\]" --include=*.md .
 
 ## 5. 交接必讀檔案的存在性
 
-交接 prompt【必讀】列出的 28 個檔案，逐一確認存在。
+交接 prompt【必讀】列出的 28 個檔案，逐一確認存在。內容 commit 那一欄是提交後用 `git cat-file -e 43bfa51:<路徑>` 實際確認：28／28 存在。`00_START_HERE.md` 在內容 commit 的 28 個相對連結也全部可解析。
 
-| # | 必讀檔案 | 工作目錄（提交前，`test -f`） | R2 內容 commit（`git cat-file -e`） |
+| # | 必讀檔案 | 工作目錄（提交前，`test -f`） | R2 內容 commit `43bfa51`（`git cat-file -e`） |
 |---|---|---|---|
-| 1 | `production/modeling_pack_v1/00_START_HERE.md` | 存在 | 待下一個 commit 補上 |
-| 2 | `production/modeling_pack_v1/L01.md` | 存在 | 待下一個 commit 補上 |
-| 3 | `production/modeling_pack_v1/L02.md` | 存在 | 待下一個 commit 補上 |
-| 4 | `production/modeling_pack_v1/L03.md` | 存在 | 待下一個 commit 補上 |
-| 5 | `production/modeling_pack_v1/L04.md` | 存在 | 待下一個 commit 補上 |
-| 6 | `production/modeling_pack_v1/L05.md` | 存在 | 待下一個 commit 補上 |
-| 7 | `production/modeling_pack_v1/L06.md` | 存在 | 待下一個 commit 補上 |
-| 8 | `production/modeling_pack_v1/L07.md` | 存在 | 待下一個 commit 補上 |
-| 9 | `production/modeling_pack_v1/L08.md` | 存在 | 待下一個 commit 補上 |
-| 10 | `production/modeling_pack_v1/L09.md` | 存在 | 待下一個 commit 補上 |
-| 11 | `production/modeling_pack_v1/L10.md` | 存在 | 待下一個 commit 補上 |
-| 12 | `production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md` | 存在 | 待下一個 commit 補上 |
-| 13 | `production/modeling_pack_v1/REFERENCE_AND_ACCEPTANCE.md` | 存在 | 待下一個 commit 補上 |
-| 14 | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 存在 | 待下一個 commit 補上 |
-| 15 | `persona_pack_v1/L01.md` | 存在 | 待下一個 commit 補上 |
-| 16 | `persona_pack_v1/L02.md` | 存在 | 待下一個 commit 補上 |
-| 17 | `persona_pack_v1/L03.md` | 存在 | 待下一個 commit 補上 |
-| 18 | `persona_pack_v1/L04.md` | 存在 | 待下一個 commit 補上 |
-| 19 | `persona_pack_v1/L05.md` | 存在 | 待下一個 commit 補上 |
-| 20 | `persona_pack_v1/L06.md` | 存在 | 待下一個 commit 補上 |
-| 21 | `persona_pack_v1/L07.md` | 存在 | 待下一個 commit 補上 |
-| 22 | `persona_pack_v1/L08.md` | 存在 | 待下一個 commit 補上 |
-| 23 | `persona_pack_v1/L09.md` | 存在 | 待下一個 commit 補上 |
-| 24 | `persona_pack_v1/L10.md` | 存在 | 待下一個 commit 補上 |
-| 25 | `persona_pack_v1/00_OVERVIEW.md` | 存在 | 待下一個 commit 補上 |
-| 26 | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 存在 | 待下一個 commit 補上 |
-| 27 | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` | 存在 | 待下一個 commit 補上 |
-| 28 | `review/CORRECTION_TASK_002_MODELING_PACK_R2.md` | 存在 | 待下一個 commit 補上 |
+| 1 | `production/modeling_pack_v1/00_START_HERE.md` | 存在 | 存在 |
+| 2 | `production/modeling_pack_v1/L01.md` | 存在 | 存在 |
+| 3 | `production/modeling_pack_v1/L02.md` | 存在 | 存在 |
+| 4 | `production/modeling_pack_v1/L03.md` | 存在 | 存在 |
+| 5 | `production/modeling_pack_v1/L04.md` | 存在 | 存在 |
+| 6 | `production/modeling_pack_v1/L05.md` | 存在 | 存在 |
+| 7 | `production/modeling_pack_v1/L06.md` | 存在 | 存在 |
+| 8 | `production/modeling_pack_v1/L07.md` | 存在 | 存在 |
+| 9 | `production/modeling_pack_v1/L08.md` | 存在 | 存在 |
+| 10 | `production/modeling_pack_v1/L09.md` | 存在 | 存在 |
+| 11 | `production/modeling_pack_v1/L10.md` | 存在 | 存在 |
+| 12 | `production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md` | 存在 | 存在 |
+| 13 | `production/modeling_pack_v1/REFERENCE_AND_ACCEPTANCE.md` | 存在 | 存在 |
+| 14 | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 存在 | 存在 |
+| 15 | `persona_pack_v1/L01.md` | 存在 | 存在 |
+| 16 | `persona_pack_v1/L02.md` | 存在 | 存在 |
+| 17 | `persona_pack_v1/L03.md` | 存在 | 存在 |
+| 18 | `persona_pack_v1/L04.md` | 存在 | 存在 |
+| 19 | `persona_pack_v1/L05.md` | 存在 | 存在 |
+| 20 | `persona_pack_v1/L06.md` | 存在 | 存在 |
+| 21 | `persona_pack_v1/L07.md` | 存在 | 存在 |
+| 22 | `persona_pack_v1/L08.md` | 存在 | 存在 |
+| 23 | `persona_pack_v1/L09.md` | 存在 | 存在 |
+| 24 | `persona_pack_v1/L10.md` | 存在 | 存在 |
+| 25 | `persona_pack_v1/00_OVERVIEW.md` | 存在 | 存在 |
+| 26 | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 存在 | 存在 |
+| 27 | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` | 存在 | 存在 |
+| 28 | `review/CORRECTION_TASK_002_MODELING_PACK_R2.md` | 存在 | 存在 |
 
 R1 的內容 commit `3cb0a0c` 對照：`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` 與本檔在那個版本都不存在（主管覆核是 `86407a5` 才加入），所以交接 prompt 不再指定 `3cb0a0c`。
 
@@ -1334,7 +1336,7 @@ R1 的內容 commit `3cb0a0c` 對照：`review/REVIEW_RESPONSE_TASK_002_MODELING
 3. `REFERENCE_AND_ACCEPTANCE.md` §7 的「在不在基本數量內」是執行者的假設，製作師可以提出替代流程或數量；L02 W1 算在 L02 身分建立內，是依 `PRODUCER_REFERENCE_NEEDS.md` §6.4 第 3 項的解讀，請主管確認。
 4. SE-12 插曲 A 現在等「團隊決定瓜雯自己的 AI 揭露方式」才發；AI 揭露方式本身仍未決定。
 5. L09 選髮型 B（短髮）時，造型變化檢查的三項長髮檢查不適用，R2 沒有另寫短髮版，只請製作師提出替代並回報。
-6. 交接 prompt 在內容 commit 裡的交付版本是 `[R2_CONTENT_SHA]` 佔位，SHA 由下一個 commit 補上；製作師應以 Penny 貼出的、已填 SHA 的交接 prompt 為準。
+6. 交接 prompt 在內容 commit `43bfa51` 裡的交付版本是 `[R2_CONTENT_SHA]` 佔位，下一個 commit 已填入 `43bfa51e94c0fcbd653193cb6e11d0e7ae1c9290`；製作師應以 Penny 貼出的、已填 SHA 的交接 prompt（最新 HEAD 的版本）為準。如果之後主管要求再改，交付版本要跟著改指定。
 7. R1 內部核查 §5 列的人設來源問題仍未處理（各角色 §3／§10 的「發布時標示 AI」原句、撞臉配對稱呼不一致、L08 缺臉長寬比與髮色等）。另外，人設檔仍有「全團隊唯一…」這類內部定位句，以及 AI 問答裡指「單一帳號背後的製作者」的「團隊」用語；主管未列為必修，本輪沒改，請主管判斷是否需要處理。
 8. `check_t2.py` 仍是欄位檢查，退出碼永遠是 0；本輪沒有建立新的測試系統。
 9. 核對時另外發現（不在 T2-F02 點名的 G-2／G-3／H 範圍，本輪**沒有改**）：L08 G-4「A 版頭像：把服裝那一句換成 `… bare face with a sunscreen-only look.`」照做之後，同一個 prompt 下一句仍是 `Light everyday makeup, freckles on her nose and cheeks visible.`，「素顏」和「淡妝」矛盾。這是和 T2-F02 同類的替換問題，請主管判斷是否列入下一輪；L08 定位 C-L08-1 仍待選，A 版頭像只在選 A 時才用。

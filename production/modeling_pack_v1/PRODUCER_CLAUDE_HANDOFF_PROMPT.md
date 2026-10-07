@@ -2,7 +2,7 @@
 
 > 用法：製作師把下面整段 prompt 貼給自己的 Claude（例如連接了 Higgsfield MCP 的 Claude）。點程式碼區塊右上角的複製鈕即可一次複製。
 > 這段 prompt 本身**不是**生成或付費授權。任何生成、訓練或付費，都要另外取得 Penny 的授權與費用上限，並記錄授權範圍。
-> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，TASK-002 R2 內容 commit `[R2_CONTENT_SHA]`。這個 commit 含下面【必讀】列出的全部檔案（含主管覆核 R1 與 R2 補正紀錄）。SHA 在內容 commit 之後的下一個 commit 補上；R1 的內容 commit `3cb0a0c` 缺少部分必讀檔案，**不要再用**。之後如果有修訂，以 Penny 指定的 commit 為準；不論讀哪個 commit，都先記錄 `git rev-parse HEAD`，並確認必讀檔案都存在。
+> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，TASK-002 R2 內容 commit `43bfa51e94c0fcbd653193cb6e11d0e7ae1c9290`。這個 commit 含下面【必讀】列出的全部檔案（含主管覆核 R1 與 R2 補正紀錄）。SHA 在內容 commit 之後的下一個 commit 補上；R1 的內容 commit `3cb0a0c` 缺少部分必讀檔案，**不要再用**。之後如果有修訂，以 Penny 指定的 commit 為準；不論讀哪個 commit，都先記錄 `git rev-parse HEAD`，並確認必讀檔案都存在。
 > 交接時，Penny 要把主管覆核 `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` 和本包一起交給製作師（該報告的結論：可以做可行性討論與條件式詢價，測試範圍仍待對齊）。
 
 ```text
@@ -11,7 +11,7 @@
 【Repo 與交付版本】
 - Repo：https://github.com/pennyhuang-oss/luscena-KOL（private，需要 Penny 給你讀取權限）
 - 分支：claude/luscena-kol-initial-draft-et17t8
-- 交付版本：TASK-002 R2 內容 commit [R2_CONTENT_SHA]（之後如有修訂，以 Penny 指定的 commit 為準；不要用 R1 的 3cb0a0c，那個版本缺檔）。
+- 交付版本：TASK-002 R2 內容 commit 43bfa51e94c0fcbd653193cb6e11d0e7ae1c9290（之後如有修訂，以 Penny 指定的 commit 為準；不要用 R1 的 3cb0a0c，那個版本缺檔）。
 - 第一步：切到交付版本後執行 `git rev-parse HEAD`，把完整 SHA 寫進第一次回報；再逐一確認下面【必讀】的每個檔案都存在（例如對每個路徑執行 `test -f <路徑> && echo OK <路徑> || echo MISSING <路徑>`），把結果列表回報。有任何檔案缺少，就停下來回報 Penny，不要用其他版本的檔案補。
 
 【必讀】（共 28 個檔案；每個都要確認存在）
