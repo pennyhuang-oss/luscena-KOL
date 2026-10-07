@@ -27,7 +27,7 @@ CANON = {
     'L06': ('黃子翔', 34, 175, ('右前臂', 'right forearm')),
     'L07': ('程翊', 28, 178, None),
     'L08': ('蔡沛岑', 26, 165, None),
-    'L09': ('方士哲', 36, 180, ('右手中指', 'right middle finger')),
+    'L09': ('方士哲', 36, 180, ('右手中指', 'middle finger of his own right hand')),
     'L10': ('邱雅雯', 32, 160, ('右耳', 'right ear')),
 }
 HEADS = ['## A.', '## B.', '## C.', '## D.', '## E.', '## F.', '## G.', '## H.', '## I.']
@@ -82,8 +82,11 @@ for lid, (name, age, height, mark) in CANON.items():
         if enk not in en:
             issues.append('en mark missing ' + enk)
     for b in BANNED:
-        if b in s:
-            line = s[s.rfind('\n', 0, s.find(b)) + 1:s.find('\n', s.find(b))]
+        for m in re.finditer(re.escape(b), s):
+            before = s[max(0, m.start() - 12):m.start()]
+            if any(neg in before for neg in ('不是', '未', '沒有', '不等於', '不能寫成')):
+                continue  # negated mention, e.g. 「不是 Penny 已核准」
+            line = s[s.rfind('\n', 0, m.start()) + 1:s.find('\n', m.start())]
             issues.append(f'banned "{b}": {line.strip()[:100]}')
     # overview row consistency (age)
     row = [l for l in ov.split('\n') if l.startswith(f'| {lid} |')]
@@ -120,7 +123,11 @@ left = []
 for f in sorted(os.listdir(P)):
     if not f.endswith('.md'):
         continue
-    for i, l in enumerate(rd(os.path.join(P, f)).split('\n'), 1):
+    body = rd(os.path.join(P, f))
+    cut = body.find('## 11.')  # §11 change logs describe history; exempt
+    if cut > 0:
+        body = body[:cut]
+    for i, l in enumerate(body.split('\n'), 1):
         if ('同一個團隊' in l or '同團隊' in l or '我們這群' in l or '規格書' in l) and '2026-10-07' not in l:
             left.append(f'{f}:{i}: {l.strip()[:90]}')
 out.append('[feedback] same-team lines without a 2026-10-07 note: ' + (str(len(left)) if left else 'none'))
