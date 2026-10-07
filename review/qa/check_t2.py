@@ -6,6 +6,8 @@ always 0, so read the output.
 
 R2 (T2-F06): L04 side marks added; the [R2] block at the end checks only the
 listed strings and file existence. It does not validate whole prompts.
+2026-10-07: must-read list follows the rewritten handoff prompt; old
+Penny-approval wording is flagged by string only.
 """
 import hashlib
 import os
@@ -182,14 +184,30 @@ se12 = [l for l in rd(os.path.join(P, 'SHARED_EVENTS.md')).split('\n') if l.star
 if not se12 or '要在第 1 步之後' in se12[0]:
     r2.append('SHARED_EVENTS.md: SE-12 row still depends on step 1')
 r2.insert(0, 'string/structure anomalies: ' + (str(len(r2)) if r2 else 'none'))
-MUST = (['production/modeling_pack_v1/' + x for x in
+# handoff must-read list after the 2026-10-07 responsibility change (27 files)
+MUST = (['review/RESPONSIBILITY_CHANGE_TASK_002_2026-10-07.md'] +
+        ['production/modeling_pack_v1/' + x for x in
          ['00_START_HERE.md'] + [f'L{i:02d}.md' for i in range(1, 11)] +
          ['MODEL_AND_WORKFLOW_OPTIONS.md', 'REFERENCE_AND_ACCEPTANCE.md', 'CLIENT_FEEDBACK_2026-10-07.md']] +
         [f'persona_pack_v1/L{i:02d}.md' for i in range(1, 11)] +
-        ['persona_pack_v1/00_OVERVIEW.md', 'persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md',
-         'review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md', 'review/CORRECTION_TASK_002_MODELING_PACK_R2.md',
-         'review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md',
-         'review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md'])
+        ['persona_pack_v1/00_OVERVIEW.md', 'persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md'])
+# 2026-10-07 responsibility change: old Penny-approval wording must not remain in current files
+# (string check only; the responsibility record and history notes quote it on purpose and are exempt)
+RC_PATTERNS = ['先取得 Penny', 'Penny 的授權', 'Penny 的生成授權', 'Penny／客戶挑選', 'Penny／客戶看圖選定',
+               'Penny 與客戶看圖選定', 'Penny／客戶選定', 'Penny 選定', '等 Penny 給出', '停下等她',
+               '要先授權', '費用上限', '送覆核']
+rc_files = [os.path.join(M, f) for f in os.listdir(M) if f.endswith('.md')] + \
+           [os.path.join(P, 'PRODUCER_REFERENCE_NEEDS.md'), os.path.join(R, 'README.md')]
+rc_hits = []
+for fp in sorted(rc_files):
+    for i, l in enumerate(rd(fp).split('\n'), 1):
+        if any(x in l for x in ('取代', '已取消', '歷史')):
+            continue
+        for pat in RC_PATTERNS:
+            if pat in l:
+                rc_hits.append(f'{os.path.relpath(fp, R)}:{i}: "{pat}"')
+r2.append('responsibility-change residual approval wording: ' + (str(len(rc_hits)) if rc_hits else 'none'))
+r2 += ['  ' + x for x in rc_hits]
 ho = rd(os.path.join(M, 'PRODUCER_CLAUDE_HANDOFF_PROMPT.md'))
 miss = [x for x in MUST if not os.path.exists(os.path.join(R, x))]
 unlisted = [x for x in MUST if os.path.basename(x) not in ho]
@@ -203,7 +221,8 @@ BLOBS = {'REVIEW_RESPONSE_TASK_001_R1.md': '0163fc243b1145c0c9e9c68a095fc4390b08
          'REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md': '742a03d2ad2dc720a233ef652b5b4eb833be9b75',
          'REVIEW_RESPONSE_TASK_001_MERGE_MAIN.md': '6e915d243025764a467b6133799856f4130f99f7',
          'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md': '11d897b48a3c0594de27212024f031ce023a3c4f',
-         'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md': 'f8e4930b450a1ccca9394d618d59a14c2c6c045c'}
+         'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md': 'f8e4930b450a1ccca9394d618d59a14c2c6c045c',
+         'REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2_FINAL.md': 'c5e8c789761af6d8203cd660a64e562bd1d830b3'}
 for f, want in BLOBS.items():
     b = open(os.path.join(R, 'review', f), 'rb').read()
     got = hashlib.sha1(b'blob %d\0' % len(b) + b).hexdigest()

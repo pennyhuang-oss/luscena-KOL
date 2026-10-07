@@ -5,13 +5,13 @@
 - **Owner**：Penny
 - **規劃主管與覆核**：ChatGPT
 - **執行者**：Claude
-- **目前階段**：TASK-002 建模交付包 R2 最後兩項補正（R2-M01、R2-M02）完成，等主管最後核對（主管覆核：`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`、`review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md`；補正紀錄：`review/CORRECTION_TASK_002_MODELING_PACK_R2.md`、`review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md`）。**客戶在 2026-10-07 看過十個人設，接受整體方向**；未回答的選項（L08 定位、L02／L03 尺度與 IP 等）仍待選，人設仍是 PROPOSED，形象尚未生成或驗收。
+- **目前階段**：TASK-002 建模交付包已交接給 AIGC 製作師（主管最後核對 `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2_FINAL.md` 文件內容 PASS）。**2026-10-07 責任分工調整**（`review/RESPONSIBILITY_CHANGE_TASK_002_2026-10-07.md`）：Penny 只負責初步人設建立與交付；製作師接手後自行決定工具、模型、生成、訓練、參考圖與流程，成果由製作師判斷或依其流程交客戶選定、驗收與定案；費用與範圍由製作師依帳號權限與客戶約定處理，不需要 Penny 批准。各主管覆核中「等授權、只做詢價、由 Penny／客戶選定形象」的分工已被取代，覆核文件保留為歷史紀錄。**客戶在 2026-10-07 看過十個人設，接受整體方向**；未回答的選項（L08 定位、L02／L03 尺度與 IP 等）仍待選，人設仍是 PROPOSED，形象尚未生成或驗收。
   - 客戶回饋：十個帳號是同一團隊這件事先不公開，角色互動與客串照常；AI 揭露方式交由團隊評估，尚未決定；被問到時不否認。逐字紀錄與處理方式見 `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md`。
   - TASK-001 人設包已完成主管覆核（F-01 最終補正結案，`review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md`）；合併到 main 的覆核見 `review/REVIEW_RESPONSE_TASK_001_MERGE_MAIN.md`。
   - 以下是 TASK-001 的歷程，保留：
   - R3 依主管 R2 人設覆核（`review/REVIEW_RESPONSE_TASK_001_R2_PERSONA.md`）做局部修訂：設定與事實分開、跨角色共同事件編號、Penny 的決定順序、製作師的估價假設、內部核查更正。逐條修正見 `review/CHANGELOG_TASK_001_R3.md`。
   - 主管 R3 覆核（`review/REVIEW_RESPONSE_TASK_001_R3.md`）判定可交 Penny 比較、選角，局部 REVISE；F-01～F-06 的局部補正見 `review/CORRECTION_TASK_001_R3_F01-F06.md`。
-  - 2026-10-06 Penny 調整範圍：先把 10 個人設規劃清楚，讓 Penny 選定，再交給 AIGC 製作師評估人物形象。導流與網站轉換延後到角色建立、帳號創建、實際每日經營之後另案討論（`review/SCOPE_CHANGE_TASK_001_2026-10-06.md`）。
+  - 2026-10-06 Penny 調整範圍：先把 10 個人設規劃清楚，讓 Penny 選定，再交給 AIGC 製作師評估人物形象（歷史；建模分工已被 2026-10-07 責任分工調整取代：製作師接手後自行製作，不需要 Penny 批准）。導流與網站轉換延後到角色建立、帳號創建、實際每日經營之後另案討論（`review/SCOPE_CHANGE_TASK_001_2026-10-06.md`）。
   - 全部內容都是 PROPOSED，**沒有任何一項經 Penny 或客戶核准**。
   - 沒有建立帳號、沒有發布、沒有修改客戶網站、沒有生圖或付費、沒有訓練人物。
 
@@ -26,7 +26,7 @@
 - 製作師的 Claude 交接 prompt：[production/modeling_pack_v1/PRODUCER_CLAUDE_HANDOFF_PROMPT.md](production/modeling_pack_v1/PRODUCER_CLAUDE_HANDOFF_PROMPT.md)
 - 十角色建模頁：[L01](production/modeling_pack_v1/L01.md)、[L02](production/modeling_pack_v1/L02.md)、[L03](production/modeling_pack_v1/L03.md)、[L04](production/modeling_pack_v1/L04.md)、[L05](production/modeling_pack_v1/L05.md)、[L06](production/modeling_pack_v1/L06.md)、[L07](production/modeling_pack_v1/L07.md)、[L08](production/modeling_pack_v1/L08.md)、[L09](production/modeling_pack_v1/L09.md)、[L10](production/modeling_pack_v1/L10.md)
 
-建模交付包也是 PROPOSED：沒有生成任何圖片，人物形象要 Penny／客戶看圖選定後才鎖定。
+建模交付包是給製作師的建議（人設規格、prompt、測試張數與模型流程都不強制照做），撰寫時沒有生成任何圖片。製作師接手後自行製作；人物形象由製作師判斷可用，或依其流程交客戶選定、驗收與定案，不需要 Penny 批准。待選項目由製作師與客戶依其流程決定，不要寫成客戶已選。責任分工見 [`review/RESPONSIBILITY_CHANGE_TASK_002_2026-10-07.md`](review/RESPONSIBILITY_CHANGE_TASK_002_2026-10-07.md)。
 
 ### Penny 的入口（可直接點開）
 
@@ -47,7 +47,7 @@
 - 跨角色共同事件：[persona_pack_v1/SHARED_EVENTS.md](persona_pack_v1/SHARED_EVENTS.md)
 - 最新主管覆核：[review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md](review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md)
 
-以上全部是 PROPOSED，放在 main 不代表已核准；選角由 Penny 決定。
+以上全部是 PROPOSED，放在 main 不代表已核准。人設由 Penny 初步建立並交付；建模後的待選項目與人物形象，依 2026-10-07 責任分工調整，由製作師與客戶依其流程決定。
 
 > R1 背景（保留，不在本輪討論）：LUSCENA 是 18+ 成人直播與內容平台；R1 主管覆核把中期導流判定為 BLOCK（`review/REVIEW_RESPONSE_TASK_001_R1.md`）。
 
@@ -60,9 +60,11 @@
 | ★ | `review/REVIEW_REQUEST_TASK_002_MODELING_PACK_R1.md`、`review/INTERNAL_QA_TASK_002_MODELING_PACK_R1.md`、`review/CHANGELOG_TASK_002_CLIENT_FEEDBACK.md` | TASK-002 覆核請求、內部核查、客戶回饋相關修改紀錄 |
 | ★ | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md`、`review/CORRECTION_TASK_002_MODELING_PACK_R2.md` | TASK-002 主管覆核 R1（REVISE，六組局部必修）與 R2 局部補正紀錄 |
 | ★ | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md`、`review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md` | TASK-002 主管覆核 R2（REVISE，僅剩兩項）與最後兩項補正紀錄 |
+| ★ | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2_FINAL.md` | TASK-002 主管最後核對（文件內容 PASS；其中授權與選臉分工已被下一列取代） |
+| ★ | `review/RESPONSIBILITY_CHANGE_TASK_002_2026-10-07.md` | **2026-10-07 責任分工調整**：製作師接手建模，不需要 Penny 批准；以這份為準 |
 | ★ | `persona_pack_v1/00_OVERVIEW.md` | **人設審閱包（R3）：十角色總覽、以哪份為準、標記慣例** |
 | ★ | `persona_pack_v1/L01.md`～`L10.md` | 每個角色的詳細提案（取代 v0 的人設部分） |
-| ★ | `persona_pack_v1/PENNY_CHOICES.md` | Penny 需要選擇的事項 |
+| ★ | `persona_pack_v1/PENNY_CHOICES.md` | 人設階段的選擇清單（歷史）。交接建模之後，尚未選定的項目由製作師與客戶依其流程決定（2026-10-07 責任分工調整） |
 | ★ | `persona_pack_v1/SHARED_EVENTS.md` | 跨角色共同事件（SE-01～SE-13）：只排先後，不排日曆 |
 | ★ | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 給 AIGC 製作師的參考需求（OK／NG 都是待選）與估價假設 |
 | ★ | `review/SCOPE_CHANGE_TASK_001_2026-10-06.md` | 範圍調整紀錄 |
