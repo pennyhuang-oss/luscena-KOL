@@ -14,6 +14,27 @@
 
 > **Penny 請從這裡看**：`persona_pack_v1/00_OVERVIEW.md`（十角色總覽）→ 各角色 `persona_pack_v1/Lxx.md` → `persona_pack_v1/PENNY_CHOICES.md`（依建議順序勾選）→ `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md`（交給製作師）。跨角色的故事節點見 `persona_pack_v1/SHARED_EVENTS.md`。
 
+### Penny 的入口（可直接點開）
+
+- 十角色總覽：[persona_pack_v1/00_OVERVIEW.md](persona_pack_v1/00_OVERVIEW.md)
+- Penny 選擇清單：[persona_pack_v1/PENNY_CHOICES.md](persona_pack_v1/PENNY_CHOICES.md)
+- 各角色提案：
+  - [L01 簡予安（A 兩性話題）](persona_pack_v1/L01.md)
+  - [L02 凜（B 大尺度 Cos）](persona_pack_v1/L02.md)
+  - [L03 周以晨（C 性感身材時尚）](persona_pack_v1/L03.md)
+  - [L04 林可妮（T1 星座命理）](persona_pack_v1/L04.md)
+  - [L05 陳柏凱「阿凱」（T2 迷因梗圖）](persona_pack_v1/L05.md)
+  - [L06 黃子翔「翔哥」（T3 電玩手遊）](persona_pack_v1/L06.md)
+  - [L07 程翊（T4 AI 科技）](persona_pack_v1/L07.md)
+  - [L08 蔡沛岑「沛沛」（T5 運動賽事／啦啦隊）](persona_pack_v1/L08.md)
+  - [L09 方士哲（T6 攝影人像）](persona_pack_v1/L09.md)
+  - [L10 邱雅雯「瓜雯」（T7 時事新聞）](persona_pack_v1/L10.md)
+- 製作師參考需求與估價假設：[persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md](persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md)
+- 跨角色共同事件：[persona_pack_v1/SHARED_EVENTS.md](persona_pack_v1/SHARED_EVENTS.md)
+- 最新主管覆核：[review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md](review/REVIEW_RESPONSE_TASK_001_R3_F01_FINAL.md)
+
+以上全部是 PROPOSED，放在 main 不代表已核准；選角由 Penny 決定。
+
 > R1 背景（保留，不在本輪討論）：LUSCENA 是 18+ 成人直播與內容平台；R1 主管覆核把中期導流判定為 BLOCK（`review/REVIEW_RESPONSE_TASK_001_R1.md`）。
 
 ## 文件導航
