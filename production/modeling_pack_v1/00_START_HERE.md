@@ -38,6 +38,8 @@
 | [PRODUCER_CLAUDE_HANDOFF_PROMPT.md](PRODUCER_CLAUDE_HANDOFF_PROMPT.md) | 製作師可以貼給自己 Claude 的完整 prompt |
 | [persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md](../../persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md) | 原有的 OK／NG 參考需求、身分測試標準（§2）、撞臉配對（§4）、估價假設（§6） |
 | [persona_pack_v1/00_OVERVIEW.md](../../persona_pack_v1/00_OVERVIEW.md) | 十角色總覽、外型差異地圖、撞臉配對優先順序 |
+| [review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md](../../review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md) | 主管覆核 R1：可以做可行性討論與條件式詢價，但測試範圍仍待對齊；交接時和本包一起看 |
+| [review/CORRECTION_TASK_002_MODELING_PACK_R2.md](../../review/CORRECTION_TASK_002_MODELING_PACK_R2.md) | R2 局部補正紀錄：依主管覆核改了哪些句子、怎麼驗證 |
 
 ## 3. 版本來源與決定狀態
 
@@ -45,7 +47,7 @@
 - 角色設定：`persona_pack_v1/Lxx.md`。建模頁只摘錄建模需要的部分；兩者不一致時以人設檔為準，並回報。
 - 建模規格與 prompt：本資料夾的 `Lxx.md`。
 - 客戶決定：`CLIENT_FEEDBACK_2026-10-07.md`。
-- 本包的版本：以 GitHub 分支 `claude/luscena-kol-initial-draft-et17t8` 上、加入本包的 commit 為準（實際 SHA 見 `review/REVIEW_REQUEST_TASK_002_MODELING_PACK_R1.md`）。
+- 本包的版本：以 GitHub 分支 `claude/luscena-kol-initial-draft-et17t8` 上、`PRODUCER_CLAUDE_HANDOFF_PROMPT.md` 的「交付版本」（或 Penny 交接時另外指定的 commit）為準。R1 的內容 commit `3cb0a0c` 缺少部分必讀檔案，不要再用。讀之前先記錄 `git rev-parse HEAD`，並確認交接 prompt【必讀】列出的檔案都存在；缺檔就停下回報 Penny。
 
 **客戶已接受、已決定的**
 - 整體十角色方向。
@@ -70,7 +72,7 @@
 
 1. **先確認**：可用的工具與帳號方案、參考素材的權利、待選分支、費用上限。生成與訓練要先取得 Penny 的授權與費用上限。
 2. **分批出臉部候選**：不要一次鎖定十張臉。建議先做撞臉優先 1 的配對（L02↔L10、L01↔L08、L05↔L06）各自的候選，並排比較。
-3. **Penny／客戶選定**之後，才做身分測試（T1–T8）。
+3. **Penny／客戶選定**之後，才做身分測試（低方案 T1–T3、中方案 T1–T8）。全身照 B、造型變化等新增檢查的計費見 `REFERENCE_AND_ACCEPTANCE.md` §7。
 4. 身分測試通過，再做形象照。
 5. 每一批都照 `REFERENCE_AND_ACCEPTANCE.md` §4.3 的格式回報。
 
