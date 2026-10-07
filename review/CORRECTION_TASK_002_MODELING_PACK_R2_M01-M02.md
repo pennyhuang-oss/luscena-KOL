@@ -4,7 +4,7 @@
 - 執行者：Claude；Owner：Penny
 - 依據：主管覆核 `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md`（主管 commit `defbd0bb00442bb1e1c6b7215f5d9602516ccde8`，判定 REVISE，只剩 R2-M01、R2-M02）
 - 分支：`claude/luscena-kol-initial-draft-et17t8`；開工時 HEAD `defbd0b`；遠端 main `2283244aa0c01343361d0100b185732809b617af`（沒有更新）
-- 內容 commit：`[R2M_CONTENT_SHA]`（下一個 commit 補上；不追同檔自指）
+- 內容 commit：`16001b4e5e0f85a9c3a9d61bff9886681e1146b7`。下一個 commit 只把這個 SHA 填進交接 prompt 與本檔（本行、§5 的存在性欄），不改其他內容。看改動：`git diff defbd0b 16001b4`。本檔 §3 表裡的 `[R2M_CONTENT_SHA]` 是內容 commit 當時的佔位寫法。
 - 範圍：只改這兩項，加上交接版本、導覽與核查腳本的必要更新。已通過的 T2-F01、F02 指定部分、F04、F05、F06 不重開；不全面重寫十角色；不替客戶選角（L08 定位 C-L08-1 仍待選）。R2 原紀錄 `review/CORRECTION_TASK_002_MODELING_PACK_R2.md` 保留不改。
 - 沒有生成、付費、訓練、開帳號、發布、聯絡製作師或重開導流；沒有修改主管覆核文件；沒有 force push 或改寫歷史。全部仍是 PROPOSED。
 
@@ -146,38 +146,40 @@ L10 text_blocks=6 OK
 
 ## 5. 交接必讀檔案的存在性（30 個）
 
-| # | 必讀檔案 | 工作目錄（提交前） | 內容 commit（`git cat-file -e`） |
+提交後用 `git cat-file -e 16001b4:<路徑>` 實際確認：30／30 存在；`00_START_HERE.md` 在內容 commit 的 30 個相對連結全部可解析。
+
+| # | 必讀檔案 | 工作目錄（提交前） | 內容 commit `16001b4`（`git cat-file -e`） |
 |---|---|---|---|
-| 1 | `production/modeling_pack_v1/00_START_HERE.md` | 存在 | 待下一個 commit 補上 |
-| 2 | `production/modeling_pack_v1/L01.md` | 存在 | 待下一個 commit 補上 |
-| 3 | `production/modeling_pack_v1/L02.md` | 存在 | 待下一個 commit 補上 |
-| 4 | `production/modeling_pack_v1/L03.md` | 存在 | 待下一個 commit 補上 |
-| 5 | `production/modeling_pack_v1/L04.md` | 存在 | 待下一個 commit 補上 |
-| 6 | `production/modeling_pack_v1/L05.md` | 存在 | 待下一個 commit 補上 |
-| 7 | `production/modeling_pack_v1/L06.md` | 存在 | 待下一個 commit 補上 |
-| 8 | `production/modeling_pack_v1/L07.md` | 存在 | 待下一個 commit 補上 |
-| 9 | `production/modeling_pack_v1/L08.md` | 存在 | 待下一個 commit 補上 |
-| 10 | `production/modeling_pack_v1/L09.md` | 存在 | 待下一個 commit 補上 |
-| 11 | `production/modeling_pack_v1/L10.md` | 存在 | 待下一個 commit 補上 |
-| 12 | `production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md` | 存在 | 待下一個 commit 補上 |
-| 13 | `production/modeling_pack_v1/REFERENCE_AND_ACCEPTANCE.md` | 存在 | 待下一個 commit 補上 |
-| 14 | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 存在 | 待下一個 commit 補上 |
-| 15 | `persona_pack_v1/L01.md` | 存在 | 待下一個 commit 補上 |
-| 16 | `persona_pack_v1/L02.md` | 存在 | 待下一個 commit 補上 |
-| 17 | `persona_pack_v1/L03.md` | 存在 | 待下一個 commit 補上 |
-| 18 | `persona_pack_v1/L04.md` | 存在 | 待下一個 commit 補上 |
-| 19 | `persona_pack_v1/L05.md` | 存在 | 待下一個 commit 補上 |
-| 20 | `persona_pack_v1/L06.md` | 存在 | 待下一個 commit 補上 |
-| 21 | `persona_pack_v1/L07.md` | 存在 | 待下一個 commit 補上 |
-| 22 | `persona_pack_v1/L08.md` | 存在 | 待下一個 commit 補上 |
-| 23 | `persona_pack_v1/L09.md` | 存在 | 待下一個 commit 補上 |
-| 24 | `persona_pack_v1/L10.md` | 存在 | 待下一個 commit 補上 |
-| 25 | `persona_pack_v1/00_OVERVIEW.md` | 存在 | 待下一個 commit 補上 |
-| 26 | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 存在 | 待下一個 commit 補上 |
-| 27 | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` | 存在 | 待下一個 commit 補上 |
-| 28 | `review/CORRECTION_TASK_002_MODELING_PACK_R2.md` | 存在 | 待下一個 commit 補上 |
-| 29 | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md` | 存在 | 待下一個 commit 補上 |
-| 30 | `review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md` | 存在 | 待下一個 commit 補上 |
+| 1 | `production/modeling_pack_v1/00_START_HERE.md` | 存在 | 存在 |
+| 2 | `production/modeling_pack_v1/L01.md` | 存在 | 存在 |
+| 3 | `production/modeling_pack_v1/L02.md` | 存在 | 存在 |
+| 4 | `production/modeling_pack_v1/L03.md` | 存在 | 存在 |
+| 5 | `production/modeling_pack_v1/L04.md` | 存在 | 存在 |
+| 6 | `production/modeling_pack_v1/L05.md` | 存在 | 存在 |
+| 7 | `production/modeling_pack_v1/L06.md` | 存在 | 存在 |
+| 8 | `production/modeling_pack_v1/L07.md` | 存在 | 存在 |
+| 9 | `production/modeling_pack_v1/L08.md` | 存在 | 存在 |
+| 10 | `production/modeling_pack_v1/L09.md` | 存在 | 存在 |
+| 11 | `production/modeling_pack_v1/L10.md` | 存在 | 存在 |
+| 12 | `production/modeling_pack_v1/MODEL_AND_WORKFLOW_OPTIONS.md` | 存在 | 存在 |
+| 13 | `production/modeling_pack_v1/REFERENCE_AND_ACCEPTANCE.md` | 存在 | 存在 |
+| 14 | `production/modeling_pack_v1/CLIENT_FEEDBACK_2026-10-07.md` | 存在 | 存在 |
+| 15 | `persona_pack_v1/L01.md` | 存在 | 存在 |
+| 16 | `persona_pack_v1/L02.md` | 存在 | 存在 |
+| 17 | `persona_pack_v1/L03.md` | 存在 | 存在 |
+| 18 | `persona_pack_v1/L04.md` | 存在 | 存在 |
+| 19 | `persona_pack_v1/L05.md` | 存在 | 存在 |
+| 20 | `persona_pack_v1/L06.md` | 存在 | 存在 |
+| 21 | `persona_pack_v1/L07.md` | 存在 | 存在 |
+| 22 | `persona_pack_v1/L08.md` | 存在 | 存在 |
+| 23 | `persona_pack_v1/L09.md` | 存在 | 存在 |
+| 24 | `persona_pack_v1/L10.md` | 存在 | 存在 |
+| 25 | `persona_pack_v1/00_OVERVIEW.md` | 存在 | 存在 |
+| 26 | `persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md` | 存在 | 存在 |
+| 27 | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R1.md` | 存在 | 存在 |
+| 28 | `review/CORRECTION_TASK_002_MODELING_PACK_R2.md` | 存在 | 存在 |
+| 29 | `review/REVIEW_RESPONSE_TASK_002_MODELING_PACK_R2.md` | 存在 | 存在 |
+| 30 | `review/CORRECTION_TASK_002_MODELING_PACK_R2_M01-M02.md` | 存在 | 存在 |
 
 ## 6. 未解事項
 
