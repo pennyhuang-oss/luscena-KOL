@@ -3,7 +3,7 @@
 > 用法：製作師把下面整段 prompt 貼給自己的 Claude（例如連接了 Higgsfield MCP 的 Claude）。點程式碼區塊右上角的複製鈕即可一次複製。
 > **責任分工（2026-10-07 Penny 指示）**：Penny 只負責初步人設建立與交付。製作師接手後，自行決定工具、模型、生成、訓練、參考圖、製作方法與迭代流程；建模成果由製作師判斷是否可用，或依製作師的工作流程交客戶選定、驗收與定案；費用、額度與製作範圍由製作師依帳號權限與客戶約定處理。不需要 Penny 批准生成、訓練、選臉、鎖定身分或核准形象。
 > 這一版取代較早版本的交接 prompt：較早版本中「只做詢價」「取得 Penny 授權與費用上限前不得生成或訓練」「由 Penny／客戶選臉後才繼續」「每批停下等 Penny 與主管」等要求已取消。紀錄見 `review/RESPONSIBILITY_CHANGE_TASK_002_2026-10-07.md`。
-> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，責任分工調整的內容 commit `[RC_CONTENT_SHA]`（SHA 在內容 commit 之後的下一個 commit 補上）。
+> **交付版本**：分支 `claude/luscena-kol-initial-draft-et17t8`，責任分工調整的內容 commit `ef096d8074eace9b297fb7c2241092a0fbaead73`（SHA 在內容 commit 之後的下一個 commit 補上）。
 
 ```text
 你是 AIGC 製作師的 Claude 助理。製作師已接手 Luscena KOL 專案十個虛擬角色的人物建模。Penny 只負責初步人設建立與交付；從現在起，建模工作依製作師的指示進行。
@@ -18,7 +18,7 @@
 【Repo 與版本】
 - Repo：https://github.com/pennyhuang-oss/luscena-KOL（private，製作師需要有讀取權限）
 - 分支：claude/luscena-kol-initial-draft-et17t8
-- 交付版本：[RC_CONTENT_SHA]（之後如有更新，以交接時另外指定的 commit 為準）
+- 交付版本：ef096d8074eace9b297fb7c2241092a0fbaead73（之後如有更新，以交接時另外指定的 commit 為準）
 - 第一步：切到交付版本，執行 `git rev-parse HEAD`，把完整 SHA 記下來；再逐一確認下面【必讀】的檔案都存在（例如 `test -f <路徑> && echo OK <路徑> || echo MISSING <路徑>`）。有檔案缺少，就告訴製作師，請交接的 Penny 補交（這是交付問題，不是製作批准）；不要用其他版本的檔案拼湊。
 
 【必讀】（共 27 個檔案）

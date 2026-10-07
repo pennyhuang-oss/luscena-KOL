@@ -2,7 +2,7 @@
 
 - 依據：Penny 2026-10-07 的最新指示（下方引用）。這份指示**優先於**先前文件與主管覆核中的授權、選臉及驗收安排。
 - 分支：`claude/luscena-kol-initial-draft-et17t8`；調整前 HEAD `9b540cb4174d6ad52ba079fb1dd141503cbd98b4`（主管最後核對）
-- 內容 commit：`[RC_CONTENT_SHA]`（下一個 commit 補上）
+- 內容 commit：`ef096d8074eace9b297fb7c2241092a0fbaead73`。下一個 commit 只把這個 SHA 填進交接 prompt 與本檔。
 - 執行者：Claude。本次只修文件，沒有替製作師生成或訓練；沒有修改主管覆核文件、沒有更新 main、沒有 force push 或改寫歷史。
 
 ## 1. Penny 的指示（引用）
@@ -56,5 +56,6 @@
 ## 5. 驗證
 
 - 字串檢查（`grep`，提交前）：`production/modeling_pack_v1/`、`persona_pack_v1/PRODUCER_REFERENCE_NEEDS.md`、`README.md` 中，舊分工字串（「先取得 Penny」「Penny 的授權」「Penny／客戶挑選」「Penny／客戶看圖選定」「Penny 選定」「費用上限」「要先授權」「送覆核」「停下等她」等）只出現在本紀錄與明寫「已取代／已取消／歷史」的說明句裡。
-- `python3 review/qa/check_t2.py .`：見提交後的回報；這只是字串與檔案存在性檢查，不代表語意全部正確。
-- 交接 prompt 的 27 個必讀檔案：提交後以 `git cat-file -e <內容 commit>:<路徑>` 逐一確認。
+- 腳本只是字串與檔案存在性檢查，不代表語意全部正確；責任分工的語句是逐處人工改寫並讀過。
+- 交接 prompt 的 27 個必讀檔案：提交後以 `git cat-file -e ef096d8:<路徑>` 逐一確認，27／27 存在。
+- `python3 review/qa/check_t2.py .`（內容 commit）：十頁 OK；`00_START_HERE` 連結無法解析的為 none；R2 字串檢查 none；舊分工字串 none；必讀 27 個檔案都存在；九份主管覆核檔 blob 與原本相同。
