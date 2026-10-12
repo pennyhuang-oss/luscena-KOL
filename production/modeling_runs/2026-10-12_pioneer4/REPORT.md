@@ -409,3 +409,33 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **候選定稿 job 239（裁白邊）**，待製作師確認 |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 16（2026-10-12）：改用 Nano Banana 2.1 做「照片換臉＋細節修正」
+
+- 製作師看 239／240 後：「還是不太一樣」，並問能否用 Higgsfield 介面「點之前生成的圖、按 Reference」來做。執行者說明：MCP 的 `image_references` 放 job ID 就是同一個動作；差別在 Seedream 是「參考後重畫」，整張會漂。改試編輯型模型。
+- 模型選擇：`models_explore` 推薦裡可吃多張參考、強調保留原圖的有 FLUX 3 Image、GPT Image 2.5、Nano Banana 2.1、Ideogram 4.5；選 **Nano Banana 2.1**（Google；多圖參考、以保留原圖著稱；GPT 對擦邊內容審查嚴，先不用）。
+- 輸入：第一張 ＝ 製作師照片（media `e960969a`，318×466），第二張 ＝ job 229（Wendy 臉、銀髮、眼鏡的來源）。不用 Element 標記。2k、thinking high、aspect auto、count 2。**每張 2 點**（餘額 3234.24 → 3230.24）。
+- prompt：
+
+```
+Edit the first image. Keep everything in the first image exactly as it is: the pose, the hand at her temple, the other hand on the armrest, the legs and feet, the shoe hanging from her toes, the grey armchair, the desk, the lamp, the night window, the tiled floor, the framing and the low camera angle. Make only these changes: (1) replace the woman's face, hair and eyewear with those of the woman in the second image: her face, her silver-grey hair worn down in a loose chin-length layered bob, and her thick black square-frame glasses; (2) make her bust fuller and more prominent, and open the top of the white shirt one more button so her cleavage is clearly visible; (3) replace the large gold shirt buttons with small plain white shirt buttons; (4) make the black sheer pantyhose one continuous smooth layer over both legs, removing the lighter band and the break on her thigh; (5) remove the gold chain hanging under the shoe; (6) keep the red lipstick but make it a slightly lighter, softer red; (7) remove the handbag on the desk at the right edge. Photorealistic, clean, sharp. No text, no watermark, no border.
+```
+
+| job | 結果 |
+|---|---|
+| 241 `07afa7a5-3493-436f-b861-ba54e76ada70` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_094648_07afa7a5-3493-436f-b861-ba54e76ada70.png |
+| 242 `6bbcfa9d-c10c-4800-a992-d7a04b5937e9` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_094649_6bbcfa9d-c10c-4800-a992-d7a04b5937e9.png |
+
+- 看圖：兩張幾乎等於原照片的構圖——椅子、燈、桌、窗、地板、手撐太陽穴、另一手扶手、腿伸直、鞋掛腳尖全部保留；換成 Wendy 臉＋銀灰 bob＋黑框眼鏡；乳溝露出、胸部更明顯；小白扣；黑絲連續無斷；金鍊拿掉；包包拿掉；口紅較淡；眼睛睜開看鏡頭。241 表情冷淡，242 嘴角微笑。輸出 1696×2486，無白邊、無浮水印文字。
+- 結論：「以指定照片為底、只改指定部位」用 Nano Banana 2.1 比 Seedream 準得多；之後同類需求建議走 Nano Banana（2 點／張），Seedream 留給「重畫新構圖」，soul_2 留給「只要本人、不需參考圖」。
+- 候選定稿改為 **job 241**（或 242，由製作師選），取代 239。
+- 本批累計 25.32 點。
+
+### 先鋒四人狀態（追加 16 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **候選定稿 job 241／242（Nano Banana 2.1，以製作師照片為底）**，待製作師選 |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
