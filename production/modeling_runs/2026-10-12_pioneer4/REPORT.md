@@ -722,3 +722,17 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 看圖（304／305 並排）：褲子改成霧面瑜伽褲質感 ✅（最明顯的改善）；頭後仰、下巴抬、嘴微張不笑 ✅；背弓略加深。只做到一半：整體只亮了一點，房間仍偏暗；**胸部從這個斜後方角度被手臂擋住，加大與前凸看不出來**。構圖、場景、身分保留；腳仍貼邊（本輪未要求）。
 - 經驗：斜後方 45° 鏡位天生看不到胸，要「胸大且前凸」看得見，上身得再轉向鏡頭或換成側面／前側鏡位；單靠編輯模型在這個角度加大效果有限。
 - 餘額 3208.00 → 3206.00；本批累計 49.56 點。Vicky 劈腿線累計 5 張（301–305）。
+
+## 追加 27（2026-10-12）：Vicky 改 E 罩杯；以 305 為底改手勢、身形、褲子、亮度
+
+- **身材設定變更（製作師決定）**：Vicky 罩杯由 C 改為 **E**。上圍／下胸圍改為 94／74（75E）；三圍改為 94／63／92（臀圍未指示，暫不動）。「身材補充」表格不改寫，以本條為準。身形方向：前凸後翹非常明顯的沙漏型（胸大、腰細、臀圓翹、大腿厚實），prompt 用身形描述不寫種族。
+- 製作師指示：以 305 為底；雙手改到背後互扣（右手從肩上往下、左手從下往上拉住）；右手不再擋胸；瑜伽褲再透一點。
+- 做法：Nano Banana 2.1，image_references ＝ job 305，2k、thinking high、1 張、2 點。prompt 要點：(1) 雙手背後互扣的肩部伸展姿勢，手不碰墊；(2) 上身挺直、肩後收、胸前推、下背內凹、頭微後仰看鏡頭、嘴微張不笑、上身略轉向鏡頭讓胸的側面輪廓完整；(3) `dramatic, exaggerated hourglass: very large, full, round E-cup bust… small tight waist… very full, round, high, lifted hips and buttocks… thick strong thighs`；(4) 褲子 `very thin stretch fabric, slightly more sheer… subtle translucency… still covering her completely, no underwear and no skin exposed`；(5) 再提亮一級。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 306 `1c924331-5066-4570-9735-b844fdc2c351` | 1792×2390 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_112136_1c924331-5066-4570-9735-b844fdc2c351.png |
+
+- 看圖（305／306 並排）：雙手背後互扣 ✅（右臂過肩往下、左臂從下往上、手在肩胛間相扣，與指示一致）；上身挺直、胸前推、頭後仰 ✅；胸的側面輪廓露出、明顯比 305 大 ✅；臀更圓更翹、腰更細，前凸後翹成立 ✅；臉、馬尾、場景、構圖保留。沒做到：**褲子沒有變透**，仍是霧面不透；亮度與 305 幾乎相同，只有身體略亮；胸雖大但未到「E 且溢出」的程度；腳仍貼邊。
+- 經驗：Nano Banana 對「褲子透一點」在 `no skin exposed` 的限制下幾乎不動；要透得看得出來，得允許「大腿處隱約透出膚色」，但那會靠近平台與 Threads 的透視底線，需製作師決定尺度。亮度指令連續兩輪只動一點，可能要改用後製調曝光（不扣點）。
+- 餘額 3206.00 → 3204.00；本批累計 51.56 點。Vicky 劈腿線累計 6 張（301–306）。
