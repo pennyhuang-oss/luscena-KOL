@@ -598,3 +598,34 @@ Close-up portrait of this woman, head and shoulders filling the frame, 28 years 
 | Wendy | 定稿 v1 job 247，**臉與 Soul 不符，待製作師決定是否拉回** | `finals/wendy_v1_job247_8fdc1ad2.jpg` |
 | Vicky | 空中瑜伽版（job 6e71f97e）待定 | — |
 | Kanon | 小惡魔版作廢；地雷系版待出 | — |
+
+## 追加 22（2026-10-12）：Wendy 定稿換臉回 Soul（方法 1）
+
+- 製作師決定：用追加 21 的方法 1——以 job 247 為底、第二張放 job 250（soul_2 近景）當臉來源，把臉換回 Soul。
+- 做法：Nano Banana 2.1，image_references ＝ job 247（底圖）＋ job 250（臉來源），2k、thinking high、aspect auto，count 2，各 2 點。prompt 明寫只換臉、保留髮型／眼鏡／口紅色／視線／表情／姿勢／衣服／背景／身體皮膚紋理，並具體描述 Soul 的五官特徵（較長鵝蛋臉、圓下巴非 V 形、顴骨平寬、眉平直、杏眼雙眼皮、下唇飽滿、淡妝無濃眼線）。
+- prompt：
+
+```
+Edit the first image. Keep everything in the first image exactly as it is: the composition, framing and extreme low camera angle, the pose with her right hand raised to her temple and her left hand on the armrest, her extended right leg with the black stiletto hanging from her toes, the sheer black stockings, the white shirt with its open collar and cleavage, the black skirt, the grey armchair, the desk, the lamp, the night window, the tiled floor, the lighting and colors, and the skin texture of her body. Make only one change: replace her face with the face of the woman in the second image, so that it is clearly the same person as the second image: the same face shape (a longer oval face with a soft rounded chin, not a pointed V chin), the same broad flat cheekbones, the same straight natural eyebrows, the same almond-shaped eyes with double eyelids and the same eye size and spacing, the same nose, the same full lips especially the full lower lip, the same jawline. Keep the second image's natural light makeup level: no heavy eyeliner, no cat-eye. Keep from the first image her silver-grey chin-length bob hairstyle, her thick black square-frame glasses, her soft red lipstick color, her head angle and the direction of her gaze looking down at the camera, and her cold, bored expression with lips closed and no smile. The face must match the first image's lighting, skin tone and skin grain so it blends naturally. Do not copy the second image's hair, clothes, pose, background or framing. No text, no watermark, no border.
+```
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 252 `db476121-db57-44d4-b2a8-aee03466ba3b` | 1792×2390（被重裁成 3:4，取景略寬，沒有切掉東西） | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_101659_db476121-db57-44d4-b2a8-aee03466ba3b.png |
+| 253 `9079d418-1ee7-4762-9b9c-891287180943` | 1696×2486（與 247 完全同尺寸） | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_101700_9079d418-1ee7-4762-9b9c-891287180943.png |
+
+- 看圖（臉部 100% 裁切與 Soul 250、247 並排；全圖 247／252／253 並排）：
+  - **252**：臉明顯拉回 Soul——較長的鵝蛋臉、圓下巴、眉平直、杏眼雙眼皮、下唇飽滿，淡妝；銀灰 bob、黑框眼鏡、紅唇、俯視冷淡表情、手撐太陽穴都保留；腿、絲襪、掛腳尖的鞋、椅子、燈、窗全部不變。代價：輸出被重裁成 3:4，畫面比 247 略寬（左側多露一點桌子）。執行者判讀約八到九成像 Soul。
+  - **253**：尺寸與 247 完全一致，但臉只拉回一半——眼睛仍偏細、下巴仍偏尖，介於 247 與 Soul 之間，約七成像。
+  - 身體皮膚紋理：兩張與 247 一致，未被磨回去；252 的臉部皮膚比身體略平滑一點。
+- 建議：**以 252 取代 247 為 Wendy 定稿**（臉是 Soul 本人），待製作師確認。若製作師要 247 的原尺寸，可以 252 為底再跑一次 Nano Banana 只要求 1696×2486 取景，或直接把 252 裁成 1696×2486（左右各裁約 48px，不影響主體）。
+- 餘額 3216.00 → 3212.00；本批累計 43.56 點。
+
+### 先鋒四人狀態（追加 22 後）
+
+| 角色 | 狀態 | 最終檔 |
+|---|---|---|
+| Nanami | 定稿 v1 去介面版 job 249 | `finals/nanami_v1_job249_f99e1364_clean.jpg` |
+| Wendy | **候選定稿 v2 ＝ job 252（臉回 Soul）**，待製作師確認後換掉 finals | `finals/wendy_v1_job247_8fdc1ad2.jpg`（臉偏離 Soul，待替換） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定 | — |
+| Kanon | 小惡魔版作廢；地雷系版待出 | — |
