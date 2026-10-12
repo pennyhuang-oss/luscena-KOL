@@ -500,3 +500,34 @@ Edit the first image. Keep everything in the first image exactly as it is: the w
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **定稿 v1 ＝ 242 系列；皮膚版本 245／246 待製作師選** |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 19（2026-10-12）：磨皮再退更多（顆粒感）
+
+- 製作師看 245／246 後：「兩張都還是磨皮磨太兇，再修回來更多，仔細看顆粒感。」
+- 做法：Nano Banana 2.1，image_references ＝ job 245（底圖）＋ job 6ed76f6b（Nanami 定稿，只作皮膚顆粒參考）。只改裸露皮膚；腿、腳、絲襪不動。2k、thinking high，兩個強度各一張、各 2 點。
+- prompt（247「強」）：
+
+```
+Edit the first image. Keep everything in the first image exactly as it is: the woman's identity and face shape, her silver-grey hair, glasses, lipstick, the pose, composition, framing, lighting, the white shirt, the black skirt, the chair and the room, and especially the legs, feet and black stockings, which must not be touched at all. Make only one change: the bare skin of her face, neck, upper chest, arms and hands is still far too smooth, airbrushed like a beauty filter. Re-render that bare skin as real, unretouched skin, matching the skin grain of the woman in the second image: clearly visible pores on the nose, cheeks, forehead, neck and chest, natural skin micro-texture, fine photographic grain, soft natural highlights and realistic uneven skin tone, as seen at 100% zoom in an unretouched phone photo. No airbrushing, no beauty filter, no plastic or waxy look. Use the second image only as the reference for skin grain and pores; do not copy her face, features, hair, clothes or background. Do not change the shape of her face or body, do not change the legs, feet or stockings, do not add blemishes or wrinkles. No text, no watermark.
+```
+
+- prompt（248「更強」）：同上，但皮膚句改為 `Replace that bare skin with raw, completely unretouched real skin, matching and slightly exceeding the skin grain of the woman in the second image: strongly visible pores across the nose, cheeks, forehead, chin, neck, chest and arms, pronounced natural skin micro-texture, visible fine photographic grain and sensor noise, realistic uneven skin tone with faint natural redness, subtle fine lines where skin naturally creases, matte skin with only natural sheen, as in a raw high-resolution photo with zero retouching. Absolutely no airbrushing, no beauty filter, no smoothing, no plastic or waxy look.`（仍寫 do not add acne or blemishes）。
+
+| job | 強度 | 尺寸 | 結果 |
+|---|---|---|---|
+| 247 `8fdc1ad2-a0f3-4a84-b65b-f874e650ca8f` | 強 | 1696×2486 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_095953_8fdc1ad2-a0f3-4a84-b65b-f874e650ca8f.png |
+| 248 `6232cd67-bf0f-48ab-93c3-a4e89e420de5` | 更強 | 1792×2390 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_095959_6232cd67-bf0f-48ab-93c3-a4e89e420de5.png |
+
+- 看圖（100% 裁切：Nanami 基準／245／247／248）：**247** 臉、頸、胸口毛孔與顆粒清楚、膚色有層次、仍有自然光澤，身分、髮、眼鏡、口紅、腿、絲襪、鞋、構圖與 242 完全一致。**248** 顆粒更重，但模型違反指令加了雀斑斑點，且輸出被重新裁成 3:4（1792×2390），構圖跑掉，**否決**。
+- 經驗：Nano Banana 寫到「raw / sensor noise / zero retouching」會開始加斑點並改尺寸；「clearly visible pores + fine photographic grain + do not add blemishes」是可控上限。再要更粗，建議改用後製在皮膚區加顆粒，而不是再推模型。
+- 餘額 3222.24 → 3218.24；本批累計 37.32 點。
+- 定稿更新：**Wendy 形象照 v1 ＝ 242 系列，皮膚版本建議 job 247**，待製作師確認（245／246 備查，243／244／248 作廢）。
+
+### 先鋒四人狀態（追加 19 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **定稿 v1 ＝ 242 系列；皮膚版本建議 247，待製作師確認** |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
