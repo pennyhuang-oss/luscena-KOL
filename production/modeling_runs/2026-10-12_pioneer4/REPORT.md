@@ -170,3 +170,16 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | 第一版（job 9d1a1d00）待製作師參考圖後修 |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 身材補充（2026-10-12）
+
+四人罩杯（亞洲尺碼，胸圍減下胸圍推算；數字只寫進文件，prompt 用身形描述）：
+
+| 角色 | 身高 | 上圍／下胸圍 | 罩杯 |
+|---|---|---|---|
+| Wendy Yeo | 170 | 86／72 | C（70C） |
+| Kanon Komori | 155 | 84／68 | D（65D） |
+| Vicky Lin | 168 | 88／74 | C（75C） |
+| Nanami Fujiwara | 160 | 90／70 | E（70E） |
+
+- 十人裡目前沒有「巨乳小隻馬」。執行者提案 Mia Huang（152、65G）或 Somi Oh（156、F）；**製作師：先鋒四人以外的身材之後再決定，暫不定。**
