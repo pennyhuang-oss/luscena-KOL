@@ -685,3 +685,27 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 經驗：自家 soul_2 圖當參考時，要先把假介面裁掉（本機裁切上下邊再上傳，不扣點），否則 Seedream 會照抄。
 - 下一步提案（待製作師）：以 A 路為方向做第 3 版——(1) 先把 job 203 裁掉上下假介面後上傳當臉參考；(2) 鏡頭再退一點或改 4:5 內取景，寫明 `both feet fully inside the frame with margin`；(3) 上身多轉向鏡頭一點，讓胸部側面輪廓可見；(4) 出圖後用 Nano Banana 清玻璃殘影。1 張 1 點。
 - 餘額 3211.00 → 3209.00；本批累計 46.56 點。
+
+## 追加 25（2026-10-12）：Vicky 第 3 版（A 路，乾淨臉參考）
+
+- 製作師選 A 路（斜後方低角度）。
+- 修正追加 24 的失誤：job 203 本機裁掉上下假介面（1536×1700）後上傳為 media `8f6da636-0395-4995-a262-311d599e0205`，當臉、髮、上衣參考；不扣點。
+- 做法：Seedream 4.5 basic、3:4、1 張、1 點；image_references ＝ media 1216a1cc（教室與劈腿）＋ media 8f6da636（乾淨的 203）；Element 同前。prompt 在追加 24 的 A 路基礎上加：`pulled back far enough that her whole body including both feet is inside the frame with clear margin on every side`、`torso is rotated toward the camera more than her hips, so the side profile of her full, rounded, prominent bust is clearly visible`、`glass partitions and windows are clean, with no writing on them`；Avoid 加 cropped feet、cropped legs、username、icons。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 304 `1611f0a7-2768-4c91-8870-aad4388d61dc` | 1728×2304 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_110732_1611f0a7-2768-4c91-8870-aad4388d61dc.png |
+
+- 看圖：**假介面與浮水印殘影都沒了**；暗暖逆光、背弓、臀為主體、黑色光澤褲一體成形、汗光、馬尾、回頭看鏡頭都在，色氣方向成立。沒做到：**兩腳仍貼左右邊被切**（三版都切，3:4 直幅裝不下橫向一字馬是幾何問題，prompt 寫 margin 無效）；表情是帶齒微笑，介於「專注淡笑」與「不笑」之間；胸部側面輪廓被手臂擋住，看不太到。
+- 臉（Soul 身分照／302／304 裁切）：304 約七到八成像，眉、眼、曬色、唇接近；表情比 302 亮。
+- 腳被切的三個處理方式（待製作師）：(1) 用 `outpaint_image` 把 304 向外擴到 3:4（人縮小、兩腳進框），查價 2 點，不重畫人物；(2) 再出一張，鏡頭改放在她正後方偏一側、沿著腿的軸線拍，讓劈腿在畫面裡「前後」展開而非「左右」；(3) 接受切腳當風格。執行者建議先試 (1)，最省且不動臉與身體。
+- 餘額 3209.00 → 3208.00；本批累計 47.56 點。
+
+### 先鋒四人狀態（追加 25 後）
+
+| 角色 | 狀態 | 最終檔 |
+|---|---|---|
+| Nanami | 定稿 v1 去介面版 job 249 | `finals/nanami_v1_job249_f99e1364_clean.jpg` |
+| Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` |
+| Vicky | **劈腿版候選 job 304（A 路），腳被切待處理** | — |
+| Kanon | 小惡魔版作廢；地雷系版待出 | — |
