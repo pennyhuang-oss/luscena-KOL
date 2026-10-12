@@ -228,3 +228,55 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 
 - 看圖：兩版都做到：眼鏡、無金鍊、腿平滑無青筋、胸口多開一顆、裙上移露出蕾絲襪口、內褲藏在陰影、鞋在前景、冷眼俯視。臉：銀髮版較接近 Wendy 身分照；黑長直版臉略長。
 - 餘額 3253.84 → 3248.24；本批累計 7.32 點。版本由製作師選。
+
+## 追加 11（2026-10-12）：Wendy 銀灰髮版放下頭髮＋兩種手勢
+
+- 製作師選中銀灰短髮版（job 225）的構圖，要求：頭髮放下來、不要盤起；手勢改成「手放胸口」或「像在辱罵下屬」；表情再更高傲；腿的肌肉紋理再更美肌。
+- 做法：Seedream 4.5，image_references ＝ job 225 當底圖，prompt 放 Wendy face-only Element `19f44c28-fb6b-45e1-bd13-6b88a5223dd8`，只改髮型、手勢、表情、腿。3:4、basic，各 1 點。
+- prompt（227；228 只把手勢那句換成 `her right hand rests flat on her chest just below the collarbone with fingers spread, drawing the eye to her open collar`）：
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. Keep the reference image's composition, extreme low camera angle, crossed legs with the stiletto in the foreground, office at night, white shirt with cleavage, short black skirt with the lace tops of her sheer black stockings showing, thick black square-frame glasses, red lips. Change only these: her silver-grey hair is worn down and loose, a chin-length layered bob falling around her face, not slicked back, not tied; her right hand is raised with the index finger pointing down at the camera as if scolding a subordinate, her left hand rests on the armrest; her expression is more arrogant and contemptuous: chin raised high, eyes half-lidded looking down her nose at the camera, lips closed with a faint sneer; her legs are completely smooth and soft with an even beauty-filter finish, no veins, no muscle definition, no texture through the stockings; smooth glowing skin everywhere. No handbag, no anklet. Sharp, in focus. No nudity, no see-through fabric, no underwear visible. Avoid: hair tied or slicked back, smile, veins, muscular legs, anklet, handbag, text, watermark.
+```
+
+| job | 手勢 | 結果 |
+|---|---|---|
+| 227 `7b475d71-6b7b-4968-8271-527174c84862` | 右手食指朝鏡頭往下指（辱罵下屬） | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_090602_7b475d71-6b7b-4968-8271-527174c84862.png |
+| 228 `ac63e50a-09f9-45e0-8e42-0b76f14c2da2` | 右手平放胸口（鎖骨下方，紅指甲） | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_090603_ac63e50a-09f9-45e0-8e42-0b76f14c2da2.png |
+
+- 看圖：兩張都做到：頭髮放下（銀灰、及下巴的層次短髮）、黑框眼鏡、白襯衫開領露乳溝、極低角度翹腿、鞋在前景、腿平滑無青筋、表情比 225 高傲（下巴抬高、嘴角輕蔑）。**跑掉的地方：黑絲襪沒了**——227 變成白色／極淡的絲襪，228 變成膚色絲襪，兩張都只剩黑蕾絲襪口。推測是 prompt 裡「no texture through the stockings、completely smooth」被模型理解成把黑絲去掉。「高傲」程度中等，還不到冷笑輕蔑。
+- 處理：以 227、228 各自當底圖再修一次，prompt 只改「黑色透膚絲襪＋黑蕾絲襪口，從襪口到鞋內都是黑絲」，其他全部保留（見追加 12）。
+- 餘額 3248.24 → 3246.24；本批累計 9.32 點。
+
+### 製作師問：Seedream 是不是比單純用 Soul 更能接受參考圖？
+
+- 是。依追加 9 的並排測試：`soul_2`＋Soul＋參考圖（job 223）會把參考圖的人臉與服裝整個抄過來，Soul 身分和 prompt 裡的銀髮、眼鏡全部失效；Seedream 4.5＋`image_references`（job 224、225–228）幾乎照抄構圖，臉靠 face-only Element 撐住（約七成像，臉小時要放大核對）。
+- 分工：要照參考圖構圖、或要在既有圖上做局部修改 → Seedream 4.5＋Element＋image_references（1 點／張）；不需要參考圖、只要本人 → `soul_2`＋soul_id（0.12 點／張，身分最準，但細節指令常不聽、會加假社群介面）。
+
+## 追加 12（2026-10-12）：Wendy 兩種手勢補回黑絲襪
+
+- 目的：修正追加 11 跑掉的黑絲襪（製作師在追加 8 的硬性要求），其他全部保留。
+- 做法：Seedream 4.5，image_references 分別 ＝ job 227、job 228（各自當底圖），prompt 放 Wendy face-only Element，指令只改絲襪。3:4、basic，各 1 點。
+- prompt（229；230 的手勢句改為 `the right hand resting flat on her chest just below the collarbone with fingers spread`，並多寫 `red nails`）：
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. Keep the reference image exactly as it is: same composition, extreme low camera angle, crossed legs with the black stiletto in the foreground, office at night with city lights, white shirt open at the collar with cleavage, short black skirt, thick black square-frame glasses, red lips, silver-grey hair worn down in a loose chin-length layered bob, the right hand raised with the index finger pointing down at the camera as if scolding a subordinate, the left hand on the armrest, the same arrogant expression with chin raised and a faint sneer. Change only one thing: she is wearing sheer black nylon thigh-high stockings with black lace tops; the black sheer covers both legs from the lace tops all the way down to her feet inside the black stilettos; the legs under the black sheer are completely smooth and glossy with an even beauty-filter finish, no veins, no muscle definition. No nudity, no underwear visible. Sharp, in focus. Avoid: white stockings, nude-colored stockings, bare legs, veins, muscular legs, handbag, anklet, text, watermark.
+```
+
+| job | 手勢 | 底圖 | 結果 |
+|---|---|---|---|
+| 229 `4659f3ca-4f88-40a5-87a8-1515c388345a` | 右手食指朝鏡頭往下指（辱罵下屬） | job 227 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_091230_4659f3ca-4f88-40a5-87a8-1515c388345a.png |
+| 230 `d5520708-61a4-4d07-9fcf-eb516befd8c9` | 右手平放胸口（鎖骨下方，紅指甲） | job 228 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_091234_d5520708-61a4-4d07-9fcf-eb516befd8c9.png |
+
+- 看圖：兩張黑色透膚絲襪＋黑蕾絲襪口都回來了，從襪口到鞋內都是黑絲；腿平滑無青筋；頭髮放下、黑框眼鏡、白襯衫開領、極低角度、鞋在前景、辦公室夜景都與 227／228 一致。229 的指人手勢比 227 更往前伸向鏡頭，仍是食指朝下；230 除絲襪外與 228 幾乎相同。表情維持追加 11 的程度（下巴抬、嘴角輕蔑），沒有再加強。
+- 經驗：要保留絲襪時，prompt 不能寫「no texture through the stockings」這類會被當成「去掉絲襪」的句子；改寫成「the legs under the black sheer are smooth」才穩。
+- 餘額 3246.24 → 3244.24；本批累計 11.32 點。
+
+### 先鋒四人狀態（追加 12 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **候選定稿：job 229（指責下屬）／job 230（手放胸口），由製作師選手勢**；表情是否再加強待製作師 |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
