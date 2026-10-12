@@ -154,3 +154,19 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 - 結論：soul_2 連續五版都做不到「左手接筷子下方」「眼微瞇」這兩個細節，再抽只是碰運氣。
 - 建議改走「以第 4 版為底做局部修改」：用 Seedream 4.5 的 image_references 把第 4 版（job c55ea75e）當輸入，指令只改左手位置與眼神，臉和其餘畫面沿用，1 點。這樣臉是 Soul 的、細節是 Seedream 改的。
 - 本批累計 2.96 點。
+
+## 定稿（2026-10-12，製作師決定）
+
+- **Nanami Fujiwara（成熟溫柔少婦）形象照 v1 定稿：第 5 版**，job `6ed76f6b-0059-45b3-a17a-e272175ae5b3`（`soul_2`，2k，1536×2048）。
+  https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_083541_6ed76f6b-0059-45b3-a17a-e272175ae5b3.png
+- 製作師接受此版（左手未在筷子下、眼未瞇、背景有家電），不再修。
+- 已知待處理：soul_2 的假社群介面需裁切後才能發布。
+- 身分參考圖 A（臉）仍以 `2026-10-08_batch1` 的 Soul 為準；本張為第一張定稿形象照。
+
+### 先鋒四人狀態
+| 角色 | 狀態 |
+|---|---|
+| Nanami | **定稿 v1（job 6ed76f6b）** |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | 第一版（job 9d1a1d00）待製作師參考圖後修 |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
