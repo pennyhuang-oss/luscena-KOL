@@ -100,3 +100,24 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 
 - 觀察：這個 Soul 對「榻榻米」有偏好（訓練圖應該多在旅館），三版都自己加；soul_2 對「嘴型」與「另一手位置」的指令跟隨弱。換 Seedream＋Element 可能改善，待測。
 - 每張 0.12 點；本批累計 0.96 點（含 NSFW 退點後）。
+
+## 追加 3（2026-10-12）：Seedream 4.5 ＋ Element 對照
+
+- 製作師同意測一張。模型 `seedream_v4_5`（quality basic），prompt 開頭放 `<<<03dccd7d-7193-432a-8827-7919…>>>`（Nanami 的 Element `nanami-fujiwara-soul-v1-5img-20260904`，id `03dccd7d-7193-432a-8827-3f518ffc1cff`），其餘 prompt 與 soul_2 第 3 版相同。
+- job `c3a8cce7-5e81-44b2-b6cd-ac6fa1aa4dab`，completed，1 點，輸出 1728×2304。結果：https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_075731_c3a8cce7-5e81-44b2-b6cd-ac6fa1aa4dab.png
+- 餘額 3255.32 → 3253.84（1.48 ＝ Seedream 1 ＋ soul_2 四張 0.48）。本批累計 1.96 點。
+
+| 項目 | soul_2 第 3 版（0.12） | Seedream 4.5＋Element（1.0） |
+|---|---|---|
+| 臉像不像 | 很像（Soul 多張訓練） | 像七成：輪廓與眼神接近，臉頰更圓、眼型略不同，偏「通用美女」 |
+| 榻榻米／日式 | 又出現 | **沒有**：白牆、白磁磚 |
+| 俯角、露上圍、細肩帶 | 對 | 對 |
+| 手直伸到鏡頭 | 對 | 對 |
+| 另一手在筷子下方 | 沒有 | **有** |
+| 眼微瞇 | 沒有 | 沒有 |
+| 嘴「啊」 | 閉嘴笑 | 微張、小「啊」 |
+| 假社群介面 | 有 | **沒有** |
+| 清晰度 | 2k | 4K 級，更銳利 |
+
+- 結論：Seedream 指令跟隨與畫質明顯好、沒有假介面、沒有榻榻米；代價是臉的精準度下降、價格 8 倍。
+- 下一步建議：用 Seedream 當正式出圖模型，身分靠「Element ＋ 多張參考圖」補強——把各人 soul_2 身分測試的正面照（job id）一起放進 `image_references`，看臉能不能拉回來。
