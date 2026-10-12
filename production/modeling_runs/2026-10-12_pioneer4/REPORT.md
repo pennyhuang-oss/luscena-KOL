@@ -215,3 +215,16 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 - **B 路（Seedream＋Element＋參考圖）成功**：構圖幾乎等於姿勢圖（極低角度、鞋在前景、黑絲襪、白襯衫、無包、辦公室夜景、腿平滑），且銀灰短髮＋黑框眼鏡＋紅唇都在。臉在畫面裡小，身分精準度待放大核對。
 - 結論：之後「要照參考圖構圖」的需求走 B 路；「不需要參考圖」的走 soul_2。
 - 本批累計 5.32 點。
+
+## 追加 10（2026-10-12）：Wendy 兩個髮型版本（以製作師選的構圖為底）
+
+- 製作師選中的是 A 路那張（job 223：黑長直、無眼鏡、構圖最好），要求：拿掉腳上金鍊與青筋、肌肉紋理不要明顯（美肌）；再多露一點（胸口、裙下）；眼鏡加回；髮色做兩版比較（銀灰短髮 vs 黑長直）。
+- 做法：Seedream 4.5，image_references ＝ job 223 當底圖，prompt 放 Wendy face-only Element，只改指定項目。各 1 點。
+
+| job | 版本 | 結果 |
+|---|---|---|
+| 225 544d45d7-cafb-46aa-9aa7-32e31f541b59 | 銀灰短髮＋眼鏡 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_090015_544d45d7-cafb-46aa-9aa7-32e31f541b59.png |
+| 226 894ee9e9-d3b2-46e2-a0f4-43e2247f785d | 黑長直＋眼鏡 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_090015_894ee9e9-d3b2-46e2-a0f4-43e2247f785d.png |
+
+- 看圖：兩版都做到：眼鏡、無金鍊、腿平滑無青筋、胸口多開一顆、裙上移露出蕾絲襪口、內褲藏在陰影、鞋在前景、冷眼俯視。臉：銀髮版較接近 Wendy 身分照；黑長直版臉略長。
+- 餘額 3253.84 → 3248.24；本批累計 7.32 點。版本由製作師選。
