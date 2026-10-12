@@ -38,7 +38,28 @@
       "Bash(echo *)",
       "Bash(sort *)",
       "Bash(file *)",
-      "Bash(du *)"
+      "Bash(du *)",
+      "SendUserFile",
+      "ToolSearch",
+      "WebFetch",
+      "WebSearch",
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(git checkout *)",
+      "Bash(git switch *)",
+      "Bash(git merge *)",
+      "Bash(git stash *)",
+      "Bash(git rm *)",
+      "Bash(git mv *)",
+      "Bash(mv *)",
+      "Bash(rm -f *)",
+      "Bash(tr *)",
+      "Bash(xargs *)",
+      "Bash(date *)",
+      "Bash(which *)",
+      "Bash(pwd *)",
+      "Bash(true *)"
     ]
   }
 }

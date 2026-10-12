@@ -531,3 +531,34 @@ Edit the first image. Keep everything in the first image exactly as it is: the w
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **定稿 v1 ＝ 242 系列；皮膚版本建議 247，待製作師確認** |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 20（2026-10-12）：Wendy 定稿 247；Nanami 定稿去假社群介面；最終檔進 repo；交接
+
+- 製作師決定：**Wendy 形象照 v1 定稿 ＝ job 247**（`8fdc1ad2-a0f3-4a84-b65b-f874e650ca8f`）。
+- 製作師要求：前一張定稿（Nanami v1，job 6ed76f6b，soul_2 自帶假社群介面）把浮水印拿掉；最終檔先上傳 GitHub；接著開新 session 交接。
+- Nanami 去介面：Nano Banana 2.1，image_references ＝ job 6ed76f6b，2k、thinking high，2 點。prompt：
+
+```
+Edit the image. Remove all the social-media interface overlays: the round avatar icon and the username text at the top left, the small square icon at the top right, the round avatar icon and the text at the bottom left, and the paper-plane send icon at the bottom right. Fill those areas seamlessly with the surrounding background (the ceiling and wall at the top, the table, bowls and plates at the bottom). Keep everything else in the image exactly as it is: the woman, her face, expression, hair, pose, the chopsticks and food, her clothing, the room, the framing and colors. No text, no icons, no logos, no watermark, no border.
+```
+
+| job | 結果 |
+|---|---|
+| 249 `f99e1364-a8c9-46a6-8a1b-f8fdb93e7ad5` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_100422_f99e1364-a8c9-46a6-8a1b-f8fdb93e7ad5.png |
+
+- 看圖（前後並排＋上下邊 100% 裁切）：上下四個圖示與文字全部清除並補上天花板、牆面、桌面與盤子；人物、表情、筷子、食物、構圖不變；輸出 1792×2390（同 3:4，放大到 2k）。
+- 最終檔進 repo（JPEG 品質 95、全解析度；PNG 原檔以上表 URL 為準）：
+  - `finals/wendy_v1_job247_8fdc1ad2.jpg`（1696×2486）
+  - `finals/nanami_v1_job249_f99e1364_clean.jpg`（1792×2390）
+- 交接文件：`HANDOFF_2026-10-12.md`（現況、工具結論、製作師決定、下一步、新 session 權限）。
+- 允許清單再補：SendUserFile、ToolSearch、WebFetch／WebSearch、Read／Glob／Grep、git checkout／switch／merge／stash／rm／mv、mv、rm -f、tr、xargs、date、which、pwd、true（共 59 條）。
+- 餘額 3218.24 → 3216.24；本批累計 39.32 點（10/12 全日：3253.84 → 3216.24，37.60 點，與逐輪加總差異為 Seedream 姿勢圖等已記錄項目的四捨五入）。
+
+### 先鋒四人狀態（追加 20 後）
+
+| 角色 | 狀態 | 最終檔 |
+|---|---|---|
+| Nanami | **定稿 v1 去介面版 job 249** | `finals/nanami_v1_job249_f99e1364_clean.jpg` |
+| Wendy | **定稿 v1 job 247** | `finals/wendy_v1_job247_8fdc1ad2.jpg` |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 | — |
+| Kanon | 小惡魔版作廢；地雷系版待出 | — |
