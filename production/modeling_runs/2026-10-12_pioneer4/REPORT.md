@@ -645,3 +645,23 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | **定稿 v2 job 252** | `finals/wendy_v2_job252_db476121.jpg` |
 | Vicky | 空中瑜伽版（job 6e71f97e）待定 | — |
 | Kanon | 小惡魔版作廢；地雷系版待出 | — |
+
+## 追加 23（2026-10-12）：Vicky 劈腿形象照 第 1 版（依製作師參考圖）
+
+- 製作師指示與規格（先確認再出圖）：參考圖為皮拉提斯教室一字馬對鏡自拍（製作師提供，橫幅 1170×800，含 kbj98.com／SULTLLUV 浮水印，來源與權利不明；依追加 14 決定直接餵平台，由平台把關）。要求：不拿手機、自然在做運動；改 3:4 直幅，用斜角讓腿不被切；前凸後翹；上衣照 job 203（黑色運動內衣）、下身黑色微透瑜伽褲；表情專注帶一點笑；髮型照 job 203 高馬尾。
+- 參考圖上傳：media `1216a1cc-6c92-42f0-ad58-3185fe532b78`（`vicky_ref_split.jpg`），圖檔不進 repo。
+- Vicky 的 Element：`Vicky Lin` `325284ce-670c-4efd-a8a9-2773ad0c53f7`（帳號裡沒有 Vicky 的 face-only 版）。
+- 做法：Seedream 4.5 basic、3:4、count 1、1 點。image_references ＝ media 1216a1cc（姿勢與場景）＋ job 203 `51dd9c69`（臉、髮型、上衣）。prompt：
+
+```
+<<<325284ce-670c-4efd-a8a9-2773ad0c53f7>>> is the woman in this photo. Portrait-orientation 3:4 photo of her doing a full front split on a purple yoga mat in a bright Pilates studio, as in the first reference image: the same studio with the wooden reformer, frosted glass partitions, Bosu ball and the pink and yellow exercise balls, soft daylight. Use the first reference only for the pose and the room. Change the camera: shoot from the front-side at about a 45-degree diagonal, camera at hip height, so that her split legs run diagonally across the frame from the lower-left foreground toward the upper right and both legs are fully inside the frame, nothing cropped. No phone, no mirror selfie: she is simply stretching, both hands resting on the mat in front of her front leg, upper body turned slightly toward the camera. Her figure is curvy and athletic: full bust pushed forward, lower back arched inward, round lifted hips, strong smooth thighs, tanned skin. She looks like the woman in the second reference image: the same face, the same high ponytail with a few loose strands, the same black scoop-neck sports bra. Bottom: black high-waisted yoga leggings in a thin slightly sheer stretch fabric with a soft matte sheen, opaque enough that no skin or underwear shows through. Expression: focused on the stretch with a small soft smile, eyes toward the camera. Beauty-camera look: smooth glowing flattering skin, soft warm light, slightly airy highlights. Sharp, in focus. Avoid: phone, mirror, selfie, text, watermark, logo, caption, UI overlay, social media interface, see-through fabric, nudity, extra limbs, cropped feet.
+```
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 301 `620c6307-4d0e-48a7-95b5-7648708de519` | 1728×2304 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_105521_620c6307-4d0e-48a7-95b5-7648708de519.png |
+
+- 看圖：做到——一字馬、沒有手機與鏡子、手撐墊子、黑運動內衣、黑色微透瑜伽褲（腿上有薄透光澤）、高馬尾、教室與器材（reformer、Bosu、粉黃球）、紫墊、沒有浮水印、沒有假介面。沒做到——**鏡位仍是側面平拍，腿橫向貫穿畫面，左右兩隻腳都被切掉**（這是本輪主要要求）；表情是露齒大笑，不是「專注帶一點笑」；前凸後翹程度中等。
+- 臉（與 Soul 身分照、job 203 並排 100% 裁切）：眉型、眼型、曬色、唇形接近，執行者判讀約七到八成像；臉在畫面裡小，膚色比 Soul 略淺、唇略薄。可用 Nano Banana 以 job 203 當臉來源換回。
+- 下一步提案（待製作師）：第 2 版把鏡位寫得更具體——鏡頭放在她前腿腳尖的斜前方、略高於地面，前腿腳在畫面下方前景、後腿往畫面深處延伸，兩腳都在框內；表情改寫為 `lips closed, faint smile, eyes on the camera, focused`。仍用 Seedream＋Element＋同兩張參考，1 張 1 點。
+- 餘額 3212.00 → 3211.00；本批累計 44.56 點。
