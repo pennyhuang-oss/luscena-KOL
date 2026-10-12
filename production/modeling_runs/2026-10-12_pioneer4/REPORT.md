@@ -819,3 +819,5 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 經驗：Nano Banana 對「整件透膚」會自動收斂成「拼接透膚」；要整件透得更強勢描述（例如 `the entire garment is uniformly transparent`），風險是平台擋圖。
 - 可選方向（待製作師）：(a) 接受 311 當「透膚版」備用圖；(b) 再推一輪整件透；(c) 停在 309 定稿。
 - 餘額 3196.00 → 3194.00；本批累計 61.56 點。
+
+- 製作師看 311 後：**否決**（「這張不好」）。透膚拼接的方向不採用；Vicky 定稿維持 309。
