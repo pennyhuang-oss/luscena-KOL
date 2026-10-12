@@ -439,3 +439,36 @@ Edit the first image. Keep everything in the first image exactly as it is: the p
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **候選定稿 job 241／242（Nano Banana 2.1，以製作師照片為底）**，待製作師選 |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 17（2026-10-12）：Wendy 定稿 242，裸露皮膚的美肌稍微收回
+
+- 製作師決定：**242 定稿**。要求：皮膚紋理現在美肌太多，修回來一點，但只修裸露在外的皮膚（臉、頸、胸口、手臂、手）；腿和腳不要動（之前的美肌主要是為了腿的青筋與肌肉紋理）。
+- 做法：Nano Banana 2.1，image_references ＝ job 242，兩個程度各一張：243 輕（slightly more natural）、244 中（clearly more natural, photographic）。2k、thinking high、aspect auto，各 2 點。
+- prompt（243；244 只把紋理那句改成 `give it a clearly more natural, photographic skin texture: visible fine pores, natural skin detail, realistic subsurface tone and gentle highlights, like a good portrait photo with light retouching, still flattering`）：
+
+```
+Edit the image. Keep everything exactly as it is: the pose, composition, framing, lighting, the white shirt, the black skirt, the hair, the glasses, the lipstick, the chair and the room, and especially the legs, feet and black stockings, which must not be touched at all. Make only one change: the bare skin of her face, neck, upper chest, arms and hands currently looks over-smoothed by a beauty filter; restore a slightly more natural skin texture there: fine pores and subtle natural skin detail with gentle highlights, still clean, flattering and photogenic, not harsh. Do not change the shape of her face or body, do not change the legs, feet or stockings, do not add blemishes, wrinkles or veins. No text, no watermark.
+```
+
+| job | 程度 | 結果 |
+|---|---|---|
+| 243 `eb647a2b-8283-4c62-ae16-f90691ce07f0` | 輕 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_095242_eb647a2b-8283-4c62-ae16-f90691ce07f0.png |
+| 244 `aae13955-0338-4dec-aa46-c387b581a5d5` | 中 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_095307_aae13955-0338-4dec-aa46-c387b581a5d5.png |
+
+- 看圖（臉與胸口 100% 裁切比對 242／243／244）：243 臉部出現細微毛孔與自然光澤、胸口略增紋理，整體仍乾淨；244 毛孔與皮膚細節明顯，臉頰與胸口帶油光感。兩張的腿、絲襪、鞋、構圖與 242 完全一致，沒有被動到。
+- 餘額 3230.24 → 3226.24；本批累計 29.32 點。
+
+## 定稿（2026-10-12，製作師決定）：Wendy
+
+- **Wendy Yeo（冷艷女上司）形象照 v1 ＝ job 242 系列**（Nano Banana 2.1，以製作師提供的照片為底換臉與修細節，追加 16）；皮膚修正版 **243（輕）／244（中）由製作師選程度**，選定後即為最終檔。1696×2486，無白邊、無浮水印，可直接發布或裁切。
+- 素材登記：底圖為製作師提供的真人照（來源與權利不明），製作師於追加 14 決定直接使用、由平台把關；輸出人物為 Wendy 虛擬角色（臉與髮型來源 job 229）。發布前的權利風險由製作師與客戶承擔，執行者已記錄並說明。
+- 工具分工（本日結論）：以指定照片為底只改部位 → Nano Banana 2.1（2 點）；重畫新構圖 → Seedream 4.5＋Element（1 點）；只要本人、不需參考圖 → soul_2（0.12 點）。
+
+### 先鋒四人狀態（追加 17 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **定稿 v1 ＝ 242 系列；皮膚程度 243／244 待製作師選** |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
