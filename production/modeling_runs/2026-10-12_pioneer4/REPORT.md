@@ -121,3 +121,18 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 
 - 結論：Seedream 指令跟隨與畫質明顯好、沒有假介面、沒有榻榻米；代價是臉的精準度下降、價格 8 倍。
 - 下一步建議：用 Seedream 當正式出圖模型，身分靠「Element ＋ 多張參考圖」補強——把各人 soul_2 身分測試的正面照（job id）一起放進 `image_references`，看臉能不能拉回來。
+
+## 追加 4（2026-10-12）：純文字生圖驗 prompt（不用 Soul／Element）
+
+- 製作師要求：先不用角色建模，純 t2i 在 Seedream 與 GPT 各出一張，驗「餵鏡頭」prompt 本身對不對。
+- prompt 依 `REFS_FEEDING_POV_2026-10-12.md` §D 的公式寫：POV、鏡頭略高俯 30°、右手直伸到鏡頭、筷子夾菜在前景、左手在筷子下接、眼瞇帶笑、嘴小「啊」、台式公寓餐桌、細肩帶背心、美顏感。
+
+| job | 模型 | 狀態 | 結果 |
+|---|---|---|---|
+| 401 `f45039f6-367e-4957-8fbf-4dfb28577db0` | seedream_v4_5 basic | completed（1 點） | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_082439_f45039f6-367e-4957-8fbf-4dfb28577db0.png |
+| 402 `e22a4a0e-b790-4976-9874-1816ed7775f7` | gpt_image_2 high 1k | **nsfw（被擋）** | — |
+| 403 `8659ca6b-1454-4df4-a310-dfaa6e601af7` | gpt_image_2 high 1k，拿掉 cleavage／prominent bust 字眼 | **nsfw（仍被擋）** | — |
+
+- Seedream 401 看圖：POV 成立；右手直伸到鏡頭、筷子夾菜佔前景、左手掌心朝上在下方接、眼睛瞇、暖色美顏感、白牆白磁磚、細肩帶背心——都對。沒對的：嘴是露齒笑不是「啊」；鏡頭偏低（略仰）不是俯 30°；前景手部透視極端、筷子握法怪；牆上有粉紅色光。
+- GPT Image 2 兩次都被 NSFW 擋（第二次已把身材字眼拿掉仍擋），這個「細肩帶＋餵食 POV＋美顏」的概念在 GPT 上過不了；要驗 GPT 得把衣服改成完全保守（T 恤），但那就不是同一張圖。
+- 結論：prompt 在 Seedream 上成立，可以進入「加 Element 維持身分」的階段；GPT 不適合這條線。
