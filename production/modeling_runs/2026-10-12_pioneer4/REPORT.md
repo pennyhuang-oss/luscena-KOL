@@ -312,3 +312,71 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 
 - 允許清單在 `.claude/settings.json`（commit 6675c99 起，本次再補 git fetch／pull／branch／ls-remote／show、curl、head、tail、find、cut、echo、sort、file、du）。雲端 session 只在開始時讀這個檔，所以本 session 仍會問；**從 `producer/modeling-r1` 分支新開 session 才生效**（main 上沒有這個檔）。
 - 模式選單選「自動」提示最少；「接受編輯」只免問檔案修改。
+
+## 追加 14（2026-10-12）：製作師決定把真人參考圖直接餵進 Seedream；以 231 為底改腿腳與眼神
+
+### 決定紀錄
+- 製作師指示（原話）：「你不要自己擋，你把權限都交給 Higgsfield。」即：參考圖是否能用由平台把關，執行者不再依「真人／權利不清的參考圖不進生成」自行攔下。此決定由製作師做出，執行者已說明該規則來源與風險（追加 13）。
+- 參考圖登記：`wendy_ref2_producer.png`（318×466，製作師 2026-10-12 提供的真人照，來源與權利不明），上傳 Higgsfield media `e960969a-31ce-4ee7-84bb-8310a5008742`，只作姿勢／眼神參考，臉由 Wendy face-only Element 取代。平台未拒絕上傳與生成。圖檔不進 repo。
+- 製作師要求：以 231 為底；腿腳姿勢要與參考圖一樣；眼神往下、往正前方，等於往前下方俯視。
+
+### 第 1 輪：233／234（231 ＋ 真人照，count 2，各 1 點）
+- medias：image_references ＝ job 231（底圖）、media e960969a（姿勢參考）。
+- prompt：
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. The first reference image is the base: keep it as it is: the same woman, her silver-grey hair worn down in a loose chin-length bob, thick black square-frame glasses, red lips, the white shirt with its collar open exactly as it is (the same buttons undone, the same cleavage, do not change the shirt), the short black skirt, the sheer black thigh-high stockings with black lace tops, the black stilettos, her right hand raised to her temple with the elbow on the armrest, her left arm resting on the other armrest, the office at night with the desk lamp and city lights, the same extreme low camera angle from the floor. The second reference image is only a pose reference: copy from it exactly the position of her legs and feet: which leg is extended straight toward the camera, the angle of that leg, the foot in the sheer black stocking pointed at the camera in the lower-left foreground with the black stiletto slipped off her heel and hanging from her toes, and the position of the other leg and foot; and copy its gaze: her eyes cast downward, looking straight ahead and down at the camera below her, eyelids lowered, cold and bored, head upright and facing forward, not tilted. Do not copy the second image's face, clothes, chair or room. Legs smooth and glossy under the black sheer, no veins, no muscle definition. No nudity, no underwear visible. Sharp, in focus. Avoid: smile, eyes looking up or to the side, head tilted, both shoes fully on the feet, bare legs, nude stockings, shirt buttoned differently, handbag, text, watermark.
+```
+
+| job | 結果 |
+|---|---|
+| 233 `580fa048-7af9-40f2-961d-9f8145d2a797` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_092941_580fa048-7af9-40f2-961d-9f8145d2a797.png |
+| 234 `8f854570-872a-476f-bf4f-3bbeff27949a` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_092941_8f854570-872a-476f-bf4f-3bbeff27949a.png |
+
+- 看圖：腿伸直向鏡頭、腳底朝鏡頭 ✅；但**眼睛閉成一條線**、**鞋子整隻掉在地上**（234 還多一條金鍊）；而且把參考圖的灰色扶手椅、磁磚地、桌邊包包、**底部浮水印文字**一起抄過來。製作師看圖回饋：眼睛變閉起來、鞋子跑掉，鞋要「一半套在上面」。
+
+### 第 2 輪：235／236（233 ＋ 真人照，count 2，各 1 點）
+- 只改兩處：眼睛睜開、視線往前下方看鏡頭；鞋半套在腳尖。prompt 另要求去包包、去底部文字。
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. The first reference image is the base: keep it as it is: the same woman, her silver-grey hair worn down, thick black square-frame glasses, red lips, the white shirt with its collar open exactly as it is (the same buttons undone, do not change the shirt), the short black skirt, the sheer black thigh-high stockings with lace tops, her right hand raised to her temple, her left hand resting on the armrest, the chair, the room, the night window, the desk lamp, the same extreme low camera angle, her right leg extended straight at the camera with the stockinged foot large in the lower-left foreground, her left foot in its black stiletto on the floor. Change only two things, using the second reference image as the guide for both: (1) her eyes are open with the irises clearly visible, gaze lowered, looking straight ahead and down at the camera below her, eyelids relaxed, not closed, not squinting, a cold bored look, lips closed; (2) the black stiletto of the extended right foot is half on: her toes are still inside the front of the shoe, the heel of her foot has slipped out of the back, and the shoe hangs tilted downward from her toes with its stiletto heel pointing at the floor; the shoe is not lying on the floor and not fully on. No handbag or bag anywhere, no chain, no text or caption anywhere in the image. Legs smooth under the black sheer, no veins. No nudity, no underwear visible. Sharp, in focus. Avoid: closed eyes, squinting, smile, shoe lying on the floor, shoe fully on the foot, bare feet without stockings, bag, chain, text, watermark.
+```
+
+| job | 結果 |
+|---|---|
+| 235 `d7b97fde-ec8a-4f5d-b391-82bdc2bf88cc` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_093311_d7b97fde-ec8a-4f5d-b391-82bdc2bf88cc.png |
+| 236 `aa0112c7-3de3-4a70-b135-2cd057f2a9ec` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_093311_aa0112c7-3de3-4a70-b135-2cd057f2a9ec.png |
+
+- 看圖：眼睛睜開、往前下方看 ✅；**鞋仍在地上**（236 翻倒）；只要真人照還在 medias 裡，底部浮水印文字和包包就一直被抄回來。
+
+### 第 3 輪：237／238（235 為底，不再附真人照，count 2，各 1 點）
+- 只用文字描述「鞋從腳跟滑出、掛在腳尖、鞋跟朝下懸空」，並要求去包包、去底部文字。
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. Keep the reference image as it is: the same woman, her silver-grey hair worn down, thick black square-frame glasses, red lips, her open eyes looking down at the camera, the white shirt with its collar open exactly as it is (do not change the shirt), the short black skirt, the sheer black thigh-high stockings with lace tops, her right hand at her temple, her left hand on the armrest, the grey armchair, the desk lamp, the night window, the tiled floor, the extreme low camera angle, her right leg extended straight toward the camera with the stockinged foot in the lower-left foreground, her left foot in its black stiletto on the floor. Change only this: the black stiletto pump that was lying on the floor is now hanging from her extended right foot: her toes are inside the front of the pump, the back of the pump has slipped off her heel, and the pump dangles from her toes, pointing down toward the floor with its thin heel hanging in the air; nothing lies on the floor in front of her. Also remove the bag on the desk at the right edge and remove the caption text along the bottom edge; the bottom of the image is just the tiled floor. Legs smooth under the black sheer, no veins. No nudity, no underwear visible. Sharp, in focus. Avoid: shoe lying on the floor, shoe fully on the foot, closed eyes, smile, bag, chain, text, caption, watermark.
+```
+
+| job | 結果 |
+|---|---|
+| 237 `a382f3ff-dbba-46f2-9389-d23e65359a94` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_093614_a382f3ff-dbba-46f2-9389-d23e65359a94.png |
+| 238 `6d28e309-e05c-4a6f-a4ae-05a40948df65` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_093611_6d28e309-e05c-4a6f-a4ae-05a40948df65.png |
+
+- 看圖：**237 達標**——鞋掛在伸出的腳尖、鞋跟朝下懸空、眼睛睜開往前下方俯視、底部文字與包包都消失、黑絲與襯衫未動、手撐太陽穴。238 鞋也掛在腳尖，但地上多出一隻鞋。
+- 與 231 相比的差異（來自真人照）：椅子從辦公椅變成灰布扶手椅＋深色皮椅背、地板變磁磚；製作師看第 1 輪時未反對，暫視為接受，若要換回辦公椅可再一輪。
+
+### 經驗
+- 真人照當第二張參考：姿勢抄得到，但椅子、地板、包包、**浮水印文字**也會一起進來；要用時盡量用無浮水印、背景乾淨的圖，或抄完姿勢後再做一輪「不附參考圖」的清理。
+- 「鞋半套在腳尖」靠參考圖兩輪都沒成，改成純文字描述（toes inside the front of the pump, back slipped off the heel, pump dangles from her toes, heel hanging in the air）一輪就成。
+- 「eyes cast downward, eyelids lowered」會被做成閉眼；要寫「eyes open, irises visible, gaze lowered」。
+
+- 候選定稿改為 **job 237**，待製作師確認。
+- 餘額 3242.24 → 3236.24（本段 6 點）；本批累計 19.32 點。
+
+### 先鋒四人狀態（追加 14 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **候選定稿 job 237**，待製作師確認 |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
