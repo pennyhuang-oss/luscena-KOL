@@ -24,7 +24,21 @@
       "Bash(sed *)",
       "Bash(awk *)",
       "Bash(grep *)",
-      "Bash(test *)"
+      "Bash(test *)",
+      "Bash(git fetch *)",
+      "Bash(git pull *)",
+      "Bash(git branch *)",
+      "Bash(git ls-remote *)",
+      "Bash(git show *)",
+      "Bash(curl *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(find *)",
+      "Bash(cut *)",
+      "Bash(echo *)",
+      "Bash(sort *)",
+      "Bash(file *)",
+      "Bash(du *)"
     ]
   }
 }

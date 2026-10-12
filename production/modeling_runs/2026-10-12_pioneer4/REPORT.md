@@ -280,3 +280,35 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **候選定稿：job 229（指責下屬）／job 230（手放胸口），由製作師選手勢**；表情是否再加強待製作師 |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 13（2026-10-12）：Wendy 依製作師第二張參考圖改手、腳、表情
+
+- 製作師提供第二張「女上司」參考圖（真人照：坐辦公椅、右手撐太陽穴、左臂放扶手、一腿伸直向鏡頭、黑絲、高跟鞋從腳跟滑落掛在腳尖、紅唇、俯視冷淡）。要求：手、腳、表情照參考；襯衫開口與扣子維持 229／230 現狀。**圖片只轉成文字，不進生成**（真人、權利不明；依 2026-10-08 交接規則：權利不清或真人的參考圖不進生成與訓練）。
+- 製作師指示：之後固定用 Seedream 4.5＋Wendy face-only Element（製作師稱「Seedream 加 Soul」），做完臉跑掉再細修。
+- 做法：Seedream 4.5，image_references 分別 ＝ job 229、230 當底圖，prompt 放 Element，只改姿勢與表情。3:4、basic，各 1 點。
+- prompt（231；232 相同，只多寫 `red nails`）：
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. Keep the reference image: the same woman, the same office at night with the desk lamp and city lights, the same white shirt with its collar open exactly as it is now (the same buttons undone, the same amount of cleavage, do not change the shirt), the same short black skirt, the same sheer black thigh-high stockings with black lace tops, the same black stilettos, the same silver-grey hair worn down in a loose chin-length bob, the same thick black square-frame glasses, the same red lips, the same extreme low camera angle from the floor. Change only her pose and her expression: she leans back in the office chair with her right elbow on the armrest and her right hand raised to her temple, index and middle fingers resting against the side of her head; her left forearm lies along the other armrest with the hand hanging relaxed over its end; her right leg is extended straight toward the camera so her foot in the sheer black stocking fills the lower-left foreground, the black stiletto slipped off her heel and dangling from her toes; her left leg is crossed underneath, that foot still in its stiletto. Her expression is cold, bored contempt: head tilted slightly to the side, chin up, eyes narrowed looking down her nose at the camera, red lips closed, no smile. Legs smooth and glossy under the black sheer, no veins, no muscle definition. No nudity, no underwear visible. Sharp, in focus. Avoid: smile, pointing finger, hand on chest, both shoes fully on, bare legs, shirt buttoned differently, handbag, anklet, text, watermark.
+```
+
+| job | 底圖 | 結果 |
+|---|---|---|
+| 231 `ca65f299-b7a7-4323-add2-3efcc0df7583` | job 229 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_091726_ca65f299-b7a7-4323-add2-3efcc0df7583.png |
+| 232 `f130c333-387e-40cd-ace2-bbc483c23db1` | job 230 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_091731_f130c333-387e-40cd-ace2-bbc483c23db1.png |
+
+- 看圖：**231 達標**——右手撐太陽穴（指尖在鏡腳旁）、左臂沿扶手垂放、右腿伸直向鏡頭、高跟鞋從腳跟滑落掛在腳尖、黑絲＋蕾絲襪口、襯衫開口與扣子同 229、銀灰髮放下、黑框眼鏡、表情冷淡帶輕蔑。**232 失敗**——黑絲又變膚色、椅側多出黑色包包、鞋穿在腳上沒有掛著；表情雖更仰更傲，整體不合格。
+- 經驗：以 230（手放胸口）為底做大幅改姿勢，模型容易連配件一起改掉；之後改姿勢一律以 229／231 這條線為底圖。
+- 候選定稿改為 **job 231**（取代追加 12 的 229／230 手勢選擇），待製作師確認；表情要更輕蔑可再修一輪。
+- 餘額 3244.24 → 3242.24；本批累計 13.32 點。
+
+### 製作師問：用 Seedream 為什麼不把參考圖直接放進去？
+
+- Seedream 技術上可以收參考圖（image_references，追加 9 已證實）。沒放是因為這張是真人照片、權利不明：交接規則是「權利不清或真人的參考圖不進生成與訓練」，也避免觸及 Higgsfield 對真人肖像的條款。
+- 替代做法（追加 9 用過）：把參考圖轉成文字，先用純文字生成一張自家姿勢圖（無身分、權利清楚，1 點），再把它當 image_references 餵給 Seedream＋Element。這次純文字直接改就達標，沒多花這一步；之後若文字改不到位，就補這一步。
+- 若製作師要改這條規則（例如確認照片是自家拍攝、模特兒已同意），請明說；我會把決定與依據寫進報告後再執行。
+
+### 權限提示（製作師再問）
+
+- 允許清單在 `.claude/settings.json`（commit 6675c99 起，本次再補 git fetch／pull／branch／ls-remote／show、curl、head、tail、find、cut、echo、sort、file、du）。雲端 session 只在開始時讀這個檔，所以本 session 仍會問；**從 `producer/modeling-r1` 分支新開 session 才生效**（main 上沒有這個檔）。
+- 模式選單選「自動」提示最少；「接受編輯」只免問檔案修改。
