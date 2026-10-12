@@ -562,3 +562,39 @@ Edit the image. Remove all the social-media interface overlays: the round avatar
 | Wendy | **定稿 v1 job 247** | `finals/wendy_v1_job247_8fdc1ad2.jpg` |
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 | — |
 | Kanon | 小惡魔版作廢；地雷系版待出 | — |
+
+## 追加 21（2026-10-12，新 session）：Wendy 定稿的臉是否跑掉——用 Soul 對照
+
+- 製作師指示：先用 Soul，確認 Wendy 定稿（job 247）的臉有沒有跑掉。
+- 做法：`soul_2`＋Wendy `soul_id` `cb91c63f-0fa2-4c8f-94b2-a70a00acdbaf`，出兩張與定稿同造型的近景（銀灰 bob 放下、黑框眼鏡、紅唇、白襯衫、辦公室夜景、鏡頭略低俯視），3:4、2k，count 2，各 0.12 點。再加上 10/08 身分測試正面照（job `0b64c3a7`）當基準，與 job 229（Seedream＋Element）、job 242（Nano Banana 真人照為底）、job 247（定稿）做臉部 100% 裁切並排。
+- prompt：
+
+```
+Close-up portrait of this woman, head and shoulders filling the frame, 28 years old. Silver-grey hair worn down in a loose chin-length layered bob, thick black square-frame glasses, soft red lips. White shirt with the collar open. Office at night, a warm desk lamp on one side, city lights blurred behind her. Camera below her eye level looking up; she looks down at the camera with a cold, bored expression, eyes open, chin raised slightly, lips closed, no smile. Face sharp and in focus, large in the frame. Keep her face exactly the same person. Smooth flattering skin. Avoid: smile, closed eyes, text, watermark, UI overlay, social media interface.
+```
+
+| job | 結果 |
+|---|---|
+| 250 `e3d0ca3e-8fa5-42b3-8d53-7bcc4cf35795` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_101124_e3d0ca3e-8fa5-42b3-8d53-7bcc4cf35795.png |
+| 251 `c01de148-d6da-4fc1-8a3f-8b408237fc2d` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_101124_c01de148-d6da-4fc1-8a3f-8b408237fc2d.png |
+
+- 看圖（執行者判讀，由製作師定）：**定稿 247 的臉已偏離 Soul**。
+  - Soul 基準（身分照＋250／251 三張一致）：臉型較長的鵝蛋臉、顴骨平寬、眉形自然平直、杏眼中等大小有雙眼皮、鼻樑中等寬、下唇飽滿、下巴圓潤。soul_2 加了眼鏡與銀髮之後仍是同一個人，Soul 本身穩。
+  - job 229（Seedream＋face-only Element）：已開始偏——眼睛變細長帶眼線、下巴變尖，偏「通用美女」，約七成像（與追加 3、9 的觀察一致）。
+  - job 242 → 247（Nano Banana，以真人照為底換臉）：偏得更多——下半臉變短、臉變圓、眼睛更細且上挑、下巴尖成 V 形、嘴唇變薄、臉頰較飽滿；是真人照原本那位與 Wendy 的混合，估約五到六成像。皮膚修正（243–247）沒有再改變五官。
+  - 結論：跑掉的主因是「以真人照為底換臉」這一步（Nano Banana 保留了原照片的臉部結構），Seedream 那一步也先丟了一部分。
+- 可行的修法（提案，等製作師決定，未執行）：
+  1. Nano Banana 2.1：以 247 為底，第二張放 job 250 或 251（Soul 近景）當臉的來源，指令「只把臉換成第二張的人，髮型、眼鏡、姿勢、衣服、背景全部不動」，2 點／張。保留定稿構圖，臉拉回 Soul。
+  2. 若 1 仍不夠像：先用 soul_2 出一張同角度（低角度俯視）的臉，再用它當第二張參考做 1。
+  3. 重新定義：接受 247 為 Wendy 的新臉（之後所有 Wendy 圖都以 247 當臉參考而非 Soul）。不建議，因為 Soul 才是十人身分測試與型錄的基準，且 247 的臉來自權利不明的真人照。
+- 對照圖：執行者端 `wendy_face_check_sheet.jpg`（六格臉部裁切），已傳給製作師，不進 repo。
+- 餘額 3216.24 → 3216.00；本批累計 39.56 點。
+
+### 先鋒四人狀態（追加 21 後）
+
+| 角色 | 狀態 | 最終檔 |
+|---|---|---|
+| Nanami | 定稿 v1 去介面版 job 249 | `finals/nanami_v1_job249_f99e1364_clean.jpg` |
+| Wendy | 定稿 v1 job 247，**臉與 Soul 不符，待製作師決定是否拉回** | `finals/wendy_v1_job247_8fdc1ad2.jpg` |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定 | — |
+| Kanon | 小惡魔版作廢；地雷系版待出 | — |
