@@ -665,3 +665,23 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 臉（與 Soul 身分照、job 203 並排 100% 裁切）：眉型、眼型、曬色、唇形接近，執行者判讀約七到八成像；臉在畫面裡小，膚色比 Soul 略淺、唇略薄。可用 Nano Banana 以 job 203 當臉來源換回。
 - 下一步提案（待製作師）：第 2 版把鏡位寫得更具體——鏡頭放在她前腿腳尖的斜前方、略高於地面，前腿腳在畫面下方前景、後腿往畫面深處延伸，兩腳都在框內；表情改寫為 `lips closed, faint smile, eyes on the camera, focused`。仍用 Seedream＋Element＋同兩張參考，1 張 1 點。
 - 餘額 3212.00 → 3211.00；本批累計 44.56 點。
+
+## 追加 24（2026-10-12）：Vicky 第 2 版，A／B 兩條鏡位並排（色氣、暗光、胸部加大）
+
+- 製作師對第 1 版（job 301）的檢討：光線太亮；瑜伽褲像截成兩截；最重要是沒有「色氣」，不符擦邊定位。另要求胸部再大一點。
+- 執行者的色氣方案（已向製作師說明）：鏡位改斜後方低角度或正前方貼地；上身要有張力（前傾撐墊背弓臀抬、或後仰胸往前推）；光改傍晚低角度暖光、單側、勾邊、背景壓暗；表情半瞇、嘴微張、不笑；褲子改黑色霧面光澤壓縮褲一體成形（顯形不透，避免兩截與 NSFW）；Vicky 的色氣走「健康」路線（曬色、汗、線條）與 Wendy／Nanami 區隔。製作師未指定 A 或 B，兩條各出一張比較。
+- 做法：Seedream 4.5 basic、3:4、各 1 點；image_references ＝ media 1216a1cc（教室與劈腿）＋ job 203（臉、髮、上衣）；prompt 放 Vicky Element。prompt 要點：A 路 `camera behind her and to one side at about 45 degrees, low, about 40 cm above the floor… upper body leans forward with both palms flat on the mat, back arches deeply, round lifted hips are the main subject… looks back over her shoulder, eyes half-lidded, lips slightly parted, no smile`；B 路 `camera on the floor directly in front of the toes of her front leg… upper body leans back with both hands planted on the mat behind her, chest pushes forward and up… looks down at the camera`。兩者共用：`bust is full, rounded and prominent, noticeably larger than in the reference`、`black high-waisted compression leggings in one continuous matte fabric with a soft satin sheen… no seam or color change at the thigh`、`late-afternoon low warm sunlight… rim light… the room darker and moody, no blown-out highlights`、`light sweat sheen`。Avoid 含 bright flat lighting、overexposure、big smile、teeth、see-through、underwear、cropped feet。
+
+| job | 路線 | 結果 |
+|---|---|---|
+| 302 `f895517e-731d-44e7-ab2b-2d5539fb241a` | A 斜後方 45° 低角度 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_110319_f895517e-731d-44e7-ab2b-2d5539fb241a.png |
+| 303 `5b9c0fce-4e73-4286-8dbc-c07b16f6fae3` | B 正前方貼地 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_110328_5b9c0fce-4e73-4286-8dbc-c07b16f6fae3.png |
+
+- 看圖：
+  - **302（A）**：色氣方向對——逆光暖光、背景暗、臀與背弓是主體、回頭半瞇嘴微張、汗光、黑色光澤褲一體成形。沒做到：後腿腳在左邊被切、前腿腳在右邊貼邊；胸部從這個角度看不到（側面）。
+  - **303（B）**：胸部明顯加大且有乳溝、暗光、表情對。但**姿勢不是劈腿**，變成雙腿併攏伸向鏡頭、腳掌佔前景，整體像腳部特寫，不符要求。
+  - **兩張共通的新問題**：把 job 203 當參考，soul_2 的假社群介面（帳號名、圖示）被一起抄進來；302 的玻璃上還有參考圖的浮水印殘影。
+- 臉（Soul 身分照／203／302／303 裁切）：302 約八成像（曬色、眉、唇形接近）；303 偏通用、約六到七成。
+- 經驗：自家 soul_2 圖當參考時，要先把假介面裁掉（本機裁切上下邊再上傳，不扣點），否則 Seedream 會照抄。
+- 下一步提案（待製作師）：以 A 路為方向做第 3 版——(1) 先把 job 203 裁掉上下假介面後上傳當臉參考；(2) 鏡頭再退一點或改 4:5 內取景，寫明 `both feet fully inside the frame with margin`；(3) 上身多轉向鏡頭一點，讓胸部側面輪廓可見；(4) 出圖後用 Nano Banana 清玻璃殘影。1 張 1 點。
+- 餘額 3211.00 → 3209.00；本批累計 46.56 點。
