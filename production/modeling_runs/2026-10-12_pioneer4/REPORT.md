@@ -629,3 +629,19 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | **候選定稿 v2 ＝ job 252（臉回 Soul）**，待製作師確認後換掉 finals | `finals/wendy_v1_job247_8fdc1ad2.jpg`（臉偏離 Soul，待替換） |
 | Vicky | 空中瑜伽版（job 6e71f97e）待定 | — |
 | Kanon | 小惡魔版作廢；地雷系版待出 | — |
+
+## 定稿（2026-10-12，製作師決定）：Wendy v2 ＝ job 252
+
+- **Wendy Yeo（冷艷女上司）形象照定稿改為 v2 ＝ job 252**（`db476121-db57-44d4-b2a8-aee03466ba3b`，Nano Banana 2.1，以 247 為底、臉換回 Soul job 250），1792×2390，取代 v1（job 247）。
+- 最終檔：`finals/wendy_v2_job252_db476121.jpg`（JPEG 品質 95、全解析度；PNG 原檔以追加 22 的 URL 為準）。v1 檔 `finals/wendy_v1_job247_8fdc1ad2.jpg` 保留備查，不再使用（臉偏離 Soul）。
+- 身分鏈：Soul `cb91c63f`（10/08 身分測試通過）→ job 250（soul_2 近景）→ job 252 的臉。構圖、身體、場景沿自 job 242–247（底圖為製作師提供的真人照，權利不明，追加 14 製作師決定直接使用）。
+- 未做：沒有裁回 1696×2486（製作師未要求）；臉部皮膚與身體的平滑度差異未再處理。
+
+### 先鋒四人狀態（Wendy v2 定稿後）
+
+| 角色 | 狀態 | 最終檔 |
+|---|---|---|
+| Nanami | 定稿 v1 去介面版 job 249 | `finals/nanami_v1_job249_f99e1364_clean.jpg` |
+| Wendy | **定稿 v2 job 252** | `finals/wendy_v2_job252_db476121.jpg` |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定 | — |
+| Kanon | 小惡魔版作廢；地雷系版待出 | — |
