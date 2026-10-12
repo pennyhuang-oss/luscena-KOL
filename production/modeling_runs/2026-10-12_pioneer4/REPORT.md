@@ -864,3 +864,19 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 經驗（與 Wendy 追加 22 一致）：臉來源必須是「同角度、同表情」的 soul_2 近景（0.12 點）才拉得動；用不同角度或大笑的圖當來源，Nano Banana 會保留底圖的臉結構。這條寫進之後的流程：定稿前的臉核對若偏離，先出一張同角度 soul_2 近景，再換臉。
 - 建議：**以 314 取代 309 為 Vicky 定稿 v2**，待製作師確認後再換 finals。
 - 餘額 3192.00 → 3189.88（soul_2 0.12 ＋ Nano Banana 2）；本批累計 65.68 點。
+
+## 定稿（2026-10-12，製作師決定）：Vicky v2 ＝ job 314
+
+- **Vicky Lin 形象照定稿改為 v2 ＝ job 314**（`10747f77-260d-4397-b1c0-893f98a8966d`，以 309 為底、臉換回 Soul），1792×2400，取代 v1（job 309）。
+- 最終檔：`finals/vicky_v2_job314_10747f77.jpg`（JPEG 品質 95、全解析度）。v1 檔 `finals/vicky_v1_job309_03347dec.jpg` 保留備查，不再使用（臉偏離 Soul）。
+- 身分鏈：Soul `bdb1d879` → job 313（soul_2 同角度近景）→ job 314 的臉。構圖、身體、場景沿自 301→304→305→308→309。
+- 定稿臉核對：314 與 Soul 身分照、313 並排，約八到九成像（追加 35）。
+
+### 先鋒四人狀態（Vicky v2 定稿後）
+
+| 角色 | 狀態 | 最終檔 |
+|---|---|---|
+| Nanami | 定稿 v1 去介面版 job 249 | `finals/nanami_v1_job249_f99e1364_clean.jpg` |
+| Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` |
+| Vicky | **定稿 v2 job 314** | `finals/vicky_v2_job314_10747f77.jpg` |
+| Kanon | 小惡魔版作廢；地雷系版待出 | — |
