@@ -197,3 +197,21 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 - job 222 `3e4426a0-89a1-4215-b653-6a1ce91b5f79`，`soul_2` 2k，0.12 點。結果：https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_084728_3e4426a0-89a1-4215-b653-6a1ce91b5f79.png
 - 看圖：黑絲襪 ✅、白襯衫解三顆露乳溝 ✅、黑鉛筆裙 ✅、翹腿 ✅、黑框眼鏡／銀灰髮 ✅、辦公室（玻璃隔間、辦公桌）✅、手撐太陽穴 ✅。沒做到：**包包又出現**（prompt 寫 avoid handbag 仍出現）；角度只比第 2 版低一點，不到「快看到裙底」；鞋沒往鏡頭送；嘴角微微有笑意；假介面照舊。
 - 本批累計 3.20 點。
+
+## 追加 9（2026-10-12）：Wendy 用「自家生成的姿勢圖」當參考，兩條路並排
+
+- 製作師要求：角度更低（盡量仿參考圖）、拿掉包包、主管辦公室、腿部肌肉紋理不要明顯；Soul 能不能給參考圖模仿——兩條路都跑。
+- 規則：製作師提供的真人參考圖不進生成；改用**自家純文字生成的姿勢圖**當參考（本專案生成，權利清楚）。
+- 另：依製作師要求新增 `.claude/settings.json` 允許清單（Higgsfield 工具、curl、python3、git），之後 session 不再逐一詢問。
+
+| job | 路線 | 模型／輸入 | 扣點 | 結果 |
+|---|---|---|---|---|
+| 501 `f898b8e2-b6c6-4b46-b176-1fe9bbe5e28e` | 姿勢圖 | seedream_v4_5 純文字（無身分） | 1 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_085118_f898b8e2-b6c6-4b46-b176-1fe9bbe5e28e.png |
+| 223 `00c5551c-679c-468f-8a8f-0e75e6b569f0` | A | soul_2 ＋ Wendy Soul ＋ 姿勢圖（medias image ×1） | 0.12 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_085227_00c5551c-679c-468f-8a8f-0e75e6b569f0.png |
+| 224 `9c56f81e-9ff9-49ca-a758-f144ef4fb8b6` | B | seedream_v4_5 ＋ Wendy face-only Element `19f44c28-fb6b-45e1-bd13-6b88a5223dd8` ＋ 姿勢圖（image_references） | 1 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_085234_9c56f81e-9ff9-49ca-a758-f144ef4fb8b6.png |
+
+- 姿勢圖本身：貼地仰角、鞋勾著往鏡頭、黑絲襪、白襯衫、主管辦公室夜景、無包、腿平滑——構圖已達標。
+- **A 路（soul_2＋參考圖）失敗**：畫面與服裝抄了參考圖，但臉變成參考圖那位（黑長髮、無眼鏡），Soul 身分與「銀灰短髮、黑框眼鏡」的 prompt 都被參考圖蓋掉。證實 Soul 附參考圖時 prompt 與身分會失效。
+- **B 路（Seedream＋Element＋參考圖）成功**：構圖幾乎等於姿勢圖（極低角度、鞋在前景、黑絲襪、白襯衫、無包、辦公室夜景、腿平滑），且銀灰短髮＋黑框眼鏡＋紅唇都在。臉在畫面裡小，身分精準度待放大核對。
+- 結論：之後「要照參考圖構圖」的需求走 B 路；「不需要參考圖」的走 soul_2。
+- 本批累計 5.32 點。
