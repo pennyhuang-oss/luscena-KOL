@@ -380,3 +380,32 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **候選定稿 job 237**，待製作師確認 |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 15（2026-10-12）：製作師指定以真人照為底，直接改成 Wendy
+
+- 製作師指示：直接用這張（同一張真人照的高清版）去改：1. 臉和頭髮換成現在這個人（Wendy），動作姿勢不改；2. 胸部更明顯；3. 白襯衫扣子太大，改小；4. 絲襪斷掉處接起來；5. 高跟鞋下金色鏈子拿掉。補充：口紅可以留但淡一點；乳溝要露出來。
+- 檔案狀況：高清版只以訊息內嵌顯示，沒有以檔案進到執行環境，無法上傳；本輪沿用同一張照片先前上傳的 318×466 版（media `e960969a-31ce-4ee7-84bb-8310a5008742`）。Seedream 輸出 1728×2304，構圖不受影響。
+- 做法：Seedream 4.5，image_references ＝ media e960969a，prompt 寫成「以 Wendy（face-only Element）重現此構圖與姿勢」並列出六項更改（身形依 Wendy 設定描述，不是在原照片的身體上加工）。count 2，各 1 點。
+- prompt：
+
+```
+<<<19f44c28-fb6b-45e1-bd13-6b88a5223dd8>>> is the woman's face. Recreate the reference image with this woman in it, keeping the exact same pose, framing and extreme low camera angle: she leans back in the grey armchair with the dark leather back, right elbow on the armrest and right hand raised to her temple, left hand resting on the other armrest, her right leg extended straight toward the camera with the stockinged foot in the lower-left foreground and the black patent pump hanging from her toes, the other leg bent; the same desk lamp, dark wooden desk, night window with city lights and grey tiled floor. Change these: (1) her face is this woman's face and her hair is silver-grey, worn down in a loose chin-length layered bob, with thick black square-frame glasses; (2) her bust is fuller and clearly visible: the top buttons of the white shirt are undone so the collar opens to show her cleavage; (3) the shirt buttons are small ordinary white shirt buttons, not large gold buttons; (4) her sheer black pantyhose are one continuous seamless layer from under the skirt down to her toes, no cut, no band and no break in the nylon on her thigh; (5) there is no gold chain or ornament under the shoe or on the floor, the shoe is a plain black patent stiletto pump; (6) her lips are red but a slightly lighter, softer red. Expression: eyes open, a cold bored look, gaze lowered toward the camera, lips closed. No handbag on the desk. Legs smooth under the black sheer, no veins. No nudity, no underwear visible. Sharp, in focus. Avoid: large gold buttons, chain, bag, a break or band in the stockings, dark hair, closed eyes, smile, text, watermark.
+```
+
+| job | 結果 |
+|---|---|
+| 239 `0ed3e25b-e829-4776-a9e0-a20c74073774` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_094200_0ed3e25b-e829-4776-a9e0-a20c74073774.png |
+| 240 `9c3306ef-143a-48ee-9a4c-abe1a0ef4dac` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_094201_9c3306ef-143a-48ee-9a4c-abe1a0ef4dac.png |
+
+- 看圖：**239 達標**——Wendy 臉＋銀灰髮放下＋黑框眼鏡、姿勢與參考圖一致（手撐太陽穴、腿伸直、鞋掛腳尖）、襯衫開領露乳溝且胸部明顯、小白扣、黑絲連續無斷、無金鍊、桌上包包也消失、口紅較淡、眼睛睜開看鏡頭。缺點：四邊帶一圈細白邊（抄自參考圖的邊框），執行者已裁掉另存；嘴角帶一點點笑意，不算冷。**240 否決**——底部浮水印文字又被抄進來、白邊更明顯。
+- 候選定稿改為 **job 239（裁白邊版）**，待製作師確認；表情要再冷一點可再修一輪（以 239 為底、不附真人照）。
+- 餘額 3236.24 → 3234.24；本批累計 21.32 點。
+
+### 先鋒四人狀態（追加 15 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **候選定稿 job 239（裁白邊）**，待製作師確認 |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
