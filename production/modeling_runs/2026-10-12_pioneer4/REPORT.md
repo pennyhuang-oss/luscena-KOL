@@ -805,3 +805,17 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 看圖（309／310 並排）：平台沒有擋。但**透明度幾乎沒增加**：內衣變成有網眼紋理的布，不透；瑜伽褲變成高光澤、像乳膠或濕布的質感，不是透，而且回到製作師在追加 26 不要的「不像瑜伽褲」材質。其餘與 309 一致。
 - 結論：在「不露皮膚、不露內褲」的限制下，Nano Banana 把「透」翻譯成「紋理」或「光澤」。要真的透，prompt 得允許「大腿與臀部透出膚色」且不寫「no skin exposed」，風險是平台擋圖（會退點）與 Threads 透視規範；要不要再試一輪，由製作師決定。
 - 餘額 3198.00 → 3196.00；本批累計 59.56 點。
+
+## 追加 32（2026-10-12）：Vicky 透明度測試第 2 輪（拿掉「不露皮膚」）
+
+- 製作師：再試。執行者這輪拿掉 `no skin exposed`，明寫兩件衣物為真正透膚的黑色薄紗／絲襪質感，膚色透出；保留底線：乳頭以不透的黑色小片遮住、不露內褲。以 309 為底。
+- 做法：Nano Banana 2.1，image_references ＝ job 309，2k、thinking high、1 張、2 點。prompt 要點：`genuinely see-through sheer black fabric, like fine black stockings or sheer black tulle… tanned skin clearly visible through the fabric… only the nipples hidden behind small opaque black panels… no underwear visible… matte sheer, not glossy, not latex, not mesh texture`。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 311 `888be32f-d269-4b32-96e8-006dc031d234` | 1792×2400 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_130126_888be32f-d269-4b32-96e8-006dc031d234.png |
+
+- 看圖（309／310／311 並排）：平台沒有擋。這次有真的透——但模型把「整件透」做成「透膚拼接」：運動內衣的上半片變成透膚黑紗（肩與上胸膚色透出，罩杯部分仍不透）；瑜伽褲沿腿側與大腿內側出現透膚長條（膚色透出），其餘為霧面黑。乳頭遮住、無內褲。其餘與 309 一致。整體像市售的透膚拼接運動服，比 310 的光澤布更像瑜伽褲，也比「整件透」更接近 Threads 可發的尺度。
+- 經驗：Nano Banana 對「整件透膚」會自動收斂成「拼接透膚」；要整件透得更強勢描述（例如 `the entire garment is uniformly transparent`），風險是平台擋圖。
+- 可選方向（待製作師）：(a) 接受 311 當「透膚版」備用圖；(b) 再推一輪整件透；(c) 停在 309 定稿。
+- 餘額 3196.00 → 3194.00；本批累計 61.56 點。
