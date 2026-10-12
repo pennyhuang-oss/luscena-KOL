@@ -190,3 +190,10 @@ Full-body photo of this woman practicing aerial yoga, 25 years old, athletic and
 - job 221 `62cc9212-b3f4-4707-a1a1-6d97b947679a`，`soul_2` 2k，0.12 點。結果：https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_084315_62cc9212-b3f4-4707-a1a1-6d97b947679a.png
 - 看圖：低角度 ✅、翹腿 ✅、紅底高跟鞋在前景 ✅、無袖深藍高領 ✅、灰短裙 ✅、手撐太陽穴 ✅、黑框眼鏡 ✅、銀灰短髮 ✅、鍊帶包 ✅、辦公室磁磚地 ✅、俯視不笑 ✅。和參考不同：沒有絲襪（光腿）；鞋穿在腳上沒有勾著晃；眼神偏淡不夠「輕蔑」；假社群介面照舊。
 - 本批累計 3.08 點。
+
+## 追加 8（2026-10-12）：Wendy 第 3 版
+
+- 製作師要求：一定要黑絲襪；白襯衫、胸口微開露一點；角度更低（快看到內褲的感覺，但不露）；辦公室；不要包。
+- job 222 `3e4426a0-89a1-4215-b653-6a1ce91b5f79`，`soul_2` 2k，0.12 點。結果：https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_084728_3e4426a0-89a1-4215-b653-6a1ce91b5f79.png
+- 看圖：黑絲襪 ✅、白襯衫解三顆露乳溝 ✅、黑鉛筆裙 ✅、翹腿 ✅、黑框眼鏡／銀灰髮 ✅、辦公室（玻璃隔間、辦公桌）✅、手撐太陽穴 ✅。沒做到：**包包又出現**（prompt 寫 avoid handbag 仍出現）；角度只比第 2 版低一點，不到「快看到裙底」；鞋沒往鏡頭送；嘴角微微有笑意；假介面照舊。
+- 本批累計 3.20 點。
