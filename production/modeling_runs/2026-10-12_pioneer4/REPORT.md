@@ -709,3 +709,16 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` |
 | Vicky | **劈腿版候選 job 304（A 路），腳被切待處理** | — |
 | Kanon | 小惡魔版作廢；地雷系版待出 | — |
+
+## 追加 26（2026-10-12）：Vicky 以 304 為底改四項（Nano Banana）
+
+- 製作師指示：胸再大一點且往前凸；頭微微後仰；褲子材質不對（絨布光澤）要像瑜伽褲；整體再亮一點。另：**臉的核對一律留到定稿後再處理，除非製作師特別說**（之後各輪不再做臉部並排）。
+- 做法：Nano Banana 2.1，image_references ＝ job 304，2k、thinking high、aspect auto、1 張、2 點。prompt 要點：保留構圖、臉、馬尾、運動內衣、劈腿姿勢、場景；(1) `bust much fuller and larger, clearly pushed forward… back arches more`；(2) `head tilts slightly back, chin lifted… lips slightly parted, no smile`；(3) `real yoga leggings in a smooth matte stretch nylon-spandex fabric… flat waistband, faint flatlock seams… not velvet, not satin, not shiny`；(4) `brighten the whole image noticeably… open shadows, the room is no longer dark… keep the warm window backlight`。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 305 `4f36b4dd-818c-4a1e-83c8-a76af4138d25` | 1792×2390 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_111050_4f36b4dd-818c-4a1e-83c8-a76af4138d25.png |
+
+- 看圖（304／305 並排）：褲子改成霧面瑜伽褲質感 ✅（最明顯的改善）；頭後仰、下巴抬、嘴微張不笑 ✅；背弓略加深。只做到一半：整體只亮了一點，房間仍偏暗；**胸部從這個斜後方角度被手臂擋住，加大與前凸看不出來**。構圖、場景、身分保留；腳仍貼邊（本輪未要求）。
+- 經驗：斜後方 45° 鏡位天生看不到胸，要「胸大且前凸」看得見，上身得再轉向鏡頭或換成側面／前側鏡位；單靠編輯模型在這個角度加大效果有限。
+- 餘額 3208.00 → 3206.00；本批累計 49.56 點。Vicky 劈腿線累計 5 張（301–305）。
