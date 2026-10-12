@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__higgs",
+      "Bash(curl -sS *)",
+      "Bash(curl -sS -o *)",
+      "Bash(curl -sSL -o *)",
+      "Bash(python3 *)",
+      "Bash(python3 -I *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git -c *)",
+      "Bash(git push *)",
+      "Bash(git rev-parse *)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(ls *)",
+      "Bash(wc *)",
+      "Bash(cat *)",
+      "Bash(printf *)",
+      "Bash(sed *)",
+      "Bash(awk *)",
+      "Bash(grep *)",
+      "Bash(test *)"
+    ]
+  }
+}
