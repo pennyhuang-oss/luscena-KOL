@@ -472,3 +472,31 @@ Edit the image. Keep everything exactly as it is: the pose, composition, framing
 | Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
 | Wendy | **定稿 v1 ＝ 242 系列；皮膚程度 243／244 待製作師選** |
 | Kanon | 小惡魔版作廢；地雷系版待出 |
+
+## 追加 18（2026-10-12）：皮膚紋理改以 Nanami 定稿為基準
+
+- 製作師看 243／244 後：「再回來一點，拿另外一張定稿的皮膚來做對照，以那張為基準。」即以 Nanami 定稿 v1（job `6ed76f6b-0059-45b3-a17a-e272175ae5b3`，soul_2）的皮膚質感為目標。
+- 做法：Nano Banana 2.1，image_references ＝ job 242（底圖）＋ job 6ed76f6b（只作皮膚質感參考，prompt 明寫不抄臉、髮、衣、背景）。只改裸露皮膚，腿、腳、絲襪不動。2k、thinking high、count 2，各 2 點。
+- prompt：
+
+```
+Edit the first image. Keep everything in the first image exactly as it is: the woman's identity and face shape, her silver-grey hair, glasses, lipstick, the pose, composition, framing, lighting, the white shirt, the black skirt, the chair and the room, and especially the legs, feet and black stockings, which must not be touched at all. Make only one change: the bare skin of her face, neck, upper chest, arms and hands is over-smoothed by a beauty filter; re-render that bare skin so its texture matches the skin of the woman in the second image: the same level of natural skin detail, fine pores, soft natural highlights and realistic skin tone that the second image has, no more smoothed and no more textured than that. Use the second image only as the reference for skin texture; do not copy her face, features, hair, clothes or background. Do not change the shape of her face or body, do not change the legs, feet or stockings, do not add blemishes, wrinkles or veins. No text, no watermark.
+```
+
+| job | 結果 |
+|---|---|
+| 245 `1fb9395e-351f-41be-888f-a8d0c2ab8339` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_095552_1fb9395e-351f-41be-888f-a8d0c2ab8339.png |
+| 246 `5d8380cf-3862-4228-a101-6e63d4da94b9` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_095553_5d8380cf-3862-4228-a101-6e63d4da94b9.png |
+
+- 看圖（100% 裁切：Nanami 基準／242／245／246 的臉與胸口）：245 臉、頸、胸口有細毛孔與膚色層次，最接近 Nanami 那種自然手機照質感；246 略滑一點、帶一點光澤。兩張的身分、髮、眼鏡、口紅、腿、絲襪、鞋、構圖與 242 完全一致，Nanami 的臉沒有被抄進來。
+- 餘額 3226.24 → 3222.24；本批累計 33.32 點。
+- 定稿更新：**Wendy 形象照 v1 ＝ 242 系列，皮膚版本 245／246 由製作師選**（243／244 作廢備查）。
+
+### 先鋒四人狀態（追加 18 後）
+
+| 角色 | 狀態 |
+|---|---|
+| Nanami | 定稿 v1（job 6ed76f6b） |
+| Vicky | 空中瑜伽版（job 6e71f97e）待定；是否補臉朝鏡頭版未決 |
+| Wendy | **定稿 v1 ＝ 242 系列；皮膚版本 245／246 待製作師選** |
+| Kanon | 小惡魔版作廢；地雷系版待出 |
