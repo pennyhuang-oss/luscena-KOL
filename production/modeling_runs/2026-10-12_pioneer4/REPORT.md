@@ -849,3 +849,18 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 原因判斷：203 是正面大笑、角度與表情和 309（回頭、嘴微張）差很多，模型保留了 309 的結構，只做了極小調整。Wendy 那次成功（追加 22）是因為臉來源 job 250 是同角度、同表情的 soul_2 近景。
 - 處理：執行者用 soul_2 出一張 Vicky 同角度（回頭看鏡頭、頭微後仰、嘴微張不笑）的近景當新的臉來源（0.12 點，見追加 35），再換一次。
 - 餘額 3194.00 → 3192.00；本批累計 63.56 點。
+
+## 追加 35（2026-10-12）：Vicky 換臉回 Soul，第 2 次（臉來源改為 soul_2 同角度近景）
+
+- 做法：
+  1. `soul_2`＋Vicky `soul_id` `bdb1d879-da36-4c1a-bc63-9f5b49a3e94e` 出一張同角度近景（回頭看鏡頭、頭微後仰、嘴微張不笑、高馬尾、逆光），3:4、2k、1 張、0.12 點：**job 313** `7d4fecb4-ed5e-41be-ae11-5a4b9aaf106a`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_133430_7d4fecb4-ed5e-41be-ae11-5a4b9aaf106a.png 。臉是 Soul 本人、角度與 309 幾乎相同；本機裁掉假介面（1536×1730）後上傳為 media `e808402c-cd22-4119-9789-7c04d09fcdfd`。
+  2. Nano Banana 2.1，image_references ＝ job 309（底圖）＋ media e808402c（臉來源），2k、thinking high、1 張、2 點。prompt 同追加 34，並註明「第二張幾乎同角度，忠實轉移五官」。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 314 `10747f77-260d-4397-b1c0-893f98a8966d` | 1792×2400 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261012_133620_10747f77-260d-4397-b1c0-893f98a8966d.png |
+
+- 看圖（Soul 身分照／313／309／314 臉部裁切；309／314 全圖）：**這次拉回來了**。314 的眉形變平直自然、眼型與眼距接近 Soul、鼻樑變窄鼻頭變小、嘴唇不再噘、臉型柔和，與 313 幾乎同一人；執行者判讀約八到九成像 Soul（309 為七到八成）。身體、胸、手勢、褲子、場景與 309 完全一致。
+- 經驗（與 Wendy 追加 22 一致）：臉來源必須是「同角度、同表情」的 soul_2 近景（0.12 點）才拉得動；用不同角度或大笑的圖當來源，Nano Banana 會保留底圖的臉結構。這條寫進之後的流程：定稿前的臉核對若偏離，先出一張同角度 soul_2 近景，再換臉。
+- 建議：**以 314 取代 309 為 Vicky 定稿 v2**，待製作師確認後再換 finals。
+- 餘額 3192.00 → 3189.88（soul_2 0.12 ＋ Nano Banana 2）；本批累計 65.68 點。
