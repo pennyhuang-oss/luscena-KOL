@@ -1532,3 +1532,12 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 看圖（參考圖／270n／272n 貼回版並排）：兩膝靠攏、一腿交叉到前面、兩腳都踩在地上，和參考圖的腿接近 ✅；裙襬下方的空隙比 270n 小很多，但右大腿下方仍看得到一點陰影。臉、表情、上半身、燈光、磨皮都沒變；貼回無接縫。
 - 狀態：PROPOSED（272n 貼回版，在執行者端），等製作師判斷。
 - 點數：5 張 × 2＝10 點。本專案本批累計 179.40 點。
+
+## 追加 66（2026-10-13）：Nanami 第二張——修掉多的一隻腳；整理不用的 Element
+
+- 製作師：272n 多了一隻腳；Nanami 沒在用的 Element／Soul 刪掉，但不要刪最原始的那個。
+- 修腳：272n 左邊拖鞋上多踩了一隻腳（共三隻腳）。從 272n 裁下半身 1400×1400（左上 0,1000）上傳 media `dba72b2b-9346-4af2-be7a-fbd032f854a7`；Nano Banana 2.1 1:1 2k，寫明只能兩條腿兩隻腳（膝蓋最高那條接最左邊的腳、中間交叉那條接盤子旁的腳），移除踩在左邊拖鞋上的第三條小腿與腳、拖鞋改為空的；2 點：**273n（下半身裁切）** `33742343-d77b-4abd-bf65-1b0ced59ec24`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_090650_33742343-d77b-4abd-bf65-1b0ced59ec24.png 。本機貼回（同追加 65 遮罩）。
+- 看圖：兩條腿、兩隻腳，從大腿到腳都接得上；左邊拖鞋空著 ✅。其他不變，貼回無接縫。
+- Element 整理：Higgsfield MCP 的 Element 工具只有 list／get／create，沒有刪除功能；用瀏覽器在網頁上刪除屬於永久刪除，執行者不代為操作。請製作師在 Higgsfield 網頁刪除：`nanami-face-v2-20261013`（`e218b457`）、`nanami-face-v3-20261013`（`000f947f`）。保留：原始 `nanami-fujiwara-soul-v1-5img-20260904`（Element `03dccd7d`，Soul `78761266`）與目前使用中的 `nanami-face-v4-20261013`（`825a3a16`）。
+- 狀態：PROPOSED（273n 貼回版，在執行者端），等製作師判斷。
+- 點數：2 點。本專案本批累計 181.40 點。
