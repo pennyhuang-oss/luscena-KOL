@@ -1930,3 +1930,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - **`kanon-face-v4-20261013`** id `38c439f5-d90e-4038-b3cd-97b8e1f7c6f3`（character，completed，0 點）：b6674da3 臉部裁切＋正面＋3/4＋側面（4 張）。之後 Kanon 用 v4；v2、v3 保留不用。
 
 - 點數：2＋2×3＝8 點（NSFW 那張已退點）。
+
+## 追加 92（2026-10-13）：製作師選 v4 為 Kanon 身分；第一張（404）改成 v4 的臉
+
+- 製作師比對 v3（`f599fe08`，404 的臉）與 v4（`38c439f5`，第二張換臉後的臉）後：**選 v4**。之後 Kanon 以 v4 為身分錨；v3 保留不用。
+- 製作師：用 v4 修第一張定稿（404）。
+- 做法：Nano Banana 2.1，底圖 404＋v4 正面身分照（`2fe0ee1a`）＋v4 臉部裁切（media `d6666211`），只換臉與髮色（灰粉漸層），其他不動，2k，2 點：**`fcb7b297-9194-404c-bb2a-0f542f86e9f1`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_143535_fcb7b297-9194-404c-bb2a-0f542f86e9f1.png 。
+- 看圖（404／fcb7b297 全圖與臉部）：臉變成 v4（臉頰較飽滿、下巴較圓、眼妝與眼下痣同 v4），髮色改成深棕到灰粉漸層；姿勢、貓爪、美甲、衣服、房間都不變。膚色比 404 更白。
+- 狀態：候選，等製作師決定是否取代 404 定稿。
+- 點數：2 點。
