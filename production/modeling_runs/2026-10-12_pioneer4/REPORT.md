@@ -1998,3 +1998,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ Nanami 在畫面中偏小。
 - 狀態：候選。
 - 點數：2 點。
+
+## 追加 98（2026-10-13）：Nanami 陽台曬衣——用第一張，公寓改現代
+
+- 製作師：用最一開始那張（`d6fcc7b7`），公寓改成比較現代的樣子。
+- 做法：Nano Banana 2.1，底圖 d6fcc7b7，只改建築與陽台（石材與木紋外牆、現代玻璃窗、霧黑金屬欄杆、整齊的晾衣架，去掉鏽、污漬、舊管線），2k，2 點：**`30219924-2879-49ce-8a79-82d6fafa62c3`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_160248_30219924-2879-49ce-8a79-82d6fafa62c3.png （1792×2400）。
+- 看圖：建築變成現代風（淺石材、木紋天花、黑色欄杆、玻璃），人物、表情、動作、背心、前景掉落的小可愛、仰角、天空完全不變。
+- 狀態：候選，等製作師決定。
+- 點數：2 點。
