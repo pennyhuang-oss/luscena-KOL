@@ -1044,3 +1044,19 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 餘額 3175.76 → 3171.76；本批累計 81.80 點。
 
 - 製作師選定：**方案 1（job 253n `9afdfb27-3123-492e-af60-1d6e381a1e41`，哄你張嘴）**。254n、252n、251n 作廢備查。定位（取代 249 定稿或當 Nanami 第二張）待製作師。
+
+## 定稿（2026-10-13，製作師決定）：Nanami v2 ＝ job 253n
+
+- **Nanami Fujiwara 形象照定稿改為 v2 ＝ job 253n**（`9afdfb27-3123-492e-af60-1d6e381a1e41`），1792×2390，取代 v1（job 249）。鏈：218 soul_2 → 249 去介面 → 251n 地獄料理 → 252n 青菜自然＋八字眉（眉否決）→ 253n 溫柔下垂眼。
+- 最終檔：`finals/nanami_v2_job253n_9afdfb27.jpg`（JPEG 品質 95、全解析度）。v1 檔 `finals/nanami_v1_job249_f99e1364_clean.jpg` 保留備查，不再使用。
+- **Nanami 眉眼固定規格（製作師 2026-10-13）**：之後 Nanami 的圖一律用這組眉眼——眉放鬆、內側極微抬、眉間完全平滑不皺；眼尾微下垂、上眼皮微蓋、眼睛帶笑；眼下粉色腮紅；自然眼大小與自然妝，不放大、不戴色片、無紅色眼線。prompt 寫法見追加 44 共通段。避免寫「ha-no-ji／worried eyebrows」，會變委屈皺眉（252n）。
+- 已知未處理：畫面最左緣一盤仍為正常料理。
+
+### 先鋒四人狀態（Nanami v2 定稿後）
+
+| 角色 | 狀態 | 最終檔 | 身分錨 |
+|---|---|---|---|
+| Nanami | **定稿 v2 job 253n** | `finals/nanami_v2_job253n_9afdfb27.jpg` | Soul `78761266` |
+| Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` | Soul `cb91c63f` |
+| Vicky | 定稿 v2 job 314 | `finals/vicky_v2_job314_10747f77.jpg` | Soul `bdb1d879` |
+| Kanon | 定稿 v1 job 404 | `finals/kanon_v1_job404_ce9d284c.jpg` | Element `56db152d` |
