@@ -1509,3 +1509,26 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 待處理：v3 Element（`nanami-face-v3-20261013`）的三張身分照偏圓，建議用「較長的橢圓臉」重出，再建 v4 Element（6 點）。
 - 狀態：PROPOSED（270n 貼回版，在執行者端），等製作師判斷。
 - 點數：2 點。本專案本批累計 169.40 點。
+
+## 追加 65（2026-10-13）：Nanami 身分照重做（偏長臉）＋v4 Element；第二張改腳、去鍋子鏟子碎片
+
+- 製作師：身分照重做、建新版 Element；270n 的腳參照參考圖修改；去掉地上的鍋子、鏟子，以及盤子旁多出來的一塊碎片。
+
+### A. 身分照與 v4 Element
+- 做法同追加 62，但 prompt 改為「略長的橢圓臉、下半臉較長、下巴微收、臉頰不鼓、不要變圓變寬變年輕」；表情中性帶極淺笑；全側面寫明「完整 90 度」。臉來源 253n 臉部裁切（media `c6b35378`）。3 張 × 2 點。
+
+| 角度 | job | 結果 |
+|---|---|---|
+| 正面 | `908f7e5a-063f-4a69-b22b-c30e60e56a58` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_085829_908f7e5a-063f-4a69-b22b-c30e60e56a58.png |
+| 3/4 側 | `d1c2ddff-5248-40e4-959c-573994efc268` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_085829_d1c2ddff-5248-40e4-959c-573994efc268.png |
+| 側面 | `4795ba8a-3e07-4ea4-a657-3f0fc70e1a5d` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_085829_4795ba8a-3e07-4ea4-a657-3f0fc70e1a5d.png |
+
+- 看圖：比 v3 的臉長，下巴較尖、下半臉較長；側面這次是完整 90 度 ✅。
+- 新 Element **`nanami-face-v4-20261013`** id `825a3a16-c9ff-4fb7-992e-840b883fd1bb`：253n 臉部裁切＋上表三張（4 張）。之後 Nanami 用 v4；v2、v3 保留不用。
+
+### B. 第二張
+1. 270n 貼回版上傳為 media `8f7cee38-1e7b-43cc-99ca-a6f298adb537`；Nano Banana 2.1，參考圖（media `79b4f5d9`）當腳的姿勢參考，同一次改腳＋去鍋子＋去鏟子＋去碎片，2 點：**271n** `65fd88ed-4387-4d8b-bfe3-8a10f3f93d7a`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_085916_65fd88ed-4387-4d8b-bfe3-8a10f3f93d7a.png 。結果：鍋子、鏟子、碎片（連同掉在旁邊的蛋屑）都去掉、地板補得自然 ✅；**腳幾乎沒變**（再次驗證：姿勢和局部修改擠在同一次，姿勢改不動）。
+2. 腳單獨做：從 271n 裁下半身 1400×1400（左上 0,1000）上傳 media `19d9e0e8-f788-487c-a1e3-a673fdd2027c`；Nano Banana 2.1 1:1 2k，只改腿（兩膝靠攏、往畫面左倒，右側那條腿放低、交叉到另一條腿前面、遮住大腿之間；裙襬蓋住）；2 點：**272n（下半身裁切）** `7e5eb599-2f51-48dd-bb03-7e35821abd88`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_090145_7e5eb599-2f51-48dd-bb03-7e35821abd88.png 。本機縮回 1400、貼回 271n；第一次遮罩邊界切到右邊拖鞋，改為整塊地板都用新圖、只保留上緣與右上角外套邊。
+- 看圖（參考圖／270n／272n 貼回版並排）：兩膝靠攏、一腿交叉到前面、兩腳都踩在地上，和參考圖的腿接近 ✅；裙襬下方的空隙比 270n 小很多，但右大腿下方仍看得到一點陰影。臉、表情、上半身、燈光、磨皮都沒變；貼回無接縫。
+- 狀態：PROPOSED（272n 貼回版，在執行者端），等製作師判斷。
+- 點數：5 張 × 2＝10 點。本專案本批累計 179.40 點。
