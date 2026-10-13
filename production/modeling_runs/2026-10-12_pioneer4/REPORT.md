@@ -971,3 +971,25 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 看圖（Soul 正面／401／404／405 臉部裁切；404／405 全圖）：**有拉回**——眼睛從圓娃娃眼回到杏眼、尺寸縮小、鼻形鼻寬回到 401、下巴變圓、臉比例回到正常；妝（白皙底、下眼紅影、紅唇）、壞笑、爪子、美甲、衣服、場景與 404 一致。執行者判讀約七到八成像 Soul（404 為五到六成）；膚色仍比 Soul 白很多，是妝的設定。
 - 建議：**以 405 取代 404 為 Kanon 定稿 v2**，待製作師確認後換 finals。
 - 餘額 3181.76 → 3179.76；本批累計 73.80 點。Kanon 線 5 張。
+
+## 追加 41（2026-10-13）：製作師決定 Kanon 以 404 為新臉；建新 Element；撞臉重比
+
+- 製作師看 404／405 後：**偏好 404（未拉回版）**。執行者說明三條路（404 當新臉並建 Element、折衷只收眼睛、用 405），製作師選第 1 條。**Kanon v1 定稿維持 job 404**（finals 不變）；405 作廢備查。
+- 意義：Kanon 的身分錨從 10/08 的 Soul（`642ba554`）改為 404 的臉（與 Soul 約五到六成像）。之後 Kanon 的圖以 404 為準，不再對 Soul 核對。
+- 新 Element：從 404 裁臉（932×816）上傳 media `68c76117-f6c0-43a4-bad4-3aca79b2e9a6`，建立 Element **`kanon-face-v2-20261013`** id `56db152d-0986-4b2a-b5eb-385501739847`（character，completed；0 點）。之後 Seedream／Nano Banana 用這個 Element 或以 404 當臉參考；soul_2 的 Kanon Soul 只在需要時當起手，出圖後要換臉成 404。
+- **撞臉重比**（404 臉 vs 另外九人 10/08 身分照正面，執行者肉眼）：
+  - **Yerin：相近，比 10/08 時更近。** 404 的圓臉、大眼、小鼻、白皙與 Yerin 的 Soul 是同一型；目前靠粉髮雙馬尾與地雷妝區隔，素顏或換髮型會撞。之後 Yerin 的形象照要避開圓眼大眼妝、避開粉色系，或等 Yerin 出圖時再比一次。
+  - Somi：中等（圓臉），眼型不同，可區分。
+  - Wendy、Vicky、Nanami、Mia、Zhiyi、Miu、Emma：區分清楚。
+- 對照圖：`kanon_crosscheck_404.jpg`（十格），已傳製作師，不進 repo。
+- 執行者備註：404 的臉有一部分來自製作師提供的真人參考圖（追加 39）；以它當長期身分錨，「不仿製真人」的疑慮請主管判定。
+- 餘額 3179.76；本輪無扣點。
+
+### 先鋒四人狀態（追加 41 後）
+
+| 角色 | 狀態 | 最終檔 | 身分錨 |
+|---|---|---|---|
+| Nanami | 定稿 v1 job 249 | `finals/nanami_v1_job249_f99e1364_clean.jpg` | Soul `78761266` |
+| Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` | Soul `cb91c63f` |
+| Vicky | 定稿 v2 job 314 | `finals/vicky_v2_job314_10747f77.jpg` | Soul `bdb1d879` |
+| Kanon | **定稿 v1 job 404（製作師選未拉回版）** | `finals/kanon_v1_job404_ce9d284c.jpg` | **Element `56db152d`（404 臉）** |
