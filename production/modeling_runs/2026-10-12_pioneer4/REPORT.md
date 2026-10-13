@@ -1374,3 +1374,21 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
   - 待處理：兩隻手仍各戴一枚戒指（摸頭那隻右手也有）；胸部看起來仍不到 E；臉約七成像（最後換臉處理）。
 - 狀態：PROPOSED。
 - 點數：2 點。餘額 3106.50 → 3104.50；本專案本批累計 131.16 點。
+
+## 追加 58（2026-10-13）：Nanami 第二張——260n 改戒指與胸部、Soul 近景、換臉＋磨皮
+
+- 製作師：選 260n，照執行者順序做（戒指＋胸部 → soul_2 同角度近景 → 換臉回 Soul＋重磨皮）。
+
+| 步驟 | job | 做法 | 點數 | 結果 |
+|---|---|---|---|---|
+| 1 | 261n `69b28d13-f788-4ff7-aeaf-4b35e9ab0cc2` | Nano Banana 2.1，底圖 260n；只拿掉摸頭那隻右手的戒指、胸部補到 E | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_081713_69b28d13-f788-4ff7-aeaf-4b35e9ab0cc2.png |
+| 2 | `5339f4b3-c5b6-4aa0-b54c-1a17f3d65e15` | soul_2＋Nanami soul_id `78761266-69ba-47fa-8aeb-39f0aa95998e`，3:4、2k；從上往下拍、頭微歪、一手放頭上、半紮丸子頭、米白針織、表情放鬆不笑 | 0.12 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_081735_5339f4b3-c5b6-4aa0-b54c-1a17f3d65e15.png （1536×2048，無假介面） |
+| 3 | 262n `c07c8672-ed67-43b1-a35f-3bc0d60b9bfd` | Nano Banana 2.1，底圖 261n＋第二張 Soul 近景；換五官、保留一眼閉害羞笑、全身重磨皮（`BODY_SETTINGS_v2` §2.5 寫法） | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_081853_c07c8672-ed67-43b1-a35f-3bc0d60b9bfd.png |
+
+- 看圖：
+  - **261n**：右手戒指拿掉、左手保留 ✅；胸部變大、乳溝更明顯，全圖看接近 E ✅；其他不變（全圖平均像素差約 5）。
+  - **Soul 近景**：是 Soul 本人，但臉比 253n 瘦、下巴尖、較成熟；和 253n 的圓臉差異明顯。253n 是 soul_2（218）經四次 Nano Banana 修改後的臉，已偏離 Soul 原始輸出。
+  - **262n**：**換臉幾乎沒有作用**，臉部平均像素差約 7，五官和 261n 幾乎一樣，沒有被拉向 Soul 近景。推測原因：Soul 近景是雙眼張開、不笑、臉轉向，和底圖的一眼閉笑臉差太多（handoff：角度或表情不同就拉不動）。目前臉和 253n 相比約七成五到八成像。
+  - 磨皮：臉頰細紋理值 261n 約 9.9 → 262n 約 8.8；253n 約 4.3。**沒有達到重磨皮**（`BODY_SETTINGS_v2` §2.5：重磨皮高於 7 要註記）。臉上的痣被去掉。
+- 狀態：PROPOSED，臉和磨皮兩項未完成，等製作師決定。
+- 點數：4.12 點。餘額 3104.50 → 3100.38；本專案本批累計 135.28 點。
