@@ -1962,3 +1962,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 最終檔：`社群媒體/kanon/kanon_v2_jobf23ccb87_skinfix.jpg`（JPEG 品質 95），取代 `kanon_v1_job404_ce9d284c.jpg`（已從 repo 移除；job 404 仍在 Higgsfield）。
 - 第二張定稿維持 `b6674da3`（追加 91）。兩張並排確認為同一人（臉型、眼妝、眼下痣、紅唇、灰粉漸層髮色一致）；色調差異來自場景燈光（紫色房間燈 vs 粉色房間）。
 - 身分錨：**Kanon Element v4 `38c439f5-d90e-4038-b3cd-97b8e1f7c6f3`**（追加 91～92）。型錄的形象照與招牌欄（灰粉漸層雙馬尾）已更新。
+
+## 追加 95（2026-10-13）：Nanami 新圖——二樓陽台曬衣、小可愛掉落（無參考圖）
+
+- 製作師口述構圖（找不到參考圖）：一樓往上仰拍；Nanami 在二樓曬衣，小可愛掉落、在畫面左下角失焦，焦點在 Nanami；她探身、伸手想抓、張嘴驚慌；居家略暴露，胸部露在欄杆外。製作師「照預設」：Nanami v4 Element、固定眉眼、寬鬆薄針織細肩帶背心低領（不露點不透視）、白天台北老公寓陽台、重磨皮、3:4。
+- 做法：Nano Banana Pro＋Nanami v4 Element（`825a3a16`），純文字，2 點：**`d6fcc7b7-49fb-4524-8774-448f36a53e7d`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_155254_d6fcc7b7-49fb-4524-8774-448f36a53e7d.png （1792×2400）。
+- 看圖：
+  - ✅ 仰拍、老公寓陽台、鐵欄杆、晾衣；探身伸手、張嘴驚慌；乳溝在欄杆上方；她沒注意自己的穿著。臉目測像 Nanami。
+  - ⚠️ 掉落的小可愛在左下角，但不夠模糊，幾乎是清楚的。
+  - ⚠️ 高度感不像二樓：她離鏡頭很近，像在半層樓高。
+  - ⚠️ 背心是鏤空針織，布料看起來有點透；要確認是否符合「不透視」。
+- 狀態：候選，等製作師決定。
+- 點數：2 點。
