@@ -1416,3 +1416,16 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
   - 裙襬下方：兩張都和 261n 一樣，陰影中看得到大腿後側，沒有看到內褲。
 - 狀態：A＝266n、B＝267n，PROPOSED，等製作師選。
 - 點數：10.12 點。餘額 3100.38 → 3090.26；本專案本批累計 145.40 點。
+
+## 追加 60（2026-10-13）：Nanami 臉部漂移檢查（對照原始 KOL 型錄）
+
+- 製作師：266n、267n 都不行；看了 Nanami 原本的幾張圖（原始 KOL 型錄），覺得現在的臉和原本不一樣，問要不要重建 Soul 定五官。
+- 執行者確認「原本的圖」＝原始型錄 https://kol-catalog-production.up.railway.app/p/nanami-fujiwara.html 的五張照片（g_0gwvf8x、g_0gy6zuf、g_0gyy3cg、g_0gzixo5、g_0h09ugm；Soul 名稱 `nanami-fujiwara-soul-v1-5img-20260904` 推測即由這五張訓練）。
+- 臉部並排（型錄兩張／今天 Soul 一眼閉近景 3dbaf895／10-12 soul_2 job 218／253n）：
+  - 型錄：臉偏瘦、下巴尖、顴骨明顯、眼型細長上挑、氣質偏冷偏成熟。
+  - 今天兩張 Soul 近景（5339f4b3、3dbaf895）：和型錄一致。**Soul 本身沒有壞。**
+  - job 218（10/12 的 soul_2 餵食照）：臉已經變圓、變年輕、變可愛，是漂移的起點（廣角自拍、手伸向鏡頭的構圖）。
+  - 253n：再經 249→251n→252n→253n 四次 Nano Banana 修改，加上「溫柔下垂眼＋腮紅」規格，臉更圓、更年輕，離型錄最遠。
+  - 266n、267n 的重磨皮把臉修成美顏 V 臉，又是另一種偏離。
+- 結論：漂移出在定稿鏈（218 起，253n 最嚴重），不是 Soul；用同一組型錄照重建 Soul 會得到同樣的臉，用 253n 系列重建則會把漂移固定下來。
+- 待製作師決定：Nanami 的臉以哪一個為準（型錄／Soul，或 253n）。
