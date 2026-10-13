@@ -880,3 +880,8 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` |
 | Vicky | **定稿 v2 job 314** | `finals/vicky_v2_job314_10747f77.jpg` |
 | Kanon | 小惡魔版作廢；地雷系版待出 | — |
+
+## 製作師指示（2026-10-13）：參考圖來源改以 Pinterest 優先
+
+- 之後執行者要找參考圖（構圖、姿勢、材質、風格），優先到 Pinterest 找，不限於免費圖庫。
+- 執行者備註：Pinterest 圖多為轉貼，來源與權利通常不明；依追加 14 決定，餵進生成由平台把關，報告仍登記「來源 Pinterest、權利不明」；只用於比對的不進生成。Pinterest 需登入與 JavaScript，執行者端抓取不一定成功，抓不到時請製作師以附件傳圖。
