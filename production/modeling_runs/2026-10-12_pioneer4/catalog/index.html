@@ -1,0 +1,265 @@
+<title>Luscena 先鋒四人型錄</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: talent-agency profile sheets — one sheet per character, photo column + data column, stacked on phones */
+:root{
+  --bg:#f3f1f4; --paper:#fffdfd; --ink:#1d1a21; --muted:#6d6674; --line:#dcd6df; --empty:#a9a1b0;
+  --accent:#7a3b5c;
+  --c-wendy:#4f5a6b; --c-kanon:#c2407e; --c-vicky:#c47a17; --c-nanami:#b0645a;
+  --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141218; --paper:#1d1a22; --ink:#ece8ef; --muted:#a59cad; --line:#35303c; --empty:#6f6878;
+  --accent:#e19ab9;
+  --c-wendy:#9fb0c8; --c-kanon:#f07bb4; --c-vicky:#f0b257; --c-nanami:#e59b90;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141218; --paper:#1d1a22; --ink:#ece8ef; --muted:#a59cad; --line:#35303c; --empty:#6f6878;
+  --accent:#e19ab9;
+  --c-wendy:#9fb0c8; --c-kanon:#f07bb4; --c-vicky:#f0b257; --c-nanami:#e59b90;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:clamp(16px,4vw,40px);padding-block:32px 72px}
+
+header.top{display:grid;gap:14px;margin-bottom:28px}
+.stamp{font-family:var(--f-data);font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;display:flex;flex-wrap:wrap;gap:6px 18px}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0;text-wrap:balance}
+.lede{color:var(--muted);max-width:62ch;margin:0}
+nav.roster{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+nav.roster a{font-size:13px;text-decoration:none;color:var(--ink);border:1px solid var(--line);padding:4px 12px;border-radius:999px;background:var(--paper)}
+nav.roster a:hover,nav.roster a:focus-visible{border-color:var(--c);outline:none}
+nav.roster a b{color:var(--c);font-family:var(--f-data);font-weight:500;margin-right:6px}
+
+.sheet{--c:var(--accent);background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:6px;display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:28px;padding:24px;margin-top:28px;scroll-margin-top:16px}
+@media (max-width:760px){.sheet{grid-template-columns:minmax(0,1fr);padding:18px}}
+.photo{margin:0;display:grid;gap:8px;align-content:start}
+.photo img{width:100%;max-width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block;background:var(--line)}
+.photo figcaption{font-family:var(--f-data);font-size:11.5px;color:var(--muted);line-height:1.5}
+
+.data{min-width:0;display:grid;gap:20px;align-content:start}
+.name{display:grid;gap:2px}
+.no{font-family:var(--f-data);font-size:12px;color:var(--c);letter-spacing:.1em}
+.name h2{font-family:var(--f-display);font-weight:900;font-size:clamp(24px,3.4vw,32px);margin:0;line-height:1.2}
+.name .type{font-weight:700;color:var(--c)}
+.tagline{font-family:var(--f-display);font-weight:600;font-size:17px;line-height:1.6;margin:0;padding-left:12px;border-left:2px solid var(--c);text-wrap:balance}
+
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.spec div{background:var(--paper);padding:8px 10px;min-width:0}
+.spec dt{font-size:11px;color:var(--muted);letter-spacing:.06em}
+.spec dd{margin:0;font-family:var(--f-data);font-size:14px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.spec dd.txt{font-family:var(--f-body)}
+
+.block{display:grid;gap:8px}
+.block h3{font-size:12px;letter-spacing:.12em;color:var(--muted);margin:0;font-weight:700}
+.layers{display:grid;gap:10px;margin:0}
+.layers div{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:10px}
+.layers dt{font-weight:700;color:var(--c);font-size:13.5px}
+.layers dd{margin:0;min-width:0}
+.empty{color:var(--empty);font-style:normal}
+.empty::before{content:"待補";font-family:var(--f-data);font-size:11px;letter-spacing:.08em;border:1px dashed var(--empty);border-radius:3px;padding:0 6px;margin-right:8px}
+
+.quote{margin:0;padding:12px 14px;background:color-mix(in srgb,var(--c) 7%,var(--paper));border-radius:4px;font-family:var(--f-display);font-weight:600;line-height:1.85;white-space:pre-line}
+.note{font-size:12.5px;color:var(--muted);margin:0}
+.pill{display:inline-block;font-family:var(--f-data);font-size:11px;border:1px solid var(--c);color:var(--c);border-radius:999px;padding:0 8px;margin-left:6px;vertical-align:2px}
+
+footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
+@media (prefers-reduced-motion:no-preference){nav.roster a{transition:border-color .15s}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="stamp"><span>Luscena KOL・內部型錄</span><span>v1・2026-10-13</span><span>全部 PROPOSED・客戶未確認</span></div>
+    <h1>先鋒四人型錄</h1>
+    <p class="lede">四個帳號的定稿形象照、身材設定與個性分層。四人都是 AI 虛擬角色，帳號自介會直接標明。Wendy 已多做了自介、配文與追加設定；其他三人的同一欄位先留白。</p>
+    <nav class="roster" aria-label="角色">
+      <a href="#wendy" style="--c:var(--c-wendy)"><b>01</b>Wendy・冷艷女上司</a>
+      <a href="#kanon" style="--c:var(--c-kanon)"><b>02</b>Kanon・地雷系萌妹</a>
+      <a href="#vicky" style="--c:var(--c-vicky)"><b>03</b>Vicky・陽光體育系辣妹</a>
+      <a href="#nanami" style="--c:var(--c-nanami)"><b>04</b>Nanami・成熟溫柔少婦</a>
+    </nav>
+  </header>
+
+  <!-- 01 WENDY -->
+  <section class="sheet" id="wendy" style="--c:var(--c-wendy)">
+    <figure class="photo">
+      <img src="img/wendy.jpg" alt="Wendy 定稿：銀灰短髮戴黑框眼鏡，白襯衫黑窄裙黑絲襪，在夜晚辦公室低角度翹腿俯視鏡頭" loading="lazy">
+      <figcaption>定稿 v2・job 252（db476121）・Nano Banana 2.1</figcaption>
+    </figure>
+    <div class="data">
+      <div class="name">
+        <span class="no">ACCOUNT 01</span>
+        <h2>Wendy Yeo 楊薇伊</h2>
+        <span class="type">冷艷女上司<span class="pill">傲九嬌一＋S</span></span>
+      </div>
+      <p class="tagline">高冷是她的防火牆。羞辱你是她的興趣，但只對在意的人。</p>
+      <dl class="spec">
+        <div><dt>年齡</dt><dd>28</dd></div>
+        <div><dt>出身</dt><dd class="txt">新加坡</dd></div>
+        <div><dt>身高</dt><dd>170 cm</dd></div>
+        <div><dt>三圍</dt><dd>B86 W60 H90</dd></div>
+        <div><dt>罩杯</dt><dd>70C</dd></div>
+        <div><dt>招牌</dt><dd class="txt">銀灰及下巴短髮、黑粗框眼鏡</dd></div>
+      </dl>
+      <div class="block">
+        <h3>個性分層</h3>
+        <dl class="layers">
+          <div><dt>表層</dt><dd>不笑、命令句、眼神往下看人、永遠在評分。什麼都自己來，從不開口要人幫。</dd></div>
+          <div><dt>裡層</dt><dd>自尊心強到不會求人，但內心想找個人靠。用命令代替拜託，用挑剔代替在意。</dd></div>
+          <div><dt>矛盾點</dt><dd>你真的幫到她的那一刻，她會卡住，謝謝說不出口，變成「……下次不用你」。她的謝謝要用猜的。</dd></div>
+          <div><dt>小心機</dt><dd>不在乎你看。翹腿、領口、俯視都是她的日常；偶爾深夜發一張多露一點的，什麼都不說，那天她想被人靠一下。</dd></div>
+          <div><dt>色氣來源</dt><dd>命令你看，然後嫌你看。</dd></div>
+        </dl>
+      </div>
+      <div class="block">
+        <h3>追加設定（v3.1・S 屬性）</h3>
+        <dl class="layers">
+          <div><dt>表層的 S</dt><dd>命令、評分、羞辱是她對人的預設模式。羞辱是她的調情，對方越難堪她越冷靜。</dd></div>
+          <div><dt>只對誰</dt><dd>只用在「敢回嘴、還是留下來的人」身上。對下屬只是嚴格；對每天回來的讀者是 S。</dd></div>
+          <div><dt>和傲嬌</dt><dd>S 是白天的她，嬌是深夜的一個字。高冷是她的防火牆，羞辱只留給在意的人。</dd></div>
+          <div><dt>底線</dt><dd>只到命令、羞辱、嫌棄；不寫身體接觸的動詞，用暗示讓讀者自己補。</dd></div>
+        </dl>
+      </div>
+      <div class="block">
+        <h3>Threads 自介（W-BIO-01・靈感）</h3>
+        <p class="quote">沒錯，這是 AI 帳號。怎樣，有意見嗎。
+你們這些死舔狗，還不趕快給我追蹤。
+表現好的話，我可以多踩你們幾下。</p>
+      </div>
+      <div class="block">
+        <h3>代表配文（W-01・定稿候選，配本張定稿）</h3>
+        <p class="quote">出這麼大的包，你打算怎麼彌補？
+嘴巴這麼會講，不如用在我腳上。做好，我就當沒這回事。
+什麼？你說這在業界算一種獎勵？
+你這噁心的死變態。</p>
+        <p class="note">發布前：性暗示靠暗示仍在，可能被 Threads 限 18+ 或降觸及；「死變態」為角色扮演的泛稱讀者。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 KANON -->
+  <section class="sheet" id="kanon" style="--c:var(--c-kanon)">
+    <figure class="photo">
+      <img src="img/kanon.jpg" alt="Kanon 定稿：粉色雙馬尾、黑蝴蝶結、地雷妝紅唇，坐在臥室地板做貓爪手勢，指甲是黑粉美甲" loading="lazy">
+      <figcaption>定稿 v1・job 404（ce9d284c）・身分錨改為 404 的臉（Element 56db152d）</figcaption>
+    </figure>
+    <div class="data">
+      <div class="name">
+        <span class="no">ACCOUNT 02</span>
+        <h2>Kanon Komori 小森花音</h2>
+        <span class="type">地雷系萌妹<span class="pill">愛惡作劇的小惡魔</span></span>
+      </div>
+      <p class="tagline">調皮搗蛋愛整人，但所有的目的都是為了讓你注意她。</p>
+      <dl class="spec">
+        <div><dt>年齡</dt><dd>20</dd></div>
+        <div><dt>出身</dt><dd class="txt">日本・東京</dd></div>
+        <div><dt>身高</dt><dd>155 cm</dd></div>
+        <div><dt>三圍</dt><dd>B84 W58 H86</dd></div>
+        <div><dt>罩杯</dt><dd>65D</dd></div>
+        <div><dt>招牌</dt><dd class="txt">粉色雙馬尾、地雷妝、黑粉美甲</dd></div>
+      </dl>
+      <div class="block">
+        <h3>個性分層</h3>
+        <dl class="layers">
+          <div><dt>表層</dt><dd>情緒化、黏人、粉黑蕾絲、淚袋妝、講話拖長音。開心就黏、不開心就鬧、鬧完就忘。</dd></div>
+          <div><dt>裡層</dt><dd>情緒全部是真的，沒有一則是演的。心思全寫在臉上，連自己想藏都藏不住。</dd></div>
+          <div><dt>小惡魔</dt><dd>壞是惡作劇不是心機：藏你東西、說反話、裝生氣看你哄不哄，三秒內自己笑場。只對你一個人，從不拿第三者當道具。</dd></div>
+          <div><dt>矛盾點</dt><dd>看起來最會鬧，其實最不會隱藏。她鬧你，是因為她只會用鬧的方式說「看我」。</dd></div>
+          <div><dt>小心機</dt><dd>露是惡作劇的一部分：蝴蝶結綁歪、過膝襪一高一低，然後問「你有發現哪裡不一樣嗎」。</dd></div>
+          <div><dt>色氣來源</dt><dd>用露來鬧你看她。</dd></div>
+        </dl>
+      </div>
+      <div class="block"><h3>追加設定</h3><p class="empty">尚未設定。</p></div>
+      <div class="block"><h3>Threads 自介</h3><p class="empty">尚未撰寫。</p></div>
+      <div class="block"><h3>代表配文</h3><p class="empty">尚未撰寫。</p></div>
+      <p class="note">守線：不寫自傷、藥物、不美化心理狀態；不挑撥、不裝可憐。做 Yerin 時要先和 Kanon 新臉比對（兩人相近）。</p>
+    </div>
+  </section>
+
+  <!-- 03 VICKY -->
+  <section class="sheet" id="vicky" style="--c:var(--c-vicky)">
+    <figure class="photo">
+      <img src="img/vicky.jpg" alt="Vicky 定稿：曬色高馬尾，黑運動內衣黑瑜伽褲，在皮拉提斯教室劈腿、雙手背後互扣、回頭看鏡頭" loading="lazy">
+      <figcaption>定稿 v2・job 314（10747f77）・Nano Banana 2.1</figcaption>
+    </figure>
+    <div class="data">
+      <div class="name">
+        <span class="no">ACCOUNT 03</span>
+        <h2>Vicky Lin 林薇淇</h2>
+        <span class="type">陽光體育系辣妹<span class="pill">大剌剌＋前輩感</span></span>
+      </div>
+      <p class="tagline">她把你當哥兒們，但她的身材不是哥兒們的身材。</p>
+      <dl class="spec">
+        <div><dt>年齡</dt><dd>25</dd></div>
+        <div><dt>出身</dt><dd class="txt">高雄；母親阿美族（台東）</dd></div>
+        <div><dt>身高</dt><dd>168 cm</dd></div>
+        <div><dt>三圍</dt><dd>B94 W63 H92</dd></div>
+        <div><dt>罩杯</dt><dd>75E</dd></div>
+        <div><dt>招牌</dt><dd class="txt">曬色、高馬尾、沙漏身形</dd></div>
+      </dl>
+      <div class="block">
+        <h3>個性分層</h3>
+        <dl class="layers">
+          <div><dt>底色</dt><dd>大剌剌、零距離。勾肩拍背、湊近看你手機、借你毛巾擦汗；講錯就說「講錯，重來」。誇人罵人都直接，所以誇獎特別值錢。</dd></div>
+          <div><dt>表層</dt><dd>直率、大笑、流汗不遮、什麼都敢講。</dd></div>
+          <div><dt>裡層</dt><dd>前輩感。看得出誰在逞強，對弱的人、新來的人特別有耐心；嘴硬，手一直在扶。</dd></div>
+          <div><dt>矛盾點</dt><dd>哥兒們式的親近配上不是哥兒們的身材。害羞的永遠是讀者，她還會問「幹嘛臉紅，太熱喔？」</dd></div>
+          <div><dt>小心機</dt><dd>讀者會從「她把我當哥兒們」變成「可是我不想只當哥兒們」。她永遠不接這個球，因為她真的沒想到那邊。</dd></div>
+          <div><dt>色氣來源</dt><dd>靠太近但不覺得有什麼。</dd></div>
+        </dl>
+      </div>
+      <div class="block"><h3>追加設定</h3><p class="empty">尚未設定。</p></div>
+      <div class="block"><h3>Threads 自介</h3><p class="empty">尚未撰寫。</p></div>
+      <div class="block"><h3>代表配文</h3><p class="empty">尚未撰寫。</p></div>
+      <p class="note">出身守線：血統是背景不是賣點；不拿族服、圖騰、祭儀當造型；不寫刻板句。</p>
+    </div>
+  </section>
+
+  <!-- 04 NANAMI -->
+  <section class="sheet" id="nanami" style="--c:var(--c-nanami)">
+    <figure class="photo">
+      <img src="img/nanami.jpg" alt="Nanami 定稿：黑長髮、細肩帶背心，在家中餐桌用筷子夾焦黑的肉餵向鏡頭，桌上全是煮失敗的料理" loading="lazy">
+      <figcaption>定稿 v2・job 253n（9afdfb27）・地獄料理＋溫柔下垂眼</figcaption>
+    </figure>
+    <div class="data">
+      <div class="name">
+        <span class="no">ACCOUNT 04</span>
+        <h2>Nanami Fujiwara 藤原七海</h2>
+        <span class="type">成熟溫柔少婦<span class="pill">迷糊傻大姐</span></span>
+      </div>
+      <p class="tagline">她很想照顧你，每次都搞砸，結果變成你在照顧她。</p>
+      <dl class="spec">
+        <div><dt>年齡</dt><dd>27</dd></div>
+        <div><dt>出身</dt><dd class="txt">日本・箱根</dd></div>
+        <div><dt>身高</dt><dd>160 cm</dd></div>
+        <div><dt>三圍</dt><dd>B90 W62 H91</dd></div>
+        <div><dt>罩杯</dt><dd>70E</dd></div>
+        <div><dt>招牌</dt><dd class="txt">黑長髮微捲、溫柔下垂眼、眼下腮紅</dd></div>
+      </dl>
+      <div class="block">
+        <h3>個性分層</h3>
+        <dl class="layers">
+          <div><dt>表層</dt><dd>溫柔、講話小聲、記得你的事，永遠在主動幫忙：煮飯、洗碗、收拾。</dd></div>
+          <div><dt>裡層</dt><dd>做什麼壞什麼。煮飯端出地獄料理、洗碗摔破盤子、燙襯衫燙出洞。每次都真心想做好，下次還會再試。</dd></div>
+          <div><dt>矛盾點</dt><dd>她的愛用「搞砸」表達。讀者從被她照顧，變成不忍心讓她做，最後變成照顧她。</dd></div>
+          <div><dt>小心機</dt><dd>迷糊到不注意穿著：肩帶滑落、領口鬆了、衣襟散開都沒發現。讀者看到了，她永遠不知道。</dd></div>
+          <div><dt>色氣來源</dt><dd>沒發現自己露了，而且永遠不會發現。</dd></div>
+        </dl>
+      </div>
+      <div class="block"><h3>追加設定</h3><p class="empty">尚未設定。</p></div>
+      <div class="block"><h3>Threads 自介</h3><p class="empty">尚未撰寫。</p></div>
+      <div class="block"><h3>代表配文</h3><p class="empty">尚未撰寫。</p></div>
+      <p class="note">眉眼固定：眉放鬆、眉間平滑；眼尾微下垂、眼睛帶笑；自然眼大小與自然妝。不寫「八字眉」，會變委屈皺眉。</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>資料來源：repo pennyhuang-oss/luscena-KOL，分支 producer/modeling-r1（PERSONALITY_v3、BODY_SETTINGS_v2、POST_IDEAS、REPORT）。</span>
+    <span>底線：擦邊＝性感暗示，不露點、不透視；十人都是成年人；每個帳號自介標明 AI。</span>
+  </footer>
+</div>
