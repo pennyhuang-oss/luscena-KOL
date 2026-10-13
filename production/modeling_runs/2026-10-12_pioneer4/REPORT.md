@@ -1060,3 +1060,10 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` | Soul `cb91c63f` |
 | Vicky | 定稿 v2 job 314 | `finals/vicky_v2_job314_10747f77.jpg` | Soul `bdb1d879` |
 | Kanon | 定稿 v1 job 404 | `finals/kanon_v1_job404_ce9d284c.jpg` | Element `56db152d` |
+
+## 型錄 v1（2026-10-13）
+
+- 製作師指示：建一個簡單型錄，放四人定稿照與個性資料；Wendy 多做的設定（v3.1 S 屬性、自介 W-BIO-01、配文 W-01）一併放上，其他人同欄位留白。
+- 私人 Artifact：https://claude.ai/artifact/VeEE86kNzLykcK9RAV1vMb （只有擁有者與被分享者能開）。
+- 內容：每人一頁簡介——定稿照（網頁用縮圖 960 寬）、年齡出身身高三圍罩杯招牌、一句話、個性分層（表層／裡層／矛盾點／小心機／色氣來源）、追加設定、Threads 自介、代表配文、守線。Kanon、Vicky、Nanami 的追加設定、自介、配文標「待補」。
+- 資料來源：PERSONALITY_v3（含 v3.1）、BODY_SETTINGS_v2、PERSONA_SUPPLEMENT_VICKY、POST_IDEAS、本 REPORT 的定稿紀錄。頁面原始檔在執行者端，不進 repo（圖檔含擦邊內容，repo 只放 finals）。
