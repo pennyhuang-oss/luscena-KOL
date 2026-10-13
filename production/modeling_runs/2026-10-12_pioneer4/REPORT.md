@@ -1067,3 +1067,26 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 私人 Artifact：https://claude.ai/artifact/VeEE86kNzLykcK9RAV1vMb （只有擁有者與被分享者能開）。
 - 內容：每人一頁簡介——定稿照（網頁用縮圖 960 寬）、年齡出身身高三圍罩杯招牌、一句話、個性分層（表層／裡層／矛盾點／小心機／色氣來源）、追加設定、Threads 自介、代表配文、守線。Kanon、Vicky、Nanami 的追加設定、自介、配文標「待補」。
 - 資料來源：PERSONALITY_v3（含 v3.1）、BODY_SETTINGS_v2、PERSONA_SUPPLEMENT_VICKY、POST_IDEAS、本 REPORT 的定稿紀錄。頁面原始檔在執行者端，不進 repo（圖檔含擦邊內容，repo 只放 finals）。
+
+## 追加 45（2026-10-13）：Vicky 第二張——泳池躺椅比基尼（4:3）
+
+- 製作師：Vicky 第二張用一張泳池參考圖（Pinterest 截圖，真人、躺椅、手枕頭後、比基尼；來源與權利不明），長寬 4:3。
+- 執行者列規格與三個預設，製作師「照預設」：
+  1. 墨鏡推到頭上（參考圖戴在臉上，會擋臉）；
+  2. 比基尼改素色全黑細綁帶三角款（參考圖為有品牌感的鋸齒花紋）；
+  3. 髮型維持 Vicky 的高馬尾、深棕黑髮。
+  - 另外：移除背景的另一位女性與畫面上的搜尋圖示；臉用 Vicky Soul 特寫；身形照 `BODY_SETTINGS_v2` §2 與 `PERSONA_SUPPLEMENT_VICKY` §3。
+- 參考圖登記：上傳為 media `2d7e7cc6-a8f2-4c23-a3de-a1d52973593a`（1071×837）；只作構圖與光線參考，不進 repo。
+- 做法：Nano Banana 2.1，2k、thinking high、aspect_ratio 4:3、1 張、2 點。image_references ＝ [參考圖 `2d7e7cc6`（構圖底）、Vicky Soul 特寫 313 去介面版 `e808402c`（臉）]。prompt：保留躺椅、棚架斑駁光、姿勢；臉照第二張圖、高馬尾；墨鏡在頭上；運動型沙漏身形、E 罩杯、曬色帶油光；素黑細綁帶三角比基尼；移除背景人物與搜尋圖示。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 315 `65465399-71bd-4a3d-b17c-984760f56481` | 2400×1792 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_045305_65465399-71bd-4a3d-b17c-984760f56481.png |
+
+- 看圖（全圖與臉部特寫）：
+  - ✅ 姿勢對上參考圖（一手枕頭後、一手放大腿）；墨鏡在頭上；素黑細綁帶比基尼；深色高馬尾；腹肌線條、曬色；背景女性與搜尋圖示已移除；無假介面、無浮水印。
+  - ✅ 臉讀起來是 Vicky（Soul 特寫那張臉），表情是自信的半笑。正式的 Soul 臉部比對依製作師規則留到定稿後。
+  - ⚠️ 胸部比 E 罩杯規格小，看起來約 C～D；若要對齊規格，可用 Nano Banana 只改胸部（2 點）。
+  - 光線：自然斑駁日光，亮度正常。
+- 狀態：PROPOSED，待製作師看圖決定（定稿／修胸部／重出）。
+- 餘額 3171.76 → 3169.76；本批累計 83.80 點。
