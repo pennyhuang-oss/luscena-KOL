@@ -101,3 +101,4 @@
 - Nanami 改為台灣人，台南出身、現住台北；細節見 `PERSONA_SUPPLEMENT_NANAMI_2026-10-13.md`。§1 個性不變。
 - 十人講話、發文一律用中文，不用日文。
 - 角色名稱只是內部代稱；社群帳號可用綽號，另定。
+- Nanami 改名：英文名 Nanami，中文名 黃芷柔（Nanami Huang），取代「Nanami Fujiwara／藤原七海」。本檔舊段落的英文名照舊可用。
