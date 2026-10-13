@@ -38,9 +38,11 @@ nav.roster a b{color:var(--c);font-family:var(--f-data);font-weight:500;margin-r
 
 .sheet{--c:var(--accent);background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:6px;display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:28px;padding:24px;margin-top:28px;scroll-margin-top:16px}
 @media (max-width:760px){.sheet{grid-template-columns:minmax(0,1fr);padding:18px}}
-.photo{margin:0;display:grid;gap:8px;align-content:start}
-.photo img{width:100%;max-width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px;display:block;background:var(--line)}
-.photo figcaption{font-family:var(--f-data);font-size:11.5px;color:var(--muted);line-height:1.5}
+.gallery{display:grid;gap:24px;align-content:start;min-width:0}
+.photo{margin:0;display:grid;gap:10px;align-content:start}
+.photo img{width:100%;max-width:100%;height:auto;border-radius:4px;display:block;background:var(--line)}
+.photo .quote{font-size:14.5px}
+.photo .note{margin-top:-4px}
 
 .data{min-width:0;display:grid;gap:20px;align-content:start}
 .name{display:grid;gap:2px}
@@ -76,7 +78,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
   <header class="top">
     <div class="stamp"><span>Luscena KOL・內部型錄</span><span>v1・2026-10-13</span><span>全部 PROPOSED・客戶未確認</span></div>
     <h1>先鋒四人型錄</h1>
-    <p class="lede">四個帳號的定稿形象照、身材設定與個性分層。四人都是 AI 虛擬角色，帳號自介會直接標明。四人都已有自介與代表配文（定稿候選）；追加設定有需要再補。</p>
+    <p class="lede">四個帳號的定稿形象照、身材設定與個性分層。四人都是 AI 虛擬角色，帳號自介會直接標明。每張定稿圖下面是它的配文；之後每多一張圖，就多一段配文。追加設定有需要再補。</p>
     <nav class="roster" aria-label="角色">
       <a href="#wendy" style="--c:var(--c-wendy)"><b>01</b>Wendy・冷艷女上司</a>
       <a href="#kanon" style="--c:var(--c-kanon)"><b>02</b>Kanon・地雷系萌妹</a>
@@ -87,10 +89,16 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 
   <!-- 01 WENDY -->
   <section class="sheet" id="wendy" style="--c:var(--c-wendy)">
-    <figure class="photo">
-      <img src="img/wendy.jpg" alt="Wendy 定稿：銀灰短髮戴黑框眼鏡，白襯衫黑窄裙黑絲襪，在夜晚辦公室低角度翹腿俯視鏡頭" loading="lazy">
-      <figcaption>定稿 v2・job 252（db476121）・Nano Banana 2.1</figcaption>
-    </figure>
+    <div class="gallery">
+      <figure class="photo">
+        <img src="img/wendy.jpg" alt="Wendy 定稿：銀灰短髮戴黑框眼鏡，白襯衫黑窄裙黑絲襪，在夜晚辦公室低角度翹腿俯視鏡頭" loading="lazy">
+        <p class="quote">出這麼大的包，你打算怎麼彌補？
+嘴巴這麼會講，不如用在我腳上。做好，我就當沒這回事。
+什麼？你說這在業界算一種獎勵？
+你這噁心的死變態。</p>
+        <p class="note">發布前：性暗示靠暗示仍在，可能被 Threads 限 18+ 或降觸及；「死變態」為角色扮演的泛稱讀者。</p>
+      </figure>
+    </div>
     <div class="data">
       <div class="name">
         <span class="no">ACCOUNT 01</span>
@@ -131,23 +139,20 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 你們這些死舔狗，還不趕快給我追蹤。
 表現好的話，我可以多踩你們幾下。</p>
       </div>
-      <div class="block">
-        <h3>代表配文（W-01・定稿候選，配本張定稿）</h3>
-        <p class="quote">出這麼大的包，你打算怎麼彌補？
-嘴巴這麼會講，不如用在我腳上。做好，我就當沒這回事。
-什麼？你說這在業界算一種獎勵？
-你這噁心的死變態。</p>
-        <p class="note">發布前：性暗示靠暗示仍在，可能被 Threads 限 18+ 或降觸及；「死變態」為角色扮演的泛稱讀者。</p>
-      </div>
     </div>
   </section>
 
   <!-- 02 KANON -->
   <section class="sheet" id="kanon" style="--c:var(--c-kanon)">
-    <figure class="photo">
-      <img src="img/kanon.jpg" alt="Kanon 定稿：粉色雙馬尾、黑蝴蝶結、地雷妝紅唇，坐在臥室地板做貓爪手勢，指甲是黑粉美甲" loading="lazy">
-      <figcaption>定稿 v1・job 404（ce9d284c）・身分錨改為 404 的臉（Element 56db152d）</figcaption>
-    </figure>
+    <div class="gallery">
+      <figure class="photo">
+        <img src="img/kanon.jpg" alt="Kanon 定稿：粉色雙馬尾、黑蝴蝶結、地雷妝紅唇，坐在臥室地板做貓爪手勢，指甲是黑粉美甲" loading="lazy">
+        <p class="quote">喵～抓到你了🐾
+從今天開始你就是我的貓奴，不准再去按別人的讚喔💢
+…騙你的啦。
+（但我真的會看）🖤</p>
+      </figure>
+    </div>
     <div class="data">
       <div class="name">
         <span class="no">ACCOUNT 02</span>
@@ -181,23 +186,24 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 不追蹤的人…我會記住你的💢
 騙你的啦。（真的會記住）🖤</p>
       </div>
-      <div class="block">
-        <h3>代表配文（K-01・定稿候選，配本張定稿）</h3>
-        <p class="quote">喵～抓到你了🐾
-從今天開始你就是我的貓奴，不准再去按別人的讚喔💢
-…騙你的啦。
-（但我真的會看）🖤</p>
-      </div>
       <p class="note">守線：不寫自傷、藥物、不美化心理狀態；不挑撥、不裝可憐。做 Yerin 時要先和 Kanon 新臉比對（兩人相近）。</p>
     </div>
   </section>
 
   <!-- 03 VICKY -->
   <section class="sheet" id="vicky" style="--c:var(--c-vicky)">
-    <figure class="photo">
-      <img src="img/vicky.jpg" alt="Vicky 定稿：曬色高馬尾，黑運動內衣黑瑜伽褲，在皮拉提斯教室劈腿、雙手背後互扣、回頭看鏡頭" loading="lazy">
-      <figcaption>定稿 v2・job 314（10747f77）・Nano Banana 2.1</figcaption>
-    </figure>
+    <div class="gallery">
+      <figure class="photo">
+        <img src="img/vicky.jpg" alt="Vicky 定稿：曬色高馬尾，黑運動內衣黑瑜伽褲，在皮拉提斯教室劈腿、回頭看鏡頭" loading="lazy">
+        <p class="quote">你幹嘛站在那邊一直盯著我拉筋？
+你臉怎麼有點紅紅的？太熱喔？
+來啦，換你，我幫你壓。</p>
+      </figure>
+      <figure class="photo">
+        <img src="img/vicky2.jpg" alt="Vicky 第二張：泳池躺椅上穿黑色比基尼，一手放頭上，一手搭在抹了防曬乳的大腿上" loading="lazy">
+        <p class="empty">配文待寫。</p>
+      </figure>
+    </div>
     <div class="data">
       <div class="name">
         <span class="no">ACCOUNT 03</span>
@@ -231,22 +237,24 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 追蹤我，雖然我是 AI，但還是可以跟我一起運動。
 這位兄弟，你這邊的筋怎麼這麼硬啊？</p>
       </div>
-      <div class="block">
-        <h3>代表配文（V-01・定稿候選，配本張定稿）</h3>
-        <p class="quote">你幹嘛站在那邊一直盯著我拉筋？
-你臉怎麼有點紅紅的？太熱喔？
-來啦，換你，我幫你壓。</p>
-      </div>
       <p class="note">出身守線：血統是背景不是賣點；不拿族服、圖騰、祭儀當造型；不寫刻板句。</p>
     </div>
   </section>
 
   <!-- 04 NANAMI -->
   <section class="sheet" id="nanami" style="--c:var(--c-nanami)">
-    <figure class="photo">
-      <img src="img/nanami.jpg" alt="Nanami 定稿：黑長髮、細肩帶背心，在家中餐桌用筷子夾焦黑的肉餵向鏡頭，桌上全是煮失敗的料理" loading="lazy">
-      <figcaption>定稿 v2・job 253n（9afdfb27）・地獄料理＋溫柔下垂眼</figcaption>
-    </figure>
+    <div class="gallery">
+      <figure class="photo">
+        <img src="img/nanami.jpg" alt="Nanami 定稿：黑長髮、細肩帶背心，在家中餐桌用筷子夾焦黑的肉餵向鏡頭，桌上全是煮失敗的料理" loading="lazy">
+        <p class="quote">這是我做給我老公的愛妻晚餐，
+看在你平時總是幫我的份上，就破例讓你先嚐嚐。
+什麼？你說你還不餓？</p>
+      </figure>
+      <figure class="photo">
+        <img src="img/nanami2.jpg" alt="Nanami 第二張：夜晚廚房地板上跌坐，粉色針織洋裝與開襟外套，眨眼吐舌，旁邊是摔破盤子的蛋包飯" loading="lazy">
+        <p class="empty">配文待寫。</p>
+      </figure>
+    </div>
     <div class="data">
       <div class="name">
         <span class="no">ACCOUNT 04</span>
@@ -281,12 +289,6 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
         <p class="quote">我是 AI，平常都在家等老公回來。
 他常常不在…所以你可以陪我聊聊天嗎？
 追蹤我，我會很溫柔地對你喔。</p>
-      </div>
-      <div class="block">
-        <h3>代表配文（N-01・定稿候選，配本張定稿）</h3>
-        <p class="quote">這是我做給我老公的愛妻晚餐，
-看在你平時總是幫我的份上，就破例讓你先嚐嚐。
-什麼？你說你還不餓？</p>
       </div>
       <p class="note">眉眼固定：眉放鬆、眉間平滑；眼尾微下垂、眼睛帶笑；自然眼大小與自然妝。不寫「八字眉」，會變委屈皺眉。</p>
     </div>
