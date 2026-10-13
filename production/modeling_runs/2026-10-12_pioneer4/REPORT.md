@@ -1281,3 +1281,4 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
     5. 拖鞋掉在地上，不是飛在空中（小事）。
 - 狀態：PROPOSED，等製作師判斷要不要以 255n 為底，用 Nano Banana 局部修（表情＋腮紅＋胸部＋磨皮，一次改一到兩項）。
 - 點數：2 點。餘額 3122.00 → 3120.00；本批累計 121.16 點。
+- 餘額更正：實際餘額 3117.25（2026-10-13 07:23 查）。帳上同一分鐘另有一筆 GPT Image 2.5 Flare −2.75 點（07:22:49），不是本專案執行者操作的（本輪只送出 255n 一個 job），和先前的 Seed Audio 一樣待製作師確認。本專案本批累計仍為 121.16 點。
