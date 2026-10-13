@@ -1444,3 +1444,33 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 看圖（253n／266n／268n 貼回版臉部並排；全圖）：臉頰變圓、下巴變鈍，V 臉感消失，眼型、鼻頭、嘴型接近 253n；執行者估約八成到八成五像 253n（266n 約七成）。貼回無接縫（邊緣差約 3～5）。身體、衣服、廚房、皮膚磨皮都沿用 266n。貼回版在執行者端，尚未上傳 Higgsfield。
 - 狀態：PROPOSED（268n 貼回版），等製作師判斷。
 - 點數：2 點。帳上同時有 4 筆 Seed Audio 1.0（各 0.2，08:33:54），不是執行者操作的。餘額 3090.26 → 3086.86；本專案本批累計 147.40 點。
+
+## 追加 62（2026-10-13）：Nanami、Kanon 用新臉重做三角度身分照；建 v3 Element
+
+- 製作師：10/08 做正面／3/4／側面身分照是為了鎖臉；Nanami（改以 253n 為準）和 Kanon（改以 404 為準）換了新臉，兩人都要重做。
+- 製作師另指示：帳號上別人花的點數不用管，之後只報執行者自己的花費。
+- 規格沿用 10/08 IDENTITY_TEST：頭到肩、平視、頭髮綁低馬尾塞耳後露出額頭眉毛耳朵下顎線、表情中性閉嘴、灰色圓領 T 恤、無飾品、淺灰棚拍背景均光；改用 Nano Banana 2.1（soul_2 只會出 Soul 的臉），3:4、2k、thinking high，臉來源＝定稿臉部裁切（Nanami media `c6b35378`、Kanon media `68c76117`）。
+  - Nanami：淡妝＋253n 的腮紅（不做素顏，辨識度有一部分來自這個妝）。
+  - Kanon 第一輪：照 10/08 素顏規格。看圖後判斷 404 的辨識度主要來自地雷妝（放大片、眼線、眼下紅暈、紅唇），素顏版很難核對是否同一人；且 handoff 規定 Kanon 妝要重。第二輪改為保留地雷妝。素顏版留作骨架參考。
+
+| 角色 | 角度 | job | 結果 |
+|---|---|---|---|
+| Nanami | 正面 | `a643860d-27e2-49b4-808b-01288ac5b570` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084019_a643860d-27e2-49b4-808b-01288ac5b570.png |
+| Nanami | 3/4 側 | `50d91da4-08ab-4a6e-a2a7-f47a5c13c890` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084018_50d91da4-08ab-4a6e-a2a7-f47a5c13c890.png |
+| Nanami | 側面 | `f6e33453-abf4-453f-9837-0bcf6120802c` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084019_f6e33453-abf4-453f-9837-0bcf6120802c.png |
+| Kanon 帶妝 | 正面 | `88281e32-052d-468c-b806-307015e75061` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084152_88281e32-052d-468c-b806-307015e75061.png |
+| Kanon 帶妝 | 3/4 側 | `d185503a-6f46-4561-9cae-f0e69f4e2d68` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084152_d185503a-6f46-4561-9cae-f0e69f4e2d68.png |
+| Kanon 帶妝 | 側面 | `2caf191b-9e89-478c-a9a9-45f1fc6fa37d` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084152_2caf191b-9e89-478c-a9a9-45f1fc6fa37d.png |
+| Kanon 素顏 | 正面 | `2da0856f-325a-43bf-94b9-398e21ed149f` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084017_2da0856f-325a-43bf-94b9-398e21ed149f.png |
+| Kanon 素顏 | 3/4 側 | `9878d889-8ba2-4981-bffd-4a3b9c734a96` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084019_9878d889-8ba2-4981-bffd-4a3b9c734a96.png |
+| Kanon 素顏 | 側面 | `817dfb6b-8ae6-40d1-9b82-97b5a469bb2a` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_084018_817dfb6b-8ae6-40d1-9b82-97b5a469bb2a.png |
+
+- 看圖（定稿臉＋三角度並排）：
+  - Nanami：圓臉、飽滿臉頰、圓下巴、下垂眼、腮紅，三個角度是同一人，和 253n 一致 ✅。中性表情下看起來比 253n 略年輕。
+  - Kanon 帶妝：妝、放大片、粉髮黑髮根、臉型都接近 404 ✅；正面、3/4 是同一人。「側面」只轉到約 60 度，不是全側面。
+  - Kanon 素顏：臉型窄、略帶混血感，和 404 難以直接核對；不放進 Element。
+- 新 Element（0 點；舊版 v1 Soul、v2 單張保留）：
+  - **`nanami-face-v3-20261013`** id `000f947f-7a12-42bc-92cf-0f0422428f67`：253n 臉部裁切＋Nanami 三角度（4 張）。
+  - **`kanon-face-v3-20261013`** id `f599fe08-c035-41dc-bc67-5f0c76d25fba`：404 臉部裁切＋Kanon 帶妝三角度（4 張）。
+- 之後換臉時，臉來源可挑角度最接近的一張身分照。
+- 點數：9 張 × 2＝18 點。本專案本批累計 165.40 點。
