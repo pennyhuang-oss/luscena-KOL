@@ -1706,3 +1706,18 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 經驗：**裁切比例要和模型輸出比例一致（例如 4:5、1:1）**，不然模型會重排構圖、貼不回去。
 - 狀態：PROPOSED（282n，在執行者端），等製作師決定是否取代 279n 定稿。
 - 點數：8 點。本專案本批累計 222.40 點。
+
+## 追加 77（2026-10-13）：Nanami 第二張——乳溝加深；定稿改為 283n
+
+- 製作師：用 282n 取代 279n 當定稿，乳溝改深一點。
+- 做法：從 282n 裁胸口 600×600（左上 780,620）上傳 media `a8c61f95-5383-48a2-970d-2269b3bd41a9`；Nano Banana Pro 1:1 2k，只把乳溝改深（胸部略往上、往中間集中，領口高度與肩帶不變、不多露），count 2，4 點：
+
+| job | 結果 |
+|---|---|
+| C1 `b9b2ce08-11d6-48a2-a779-d9a20f9027ea`（採用） | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_102535_b9b2ce08-11d6-48a2-a779-d9a20f9027ea.png |
+| C2 `fd18d506-4526-4f33-a004-083c623d9dd9` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_102535_fd18d506-4526-4f33-a004-083c623d9dd9.png |
+
+- C1 乳溝較深、線條較明顯；以羽化橢圓貼回 282n，記為 **283n**。邊緣差約 3～5，無接縫。
+- **定稿（製作師決定）：Nanami 第二張＝283n**，取代 279n。鏈：…→ 279n → 280n（眼睛，未採用）→ 281n（臉部補光）→ 282n（髮型改回 253n、法令紋變淺）→ 283n（乳溝加深）。
+- 最終檔：`社群媒體/nanami/nanami_img2_283n_composite.jpg`（1792×2400、JPEG 品質 95）；舊檔 `nanami_img2_279n_composite.jpg` 已從資料夾移除（git 歷史保留）。
+- 點數：4 點。本專案本批累計 226.40 點。
