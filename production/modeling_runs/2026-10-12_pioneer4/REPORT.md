@@ -1903,3 +1903,30 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - 對 Soul：約四到五成像（404 本身對 Soul 就只有五到六成）。
 - 可行的修法（待製作師）：以 20136a2c 為底，用 404 臉部裁切（media `68c76117`）當臉來源，Nano Banana 只換五官，2 點。注意：兩張頭部角度不同（自拍側傾 vs 404 近正面），依追加 35 的經驗可能拉不太動。
 - 點數：0。
+
+## 追加 91（2026-10-13）：Kanon 第二張換回 404 的臉；新三角度身分照與 v4 Element
+
+- 製作師：用第二張定稿配合 404 的臉，再用這張臉重做身分（跟 Nanami 一樣：三角度身分照＋Element；不是真正的 Soul 訓練）。
+
+### A. 第二張換臉
+- Nano Banana 2.1，底圖 `20136a2c`＋404 臉部裁切（media `68c76117`）＋v3 帶妝 3/4 側身分照（`d185503a`），只換五官，2k，2 點：**`b6674da3-248f-4eb8-be6f-5087414d3e70`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_141912_b6674da3-248f-4eb8-be6f-5087414d3e70.png 。
+- 看圖（404／20136a2c／b6674da3 臉部並排）：臉頰變飽滿、下巴變圓、嘴唇變厚、鼻樑變低，對 404 從約六到七成拉到約七到八成；表情、妝、髮、衣服、背景不變。
+- **Kanon 第二張定稿改為 b6674da3**：`社群媒體/kanon/kanon_img2_jobb6674da3.jpg`（取代 kanon_img2_job20136a2c.jpg，舊檔已從 repo 移除，job 仍在 Higgsfield）。型錄圖已換。
+
+### B. 三角度身分照
+- 臉來源：b6674da3 臉部裁切（920×1000），media `d6666211-b3a0-4b74-88d6-a0ea0e8cfe3d`。規格同追加 62（頭到肩、平視、中性閉嘴、灰 T、無飾品、淺灰棚拍），保留地雷妝與髮色；Nano Banana 2.1，2k。
+
+| 角度 | job | 結果 |
+|---|---|---|
+| 正面 | `2fe0ee1a-9f80-4ab7-a8d4-315ef61fd7f8` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_142458_2fe0ee1a-9f80-4ab7-a8d4-315ef61fd7f8.png |
+| 3/4 側（第 1 次） | `e6601760-479f-458f-bbfd-70000c5790e9` | **NSFW**（中性大頭照也被擋；退點） |
+| 3/4 側（重送，寫明 22 歲成人、證件照） | `a4c248fb-ded2-49b4-9bcd-bc58e2eaded1` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_142842_a4c248fb-ded2-49b4-9bcd-bc58e2eaded1.png |
+| 側面 | `e3fb9859-7968-4195-a91e-f4e9e6700fe1` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_142541_e3fb9859-7968-4195-a91e-f4e9e6700fe1.png |
+
+- 看圖：三張是同一人，和 b6674da3 一致；側面是完整 90 度。3/4 側的妝較淡（眼影、唇色淺一點）。
+- 註：連穿灰 T 的中性大頭照都會被判 NSFW 一次，再次顯示平台把這張臉判為偏年幼。
+
+### C. v4 Element
+- **`kanon-face-v4-20261013`** id `38c439f5-d90e-4038-b3cd-97b8e1f7c6f3`（character，completed，0 點）：b6674da3 臉部裁切＋正面＋3/4＋側面（4 張）。之後 Kanon 用 v4；v2、v3 保留不用。
+
+- 點數：2＋2×3＝8 點（NSFW 那張已退點）。
