@@ -1143,3 +1143,13 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - 新圖暫時採用的皮膚寫法（輕美肌）：`Skin finish (house standard): a light phone beauty filter only. Skin looks smooth, even and clean, but fine natural pores are still faintly visible on the cheeks, nose and forehead, like an iPhone photo with light retouching. Not airbrushed, not plastic, not waxy; no film grain and no noise.`
 
 - 餘額 3169.76 → 3155.76（7 張 × 2 點）；本批累計 97.80 點。
+
+## 追加 47（2026-10-13）：美肌程度決定——依角色區分（製作師選 3）
+
+- 製作師從追加 46 的三個選項中選了 **3：依角色區分**。不統一成同一級；每個角色固定一級，同一角色的每張圖都要一致。
+  - Wendy、Vicky：輕美肌（約 10）。Kanon、Nanami：重磨皮（約 4～5）。
+  - **四張定稿都不動**。Kanon 404s1、404s2 試調版不採用，作廢備查；Nanami 253s1 已作廢。
+  - Vicky 319 是輕美肌（約 10），符合 Vicky 的級別。
+- 寫進 `BODY_SETTINGS_v2_2026-10-12.md` 新增的 §2.5：各角色的級別、依據的定稿、兩級的 prompt 寫法、檢查門檻，以及不要用 AI「加毛孔」的注意事項。重磨皮的寫法是 PROPOSED，尚未單獨測試。
+- 本輪沒有生成，沒有花點數。餘額 3155.76。
+- Vicky 319 仍是候選，等製作師決定（定稿、補「手勾側繩」、或其他修改）。
