@@ -1974,3 +1974,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ 背心是鏤空針織，布料看起來有點透；要確認是否符合「不透視」。
 - 狀態：候選，等製作師決定。
 - 點數：2 點。
+
+## 追加 96（2026-10-13）：Nanami 陽台曬衣——改遠景、4:3
+
+- 製作師：最大的重點是要有遠景，先試遠景；比例改 4:3。
+- 做法：Nano Banana Pro＋Nanami v4 Element，純文字，從街上幾公尺外仰拍、看得到一樓門口與機車、Nanami 在二樓陽台、畫面中小；小可愛貼近鏡頭在左下角大幅失焦；其他同追加 95，2 點：**`5ffcc614-0a28-42c6-ad0b-ef1c11ddec14`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_155617_5ffcc614-0a28-42c6-ad0b-ef1c11ddec14.png （2400×1792）。
+- 看圖：
+  - ✅ 遠景：看得到老公寓立面、一樓鐵窗與一排機車，Nanami 明顯在二樓陽台。
+  - ✅ 粉色小可愛在左下角、離鏡頭很近、明顯失焦；焦點在 Nanami。
+  - ✅ 探身伸手、張嘴驚慌、乳溝在欄杆上方；晾衣架、藍天、白天陽光。
+  - ⚠️ 背心仍是鏤空針織（同追加 95）；人在畫面中較小，臉的細節要放大確認。
+- 狀態：候選，等製作師決定。
+- 點數：2 點。
