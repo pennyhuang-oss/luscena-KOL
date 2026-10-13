@@ -993,3 +993,5 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` | Soul `cb91c63f` |
 | Vicky | 定稿 v2 job 314 | `finals/vicky_v2_job314_10747f77.jpg` | Soul `bdb1d879` |
 | Kanon | **定稿 v1 job 404（製作師選未拉回版）** | `finals/kanon_v1_job404_ce9d284c.jpg` | **Element `56db152d`（404 臉）** |
+
+- 製作師補充（2026-10-13）：製作師即為覆核者；追加 41 列給主管判定的事項（真人參考成分的身分錨、身分錨變更的確認）由製作師自行決定，現狀維持。Kanon 與 Yerin 的撞臉比對延到製作 Yerin 時再做，**執行者屆時主動提醒**。
