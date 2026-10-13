@@ -1392,3 +1392,27 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
   - 磨皮：臉頰細紋理值 261n 約 9.9 → 262n 約 8.8；253n 約 4.3。**沒有達到重磨皮**（`BODY_SETTINGS_v2` §2.5：重磨皮高於 7 要註記）。臉上的痣被去掉。
 - 狀態：PROPOSED，臉和磨皮兩項未完成，等製作師決定。
 - 點數：4.12 點。餘額 3104.50 → 3100.38；本專案本批累計 135.28 點。
+
+## 追加 59（2026-10-13）：Nanami 第二張——兩個方向都做（A 以 253n 為準、B 以 Soul 為準）
+
+- 製作師：兩個方向都做。底圖都是 261n（戒指、胸部已修）。
+
+| 方向 | 步驟 | job | 做法 | 點數 | 結果 |
+|---|---|---|---|---|---|
+| A | 換臉（全圖） | 263n `e2deebbd-8aca-45cc-9d7f-d6bf16869009` | Nano Banana，底圖 261n＋臉來源 253n | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_082246_e2deebbd-8aca-45cc-9d7f-d6bf16869009.png |
+| A | 換臉（頭部裁切） | 265n `4615ccf0-77ec-4167-8562-08fd9ce87614` | 本機從 261n 裁頭部 720×720（左上 700,120）上傳為 media `43eebb86-de11-4717-ba2d-ce108221284e`；Nano Banana 1:1 2k，臉來源 253n；本機縮回 720 並以羽化橢圓遮罩貼回 261n，貼回版上傳為 media `7be21313-3937-4c2f-a4e0-3113b7b770cb` | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_082442_4615ccf0-77ec-4167-8562-08fd9ce87614.png |
+| A | 重磨皮 | 266n `2ffc981d-b855-4332-a189-9fcb8241363b` | Nano Banana，底圖＝貼回版；只改全身皮膚為重磨皮 | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_082648_2ffc981d-b855-4332-a189-9fcb8241363b.png |
+| B | Soul 近景 | `3dbaf895-3a12-42e8-8225-8ce819e98b23` | soul_2＋Nanami soul_id，一眼閉、閉嘴害羞笑、手放頭上、從上往下拍 | 0.12 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_082249_3dbaf895-3a12-42e8-8225-8ce819e98b23.png |
+| B | 換臉 | 264n `75bf7c66-0a5b-430a-984b-2cb3680d8a7e` | Nano Banana，底圖 261n＋Soul 近景 | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_082404_75bf7c66-0a5b-430a-984b-2cb3680d8a7e.png |
+| B | 重磨皮 | 267n `cf724ccd-41be-4fe3-9b33-6973e122c986` | Nano Banana，底圖 264n；同 A 的磨皮 prompt | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_082652_cf724ccd-41be-4fe3-9b33-6973e122c986.png |
+
+- 看圖（臉部 100% 裁切：253n／A／Soul 近景／B；全圖 A、B 並排；裙襬下方裁切）：
+  - **263n（A 全圖換臉）**：又幾乎沒變（臉部平均像素差約 6.5），和 262n 一樣失敗。
+  - **265n（A 頭部裁切換臉）**：有效。臉佔畫面變大後，眼型、雙眼皮、嘴型被拉向 253n；貼回後沒有接縫（邊緣差約 3）。**新方法：小臉換臉時，先裁頭部放大再換、本機貼回。**
+  - **Soul 一眼閉近景**：表情、手勢、角度都和底圖一致，是 Soul 本人（臉瘦、下巴尖）。
+  - **264n（B 換臉）**：有拉動，眼型變杏眼、下巴略收、臉頰變瘦（臉部像素差約 9）；約六成像 Soul 近景。
+  - **266n／267n（重磨皮）**：兩張都變成瓷肌、柔光，毛孔、痣都不見，目測已是重磨皮。副作用：磨皮同時把臉修成「美顏 App 的 V 臉」，A 的臉頰變瘦、B 的眼睛變大，**兩張的臉變得很像**。A 約七成像 253n；B 約六成像 Soul。
+  - 臉頰紋理值沒有下降（約 10），推測量測框落在瞇起的眼睛與髮絲邊緣，不適合這張；以目測為準。
+  - 裙襬下方：兩張都和 261n 一樣，陰影中看得到大腿後側，沒有看到內褲。
+- 狀態：A＝266n、B＝267n，PROPOSED，等製作師選。
+- 點數：10.12 點。餘額 3100.38 → 3090.26；本專案本批累計 145.40 點。
