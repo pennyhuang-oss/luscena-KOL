@@ -958,3 +958,16 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 | Wendy | 定稿 v2 job 252 | `finals/wendy_v2_job252_db476121.jpg` |
 | Vicky | 定稿 v2 job 314 | `finals/vicky_v2_job314_10747f77.jpg` |
 | Kanon | **定稿 v1 job 404，臉偏離 Soul，待製作師決定是否拉回** | `finals/kanon_v1_job404_ce9d284c.jpg` |
+
+## 追加 40（2026-10-13）：Kanon 定稿換臉回 Soul（臉來源 job 401）
+
+- 製作師指示：用 401 當臉來源把 404 的臉拉回來。
+- 做法：401 本機裁掉假介面（1536×1750）上傳為 media `95fd0954-570f-4223-8103-c79ad26f87eb`；Nano Banana 2.1，image_references ＝ job 404（底圖）＋ media 95fd0954（臉來源），2k、thinking high、1 張、2 點。prompt：只把五官換回第二張（自然眼型眼距、不放大不圓、眉、鼻樑鼻寬、唇形、臉頰下顎、圓下巴），保留 404 的妝風格、紅唇、壞笑、爪子、美甲、衣服、場景；不抄第二張的妝、光、手、背景。
+
+| job | 尺寸 | 結果 |
+|---|---|---|
+| 405 `a114331b-ad19-4379-8615-8d1d8a2eea72` | 1792×2400 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_034600_a114331b-ad19-4379-8615-8d1d8a2eea72.png |
+
+- 看圖（Soul 正面／401／404／405 臉部裁切；404／405 全圖）：**有拉回**——眼睛從圓娃娃眼回到杏眼、尺寸縮小、鼻形鼻寬回到 401、下巴變圓、臉比例回到正常；妝（白皙底、下眼紅影、紅唇）、壞笑、爪子、美甲、衣服、場景與 404 一致。執行者判讀約七到八成像 Soul（404 為五到六成）；膚色仍比 Soul 白很多，是妝的設定。
+- 建議：**以 405 取代 404 為 Kanon 定稿 v2**，待製作師確認後換 finals。
+- 餘額 3181.76 → 3179.76；本批累計 73.80 點。Kanon 線 5 張。
