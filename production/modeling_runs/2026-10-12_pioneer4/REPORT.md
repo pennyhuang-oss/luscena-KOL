@@ -1541,3 +1541,20 @@ Edit the first image. Keep everything in the first image exactly as it is: the c
 - Element 整理：Higgsfield MCP 的 Element 工具只有 list／get／create，沒有刪除功能；用瀏覽器在網頁上刪除屬於永久刪除，執行者不代為操作。請製作師在 Higgsfield 網頁刪除：`nanami-face-v2-20261013`（`e218b457`）、`nanami-face-v3-20261013`（`000f947f`）。保留：原始 `nanami-fujiwara-soul-v1-5img-20260904`（Element `03dccd7d`，Soul `78761266`）與目前使用中的 `nanami-face-v4-20261013`（`825a3a16`）。
 - 狀態：PROPOSED（273n 貼回版，在執行者端），等製作師判斷。
 - 點數：2 點。本專案本批累計 181.40 點。
+
+## 追加 67（2026-10-13）：Nanami 第二張——換模型改腿，完全照參考圖姿勢
+
+- 製作師：273n 還是三條腿；換一個模型試；腿的動作要完全照參考圖。
+- 底圖改回還沒動過腿的 271n 下半身裁切（media `19d9e0e8`），參考圖 media `79b4f5d9`。prompt 把參考圖的腿拆成具體位置：她的右腿（畫面左）膝蓋最高、小腿往左下、腳踩在最左邊；左腿（畫面右）膝蓋較低偏右、大腿在前、小腿往下、腳踩在畫面下方中間、和另一隻腳分開；兩膝往左倒、大腿併攏、不交叉；只能兩條腿兩隻腳。
+
+| 模型 | job | 點數 | 結果 | 看圖 |
+|---|---|---|---|---|
+| Nano Banana Pro | `f8bb2f5c-0820-4f8b-9f45-bf0b7a3a6a63` | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_091024_f8bb2f5c-0820-4f8b-9f45-bf0b7a3a6a63.png | 兩條腿 ✅，但兩隻腳都擠在左邊，和參考圖不同 |
+| Seedream 4.5 high | `8bb4488c-bc8f-4a21-8bd6-94e005c214ea` | 1 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_091024_8bb4488c-bc8f-4a21-8bd6-94e005c214ea.png | 整個場景重畫、抄了參考圖的紅髮、一條腿伸直懸空 ✗ |
+| GPT Image 2.5 Flare high | `5aefcbb2-e6db-4b99-b31a-aa031e80eaa4` | 0（被擋退點） | — | NSFW 被擋 |
+| Nano Banana Pro（以第一次為底，只把前腿的腳移到下方中間） | `99d2e786-9da5-4918-9a5f-2892618b48cc` | 2 | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_091303_99d2e786-9da5-4918-9a5f-2892618b48cc.png | ✅ 採用 |
+
+- 採用版看圖（參考圖／274n 貼回版並排）：兩條腿、兩隻腳 ✅；畫面左邊那條腿膝蓋最高、腳往左前方伸（穿著拖鞋）；另一條腿膝蓋較低、大腿在前、腳踩在盤子右邊，兩腳分開——和參考圖的腿一致 ✅。構圖與 271n 對齊，邊緣差約 7～13（主要是色調），以同追加 65 的遮罩貼回 271n，無接縫。臉、表情、上半身、燈光、盤子都沒變。
+- 經驗：Nano Banana 2.1 在這張連續三次把腿改壞（不動或多一條腿）；Nano Banana Pro 改姿勢比較聽話，但一次只改一條腿最穩。Seedream 會重畫整張、GPT 會擋。
+- 狀態：PROPOSED（274n 貼回版，在執行者端），等製作師判斷。
+- 點數：5 點。本專案本批累計 186.40 點。
