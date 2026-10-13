@@ -1986,3 +1986,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ 背心仍是鏤空針織（同追加 95）；人在畫面中較小，臉的細節要放大確認。
 - 狀態：候選，等製作師決定。
 - 點數：2 點。
+
+## 追加 97（2026-10-13）：Nanami 陽台曬衣——現代高級公寓、二樓拉高、正面仰角
+
+- 製作師：二樓看起來太矮；不要機車；公寓改現代、高級一點；鏡頭要從正面往上仰拍。
+- 做法：Nano Banana Pro＋Nanami v4 Element，純文字，4:3，2 點：**`1357aec2-dd0b-4e89-8192-8050d89af298`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261013_155904_1357aec2-dd0b-4e89-8192-8050d89af298.png （2400×1792）。
+- 看圖：
+  - ✅ 現代高級公寓（石材與木紋外牆、大片玻璃、挑高一樓大廳）、無機車、二樓明顯比上一版高。
+  - ⚠️ 鏡頭不是正面：建築是從左前方斜看的透視，不是正對建築往上拍。
+  - ⚠️ 小可愛在左下角但不夠模糊。
+  - ⚠️ Nanami 在畫面中偏小。
+- 狀態：候選。
+- 點數：2 點。
