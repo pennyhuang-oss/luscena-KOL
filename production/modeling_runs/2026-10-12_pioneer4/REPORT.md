@@ -2727,3 +2727,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 最終檔：`社群媒體/kanon/kanon_v2_jobf23ccb87_skinfix_mole.jpg`（取代 `kanon_v2_jobf23ccb87_skinfix.jpg`，舊檔從 repo 移除，git 歷史可取回）。型錄 `catalog/img/kanon.jpg` 已更新。
 - **Kanon 固定規格新增：淚痣一顆，在她的右眼下（看圖時左邊）。** 之後每張生成都要檢查；prompt 寫法：「a small black beauty mark under her right eye (on the left side of the image)」。
 - 點數：2 點（失敗那次）。
+
+## 追加 138（2026-10-14）：Kanon 新貼文——舊自拍改貓爪手＋衣服找不同
+
+- 製作師：用跟第 1 則同一套衣服的那張（原自拍 b6674da3），用 Nano Banana 改局部：手改成 K-01 那種張牙舞爪的貓爪，但不做美甲；改一個衣服小細節。文案：「哥哥今天有發現花音的衣服跟昨天有哪裡不一樣嗎？沒發現的話今晚就罰你被花音小惡魔吵到不能睡覺」。
+- 第 1 步（改手）：Nano Banana 2.1、2k，底圖 b6674da3，只改碰嘴唇的那隻手：舉到臉旁貓爪、手指張開彎曲、素色淡粉短甲，2 點：**`da9ab71f-abd4-4680-8507-b9ba21dc3840`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_120839_da9ab71f-abd4-4680-8507-b9ba21dc3840.png 。手變成貓爪、無美甲；其他沒動；淚痣在右眼下 ✅。
+- 第 2 步（衣服細節，執行者選 1：胸前上方黑緞帶蝴蝶結改粉紅）：Nano Banana 2.1、2k，底圖 da9ab71f，2 點：**`5216acc1-b4b7-46ee-a343-e5c59a9b330e`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_120942_5216acc1-b4b7-46ee-a343-e5c59a9b330e.png 。
+- 看圖：上方蝴蝶結變淡粉色 ✅；下方原本是細黑緞帶，被補成完整的小黑蝴蝶結（多改了一點，要不要修回待製作師看）。其他沒動。
+- 狀態：候選，等製作師決定。
+- 點數：4 點。
