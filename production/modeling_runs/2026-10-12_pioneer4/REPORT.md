@@ -2587,3 +2587,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 本機備份：`Documents\Luscena_KOL_定稿備份\vicky\` 已加入，逐位元比對一致。
 - 型錄：Vicky 區加第三張 `catalog/img/vicky3.jpg`（1280×960），配文待寫。尚未發布。
 - 點數：2＋2＝4 點。本專案本批累計 355.40 點。
+
+## 追加 125（2026-10-14）：Vicky 第三張定稿修正——汗量調整、臉上加汗、濕布微透（v20，取代 v19）
+
+- 製作師：地上跟手上的汗水太多，修一點回來；臉上也要有一點汗水；衣服汗水不用改，有汗水的地方可以微透，不要露點。
+- 做法：
+  - 濕布微透：v19 身體裁切（左上 1400,450，2400×1800）media `86a5053c-c8b7-4451-a9ef-68e2f130fd05`；Nano Banana 2.1 4:3 2k，count 1，汗漬處布料微微透出膚色、罩杯中心保持不透：`9bfb7bd2-f052-4c34-a4e5-97f6875ed40e`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_095933_9bfb7bd2-f052-4c34-a4e5-97f6875ed40e.png 。只貼回衣服區（A 的暗部 ∩ 人形），皮膚維持 v19。模型做得很保守，透感很淡。
+  - 臉上加汗：v19 頭部裁切（左上 860,300，940×940）media `cebc1def-297d-48a8-ab0f-9ca9809dd2f4`；Nano Banana 2.1 1:1 2k，count 1，額頭與太陽穴幾顆小汗珠、額頭鼻子臉頰微濕亮：`cecbe134-554c-486f-8877-9d19878080e1`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_095936_cecbe134-554c-486f-8877-9d19878080e1.png 。羽化貼回。
+  - 手上的汗（本機）：舉起扶腰的手臂與手（2560,450～3080,1320）往 A 混回 70%。
+  - 地上的汗（本機）：地板區（人形以外）往 A 混回 55%，汗滴變少變淡。
+- 看圖（v19／v20）：地上剩少量淡汗滴 ✅；扶腰的手與前臂汗量變少 ✅；臉上額頭有細小汗珠、微濕亮，五官與笑容不變 ✅；衣服汗漬不變、微透很淡，沒有露點 ✅。
+- **定稿改為 v20**：`社群媒體/vicky/vicky_img3_job998289fe_v20.jpg`（2400×1800，JPEG 品質 95），取代 v19（已從 repo 與本機備份移除）。型錄 `vicky3.jpg` 已換。
+- 點數：2＋2＝4 點。本專案本批累計 359.40 點。
