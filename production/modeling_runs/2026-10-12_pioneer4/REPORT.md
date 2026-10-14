@@ -2694,3 +2694,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 ## 製作師指示（2026-10-14）：解析度
 
 - 生成一律直接用 **2k**（Nano Banana 2.1 寫 `resolution: "2k"`），不採「先 1k、定稿再升 2k」：定稿後用 2k 重生成會重畫、細節跑掉；改用放大工具則要另外查點數與畫質。
+
+## 追加 135（2026-10-14）：Kanon 玄關擋路——表情收回一點
+
+- 製作師：ec9bfab6 的露齒大笑太多，收回來一點點。
+- 做法：底圖同上（`728d6d90`，本機修色版），Nano Banana 2.1、2k，只改表情：微微壞笑、嘴唇微開只露一點牙、嘴角一邊較高、眼睛略瞇，「收斂、可愛，不大笑」，2 點：**`560eab76-9b30-44ea-8820-c5a02d1ac45e`**，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_115544_560eab76-9b30-44ea-8820-c5a02d1ac45e.png （1792×2400）。
+- 看圖：介於原本的閉嘴笑和 ec9bfab6 的大笑之間：嘴角一高一低的得意壞笑、眼睛微瞇帶挑釁；牙幾乎沒露。臉比 ec9bfab6 更像原本的 Kanon。解析度回到 2k。
+- 狀態：候選，等製作師決定；之後改手臂。
+- 點數：2 點。
