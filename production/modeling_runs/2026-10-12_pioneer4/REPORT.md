@@ -2250,3 +2250,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 兩版都不露點。邊緣差約 7（S2 右緣 9.6），以羽化方框貼回 `0ccb96b9`（左上 760,480），全圖接縫看不出來。
 - 狀態：PROPOSED，等製作師在 L1／L2／B1／B2／S1／S2 中選定，再取代 252 定稿。
 - 點數：4 點。本專案本批累計 273.40 點。
+
+## 追加 97（2026-10-14）：Wendy 定稿換成 252＋項鍊＋透膚蕾絲 S1
+
+- 製作師：**S1 定稿**。
+- 最終檔：`社群媒體/wendy/wendy_v2_job252_s1_37ef9ca6.jpg`（1792×2400，JPEG 品質 95）＝ `0ccb96b9`（252＋項鍊）全圖，胸口貼回 S1 `37ef9ca6`（左上 760,480，羽化方框）。取代 `wendy_v2_job252_db476121.jpg`（已從 repo 與本機備份移除；job 252 仍在 Higgsfield）。
+- 本機備份：`Documents\Luscena_KOL_定稿備份\wendy\` 已換成新檔，內容逐位元比對一致。
+- 型錄：`catalog/img/wendy.jpg` 換成 S1（960×1280），圖說補上項鍊與蕾絲。POST_IDEAS W-01 的配圖路徑同步更新。
+- 點數：0 點。本專案本批累計 273.40 點。
