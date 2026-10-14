@@ -2162,3 +2162,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 經驗：動漫參考圖會把畫風帶成插畫；用 Seedream／Nano Banana 拿動漫圖取姿勢時，之後很難拉回寫實。只用文字描述姿勢反而能出照片。
 - 狀態：PROPOSED（v3）。
 - 點數：4 點。本專案本批累計 247.40 點。
+
+## 追加 89（2026-10-14）：Wendy 第二張——測試胸型照 252、加黑色蕾絲胸罩
+
+- 製作師：v3 做錯的地方先記著（見追加 88），先測：胸部大小照 252，並微露黑色蕾絲胸罩。
+- 測試（Nano Banana 2.1，底圖 v3）：
+  1. 胸型照 252＋露黑蕾絲胸罩一起改：`48dff0cb-07b5-4e74-9b3f-9b1e609cfd43` **NSFW**（退點）。
+  2. 拆開，只在領口加一小段黑蕾絲（寫成「細肩帶背心／胸罩的蕾絲邊」）：`02ffa481-045f-4d49-9291-26b980624761` 通過（2 點），https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_043007_02ffa481-045f-4d49-9291-26b980624761.png 。結果比較像襯衫裡穿黑色蕾絲邊背心，原本的乳溝被蓋住。
+  3. 以 2 為底，只把胸型照 252 改豐滿：`039ad4a8-6d3f-4e62-a39f-e0d94d6ec587` 通過（2 點），https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_043102_039ad4a8-6d3f-4e62-a39f-e0d94d6ec587.png 。胸型比 v3 豐滿、襯衫更貼身，接近 252；黑蕾絲保留。
+- 結論：兩件事分開做可以過，一起要求會被擋。黑蕾絲目前是「內搭背心」的感覺，不是露出胸罩罩杯邊。
+- 點數：4 點（被擋那筆已退）。本專案本批累計 251.40 點。
