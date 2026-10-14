@@ -2574,3 +2574,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 檔案（執行者端）：`V7d_A.png`、`V7d_B.png`。
 - 狀態：PROPOSED，等製作師選 A 或 B。
 - 點數：2 點（去背失敗未扣點）。本專案本批累計 351.40 點。
+
+## 追加 124（2026-10-14）：Vicky 第三張定稿——A＋更多汗水＋地上汗滴（v19）
+
+- 製作師：A 定稿；身上跟衣服的汗水再多一點；地板也要一些滴下的汗水。
+- 做法（為了不動臉與皮膚紋理，分兩塊修、只貼回需要的部分）：
+  - 身體與衣服：A 裁 4:3（左上 1400,450，2400×1800）media `c7ca50ec-a954-4a0a-86dc-4a5d4a268ab3`；Nano Banana 2.1 2k，count 1：皮膚多些汗珠與濕亮、運動內衣與短褲加深色汗漬：`9bccb049-d571-48da-aac4-c3289eeb210e`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_095436_9bccb049-d571-48da-aac4-c3289eeb210e.png 。貼回時避開臉部方框。
+  - 地板：A 裁 4:3（左上 1100,1350，2808×2106）media `c5069c4d-fc16-417d-a2c3-3722a8b04c96`；Nano Banana 2.1 2k，count 1：身體下方地上加幾滴汗與小水漬：`1fc438df-8fa1-4875-a588-7e28a8f4cdf4`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_095440_1fc438df-8fa1-4875-a588-7e28a8f4cdf4.png 。只貼回人形以外的地板區（GrabCut 人形遮罩擴張後排除）。
+  - 本機修正：模型把黑色衣服整體調成炭灰色；在衣服區（A 中 L<70 的人形暗部）把亮度按比例壓回 A 的平均（L 48.5 → 35.0）並降一點色度，保留深色汗漬的對比。
+- 看圖：肩、手臂、胸口、腹部、大腿汗珠變多、有往下流的汗 ✅；運動內衣與短褲有深色汗漬、仍是黑色 ✅；身體下方地上有一灘小汗滴、反光自然 ✅；臉、膚色（A）、褲子、背景不變 ✅。
+- **定稿**：`社群媒體/vicky/vicky_img3_job998289fe_v19.jpg`（2400×1800，JPEG 品質 95）。鏈：參考圖動作 → FLUX `f1988c76` → Nano Banana 修身材、表情（`74131d03`）→ Seedream＋Element `998289fe`（v7，皮膚基準）→ 真理褲 `7ad5e375`＋手繪改短 `09b94d65` → 臉 `ccbf6c8e`、唇 `d047a716` → 腳 `1462c480` → 本機調白 A → 汗水 `9bccb049`、`1fc438df`。
+- 本機備份：`Documents\Luscena_KOL_定稿備份\vicky\` 已加入，逐位元比對一致。
+- 型錄：Vicky 區加第三張 `catalog/img/vicky3.jpg`（1280×960），配文待寫。尚未發布。
+- 點數：2＋2＝4 點。本專案本批累計 355.40 點。
