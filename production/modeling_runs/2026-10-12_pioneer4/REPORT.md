@@ -2208,3 +2208,17 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - `beb15ada-8150-4076-bc71-2fa835697f1f` **NSFW**（退點）。
   - `3a432634-561e-48ee-9422-3241fe94db7b` 通過（2 點），https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_044540_3a432634-561e-48ee-9422-3241fe94db7b.png 。但模型把襯衫拉得更開，整個右側蕾絲罩杯露出且呈半透明——比要求暴露、也碰到專案「不透視」的守線。**不採用，未貼回。**
 - 點數：2 點。本專案本批累計 261.40 點。
+
+## 追加 94（2026-10-14）：Wendy 252＋黑蕾絲——改成只露一點點蕾絲邊
+
+- 製作師：走「只露一點點蕾絲邊」；並要求看追加 93 不採用的那張，自行判斷（已傳）。
+- 做法：同一胸口裁切（media `6595f46d`），Nano Banana 2.1 1:1 2k：先把 V 領裡的黑色三角形改回皮膚與乳溝，再只在一側襯衫門襟內緣露出一指寬的波浪黑蕾絲邊，其餘胸罩完全藏在襯衫下；count 2，4 點：
+
+| job | 結果 |
+|---|---|
+| L1 `131f2538-7cb7-4a1f-a789-d72e23a07824` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_044836_131f2538-7cb7-4a1f-a789-d72e23a07824.png |
+| L2 `788e31b8-7380-4167-96d6-a00f374f0be7` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_044836_788e31b8-7380-4167-96d6-a00f374f0be7.png |
+
+- 看圖：兩張都去掉了黑色三角形，乳溝自然；蕾絲只在畫面左側襯衫邊緣露出一小段、順著胸部弧度 ✅。L1 蕾絲稍多一點、較明顯；L2 更含蓄。邊緣差約 3，以羽化方框貼回 `0ccb96b9`，兩版全圖都做好。
+- 狀態：PROPOSED，等製作師選 L1 或 L2，並決定是否取代 252 定稿。
+- 點數：4 點。本專案本批累計 265.40 點。
