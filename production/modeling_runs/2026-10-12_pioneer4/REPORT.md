@@ -2635,3 +2635,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖（v1／v2）：髮色變成灰粉漸層、髮尾偏粉，接近第二張定稿 ✅；微吐舌尖、眼睛微瞇、臉紅，撒嬌感 ✅；臉、妝、眼下痣、雙馬尾蝴蝶結、托腮姿勢、沙發與房間不變 ✅。
 - 狀態：PROPOSED（v2）。
 - 點數：2 點。本專案本批累計 365.40 點。
+
+## 追加 129（2026-10-14）：Kanon 第三張定稿（v2）
+
+- 製作師：定稿。
+- 最終檔：`社群媒體/kanon/kanon_img3_jobcf8f9d47.jpg`（2400×1792，JPEG 品質 95）＝ Nano Banana Pro＋Kanon v4 Element 出圖 `76d1042e` → 髮色調粉、吐舌撒嬌 `cf8f9d47`。
+- 本機備份：`Documents\Luscena_KOL_定稿備份\kanon\` 已加入，逐位元比對一致。
+- 型錄：Kanon 區加第三張 `catalog/img/kanon3.jpg`（1280×956），配文待寫。尚未發布。
+- 另：製作師要求之後若執行者反覆修不好、而 Higgsfield 網頁版的修圖工具（Color Grading、Relight、Enhancer、Angles、Layer Decomposition、Edit text；MCP 叫不到）可能解決時，要主動提出。
+- 點數：0。本專案本批累計 365.40 點。
