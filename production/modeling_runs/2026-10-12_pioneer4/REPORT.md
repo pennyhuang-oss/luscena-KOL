@@ -2172,3 +2172,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   3. 以 2 為底，只把胸型照 252 改豐滿：`039ad4a8-6d3f-4e62-a39f-e0d94d6ec587` 通過（2 點），https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_043102_039ad4a8-6d3f-4e62-a39f-e0d94d6ec587.png 。胸型比 v3 豐滿、襯衫更貼身，接近 252；黑蕾絲保留。
 - 結論：兩件事分開做可以過，一起要求會被擋。黑蕾絲目前是「內搭背心」的感覺，不是露出胸罩罩杯邊。
 - 點數：4 點（被擋那筆已退）。本專案本批累計 251.40 點。
+
+## 追加 90（2026-10-14）：Wendy 第二張——黑蕾絲改成胸罩罩杯邊
+
+- 製作師：再試一次，改成露出胸罩罩杯邊。
+- 做法：Nano Banana 2.1，底圖 `039ad4a8`（追加 89 第 3 步），只把領口的黑蕾絲改成單側胸罩罩杯的波浪蕾絲邊、乳溝露回來，其他不動；1 張，2 點：`17361a35-438f-4ee4-beaa-cc371c27fad0`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_043341_17361a35-438f-4ee4-beaa-cc371c27fad0.png 。通過。
+- 看圖（改前／改後領口並排）：黑色內搭背心消失，改成領口右側露出一小段黑色波浪蕾絲罩杯邊，中間乳溝露回來 ✅；胸型、襯衫、臉、手、背景不變 ✅。蕾絲露出的面積很小，要放大才看得清楚。
+- 狀態：PROPOSED（v3 系列的測試結果；追加 88 記下的鏡頭高度、手的位置、眼神、臉仍未處理）。
+- 點數：2 點。本專案本批累計 253.40 點。
