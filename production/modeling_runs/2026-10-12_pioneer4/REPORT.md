@@ -2412,3 +2412,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖（定稿／修前／修後）：正紅唇 ✅；臉型變瘦、下顎線清楚、臉頰肉變少，對定稿從約七成拉到約八成 ✅；泛紅保留、比 v1 自然 ✅；表情、眼鏡、髮型、啤酒杯、手、背景不變 ✅。
 - 狀態：PROPOSED（v5）。
 - 點數：2 點。本專案本批累計 314.40 點。
+
+## 追加 110（2026-10-14）：Wendy 第三張定稿（居酒屋乾杯 v5）
+
+- 製作師：定稿。
+- 最終檔：`社群媒體/wendy/wendy_img3_job4e5a5a44_v5.jpg`（1792×2400，JPEG 品質 95）＝ v1 `4e5a5a44` → v3 舉杯 `82f7c9cd` → v4 手靠桌 `2c3772d0` → 臉與紅唇 `678d3226` 貼回。
+- 本機備份：`Documents\Luscena_KOL_定稿備份\wendy\` 已加入，逐位元比對一致。
+- 型錄：Wendy 區加第三張 `catalog/img/wendy3.jpg`（960×1280），配文待寫。尚未發布。
+- 點數：0。本專案本批累計 314.40 點。
