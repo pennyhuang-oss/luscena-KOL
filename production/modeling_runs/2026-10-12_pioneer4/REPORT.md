@@ -2554,3 +2554,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 仍待處理：胸部略小於 75E（製作師未要求）。
 - 狀態：PROPOSED（v16）。
 - 點數：2＋2＝4 點。本專案本批累計 347.40 點。
+
+## 追加 122（2026-10-14）：Vicky 第三張——嘴唇照定稿、嘴巴開小一點（v17）
+
+- 製作師：嘴唇有點不一樣，嘴巴開小一點。
+- 做法：Nano Banana Pro 1:1 2k，count 1；底圖 v16 頭部（`ccbf6c8e`）＋定稿臉部裁切 `ec32e247`（只取嘴唇）；嘴唇改成定稿的飽滿、裸粉色、微光澤唇形；笑容收小，嘴唇微張只露一點上排牙齒，眼睛仍帶笑：`d047a716-c5ad-433a-a035-674e27b0e074`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_094215_d047a716-c5ad-433a-a035-674e27b0e074.png 。邊緣差 2～4，羽化貼回 v15 全圖，得到 v17（`V6b_composite.png`，執行者端）。
+- 看圖（定稿 314／v16／v17）：嘴唇變成定稿的飽滿裸粉色、有光澤 ✅；嘴巴開小、只露一點上排牙齒，仍是溫暖的笑 ✅；眼睛、頭髮、皮膚質感、背景不變 ✅。
+- 狀態：PROPOSED（v17）。
+- 點數：2 點。本專案本批累計 349.40 點。
