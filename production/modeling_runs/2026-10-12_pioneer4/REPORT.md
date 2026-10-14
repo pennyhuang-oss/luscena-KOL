@@ -2392,3 +2392,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - 泛紅比 v1 淡、比較自然；唇色仍偏淡；臉約七成像定稿。
 - 狀態：PROPOSED。
 - 點數：2 點。本專案本批累計 308.40 點。
+
+## 追加 108（2026-10-14）：Wendy 第三張——依正確意思重改（v3、v4）
+
+- 製作師更正：鏡頭移動的意思是「左手杯子舉高後可能超出畫面，所以往舉杯的方向移一點」，不是整個鏡頭往左拍。追加 107 的 v2 理解錯誤（且左右手相反），不採用。以 v1 重改。
+- v3：Nano Banana Pro 3:4 2k，count 1，底圖 v1（`4e5a5a44`）；描述改用「畫面左邊／右邊」避免左右混淆：畫面左邊的手臂彎曲靠桌；畫面右邊拿啤酒的手舉到下巴高度、朝鏡頭乾杯；構圖往畫面右邊（舉杯方向）移一點，杯子和頭都在畫面內。`82f7c9cd-d208-4e49-bd7a-15fc7193ab56`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_062055_82f7c9cd-d208-4e49-bd7a-15fc7193ab56.png 。
+  - 看圖：同一隻手（她的左手）舉杯到臉旁乾杯 ✅；杯子完整在畫面內 ✅；但畫面左邊的手臂仍伸向鏡頭 ✗。
+- v4：在 v3 上把伸出的手臂塗灰（畫面左下多邊形），Nano Banana 2.1 3:4 2k，count 1，重畫成手肘彎曲、前臂橫放在吧台上、手放鬆，其餘補木吧台。灰底圖 media `d4b83273-fc0c-4142-b9a6-092ed400a5b6`。`2c3772d0-d4cf-4b1a-aeaf-fc88ffc0dcd5`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_062517_2c3772d0-d4cf-4b1a-aeaf-fc88ffc0dcd5.png 。
+  - 看圖：她的右手手肘彎曲、前臂橫靠在吧台上，袖子捲起，自然 ✅；左手舉杯乾杯 ✅；臉、杯子、背景不變 ✅。
+- 仍待處理（等製作師確認構圖後再做）：臉約七成像定稿、唇色偏淡、泛紅偏重。
+- 狀態：PROPOSED（v4）。
+- 點數：2＋2＝4 點。本專案本批累計 312.40 點。
