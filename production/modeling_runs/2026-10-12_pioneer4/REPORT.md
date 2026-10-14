@@ -2289,3 +2289,23 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 兩張的俯拍角度、靠桌抱胸、抬眼、大胸、場景都沒變（照指示未調）。
 - 狀態：PROPOSED，等製作師確認風格；確認後再調其他項目。
 - 點數：4 點。本專案本批累計 285.40 點。
+
+## 追加 100（2026-10-14）：Wendy 第二張——P2 再加強真人感（B：Kling／C：Nano Banana 再轉一次）
+
+- 製作師：P2 還有一點插畫感，不像前面幾張那麼真人；問有沒有其他轉換方式。執行者列出 A～E 五種方式，製作師選 B、C 都跑。
+- 底圖都是 P2（`e0353254`），構圖、姿勢、臉、身材、服裝、場景都寫明不變。
+  - B：Kling O1 Image 3:4 2k，重做成未修圖的真實照片（毛孔、細紋、髮絲、布料、中性白平衡、輕微顆粒），count 2，每張 0.5 點。
+  - C：Nano Banana 2.1 3:4 2k，改成手機隨手拍、未修圖的原始照片（毛孔、細紋、微泛紅、碎髮、去掉金黃色偏、窗光不均、輕微雜訊），count 2，每張 2 點。
+
+| job | 結果 | 看圖 |
+|---|---|---|
+| B1 `a268d2fb-a0ea-43fb-a755-941d9a96ab9d` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_053414_a268d2fb-a0ea-43fb-a755-941d9a96ab9d.png | 輸出 1760×2336；額頭、脖子出現像雕刻的假皺紋，臉顯老、不自然 ✗ |
+| B2 `b330a55a-ab40-4a81-a53e-3d37f7898913` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_053414_b330a55a-ab40-4a81-a53e-3d37f7898913.png | 皮膚反而更平滑（額頭紋理最低），飽和度更高，比 P2 更不像照片 ✗ |
+| C1 `9945de89-0925-4dd6-9f95-6de405808d49` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_053418_9945de89-0925-4dd6-9f95-6de405808d49.png | 皮膚紋理比 P2 多一點、多了碎髮；變化不大 |
+| C2 `3860f776-3b7f-4ec3-98ad-5c72899ea529` | https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_053418_3860f776-3b7f-4ec3-98ad-5c72899ea529.png | 最真：毛孔、雀斑、微泛紅都出來，皮膚不再像噴槍修過（額頭紋理 6.4，P2 是 4.8）✅ |
+
+- 量測（高通標準差，臉頰／額頭）：P2 7.4／4.8；B1 7.3／2.4；B2 6.3／1.7；C1 7.8／5.5；C2 8.0／6.4。
+- 四張都沒有去掉偏暖的金黃色調（R−B 約 29～34）；俯拍、大胸細腰的動漫比例也都還在（照指示未調），這部分仍會留一點插畫感。
+- 結論：Kling 不適合這張（假皺紋或更平滑）；Nano Banana 再轉一次（C2）效果最好。
+- 狀態：PROPOSED，等製作師確認風格。
+- 點數：Kling 0.5×2＋Nano Banana 2×2＝5 點。本專案本批累計 290.40 點。
