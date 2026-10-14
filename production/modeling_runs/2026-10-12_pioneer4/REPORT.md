@@ -2472,3 +2472,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 偏掉的：經過幾輪修改，膚色變淺、整體色調偏冷，Vicky 的曬色感變弱；胸部仍略小於 75E 設定。臉約七成像定稿（未修）。
 - 狀態：PROPOSED（v6）。
 - 點數：3＋2＋2＋2＝9 點（NSFW 那張已退）。本專案本批累計 330.40 點。
+
+## 追加 115（2026-10-14）：Vicky 第三張——照第一張的做法用 Seedream＋Element 重跑（v7）；真理褲更正
+
+- 製作師：問 Vicky 第一張是怎麼生成的（那次有抓到參考圖動作、感覺也對）。執行者查追加 23～35：Seedream 4.5＋Vicky Element `325284ce`＋image_references（真人參考照取動作與場景＋job 203 取臉、髮、上衣）→ 304 → Nano Banana 2.1 局部修（305～309）→ 換臉回 Soul（314）。當時參考圖是真人照片，Seedream 能照抄構圖又保持寫實；這次是動漫圖，Seedream 會被帶成插畫。建議以 FLUX 出的真人照（已照抄動作）取代動漫圖當動作參考，走同一條路。製作師同意跑一張。
+- **真理褲更正**：製作師指出褲子一直沒改對。查證後「真理褲」＝台灣網路用語，指**黑色、高腰鬆緊帶、包臀、大腿外側有小開岔的運動短褲**（類似日本學生運動短褲），不是緊身長褲（來源：蝦皮部落格 https://shopee.tw/blog/women-sports-shorts-pants/ ）。追加 112～114 都誤做成長褲。
+- 做法：Seedream 4.5 high、4:3、count 1、1 點；image_references ＝ v6（`74131d03`，動作、鏡位、場景）＋ Vicky 臉部裁切 `ec32e247`；prompt 放 Vicky Element；寫明曬色、陽光笑臉、沙漏身形、纖細手臂、平腹、黑運動內衣、黑色高腰包臀運動短褲＋外側小開岔、腿露出、赤腳：`998289fe-9bb4-4842-94a0-c2d72c18aad8`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_084204_998289fe-9bb4-4842-94a0-c2d72c18aad8.png （4608×3456）。
+- 看圖：真人照片 ✅；動作、鏡位、健身房照 v6 ✅；曬色回來了（金棕膚色、暖光、汗光）✅；陽光露齒笑 ✅；黑色包臀短褲、腿露出 ✅。
+- 偏掉的：短褲看不到側邊開岔，比較像緊身短褲；手臂肌肉線條又變明顯一點；臉約七成像定稿；胸部仍略小於 75E。
+- 狀態：PROPOSED（v7）。
+- 點數：1 點。本專案本批累計 331.40 點。
