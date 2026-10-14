@@ -2857,3 +2857,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 結果：清晰度 2.19（回到 v23 水準），皮膚仍比 v23 乾淨、汗珠閃點少。
 - 狀態：候選，等製作師決定。
 - 點數：0 點。
+
+## 定稿（2026-10-14，製作師決定）：Vicky 第三張 ＝ v26（取代 v23）
+
+- v26 ＝ v23 經本機清理：汗珠閃點壓制、皮膚平坦區輕度平滑、大尺度微對比降 20%、頭髮去紅、臉偏金、邊緣細銳化（追加 148～149）。
+- 最終檔：`社群媒體/vicky/vicky_img3_v26.jpg`（2400×1800，JPEG 品質 95）。v23、v20 檔保留備查。型錄 `catalog/img/vicky3.jpg` 已更新。
+- POST_IDEAS V-03 的配圖改指向 v26。
