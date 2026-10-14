@@ -2420,3 +2420,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 本機備份：`Documents\Luscena_KOL_定稿備份\wendy\` 已加入，逐位元比對一致。
 - 型錄：Wendy 區加第三張 `catalog/img/wendy3.jpg`（960×1280），配文待寫。尚未發布。
 - 點數：0。本專案本批累計 314.40 點。
+
+## 追加 111（2026-10-14）：Vicky 第一張改 4:3 測試
+
+- 製作師：Vicky 第一張（`社群媒體/vicky/vicky_v2_job314_10747f77.jpg`，3:4）改 4:3 看看。
+- 判斷：原圖兩隻腳都被左右邊緣切掉，直接裁成 4:3 會切到頭和腿，所以用擴圖（outpaint）把畫面往外補。
+- 做法：上傳定稿檔 media `ac6c59cb-60cb-4783-95af-1058693a0c60`，Higgsfield outpaint 4:3：`278d9b8c-0289-4ce5-800a-5064e247cf88`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_080652_278d9b8c-0289-4ce5-800a-5064e247cf88.png （2400×1792）。
+- 看圖：兩隻腳（含腳掌）完整入鏡、劈腿姿勢完整 ✅；人物、臉、服裝、光線不變 ✅；左右補出皮拉提斯器材、牆上彈力繩、彩色球、啞鈴、窗戶，和原場景一致 ✅。但擴圖不只左右，上下也補了天花板和地板，人物在畫面中變小（原圖約縮到 54%）。
+- 另做一張免費的裁緊版：從擴圖裁 2000×1500（左上 240,260），人物放大約 1.2 倍，腳仍完整。
+- 狀態：PROPOSED（測試），定稿仍是 3:4 原圖。
+- 點數：2 點。本專案本批累計 316.40 點。
