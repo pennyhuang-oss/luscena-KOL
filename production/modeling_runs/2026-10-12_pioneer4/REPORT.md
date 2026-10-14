@@ -2644,3 +2644,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 型錄：Kanon 區加第三張 `catalog/img/kanon3.jpg`（1280×956），配文待寫。尚未發布。
 - 另：製作師要求之後若執行者反覆修不好、而 Higgsfield 網頁版的修圖工具（Color Grading、Relight、Enhancer、Angles、Layer Decomposition、Edit text；MCP 叫不到）可能解決時，要主動提出。
 - 點數：0。本專案本批累計 365.40 點。
+
+## 追加 130（2026-10-14）：Vicky 第三張放大裁切測試（不採用）
+
+- 製作師：試著 zoom in，手被切到沒關係，視覺中心放在胸口。
+- 做法（本機，0 點）：從 v20 原圖（4608×3456）以胸口（約 2170,1250）為中心裁 4:3：放大 1（2900×2175，約 1.6 倍）、放大 2（2400×1800，約 1.9 倍，原始解析度）。撐地的手與腳被切，放大 2 頭頂馬尾略被切。
+- 製作師：不改了，定稿維持 v20 全身版。
+- 點數：0。本專案本批累計 365.40 點。
