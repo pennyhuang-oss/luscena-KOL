@@ -2151,3 +2151,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   4. 白襯衫右肩透明，露出內衣肩帶。
 - 狀態：PROPOSED。
 - 點數：1 點。本專案本批累計 243.40 點。
+
+## 追加 88（2026-10-14）：Wendy 第二張——改寫實、降鏡頭、C 罩杯
+
+- 製作師：照執行者方向修（重新渲染成照片、胸部改回 C、襯衫不透明、臉換回 252）；另外鏡頭太高。
+- 第 1 次：Nano Banana Pro，image_references ＝ 第一版（當構圖）＋ 252（當臉），寫明鏡頭降低、照片質感、C 罩杯：`bfa53ccb-1e0e-4a26-9ca9-25e79ab89b9a`（2 點），https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_042345_bfa53ccb-1e0e-4a26-9ca9-25e79ab89b9a.png 。**幾乎和第一版一樣**（仍插畫風、俯拍、大胸）——模型被第一版構圖綁住，失敗。
+- 第 2 次：不給第一版、不給動漫參考圖，只給 252 當臉，姿勢、鏡位、場景全用文字：`3d35ce22-af4a-47c7-8435-fe0bd53a4a41`（2 點），https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_042521_3d35ce22-af4a-47c7-8435-fe0bd53a4a41.png 。記為 **v3**。
+- v3 看圖：真實照片質感 ✅；鏡頭接近平視、全身比例自然高挑 ✅；C 罩杯、襯衫不透明、開兩顆釦微露 ✅；黑窄裙黑絲襪、銀灰短髮黑框眼鏡紅唇 ✅；白天辦公室、螢幕鍵盤文件書、窗光植物 ✅；靠桌、雙手抱胸、冷看鏡頭 ✅；無手無對話框 ✅。
+- 和參考圖不同：鏡頭是平視，不是「稍微在她上方」；雙手抱在胸前而非胸下；沒有抬眼的感覺。臉約七成像 252（臉更瘦長、眼神較銳利、更年輕）。
+- 經驗：動漫參考圖會把畫風帶成插畫；用 Seedream／Nano Banana 拿動漫圖取姿勢時，之後很難拉回寫實。只用文字描述姿勢反而能出照片。
+- 狀態：PROPOSED（v3）。
+- 點數：4 點。本專案本批累計 247.40 點。
