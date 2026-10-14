@@ -2443,3 +2443,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   3. 參考圖是赤腳；這版穿球鞋（健身房較合理，製作師可決定）。
 - 狀態：PROPOSED。
 - 點數：2 點。本專案本批累計 318.40 點。
+
+## 追加 113（2026-10-14）：Vicky 第三張——直接給參考圖，改用 FLUX 3（v2）
+
+- 製作師：試著直接給參考圖，但不要用 Nano Banana。
+- 做法：參考圖上傳 media `43d2d1e7-51b2-45f9-bd20-9383cd1243f6`（status uploaded，未被擋）；FLUX 3 Image 4:3 2k，1 張，3 點；image_references ＝ 參考圖（動作、鏡位、構圖）＋ Vicky 臉部裁切 `ec32e247`；寫明真人照片、黑運動內衣、黑高腰瑜伽褲、赤腳、健身房：`f1988c76-f75b-4ec0-b996-4cdc48986af7`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_082628_f1988c76-f75b-4ec0-b996-4cdc48986af7.png （2368×1776）。
+- 看圖：真人照片，沒有被帶成插畫風 ✅（FLUX 吃動漫參考圖仍能出寫實照）；動作、身體角度、鏡位、構圖幾乎照抄參考圖（比 v1 更像）✅；赤腳 ✅；健身房、啞鈴架、臥推椅、水瓶 ✅；臉約七成五像定稿（眼型、嘴唇接近），比 v1 好 ✅。
+- 偏掉的：肌肉太大——手臂、肩膀、腹肌像健美選手，不是 Vicky 設定的沙漏身形；胸部仍比 75E 小；表情偏嚴肅，沒有她的陽光感。
+- 製作師另問：之前 GPT 與 Seedream 給參考圖的成效（回覆見對話；整理自追加 9、14、16、67、87）。
+- 狀態：PROPOSED。
+- 點數：3 點。本專案本批累計 321.40 點。
