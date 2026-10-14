@@ -2690,3 +2690,7 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ **執行者疏失：沒有指定 2k，輸出只有 896×1200**（原圖 1792×2400）。表情確認後要用 2k 重出。
 - 狀態：候選，等製作師確認表情。
 - 點數：2 點。
+
+## 製作師指示（2026-10-14）：解析度
+
+- 生成一律直接用 **2k**（Nano Banana 2.1 寫 `resolution: "2k"`），不採「先 1k、定稿再升 2k」：定稿後用 2k 重生成會重畫、細節跑掉；改用放大工具則要另外查點數與畫質。
