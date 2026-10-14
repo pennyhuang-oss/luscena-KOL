@@ -2759,3 +2759,4 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 鏈：b6674da3（原自拍）→ da9ab71f（一手貓爪）→ 5216acc1（胸前蝴蝶結粉，後改回）→ b458771e（雙手貓爪）→ 38e182b4（蝴蝶結回黑、耳環改蝙蝠）。
 - 最終檔：`社群媒體/kanon/kanon_post2_job38e182b4_claw.jpg`（1792×2400，JPEG 品質 95）。型錄 Kanon 第 2 格（`catalog/img/kanon_claw.jpg`），配文 K-03。
 - 已知：表情是沒笑、微嘟（38e182b4 的副作用），製作師照現狀定稿。
+- 補修（同日，本機，0 點）：製作師「嘴巴動到了，改回去」。從 b458771e 把嘴巴與嘴角（橢圓遮罩、羽化）貼回 38e182b4，兩張對位只差 1 px；壞笑回來、耳環與蝴蝶結維持。另發現多次修改後淚痣變成星形，用原自拍 b6674da3 的圓形淚痣蓋回（位置不變，在她的右眼下）。最終檔與型錄已換成補修版。
