@@ -2430,3 +2430,4 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 另做一張免費的裁緊版：從擴圖裁 2000×1500（左上 240,260），人物放大約 1.2 倍，腳仍完整。
 - 狀態：PROPOSED（測試），定稿仍是 3:4 原圖。
 - 點數：2 點。本專案本批累計 316.40 點。
+- 製作師 2026-10-14：不改了，Vicky 第一張維持 3:4 原圖。4:3 測試不採用。
