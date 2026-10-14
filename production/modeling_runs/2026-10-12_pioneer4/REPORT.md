@@ -2345,3 +2345,18 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 執行者建議：胸部大小維持 V1，不再修。
 - 另：製作師指示之後 Higgsfield 每次預設只跑 1 張（count 1），要多張時再說。
 - 點數：0。本專案本批累計 302.40 點。
+
+## 追加 104（2026-10-14）：Wendy 第二張 V1 暫時定稿；眉尾上揚測試
+
+### A. V1 暫時定稿
+- 製作師：V1 這樣還可以，先暫時定稿。
+- 最終檔：`社群媒體/wendy/wendy_img2_job39595530_V1.jpg`（1792×2400，JPEG 品質 95）＝ T2（`39595530`）＋眼鏡 G1（`d2220428`）＋胸部 U1（`63756e64`）。
+- 本機備份：`Documents\Luscena_KOL_定稿備份\wendy\` 已加入，逐位元比對一致。
+- 型錄：Wendy 區加第二張 `catalog/img/wendy2.jpg`（960×1280），配文待寫。尚未發布。
+
+### B. 眉尾上揚測試
+- 製作師：測試眉尾稍微往上，看感覺。
+- 做法：Nano Banana 2.1 1:1 2k，count 1；V1 頭部裁切（左上 620,150，500×500）media `3cf8c746-b1e5-458a-a4cf-170b05e2980c`；只把兩邊眉尾稍微往上揚：`494e45a2-bcf1-4f4c-a9e8-4acc6844a835`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_055930_494e45a2-bcf1-4f4c-a9e8-4acc6844a835.png 。
+- 看圖：眉尾往上揚、眉峰較明顯，眼神更冷更銳利 ✅；但眉毛也變得比較深、比較粗，比要求的「只抬眉尾」多改了一點。邊緣差約 2，羽化貼回 V1，全圖已做好。
+- 狀態：PROPOSED（測試），定稿仍是 V1。
+- 點數：2 點。本專案本批累計 304.40 點。
