@@ -2812,3 +2812,8 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖：兩頰與鼻頭透出淡淡暖紅，像運動後的血色；其他不動。
 - 狀態：候選，等製作師決定。
 - 點數：0 點。
+
+## 定稿（2026-10-14，製作師決定）：Vicky 第三張 ＝ v23（取代 v20）
+
+- 鏈：v20 → 11539bf7（頭部：皺眉、微張嘴喘，v21）→ d84930ef（一眼閉、一眼瞇，v22）→ 本機加淡淡運動紅暈（v23）。頭部以羽化貼回 v20（約左上 442,162、470×470，2400×1800 尺度）。
+- 最終檔：`社群媒體/vicky/vicky_img3_v23_wink_flush.jpg`（2400×1800，JPEG 品質 95）。v20 檔保留備查。型錄 `catalog/img/vicky3.jpg` 已更新。
