@@ -2716,3 +2716,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - **Kanon 第 1 則（K-02 重逢自介）配圖定稿 ＝ job `4b8b94b9-3968-4af2-9c60-8d5007b0b599`**。鏈：8db6e8e5（Nano Banana Pro 重排，玄關擋路）→ 本機修過曝與臉色（media `728d6d90`）→ 560eab76（表情收斂壞笑）→ 4b8b94b9（手臂比例）。
 - 最終檔：`社群媒體/kanon/kanon_post1_job4b8b94b9_genkan.jpg`（1792×2400，JPEG 品質 95）。型錄 Kanon 第 1 格換成這張（`catalog/img/kanon_genkan.jpg`）。
 - 原自拍 b6674da3（`kanon_img2_jobb6674da3.jpg`）不再用於第 1 則，檔案保留備查。
+
+## 追加 137（2026-10-14）：Kanon 淚痣統一在右眼下（K-01 貓爪圖修正）
+
+- 製作師：Kanon 臉上的黑色淚痣都要在同一邊。
+- 執行者檢查型錄四張：玄關擋路（4b8b94b9）、沙發吐舌（cf8f9d47）、舊自拍（b6674da3）都在**她的右眼下（看圖時左邊）**；只有 K-01 貓爪圖（f23ccb87＋本機膚色修正）在她的左眼下。製作師同意統一為右眼下，只改 K-01。
+- 第 1 次：K-01 定稿檔上傳為 media `4202717a-f286-40a6-b81a-83f5997eff09`，Nano Banana 2.1、2k，只移淚痣：`832851b0-0ec2-4cff-9c65-94434178acd0`，2 點。**失敗**：原本的痣沒拿掉，另一邊臉頰多了一片雀斑，膚色略變。不採用。
+- 第 2 次（本機，0 點）：在 K-01 定稿檔上，原位置（約 992,651）用周圍膚色填平，順便清掉下方一個淡色小點；把原本的痣按「與右眼虹膜的相對位置」鏡像搬到右眼下（約 745,661），只取痣本身（半徑約 6 px）的明暗疊上，不帶周圍皮膚。
+- 看圖：原位置乾淨、無補丁痕；新的痣在她右眼外下方，大小顏色接近原本，略淡一點。其他完全沒動。
+- 最終檔：`社群媒體/kanon/kanon_v2_jobf23ccb87_skinfix_mole.jpg`（取代 `kanon_v2_jobf23ccb87_skinfix.jpg`，舊檔從 repo 移除，git 歷史可取回）。型錄 `catalog/img/kanon.jpg` 已更新。
+- **Kanon 固定規格新增：淚痣一顆，在她的右眼下（看圖時左邊）。** 之後每張生成都要檢查；prompt 寫法：「a small black beauty mark under her right eye (on the left side of the image)」。
+- 點數：2 點（失敗那次）。
