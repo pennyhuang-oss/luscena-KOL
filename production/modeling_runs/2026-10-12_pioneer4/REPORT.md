@@ -2610,3 +2610,4 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 判斷：平台對「明顯透視」的修圖會擋或刻意保守；本機合成做不出可信的透膚。
 - 狀態：定稿維持 v20。
 - 點數：2 點（NSFW 已退）。本專案本批累計 361.40 點。
+- 製作師 2026-10-14：看過 v20 與「v20＋2.1 強提示詞版（只貼回衣服區）」並排後，確認 **v20 定稿**。2.1 版不採用。
