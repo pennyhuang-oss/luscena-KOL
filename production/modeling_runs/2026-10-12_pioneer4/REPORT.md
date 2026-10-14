@@ -2627,3 +2627,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 和參考圖不同：左右相反（頭在畫面右邊、腳在左邊）；髮色偏灰，粉色比定稿少。
 - 狀態：PROPOSED。
 - 點數：2 點（Seedream NSFW 已退）。本專案本批累計 363.40 點。
+
+## 追加 128（2026-10-14）：Kanon 第三張——髮色調粉、吐舌撒嬌（v2）
+
+- 製作師：髮色調粉一點；吐舌頭，露出撒嬌的表情。
+- 做法：Nano Banana Pro 4:3 2k，count 1；圖 1 ＝ v1（`76d1042e`）為底圖，圖 2 ＝ 第二張定稿臉部裁切（只取髮色；重新上傳 media `5180599e-0526-4dd4-9678-2936fa9eb498`，追加 127 那次的上傳位址沒有真的傳檔，第一次送出時平台回「讀不到圖」，未扣點）：`cf8f9d47-33d6-4398-8f1b-a70b596fd3c2`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_102357_cf8f9d47-33d6-4398-8f1b-a70b596fd3c2.png 。
+- 看圖（v1／v2）：髮色變成灰粉漸層、髮尾偏粉，接近第二張定稿 ✅；微吐舌尖、眼睛微瞇、臉紅，撒嬌感 ✅；臉、妝、眼下痣、雙馬尾蝴蝶結、托腮姿勢、沙發與房間不變 ✅。
+- 狀態：PROPOSED（v2）。
+- 點數：2 點。本專案本批累計 365.40 點。
