@@ -2780,3 +2780,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ 尾巴從她右肩旁的床上往上翹，尾巴根部淡進床面，沒有明確接到她身上。
 - 狀態：候選，等製作師決定。
 - 點數：4 點（加上前一次 NSFW 的 0 點）。
+
+## 定稿（2026-10-14，製作師決定）：Kanon 第 3 則（K-01）用圖 ＝ 貓耳＋貓貓手、無尾巴
+
+- 製作師：直接把貓尾去掉。本機用 3e583c07（只改手、無尾巴）的同位置像素蓋掉 f891e23c 的尾巴（差異遮罩＋羽化），再合回原圖。尾巴處補回床與牆，看不出痕跡。
+- 鏈：f23ccb87＋本機膚色 → 本機淚痣移右眼 → 裁上半部 → 3e583c07（貓貓手、去美甲）→ f891e23c（貓耳、貓尾）→ 本機去尾巴、合回原圖。
+- 最終檔：`社群媒體/kanon/kanon_post3_k01_catears.jpg`（1792×2400，JPEG 品質 95）。前一版 `kanon_v2_jobf23ccb87_skinfix_mole.jpg` 保留備查。型錄 `catalog/img/kanon.jpg` 已更新。
