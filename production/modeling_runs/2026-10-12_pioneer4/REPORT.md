@@ -2710,3 +2710,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖：門框往內收，手臂長度變自然；兩手掌扶在門框上看得到手指，擋路的意思更清楚。表情、衣服、行李箱、玄關、色調都維持。
 - 狀態：候選，等製作師決定。
 - 點數：2 點。
+
+## 定稿（2026-10-14，製作師決定）：Kanon 第 1 則用圖 ＝ 4b8b94b9（玄關擋路）
+
+- **Kanon 第 1 則（K-02 重逢自介）配圖定稿 ＝ job `4b8b94b9-3968-4af2-9c60-8d5007b0b599`**。鏈：8db6e8e5（Nano Banana Pro 重排，玄關擋路）→ 本機修過曝與臉色（media `728d6d90`）→ 560eab76（表情收斂壞笑）→ 4b8b94b9（手臂比例）。
+- 最終檔：`社群媒體/kanon/kanon_post1_job4b8b94b9_genkan.jpg`（1792×2400，JPEG 品質 95）。型錄 Kanon 第 1 格換成這張（`catalog/img/kanon_genkan.jpg`）。
+- 原自拍 b6674da3（`kanon_img2_jobb6674da3.jpg`）不再用於第 1 則，檔案保留備查。
