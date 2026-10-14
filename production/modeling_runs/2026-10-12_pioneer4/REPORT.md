@@ -2137,3 +2137,17 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 最終檔：`社群媒體/nanami/nanami_img5_jobdd0fffae_supermarket.jpg`（JPEG 品質 95、全解析度）。
 - 配文 N-03（製作師親寫）記在 `POST_IDEAS_2026-10-12.md`。
 - 已知：臉約八成五像 253n、磨皮一致；膚色因日光燈略暗偏冷（未調）。
+
+## 追加 87（2026-10-14）：Wendy 第二張——辦公桌邊抱胸俯拍（Seedream 第一版）
+
+- 製作師：Wendy 第二張用參考圖（動漫插畫：辦公桌邊抱胸、俯拍、有第一人稱的手與日文對話框；來源與權利不明）當姿勢；不要第一人稱的手；服裝同形象照定稿 252。視角在她上方，所以她是抬眼看鏡頭。
+- 參考圖上傳 media `576fcaba-8e45-4011-a9d6-d20d4ed8b073`，未被擋。
+- 做法：Seedream 4.5 high＋Wendy face-only Element（`19f44c28`），參考圖取姿勢與鏡位；銀灰短鮑伯、黑粗框眼鏡、紅唇；白襯衫開兩顆釦、黑窄裙、黑絲襪；170 cm、C 罩杯、骨感；白天辦公室窗光植物；輕美肌（BODY_SETTINGS §2.5 寫法）；不要手、不要對話框；1 張，1 點：`6d8c226e-28d5-4f5e-9726-5d3e58a9681b`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261014_042056_6d8c226e-28d5-4f5e-9726-5d3e58a9681b.png 。
+- 看圖：俯拍、靠桌抱胸、抬眼冷看鏡頭、場景（螢幕、文件、書、窗光、植物）、服裝、無手無對話框 ✅。
+- 偏掉的：
+  1. 畫風被參考圖帶成半插畫（膚色與光影像 CG），不像照片。
+  2. 胸部照參考圖畫成大胸，遠超 C 罩杯。
+  3. 臉偏老、皺眉，和 252 不像（約五成）。
+  4. 白襯衫右肩透明，露出內衣肩帶。
+- 狀態：PROPOSED。
+- 點數：1 點。本專案本批累計 243.40 點。
