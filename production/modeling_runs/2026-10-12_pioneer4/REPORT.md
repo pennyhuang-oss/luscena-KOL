@@ -2883,3 +2883,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 點數：0。本專案本批累計 367.40 點。
 - 另：型錄四人資料欄加「生日」（年份依年齡推算、月日自訂）：Wendy 1998.02.14、Kanon 2006.04.01、Vicky 2001.07.21、Nanami 1999.05.20。Railway 站已自動更新。
 - 製作師 2026-10-15：Nanami 大頭照照製作師給的圓框範例重裁——拉近一點、臉往下移（頭頂貼近圓框上緣、摸頭的手在左上）：從定稿原圖裁 680×680（左上 670,178），輸出 1080×1080 PNG，取代原檔；備份同步。
+
+## 製作師指示（2026-10-15）：型錄只更新 Railway
+
+- 之後型錄改動只要 commit＋push 到 `producer/modeling-r1`（Railway 監看 `catalog/` 資料夾，自動重新部署），**不再發布 claude.ai artifact**。
+- 公開網址：https://compassionate-quietude-production-b09c.up.railway.app/ （Luscena 專案，服務「型錄」）。
+- 執行者確認：cb86ed3（Vicky 順序＋泳池配文）已在 Railway 部署成功。
