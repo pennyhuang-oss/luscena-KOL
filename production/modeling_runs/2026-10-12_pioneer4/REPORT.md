@@ -3088,3 +3088,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ 平視後水只到大腿（淺水區感）；臉大致一致。
 - 狀態：PROPOSED（720p 試跑），等製作師決定是否升 1080p。
 - 點數：67.5 點。本專案本批累計 509.90 點。
+
+## 定稿（2026-10-15，製作師決定）：Vicky 第四則 ＝ 泳池潑水短影片（Seedance 2.0 一鏡到底 720p）
+
+- 採用追加 155 的 720p 試跑版（`b94c11b8`），不再升 1080p。
+- 鏈：圖 A 視角首幀（`afc6e55d`）→ 水改深（`f2b5726c`）→ 本機水色改回藍綠（media `fbbf989d`）；關鍵圖 1（`e402f083` → 本機裁切 → `4cda7ece` → `6a4f5459`）、關鍵圖 2（`bda392d1` → `bc612269` → `3fea20ce`）當參考 → Seedance 2.0 15 秒。
+- 最終檔：`社群媒體/vicky/vicky_video4_pool_splash_seedance.mp4`（720×1280、15 秒、含音軌，11.8 MB）；本機備份 `Documents\Luscena_KOL_定稿備份\vicky\` 同步。
+- Kling 3.0 三段版（追加 154）未採用。
