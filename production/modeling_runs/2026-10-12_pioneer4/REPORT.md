@@ -2879,5 +2879,6 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 製作師：做社群大頭照，依型錄人物順序各選第 1、2、2、4 張：Wendy 第 1 張（辦公室坐皮椅抱胸，`wendy_img2_job39595530_V1.jpg`）、Kanon 第 2 張（比貓爪，`kanon_post2_job38e182b4_claw.jpg`）、Vicky 第 2 張（泳池擦防曬，`vicky_img2_job331_de35186e.jpg`）、Nanami 第 4 張（廚房跌坐眨眼吐舌，`nanami_img2_283n_composite.jpg`）。
 - 做法（本機，0 點）：從定稿原圖以臉為中心裁 1:1 頭肩（邊長 760～1250 px），輸出 1080×1080；方形與圓形預覽確認臉在中央、不被圓框切到。
-- 存檔：`社群媒體/大頭照/<人>_avatar.jpg`（wendy／kanon／vicky／nanami；製作師指定集中放「大頭照」資料夾），本機備份 `Documents\Luscena_KOL_定稿備份\大頭照\` 同步。
+- 存檔：`社群媒體/大頭照/<人>_avatar.png`（製作師 2026-10-15：大頭照一律 PNG；從定稿原圖重新裁切輸出，不從 JPG 轉檔）（wendy／kanon／vicky／nanami；製作師指定集中放「大頭照」資料夾），本機備份 `Documents\Luscena_KOL_定稿備份\大頭照\` 同步。
 - 點數：0。本專案本批累計 367.40 點。
+- 另：型錄四人資料欄加「生日」（年份依年齡推算、月日自訂）：Wendy 1998.02.14、Kanon 2006.04.01、Vicky 2001.07.21、Nanami 1999.05.20。Railway 站已自動更新。
