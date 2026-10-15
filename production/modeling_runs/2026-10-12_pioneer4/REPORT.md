@@ -2863,3 +2863,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - v26 ＝ v23 經本機清理：汗珠閃點壓制、皮膚平坦區輕度平滑、大尺度微對比降 20%、頭髮去紅、臉偏金、邊緣細銳化（追加 148～149）。
 - 最終檔：`社群媒體/vicky/vicky_img3_v26.jpg`（2400×1800，JPEG 品質 95）。v23、v20 檔保留備查。型錄 `catalog/img/vicky3.jpg` 已更新。
 - POST_IDEAS V-03 的配圖改指向 v26。
+
+## 追加 132（2026-10-15）：型錄部署到 Railway（公開站）
+
+- 製作師：型錄想開放給所有人看；claude.ai artifact 受組織設定限制，無法公開或分享到組織外。改同步到 Railway；製作師選「完全公開」（不設帳密），並指定在 Railway 新建 Luscena 專案。
+- 做法：
+  - 在 `catalog/` 加零依賴靜態伺服器 `server.js`＋`package.json`（`npm start`／`node server.js`）：只供應 `index.html` 與 `img/` 下的圖片（jpg/png/webp），其他路徑一律 404；`index.html` 是 artifact 片段，伺服器回應時補上 doctype／meta 外殼。
+  - Railway：workspace `vincentchiu-insightsoftware's Projects` 新建專案 **Luscena**（`14b6055b-0c8d-4a8e-b871-d085e5a2c47e`），服務「型錄」（`15c224a3-d357-4691-94e4-19f2c9f9d5ca`），來源 `pennyhuang-oss/luscena-KOL` 分支 `producer/modeling-r1`，root directory `/production/modeling_runs/2026-10-12_pioneer4/catalog`，watch patterns 只看該資料夾（型錄有變動並推送才會重新部署），Railpack 建置。
+- 網址：https://compassionate-quietude-production-b09c.up.railway.app/
+- 驗證：首頁 200；15 張型錄圖全部載入成功；`/server.js`、`/package.json`、`/img/../server.js` 都回 404。
+- 之後同步方式：本機改型錄 → commit＋push 到 `producer/modeling-r1` → Railway 自動重新部署。claude.ai 型錄（artifact）仍照舊需要另外「發布型錄」。
+- 點數：0（Higgsfield）。本專案本批累計 367.40 點。
