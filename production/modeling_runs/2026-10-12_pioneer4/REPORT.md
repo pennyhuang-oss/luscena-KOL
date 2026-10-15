@@ -2874,3 +2874,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 驗證：首頁 200；15 張型錄圖全部載入成功；`/server.js`、`/package.json`、`/img/../server.js` 都回 404。
 - 之後同步方式：本機改型錄 → commit＋push 到 `producer/modeling-r1` → Railway 自動重新部署。claude.ai 型錄（artifact）仍照舊需要另外「發布型錄」。
 - 點數：0（Higgsfield）。本專案本批累計 367.40 點。
+
+## 追加 133（2026-10-15）：四人社群大頭照
+
+- 製作師：做社群大頭照，依型錄人物順序各選第 1、2、2、4 張：Wendy 第 1 張（辦公室坐皮椅抱胸，`wendy_img2_job39595530_V1.jpg`）、Kanon 第 2 張（比貓爪，`kanon_post2_job38e182b4_claw.jpg`）、Vicky 第 2 張（泳池擦防曬，`vicky_img2_job331_de35186e.jpg`）、Nanami 第 4 張（廚房跌坐眨眼吐舌，`nanami_img2_283n_composite.jpg`）。
+- 做法（本機，0 點）：從定稿原圖以臉為中心裁 1:1 頭肩（邊長 760～1250 px），輸出 1080×1080；方形與圓形預覽確認臉在中央、不被圓框切到。
+- 存檔：`社群媒體/<人>/<人>_avatar.jpg`（wendy／kanon／vicky／nanami），本機備份同步，逐位元比對一致。
+- 點數：0。本專案本批累計 367.40 點。
