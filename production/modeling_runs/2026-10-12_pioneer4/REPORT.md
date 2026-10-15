@@ -2882,3 +2882,4 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 存檔：`社群媒體/大頭照/<人>_avatar.png`（製作師 2026-10-15：大頭照一律 PNG；從定稿原圖重新裁切輸出，不從 JPG 轉檔）（wendy／kanon／vicky／nanami；製作師指定集中放「大頭照」資料夾），本機備份 `Documents\Luscena_KOL_定稿備份\大頭照\` 同步。
 - 點數：0。本專案本批累計 367.40 點。
 - 另：型錄四人資料欄加「生日」（年份依年齡推算、月日自訂）：Wendy 1998.02.14、Kanon 2006.04.01、Vicky 2001.07.21、Nanami 1999.05.20。Railway 站已自動更新。
+- 製作師 2026-10-15：Nanami 大頭照照製作師給的圓框範例重裁——拉近一點、臉往下移（頭頂貼近圓框上緣、摸頭的手在左上）：從定稿原圖裁 680×680（左上 670,178），輸出 1080×1080 PNG，取代原檔；備份同步。
