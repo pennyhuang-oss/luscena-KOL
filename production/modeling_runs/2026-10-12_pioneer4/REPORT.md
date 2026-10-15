@@ -2879,5 +2879,5 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 製作師：做社群大頭照，依型錄人物順序各選第 1、2、2、4 張：Wendy 第 1 張（辦公室坐皮椅抱胸，`wendy_img2_job39595530_V1.jpg`）、Kanon 第 2 張（比貓爪，`kanon_post2_job38e182b4_claw.jpg`）、Vicky 第 2 張（泳池擦防曬，`vicky_img2_job331_de35186e.jpg`）、Nanami 第 4 張（廚房跌坐眨眼吐舌，`nanami_img2_283n_composite.jpg`）。
 - 做法（本機，0 點）：從定稿原圖以臉為中心裁 1:1 頭肩（邊長 760～1250 px），輸出 1080×1080；方形與圓形預覽確認臉在中央、不被圓框切到。
-- 存檔：`社群媒體/<人>/<人>_avatar.jpg`（wendy／kanon／vicky／nanami），本機備份同步，逐位元比對一致。
+- 存檔：`社群媒體/大頭照/<人>_avatar.jpg`（wendy／kanon／vicky／nanami；製作師指定集中放「大頭照」資料夾），本機備份 `Documentsuscena_kol_定稿備份大頭照` 同步。
 - 點數：0。本專案本批累計 367.40 點。
