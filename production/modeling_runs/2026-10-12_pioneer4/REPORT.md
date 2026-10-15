@@ -2889,3 +2889,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 之後型錄改動只要 commit＋push 到 `producer/modeling-r1`（Railway 監看 `catalog/` 資料夾，自動重新部署），**不再發布 claude.ai artifact**。
 - 公開網址：https://compassionate-quietude-production-b09c.up.railway.app/ （Luscena 專案，服務「型錄」）。
 - 執行者確認：cb86ed3（Vicky 順序＋泳池配文）已在 Railway 部署成功。
+
+## 追加 134（2026-10-15）：Vicky 第四張——泳池自拍潑水（第一版）
+
+- 製作師：新動作參考圖（真人泳池自拍：一手伸向鏡頭自拍、一手撥額前頭髮、胸口以下在水裡；權利不明，依追加 14 直接餵平台），鏡頭與身體動作維持，改成向鏡頭潑水；服裝用上次那張。
+- 參考圖 media `ca2be56e-c4f4-4f88-967b-fae89e4b6d42`。
+- 「上次那張」執行者第一次誤解為第三張健身房那套（運動內衣＋真理褲），已送出 Seedream `6433419f-3749-40ce-b7b2-0ff73f7fdd08`（1 點，未採用、未查看）；製作師更正為泳池擦防曬那張（第二張）的黑色比基尼。
+- 做法：Seedream 4.5 high＋Vicky Element `325284ce`，4:3，count 1；image_references ＝ 參考圖（鏡頭、姿勢）＋第二張定稿 media `e30a828c-c83e-4517-ad4d-981f17b5e4c3`（黑色比基尼）＋臉部裁切 `ec32e247`：`c4436b13-dd5d-4b1e-973d-6f8e282b2cc2`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261015_083228_c4436b13-dd5d-4b1e-973d-6f8e282b2cc2.png （4608×3456）。
+- 看圖：真人照片 ✅；頂樓泳池、藍綠池水 ✅；黑色綁帶比基尼 ✅；一手伸向鏡頭自拍 ✅；另一手撥水、水花飛起、開心大笑 ✅；臉像 Vicky（曬色、五官）✅。
+- 偏掉的：水花往側邊甩成一圈，不是潑向鏡頭；畫面左下角拍到手機；她站得比較高，腰部以上出水、露出比基尼下身（參考圖是胸口以下泡在水裡）；鏡頭距離比參考圖遠。
+- 狀態：PROPOSED。
+- 點數：1＋1＝2 點。本專案本批累計 369.40 點。
