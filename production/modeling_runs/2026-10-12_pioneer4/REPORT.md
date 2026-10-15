@@ -2928,3 +2928,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 製作師另要求：記錄哪些方法比較順。新增 `METHODS_PLAYBOOK.md`（依需求選方法的速查表、流程規則、已知的坑、待驗證），之後持續更新。
 - 狀態：PROPOSED（v4 臉對、姿勢未完全一致）。
 - 點數：3 點。本專案本批累計 373.40 點。
+
+## 追加 137（2026-10-15）：Vicky 第四張改參考圖——水中游泳回頭
+
+- 製作師：改用新參考圖（真人水下照：背對鏡頭往前游、腳朝鏡頭；權利不明），上半身轉過來看鏡頭；上方有倒影的部分裁掉。
+- 做法：參考圖本機裁掉上方倒影（564×380，原圖下半部）上傳 media `40ee8e15-da13-4dfa-aca3-93620c98c698`；Seedream 4.5 high＋Vicky Element，4:3，count 1；image_references ＝ 水下參考圖＋第二張定稿（黑色比基尼）：`dd08851a-c387-45c8-85de-0b723059fbe1`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261015_090849_dd08851a-c387-45c8-85de-0b723059fbe1.png （4608×3456）。
+- 看圖：真人水下照 ✅；清澈藍綠海水、光紋、岩石海底 ✅；腳伸向鏡頭、身體伸展 ✅；上半身轉過來、對鏡頭笑 ✅；臉是 Vicky（背面參考圖沒有臉可外洩）✅；黑色比基尼上衣 ✅。
+- 偏掉的：比基尼下身變成丁字褲（照參考圖的露臀感）；海底多了一台水下相機；身體比參考圖斜、偏直立。
+- 同輪：製作師要求分析「為什麼姿勢一直不對」，結論寫入 `METHODS_PLAYBOOK.md` §5。
+- 狀態：PROPOSED。
+- 點數：1 點。本專案本批累計 374.40 點。
