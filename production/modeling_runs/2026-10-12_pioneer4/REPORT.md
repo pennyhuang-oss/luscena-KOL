@@ -3305,3 +3305,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 製作師：定稿（追加 171 版）；發布型錄。
 - 型錄：`catalog/img/vicky4.jpg`（960×1286，由定稿縮圖）加入 Vicky 區第四格（無配文，配文尚未寫）。依製作師指示只更新 Railway（推送後自動部署），不發布 claude.ai artifact。
+
+## 追加 172（2026-10-16）：Vicky 空中瑜伽短影片——開頭畫面（雙腳著地）
+
+- 製作師：把空中瑜伽定稿做成 5～10 秒動態。動作：先雙腳著地 → 中間抬腿到定稿姿勢 → 結尾改用替代方案 C（雙手拉布、上半身往後仰、頭髮甩、回正對鏡頭笑）。先出開頭畫面。
+- 做法：定稿上傳為 media `85097f7c-e719-4e11-a9c3-6615c4a9f391`；Nano Banana Pro 3:4 2k，只改姿勢：右腿放下、雙腳著地站直、雙手仍抓布，其餘不變：`078c2dd6-8c67-4fe9-9e72-170f2fb4926d`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261016_085859_078c2dd6-8c67-4fe9-9e72-170f2fb4926d.png （1792×2400）。沒被擋。
+- 看圖：雙腿站直、雙手抓布、低角度與構圖不變 ✅；臉、表情、汗光、服裝、背景維持 ✅；人物位置稍往右移，褲子縫線樣式略有不同。
+- 下一步（待確認）：Seedance 2.0 Mini 720p 3:4、8 秒、不加聲音，start_image＝本圖，image_references＝定稿（中段姿勢、臉、服裝），約 8 點。
+- 點數：2 點。本專案本批累計 552.90 點。
