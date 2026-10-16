@@ -3300,3 +3300,8 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 做法（本機，0 點）：只在圈選處（約 x 500～860、y 1820～2120，橢圓羽化）重定腿緣——以亮度＜48 判定褲料、平滑後二值化、內縮 3 px、羽化 1.5 px；腿緣外換成新背景底圖的乾淨地板。其他地方完全沿用 `d2_final`。
 - 結果：灰霧與暗斑消失，腿緣俐落、地板乾淨 ✅。最終檔同名覆蓋（`社群媒體/vicky/vicky_img5_yoga_aerial_split.jpg`），備份同步。
 - 點數：0 點。本專案本批累計 550.90 點。
+
+## 定稿確認＋型錄更新（2026-10-16）：Vicky 瑜伽站姿劈腿
+
+- 製作師：定稿（追加 171 版）；發布型錄。
+- 型錄：`catalog/img/vicky4.jpg`（960×1286，由定稿縮圖）加入 Vicky 區第四格（無配文，配文尚未寫）。依製作師指示只更新 Railway（推送後自動部署），不發布 claude.ai artifact。
