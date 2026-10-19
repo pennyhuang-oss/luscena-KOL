@@ -3608,3 +3608,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 最終檔：`社群媒體/nanami/nanami_post4_sofa_job6f0d8f15.jpg`（1792×2400，JPEG 品質 95）；本機備份 `Documents\Luscena_KOL_定稿備份\nanami\` 同步。
 - 型錄 Nanami 蛋包飯那格改成兩張並排（`catalog/img/nanami2.jpg`＋`nanami2_sofa.jpg`）。commit＋push 後 Railway 自動部署。
 - 排程：N-04 原貼文（Metricool 396599194）已於 2026-10-18 22:00 發布到 IG／Threads，無法再加圖；要另開新貼文，配文與時間待製作師決定。
+
+## 追加 193（2026-10-19）：Wendy 飯店輪播第 1 張——改用 Seedream＋Element 重畫頭部、本機貼回
+
+- 製作師：改用 Seedream＋Wendy 臉部設定重畫頭部，表情冷淡高傲，頭髮側分。
+- 做法：Seedream 4.5 high＋Wendy Element `19f44c28`，1:1，參考＝頭部裁切 `aad038cc`（構圖）＋居酒屋臉 `339c5e05`：`c0187b18-4d35-48c6-96bd-02fe8d50d942`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_102911_c0187b18-4d35-48c6-96bd-02fe8d50d942.png （4096×4096，1 點）。
+- 本機貼回：縮成 800×800，以眼鏡黑框外框對齊（放大 1.087 倍、位移 −58,−57），橢圓遮罩（臉＋頭頂髮）高斯羽化貼回第 ① 步成品 → 執行者端 whotel/w1_pasted.png（1536×2752）。
+- 看圖：側分無瀏海、五官較柔和自然，和 W-04 出差定稿的 Wendy 接近 ✅；閉嘴不笑、眼神往下的冷淡表情 ✅；貼回邊界自然，肩膀以下不動 ✅。⚠️ 眼神偏往下看，不是直視鏡頭；下半段頭髮仍是第 ① 步的直髮。
+- 方法紀錄：Nano Banana Pro 換臉黏住原臉時（追加 192），Seedream＋Element 只重畫頭部裁切、再以眼鏡對齊貼回，可保住已確認的構圖。
+- 狀態：等製作師確認臉；之後第 ③ 步擴成 3:4，再修大腿上方黑絲橫線。
+- 點數：1 點。本專案本批累計 648.90 點。
