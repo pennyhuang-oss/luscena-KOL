@@ -3410,3 +3410,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 狀態：輪播候選，等製作師確認。
 - 點數：5 點。本專案本批累計 584.90 點。
+
+## 定稿（2026-10-19，製作師決定）：Vicky 晨跑輪播（蓮池潭，3 張）
+
+- 第 1 張自拍（`cfdc121e` → 胸型 `06f7f60e` → 本機抹平凸點）→ `社群媒體/vicky/vicky_run1_lotus_selfie.jpg`
+- 第 2 張背後跑步回頭（`961f3d7a`）→ `社群媒體/vicky/vicky_run2_lotus_back.jpg`
+- 第 3 張仰頭喝水（`b10c502a`）→ `社群媒體/vicky/vicky_run3_lotus_drink.jpg`
+- 皆 1792×2400 JPEG 品質 95；本機備份 `Documents\Luscena_KOL_定稿備份\vicky\` 同步。配文、排程待定。
