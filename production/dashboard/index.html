@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Luscena 社群數據</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Same visual language as the catalog: paper sheets, one accent colour per character */
+:root{
+  --bg:#f3f1f4; --paper:#fffdfd; --ink:#1d1a21; --muted:#6d6674; --line:#dcd6df; --accent:#7a3b5c;
+  --c-wendy:#4f5a6b; --c-kanon:#c2407e; --c-vicky:#c47a17; --c-nanami:#b0645a;
+  --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141218; --paper:#1d1a22; --ink:#ece8ef; --muted:#a59cad; --line:#35303c; --accent:#e19ab9;
+  --c-wendy:#9fb0c8; --c-kanon:#f07bb4; --c-vicky:#f0b257; --c-nanami:#e59b90; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141218; --paper:#1d1a22; --ink:#ece8ef; --muted:#a59cad; --line:#35303c; --accent:#e19ab9;
+  --c-wendy:#9fb0c8; --c-kanon:#f07bb4; --c-vicky:#f0b257; --c-nanami:#e59b90; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding:32px clamp(16px,4vw,40px) 64px}
+header{display:grid;gap:10px;margin-bottom:24px}
+.stamp{font-family:var(--f-data);font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0}
+.meta{color:var(--muted);margin:0;font-size:14px}
+
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:28px}
+.tile{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 18px}
+.tile .k{font-size:13px;color:var(--muted)}
+.tile .v{font-family:var(--f-data);font-size:34px;font-weight:500;line-height:1.2;font-variant-numeric:tabular-nums}
+.tile .s{font-size:12.5px;color:var(--muted);font-family:var(--f-data)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:16px}
+.acct{--c:var(--accent);background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:6px;padding:18px 20px;display:grid;gap:14px}
+.who{display:flex;align-items:center;gap:12px}
+.who img{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--c);flex:none}
+.who h2{font-family:var(--f-display);font-weight:900;font-size:20px;margin:0;line-height:1.25}
+.who .role{font-size:13px;color:var(--muted)}
+.who .role b{color:var(--c);font-weight:700;margin-right:6px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+thead th{font-size:12px;font-weight:500;color:var(--muted);letter-spacing:.04em}
+tbody td{font-family:var(--f-data);font-size:15px}
+tbody td:first-child{font-family:var(--f-body);font-size:14px}
+td.sum{font-weight:500}
+tr:last-child td{border-bottom:0}
+.links{display:flex;gap:14px;flex-wrap:wrap;font-size:13px}
+.links a{color:var(--muted)}
+.links a:hover,.links a:focus-visible{color:var(--c)}
+footer{margin-top:32px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
+.err{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="stamp">Luscena KOL・社群數據</div>
+    <h1>先鋒四人社群數據</h1>
+    <p class="meta" id="meta">讀取中…</p>
+  </header>
+
+  <section class="tiles" id="tiles" aria-label="四人合計"></section>
+  <section class="grid" id="accts" aria-label="各帳號數據"></section>
+
+  <footer>
+    <span>資料來源：Metricool（Threads 與 Instagram）。曝光／觀看＝貼文被顯示的次數；按讚＝貼文收到的讚；追蹤＝最新一天的追蹤人數。</span>
+    <span>Metricool 的數據大約晚一天，當天的數字通常隔天才會出現。</span>
+  </footer>
+</div>
+<script>
+(function(){
+  var fmt=new Intl.NumberFormat('zh-TW');
+  function n(v){return fmt.format(Math.round(v||0));}
+  function el(tag,cls,html){var e=document.createElement(tag); if(cls) e.className=cls; if(html!=null) e.innerHTML=html; return e;}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+
+  fetch('stats.json',{cache:'no-store'}).then(function(r){if(!r.ok) throw new Error(r.status); return r.json();}).then(function(d){
+    var up=new Date(d.updatedAt);
+    document.getElementById('meta').textContent='統計期間 '+d.from+' ～ '+d.to+'（帳號開始經營起累計）・更新於 '+up.toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false});
+
+    var T={views:0,likes:0,followers:0,thV:0,igV:0,thL:0,igL:0,thF:0,igF:0};
+    d.accounts.forEach(function(a){
+      T.thV+=a.threads.views; T.igV+=a.instagram.views; T.thL+=a.threads.likes; T.igL+=a.instagram.likes; T.thF+=a.threads.followers; T.igF+=a.instagram.followers;
+    });
+    var tiles=[
+      ['累積曝光／觀看',T.thV+T.igV,'Threads '+n(T.thV)+'・IG '+n(T.igV)],
+      ['累積按讚',T.thL+T.igL,'Threads '+n(T.thL)+'・IG '+n(T.igL)],
+      ['追蹤人數',T.thF+T.igF,'Threads '+n(T.thF)+'・IG '+n(T.igF)]
+    ];
+    var tb=document.getElementById('tiles');
+    tiles.forEach(function(t){tb.appendChild(el('div','tile','<div class="k">'+t[0]+'（四人合計）</div><div class="v">'+n(t[1])+'</div><div class="s">'+t[2]+'</div>'));});
+
+    var box=document.getElementById('accts');
+    d.accounts.forEach(function(a){
+      var th=a.threads, ig=a.instagram;
+      var card=el('article','acct'); card.style.setProperty('--c','var(--c-'+a.key+')');
+      card.innerHTML=
+        '<div class="who"><img src="img/'+esc(a.key)+'.jpg" alt="" width="52" height="52"><div><h2>'+esc(a.name)+'</h2><div class="role"><b>'+esc(a.role)+'</b>@'+esc(a.handle)+'</div></div></div>'+
+        '<table><thead><tr><th scope="col">項目</th><th scope="col">Threads</th><th scope="col">Instagram</th><th scope="col">合計</th></tr></thead><tbody>'+
+        '<tr><td>累積曝光／觀看</td><td>'+n(th.views)+'</td><td>'+n(ig.views)+'</td><td class="sum">'+n(th.views+ig.views)+'</td></tr>'+
+        '<tr><td>累積按讚</td><td>'+n(th.likes)+'</td><td>'+n(ig.likes)+'</td><td class="sum">'+n(th.likes+ig.likes)+'</td></tr>'+
+        '<tr><td>追蹤人數</td><td>'+n(th.followers)+'</td><td>'+n(ig.followers)+'</td><td class="sum">'+n(th.followers+ig.followers)+'</td></tr>'+
+        '</tbody></table>'+
+        '<div class="links"><a href="https://www.threads.com/@'+esc(a.handle)+'" target="_blank" rel="noopener">Threads 帳號</a><a href="https://www.instagram.com/'+esc(a.handle)+'/" target="_blank" rel="noopener">Instagram 帳號</a></div>';
+      box.appendChild(card);
+    });
+  }).catch(function(){
+    document.getElementById('meta').textContent='';
+    document.getElementById('accts').appendChild(el('div','err','數據讀取失敗，請稍後重新整理。'));
+  });
+})();
+</script>
+</body>
+</html>

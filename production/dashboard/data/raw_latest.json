@@ -1,0 +1,12 @@
+{
+  "fetchedAt": "2026-10-19T19:30:00+08:00",
+  "from": "2026-10-15",
+  "to": "2026-10-19",
+  "metrics": ["THEV01", "THEV06", "THEV07", "IGEV01", "IGEV05", "IGEV13", "IGEV27", "date"],
+  "brands": {
+    "wendy": [["0.0",null,null,"0.0",null,null,null,"20261015"],["0.0",null,null,"0.0",null,null,null,"20261016"],["0.0",null,null,null,null,null,null,"20261018"],["0.0","1.0",null,"0.0",null,null,null,"20261017"],[null,null,"0.0",null,"0.0","0.0","0.0","20261019"]],
+    "kanon": [["0.0","2.0",null,"0.0",null,null,null,"20261015"],["1.0","1.0",null,"0.0",null,null,null,"20261016"],["1.0","12.0",null,"0.0",null,null,null,"20261017"],["1.0",null,null,null,null,null,null,"20261018"],[null,null,"0.0",null,"0.0","0.0","0.0","20261019"]],
+    "vicky": [["0.0",null,null,"0.0",null,null,null,"20261015"],["0.0","3.0",null,"0.0",null,null,null,"20261016"],["0.0","1.0",null,"0.0",null,null,null,"20261017"],["0.0",null,null,null,null,null,null,"20261018"],[null,null,"0.0",null,"0.0","0.0","0.0","20261019"]],
+    "nanami": [["0.0",null,null,"0.0",null,null,null,"20261015"],["0.0",null,null,"0.0",null,null,null,"20261016"],["0.0",null,null,"0.0",null,null,null,"20261017"],["0.0",null,null,null,null,null,null,"20261018"],[null,"0.0","0.0",null,"0.0","0.0","0.0","20261019"]]
+  }
+}

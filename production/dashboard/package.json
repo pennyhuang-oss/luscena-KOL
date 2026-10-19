@@ -1,0 +1,12 @@
+{
+  "name": "luscena-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Luscena 先鋒四人社群數據（Railway 公開站）",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

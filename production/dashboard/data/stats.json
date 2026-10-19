@@ -1,0 +1,219 @@
+{
+  "updatedAt": "2026-10-19T19:30:00+08:00",
+  "from": "2026-10-15",
+  "to": "2026-10-19",
+  "accounts": [
+    {
+      "key": "wendy",
+      "name": "Wendy Yeo",
+      "role": "冷艷女上司",
+      "handle": "wendyyeo19980214",
+      "threads": {
+        "followers": 0,
+        "views": 1,
+        "likes": 0
+      },
+      "instagram": {
+        "followers": 0,
+        "views": 0,
+        "likes": 0
+      },
+      "daily": [
+        {
+          "date": "2026-10-15",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-16",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-17",
+          "thViews": 1.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-18",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-19",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        }
+      ]
+    },
+    {
+      "key": "kanon",
+      "name": "小森花音 Kanon",
+      "role": "地雷系萌妹",
+      "handle": "kanon20060401",
+      "threads": {
+        "followers": 1,
+        "views": 15,
+        "likes": 0
+      },
+      "instagram": {
+        "followers": 0,
+        "views": 0,
+        "likes": 0
+      },
+      "daily": [
+        {
+          "date": "2026-10-15",
+          "thViews": 2.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-16",
+          "thViews": 1.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-17",
+          "thViews": 12.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-18",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-19",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        }
+      ]
+    },
+    {
+      "key": "vicky",
+      "name": "Vicky Lin",
+      "role": "陽光體育系辣妹",
+      "handle": "vicky20010721",
+      "threads": {
+        "followers": 0,
+        "views": 4,
+        "likes": 0
+      },
+      "instagram": {
+        "followers": 0,
+        "views": 0,
+        "likes": 0
+      },
+      "daily": [
+        {
+          "date": "2026-10-15",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-16",
+          "thViews": 3.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-17",
+          "thViews": 1.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-18",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-19",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        }
+      ]
+    },
+    {
+      "key": "nanami",
+      "name": "黃芷柔 Nanami",
+      "role": "成熟溫柔少婦",
+      "handle": "nanami19990520",
+      "threads": {
+        "followers": 0,
+        "views": 0,
+        "likes": 0
+      },
+      "instagram": {
+        "followers": 0,
+        "views": 0,
+        "likes": 0
+      },
+      "daily": [
+        {
+          "date": "2026-10-15",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-16",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-17",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-18",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-19",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        }
+      ]
+    }
+  ]
+}
