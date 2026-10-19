@@ -3507,3 +3507,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 最終檔：`社群媒體/kanon/kanon_post4_cake_job246332d4.jpg`（2400×1792，JPEG 品質 95）。輪播第 1 張沿用 `kanon_img3_jobcf8f9d47.jpg`。
 - 型錄 Kanon 第 4 格改成兩張並排（`catalog/img/kanon3.jpg`＋`kanon4_cake.jpg`），配文 K-04。commit＋push 後 Railway 自動部署。
+
+## 追加 186（2026-10-19）：Nanami N-04（蛋包飯）加圖——POV 幫她按大腿（第 1 版）
+
+- 製作師：蛋包飯那篇再出一張，POV 幫她按摩大腿，帶點擦邊（製作師先口誤為 Wendy，更正為 Nanami）。
+- 參考：N-04 定稿 `nanami_img2_283n_composite.jpg` 上傳 media `8da0d8f5-5053-4680-b75d-aff1856981c3`（衣服、廚房、蛋包飯）。
+- 第 1 次：Nano Banana Pro＋Nanami v4 Element `825a3a16-c9ff-4fb7-992e-840b883fd1bb`，雙手按大腿上方：`f3ae6d66-3058-4f53-9221-e3b98fcfa693` **NSFW**（退點）。
+- 第 2 次：Seedream 4.5 high＋同 Element，雙手改按膝蓋上方側邊：`3742ed74-3657-467a-8be8-0d3101ae7648`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_094045_3742ed74-3657-467a-8be8-0d3101ae7648.png （1 點）。
+- 看圖：同廚房、同粉色針織、摔破的蛋包飯 ✅；臉是 Nanami、害羞笑、手按胸口 ✅。✗ 不是 POV——右下角拍到另一個人的膝蓋；手按在膝蓋到小腿，沒到大腿。
+- 點數：1 點。本專案本批累計 616.90 點。
