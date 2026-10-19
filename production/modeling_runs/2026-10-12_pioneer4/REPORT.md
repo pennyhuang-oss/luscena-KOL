@@ -3684,3 +3684,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 心得：腳、手跟背景或另一隻腳顏色接近時，先拉高對比再判斷是哪一隻，不要只看原圖。
 - 狀態：候選，等製作師看。
 - 點數：2 點。本專案本批累計 655.90 點。
+
+## 追加 197（2026-10-19）：Wendy 飯店房間輪播定稿（W-05）
+
+- 製作師：第 1 張定稿；第 2 張（坐床上，追加 189 的 Seedream 原版 `c9a61901`）可以，直接寫文案進排程。
+- 第 1 張（靠書桌，追加 191～196：參考照構圖、Seedream 頭部貼回、眼神直視、修黑絲線、擴 3:4、臉部降紅）→ `社群媒體/wendy/wendy_hotel1_desk.jpg`
+- 第 2 張（坐床上，追加 189 原版）→ `社群媒體/wendy/wendy_hotel2_bed.jpg`
+- 皆縮為 1792×2400 JPEG 品質 95；本機備份 Documents\Luscena_KOL_定稿備份\wendy\ 同步。文案記於 POST_IDEAS W-05，已排程 2026-10-20 18:00（Metricool 399891517）。
+- 未同步型錄（型錄更新只在 Railway 端做）。
+- 點數：0 點。本專案本批累計 666.90 點（Wendy 線）。
