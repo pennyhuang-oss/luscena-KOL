@@ -3739,3 +3739,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 第 3 張（`dba2f7fa`）：本機在臉部橢圓遮罩內（避開嘴唇）把紅色 a 值高於 152 的部分壓到 45%，臉頰 a 162→157，L +2。→ nmas/p3c.png。
 - 狀態：候選，等製作師看。
 - 點數：0 點。本專案本批累計 670.90 點。
+
+## 定稿（2026-10-19，製作師決定）：Nanami N-05 沙發按小腿 4 張輪播＋配文
+
+- 最終檔（輪播順序，皆 1792×2400、JPEG 品質 95）：
+  1. `社群媒體/nanami/nanami_post5_sofa1_job30cdfab0.jpg`（追加 199 本機收窄上半身、拉長臉）
+  2. `nanami_post5_sofa2_job6f0d8f15.jpg`（原沙發定稿，追加 194 調色調；取代舊檔 `nanami_post4_sofa_job6f0d8f15.jpg`，舊檔已刪）
+  3. `nanami_post5_sofa3_jobdba2f7fa.jpg`（追加 199 臉去紅）
+  4. `nanami_post5_sofa4_jobc569c33d.jpg`
+- 本機備份 `Documents\Luscena_KOL_定稿備份\nanami\` 同步（舊 post4_sofa 已刪）。
+- 配文：製作師以 B 版改寫，見 POST_IDEAS N-05。
+- 型錄：N-04 蛋包飯格改回單張；新增 Nanami 第 5 格（4 張 2×2，新增 `.quad` 樣式），commit＋push 後 Railway 自動部署。
+- 排程：時間待製作師確認。
