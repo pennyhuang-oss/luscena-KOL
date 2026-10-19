@@ -3487,3 +3487,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 登機箱：本機裁左下 1125×1500（3:4，左上 0,900）上傳 media `228ad101-24a5-4379-9ea5-b9db668f72d0`；手扶梯圖的登機箱裁切當參考 `e4b67135-6e6a-4c2c-9807-b881a6da7260`。Nano Banana 2.1 3:4 2k，只在她左後方地上加同款黑色硬殼登機箱：`45cc8d83-9800-439e-9497-5ce3efcb4b60`（2 點）。以差異遮罩羽化貼回 → 執行者端 wtrip/w2k.png（1792×2400）。
 - 看圖：黑色登機箱立在左側棋盤地板上、拉桿拉起、和手扶梯那張同款 ✅；不擋到手和腿 ✅；其他不動 ✅。
 - 點數：2 點。本專案本批累計 615.90 點。
+
+## 定稿（2026-10-19，製作師決定）：Wendy 出差輪播（台北車站 2 張），文案 A
+
+- 第 1 張手扶梯（`b9d67e55`）→ `社群媒體/wendy/wendy_trip1_escalator.jpg`
+- 第 2 張蹲下穿回高跟鞋（追加 183 換臉＋項鍊＋登機箱）→ `社群媒體/wendy/wendy_trip2_heel.jpg`
+- 皆 1792×2400 JPEG 品質 95；本機備份同步。文案記於 POST_IDEAS W-04。
