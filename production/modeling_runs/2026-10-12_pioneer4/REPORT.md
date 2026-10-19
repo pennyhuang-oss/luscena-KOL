@@ -3526,3 +3526,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   2. 頭部裁切 800×800（左上 850,650，media `fd404f0c`）＋Nanami 253n 臉部裁切（media `6ee6ba88-c9ef-4656-8f75-f7c9dd156220`），Nano Banana Pro 換臉：`a691f25e-eae2-4aae-ad45-3934825a892a`（2 點），羽化貼回 → 執行者端 nmas/s3.png（1792×2400）。
 - 看圖：側躺沙發、手撥頭髮、腿彎向鏡頭、粉色針織、夜景 ✅；臉為東亞五官、溫柔笑 ✅。⚠️ 與 Nanami 仍有差距：髮色偏紅棕捲髮（Nanami 是黑直長髮）、腿部膚色偏小麥（Nanami 偏白）。
 - 點數：5 點。本專案本批累計 621.90 點。
+
+## 追加 188（2026-10-19）：Nanami N-04 沙發圖——改回 Nanami 的臉、膚色、身形
+
+- 製作師：「娜娜米身體外型跟膚色跟臉都不像是他」。
+- 第 1 次：nmas/s3.png 上傳 media `f518fbca-dfd0-4036-8c9a-90c7377f5213`；Nano Banana Pro，圖 2＝N-04 定稿 `8da0d8f5`、圖 3＝253n 臉 `6ee6ba88`，要求黑直髮、白皙、瘦、臉換成 Nanami：`fb087a0c-8243-478d-8cda-8ef65419c143`（2 點）→ 頭髮改成黑直 ✅；臉仍偏 V 臉濃妝、腿仍粗且偏橘 ✗。〔候選 A〕
+- 第 2 次：以 fb087a0c 為底再改臉／腿／膚色：`7f2a8df6-9382-4513-a5b8-9cc11d5f349c`（2 點）→ 幾乎沒變，不採用。
+- 第 3 次：頭部裁切 700×700（左上 880,700，media `8844a8c8-656b-4bb7-9100-4f7dbc647dc2`）＋253n 臉，Nano Banana Pro 換臉：`8e975f82-1c2b-4ee3-8b0d-5eb71c2517cd`（2 點）→ 幾乎沒變，不採用。
+- 第 4 次：同頭部裁切，Seedream 4.5＋Nanami v4 Element：`a40994b2-11a0-485a-877b-c328cd71dd6e`（1 點）→ 臉略圓，但背景多出一盞燈，不採用。
+- 第 5 次：整張重生——Seedream 4.5＋Nanami v4 Element `825a3a16`，fb087a0c 當姿勢／場景參考：`9175995e-6ad6-4360-a8f0-3747bcb97e98`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_100528_9175995e-6ad6-4360-a8f0-3747bcb97e98.png （1728×2304，1 點）。〔候選 B〕
+- 看圖 B：全身白皙、腿變細、圓臉淡妝、黑直長髮 ✅；同粉色針織、沙發、夜景 ✅；側躺手撥頭髮 ✅。⚠️ 腿的姿勢跟參考圖不同：參考圖一腿彎向鏡頭，B 改成兩腿斜伸向左下；窗外天色偏藍黃昏。
+- 心得：Nano Banana Pro 對「已經是東亞臉」的圖換臉會黏住原臉不動；要換人時，用 Seedream＋Element 整張重生比較有效。
+- 狀態：A／B 候選，等製作師決定。
+- 點數：8 點。本專案本批累計 629.90 點。
