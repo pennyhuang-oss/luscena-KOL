@@ -3417,3 +3417,20 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 第 2 張背後跑步回頭（`961f3d7a`）→ `社群媒體/vicky/vicky_run2_lotus_back.jpg`
 - 第 3 張仰頭喝水（`b10c502a`）→ `社群媒體/vicky/vicky_run3_lotus_drink.jpg`
 - 皆 1792×2400 JPEG 品質 95；本機備份 `Documents\Luscena_KOL_定稿備份\vicky\` 同步。配文、排程待定。
+
+## 追加 181（2026-10-19）：Wendy 出差輪播（台北車站）——樓梯 POV、蹲下穿回高跟鞋
+
+- 製作師：參考兩張真人照（樓梯回頭、蹲下穿鞋；權利不明，只抄構圖姿勢）；情境＝讀者跟 Wendy 出差，她先叫你趕路，後來高跟鞋掉了叫你等她，語氣傲嬌。場景先改桃園機場，再改台北車站（辨識度高）。
+- 參考圖上傳：蹲下 media `a88e15b9-0dee-495b-8240-b4e9ff7b07c9`、樓梯 `45b87667-3760-42bb-a772-e0f733473b2d`。
+- Seedream 4.5 high＋Wendy Element `19f44c28`，3:4：
+
+| 張 | job | 點數 | 結果 |
+|---|---|---|---|
+| 1 樓梯（第 1 次） | `a0c5bd46-f4a1-403d-8a35-41d4ba631ed7` | 1 | 黑長髮、無眼鏡，不是 Wendy 造型；人太小 ✗ |
+| 2 蹲下（第 1 次） | `89f7486f-6ccc-430a-a440-191a49439723` | 1 | 同上，臉抄到參考照 ✗ |
+| 1 樓梯（加 Wendy 臉部裁切 `2fdae850`、貼近） | `0401801d-cba6-41c0-949b-d015cdf154f9`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_075858_0401801d-cba6-41c0-949b-d015cdf154f9.png | 1 | 銀灰髮、黑框眼鏡、紅唇 ✅；樓梯仰拍回頭、黑絲窄裙腿與臀線、拉登機箱 ✅；「台鐵 高鐵 THSR」黃色指標 ✅ |
+| 2 蹲下（同上） | `daaea2bf-20b0-42da-8565-3f488bab63a1`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_075902_daaea2bf-20b0-42da-8565-3f488bab63a1.png | 1 | Wendy 造型 ✅；台北車站大廳黑白棋盤地板、電子時刻表、藻井天花板 ✅；單膝蹲下穿鞋、看旁邊、白色細肩帶微露、黑絲 ✅；看板文字「台鐵大車站」略錯（小字） |
+
+- 方法紀錄：真人參考照抄臉的問題，加角色臉部裁切當第二張參考可壓住（Wendy 造型特徵：銀灰髮、黑框眼鏡要寫進 prompt）。
+- 狀態：候選，等製作師確認；文案 A／B 待選。
+- 點數：4 點。本專案本批累計 588.90 點。
