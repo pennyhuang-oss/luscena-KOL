@@ -3602,3 +3602,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖：表情變冷淡、閉嘴不笑 ✅；但五官仍偏參考照那個人（V 臉、濃妝、娃娃感），和 Wendy 定稿比不像 ✗；頭髮仍中分 ✗。與追加 188 心得一致：Nano Banana Pro 對已是東亞臉的圖換臉會黏住原臉。
 - 狀態：未貼回；等製作師決定是否改用 Seedream＋Wendy Element 重生頭部裁切（1 點）。
 - 點數：2 點。本專案本批累計 647.90 點（641.90＋Wendy 追加 189、191、192 各 2 點）。
+
+## 定稿（2026-10-19，製作師決定）：Nanami N-04 沙發圖 ＝ 追加 191 版本（s15）
+
+- 最終檔：`社群媒體/nanami/nanami_post4_sofa_job6f0d8f15.jpg`（1792×2400，JPEG 品質 95）；本機備份 `Documents\Luscena_KOL_定稿備份\nanami\` 同步。
+- 型錄 Nanami 蛋包飯那格改成兩張並排（`catalog/img/nanami2.jpg`＋`nanami2_sofa.jpg`）。commit＋push 後 Railway 自動部署。
+- 排程：N-04 原貼文（Metricool 396599194）已於 2026-10-18 22:00 發布到 IG／Threads，無法再加圖；要另開新貼文，配文與時間待製作師決定。
