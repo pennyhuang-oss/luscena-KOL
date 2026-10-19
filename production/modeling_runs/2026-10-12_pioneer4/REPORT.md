@@ -3626,3 +3626,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 改用 Nano Banana 2.1：裁切 700×700（左上 500,950，media `b2e3ad88-ce36-4ade-88fa-45ba599178fc`），只把膝蓋與上方大腿改成順的弧線：`83a98f10-0fd7-4a1b-a61c-5ab27584c577`（2 點）→ 凸角消失、大腿順順接到膝蓋 ✅。對齊後橢圓羽化遮罩貼回，其他地方不動。
 - 已覆蓋定稿 `社群媒體/nanami/nanami_post4_sofa_job6f0d8f15.jpg`、本機備份、型錄 `catalog/img/nanami2_sofa.jpg`。
 - 點數：2 點。本專案本批累計 643.90 點。
+
+## 追加 194（2026-10-19）：Wendy 飯店輪播第 1 張——眼神改直視鏡頭（冷淡、看不起人）
+
+- 製作師：臉可以；眼神要直視鏡頭，冷冷的、帶一點看不起人的感覺。
+- 做法：追加 193 貼回版本機裁臉 600×600（左上 518,330）上傳 media `b069825b-0efa-482e-a808-7e273095ba54`；Nano Banana 2.1 1:1 2k thinking high，只改眼睛和眉毛（直視鏡頭、上眼皮微壓、單邊眉略揚）：`07b9443f-b023-4089-ab96-40b72afaaf0c`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_103634_07b9443f-b023-4089-ab96-40b72afaaf0c.png （2 點）。縮回 600×600，橢圓遮罩羽化貼回 → 執行者端 whotel/w1_gaze.png（1536×2752）。
+- 看圖：眼神直視鏡頭、眼睛微瞇、冷淡帶點輕蔑 ✅；臉、眼鏡、髮型、嘴唇不變 ✅。
+- 狀態：等製作師確認；之後第 ③ 步擴成 3:4，再修大腿上方黑絲橫線。
+- 點數：2 點。本專案本批累計 652.90 點（另一工作階段的 643.90 未含 Wendy 追加 189、191、192、193、194 共 9 點）。
