@@ -1,5 +1,16 @@
 # Threads 對標抓取工具
 
+本資料夾有兩種抓法，2026-10-19 實際用的是 **B. Chrome 版**（製作師要用自己已登入的 Chrome，不另開瀏覽器）。
+
+| 檔案 | 用途 |
+|---|---|
+| `threads_scrape.py` | A. Playwright 版：另開一個 Chromium、用獨立設定檔登入（第 1–6 節） |
+| `threads_chrome_collect.js` | B. Chrome 版：在已登入 Threads 的 Chrome 分頁裡執行的收集腳本（第 7 節） |
+| `read_chrome_localstorage.py` | B. Chrome 版：從 Chrome 的 Local Storage 檔案讀出收集結果（第 7 節） |
+| `analyze_threads.py` | 分析：同期中位數倍數、前 10% 高流量、各特徵比例 |
+
+## A. Playwright 版
+
 `threads_scrape.py`：在製作師本機，用登入的 Threads **副帳號**打開對標帳號主頁，慢慢往下捲，記錄頁面收到的貼文資料（文字與數字），一路抓到該帳號的第一篇。
 
 - 只讀：不按讚、不留言、不追蹤、不開私訊、不下載圖片。
@@ -80,3 +91,20 @@ python production/benchmarks/tools/threads_scrape.py yuan.ruoting --max 20
 - **只讀**：工具不按讚、不留言、不追蹤、不開私訊；捲動期間請不要用這個視窗做其他事。
 - **資料處理**：設定檔（含登入 cookie）與對方圖片一律不進 repo；進 repo 的只有文字與數字的 TSV 與分析報告。
 - 介面改版：Threads 改版可能讓工具抓不到資料（每批新增 0 篇、很快停止）。遇到時告訴執行者修。
+
+## 7. B. Chrome 版（2026-10-19 實際使用）
+
+由 Claude 透過 Claude in Chrome 在製作師已登入 Threads 的 Chrome 分頁執行。2026-10-19 用的帳號是製作師指定的 @zhangqinfeng61（製作師確認接受風險）。
+
+1. 打開 `https://www.threads.com/`（首頁），在該分頁執行 `threads_chrome_collect.js` 全文。腳本會攔截頁面的 `/graphql` 回應（只讀副本）。
+2. **用頁內切換進入對方主頁**：`history.pushState` 到 `/@帳號` 再觸發 `popstate`。不要直接重新載入主頁：重新載入時，第一批約 10 篇會在腳本裝好之前就載完而漏抓（2026-10-19 第一輪就漏了這段，後來用頁內切換補回）。
+3. `__lusStart('<帳號>', 0)` 開始捲動（2–4 秒隨機，每 25 次休息 12–25 秒），抓到 `has_next_page=false` 為止。`__lusStatus()` 看進度。
+4. 結束時結果存進 threads.com 的 localStorage（`__lus_<帳號>`），換頁不會遺失。
+5. 取出：Chrome 會擋同一網站的第二次自動下載，頁面回傳的文字也有長度上限，所以改從硬碟讀：
+   ```
+   python -I read_chrome_localstorage.py "<Chrome 設定檔>\Local Storage\leveldb 的複本資料夾" <輸出資料夾>
+   ```
+   先把 `leveldb` 裡的 `.ldb`、`.log` 複製到另一個資料夾再讀。Chrome 寫入硬碟會延遲幾分鐘，剛抓完可能還讀不到。
+6. 用完請清掉 localStorage 裡的 `__lus_*`、`__lustag_*`。
+
+收集欄位多了 `topic_tag`（貼文掛的 Threads 話題／社群標籤，來自 `text_post_app_info.tag_header.display_name`）。

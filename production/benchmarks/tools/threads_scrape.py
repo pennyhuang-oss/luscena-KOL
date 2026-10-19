@@ -22,7 +22,7 @@ DEFAULT_ACCOUNTS = ["yuan.ruoting", "mina_ya2002", "eiko.smiles", "arielanailife
 COLUMNS = [
     "code", "utc", "taiwan", "likes", "replies", "reposts", "media", "text",
     "carousel_count", "has_video", "link_count", "hashtag_count", "caption_length",
-    "reply_to",
+    "reply_to", "topic_tag",
 ]
 TW = timezone(timedelta(hours=8))
 URL_RE = re.compile(r"(https?://\S+|www\.\S+)")
@@ -129,6 +129,7 @@ def post_row(p):
         "hashtag_count": tags,
         "caption_length": len(text),
         "reply_to": reply_to,
+        "topic_tag": (info.get("tag_header") or {}).get("display_name") or "",
     }
 
 
