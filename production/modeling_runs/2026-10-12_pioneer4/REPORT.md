@@ -3381,3 +3381,17 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 第 2 次：改手繪草稿，底圖＝站姿 `078c2dd6`；洋紅蓋掉畫面左側那條腿的下段，深炭灰畫該腿往左側抬起、略高於髖部，膚色畫腳尖（media `52f286e9-8f5c-412a-872f-5c6f2105ad59`）；Nano Banana Pro 轉照片：`054af7e1-ea97-4e15-a310-78d9bd48e5da`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261016_093924_054af7e1-ea97-4e15-a310-78d9bd48e5da.png （2 點）。
 - 看圖：腿往畫面左上方抬成 V 字、膝蓋伸直、腳尖繃直 ✅；兩手兩腳數量正確、臉與上半身不變 ✅。⚠️ 抬得比草稿高（腳到頭部高度，約與垂直差 30 度），比原定稿的直舉低。
 - 點數：4 點。本專案本批累計 576.90 點。
+
+## 追加 179（2026-10-19）：Vicky 晨跑貼文（對標報告公式）——第 1 張自拍，地點由愛河改蓮池潭
+
+- 依據：`production/benchmarks/2026-10-19_threads/HIGH_TRAFFIC_FORMULA_2026-10-19.md`（元若庭晨跑公式）。製作師選 Vicky 方向 1（晨跑早安），3 張輪播；第 2 張改從背後拍到臀部（不做沒有性感成分的特寫）；場景與文案都要明顯看得出地點。
+- Seedream 4.5 high＋Vicky Element，3:4，各 1 張：
+
+| 次 | 地點寫法 | job | 點數 | 結果 |
+|---|---|---|---|---|
+| 1 | 愛河河濱步道 | `89a9817b-e2a1-403a-9f68-948ca16779bd` | 1 | 一般河濱，看不出是愛河 ✗ |
+| 2 | 愛河之心（白色彎曲步道橋、85 大樓） | `3d257454-29ba-49eb-8e6c-3107cab0ac1c` | 1 | 畫成大白拱橋與尖塔，不是愛河之心與 85 大樓；多一副墨鏡 ✗ |
+| 3 | 蓮池潭龍虎塔（製作師同意換地點） | `cfdc121e-d1e5-444d-afb4-70e1d2b302fe`，https://d8j0ntlcm91z4.cloudfront.net/user_3EwEMQfGwzQsWNyf2tb24nCPjXS/hf_20261019_071525_cfdc121e-d1e5-444d-afb4-70e1d2b302fe.png | 1 | 湖對岸兩座七層塔＋倒影、右側弧形橋、清晨光 ✅；白色短版貼身上衣被汗濕微透、露腰 ✅ |
+
+- 執行者上網比對愛河照片：愛河的辨識點（貼水面的白色彎曲步道橋、85 大樓）模型畫不準，製作師同意改蓮池潭。
+- 點數：3 點。本專案本批累計 579.90 點。
