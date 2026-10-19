@@ -3502,3 +3502,8 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - ⚠️ 兩邊眼下都有痣（左眼下一顆、右眼下一顆＋小點）。本機去掉她左眼下那顆與右眼旁一個多出的點，保留右眼下那顆與下方小點（同玄關圖、找不同圖）。檔案在執行者端（kanon4/cake_02.png）。
 - 狀態：候選，等製作師決定。
 - 點數：2 點。
+
+## 定稿（2026-10-19，製作師決定）：Kanon 第 4 則輪播第 2 張 ＝ 246332d4（本機修痣）
+
+- 最終檔：`社群媒體/kanon/kanon_post4_cake_job246332d4.jpg`（2400×1792，JPEG 品質 95）。輪播第 1 張沿用 `kanon_img3_jobcf8f9d47.jpg`。
+- 型錄 Kanon 第 4 格改成兩張並排（`catalog/img/kanon3.jpg`＋`kanon4_cake.jpg`），配文 K-04。commit＋push 後 Railway 自動部署。
