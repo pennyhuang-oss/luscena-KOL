@@ -411,4 +411,4 @@
 - 發布前檢查：「就是那邊，好舒服」「不要按那裡」配沙發側躺短洋裝圖，可能被讀成性暗示；字面無露骨字眼，風險低到中。
 - 配圖（輪播順序）：`社群媒體/nanami/nanami_post5_sofa1_job30cdfab0.jpg`、`nanami_post5_sofa2_job6f0d8f15.jpg`、`nanami_post5_sofa3_jobdba2f7fa.jpg`、`nanami_post5_sofa4_jobc569c33d.jpg`。
 - **發文順序：Nanami 第 5 則**（接 N-04）。
-- 狀態：定稿；排程時間待製作師確認。型錄已同步（Nanami 第 5 格，4 張 2×2）。
+- 狀態：定稿，已排程發布（2026-10-20 22:00 台北時間、Threads＋Instagram、4 張輪播，Metricool 貼文編號 399924531，uuid 7800541067590455262；2026-10-19 排入）。型錄已同步（Nanami 第 5 格，4 張 2×2，與 N-04 分開）。

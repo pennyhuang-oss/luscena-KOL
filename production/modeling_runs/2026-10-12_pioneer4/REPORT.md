@@ -3751,3 +3751,8 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 配文：製作師以 B 版改寫，見 POST_IDEAS N-05。
 - 型錄：N-04 蛋包飯格改回單張；新增 Nanami 第 5 格（4 張 2×2，新增 `.quad` 樣式），commit＋push 後 Railway 自動部署。
 - 排程：時間待製作師確認。
+
+## 排程（2026-10-19）：Nanami N-05 沙發按小腿 4 張輪播
+
+- 製作師：型錄跟上一篇分開、排明天。型錄線上版已確認 N-05 是獨立一格（第 5 格，4 張），與 N-04 蛋包飯分開。
+- 4 張定稿上傳 Higgsfield 取得公開網址（media `fb7f74d5`、`b83e4ea3`、`cf0244c1`、`aed3e6de`），Metricool 建立排程：2026-10-20 22:00 台北時間、Instagram（貼文、標示 AI 生成）＋Threads，Metricool 貼文編號 399924531（uuid 7800541067590455262）。
