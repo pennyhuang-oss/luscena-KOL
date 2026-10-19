@@ -73,19 +73,15 @@ nav.roster a b{color:var(--c);font-family:var(--f-data);font-weight:500;margin-r
 .pill{display:inline-block;font-family:var(--f-data);font-size:11px;border:1px solid var(--c);color:var(--c);border-radius:999px;padding:0 8px;margin-left:6px;vertical-align:2px}
 
 
-/* Collapsible sheet bar */
-.sheetbar{grid-column:1/-1;display:flex;align-items:center;gap:12px;width:100%;margin:-8px 0 -4px;padding:8px 10px;border:1px solid var(--line);border-radius:4px;background:color-mix(in srgb,var(--c) 6%,var(--paper));color:var(--ink);font:inherit;text-align:left;cursor:pointer}
-.sheetbar:hover,.sheetbar:focus-visible{border-color:var(--c);outline:none}
-.sheetbar .t{font-family:var(--f-display);font-weight:900;font-size:16px}
-.sheetbar .m{margin-left:auto;font-family:var(--f-data);font-size:12px;color:var(--muted)}
-.sheetbar .chev{width:10px;height:10px;border-right:2px solid var(--c);border-bottom:2px solid var(--c);transform:rotate(45deg);margin-right:4px;flex:none}
-.sheet.collapsed .sheetbar .chev{transform:rotate(-45deg)}
-.sheet.collapsed{gap:0}
-.sheet.collapsed > .gallery,.sheet.collapsed > .data{display:none}
-.sheet.collapsed .sheetbar{margin:0}
-.bulk{display:flex;gap:8px;margin-top:2px}
-.bulk button{font:inherit;font-size:12.5px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:3px 12px;cursor:pointer}
-.bulk button:hover,.bulk button:focus-visible{border-color:var(--accent);outline:none}
+/* Post column: fixed-height scroll window, so a sheet does not grow with every new post */
+.sheet > .data{align-self:start}
+.gallery{align-self:start;overflow-y:auto;overscroll-behavior:auto;scrollbar-gutter:stable;padding-right:8px;scroll-padding-top:44px}
+@media (max-width:760px){.gallery{height:75vh;height:75svh}}
+.ghead{position:sticky;top:0;z-index:1;display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:0 0 8px;margin-bottom:-12px;background:var(--paper);border-bottom:1px solid var(--line);font-family:var(--f-data);font-size:12px;letter-spacing:.06em;color:var(--muted)}
+.ghead b{color:var(--c);font-weight:500}
+.gallery.fits .ghead .more{display:none}
+.gfade{position:sticky;bottom:0;height:56px;margin-top:-80px;pointer-events:none;background:linear-gradient(to bottom,color-mix(in srgb,var(--paper) 0%,transparent),var(--paper));transition:opacity .2s}
+.gallery.at-end .gfade{opacity:0}
 
 /* Zoom: magnifier on hover, click to enlarge */
 .zoomable{position:relative;display:block;cursor:zoom-in}
@@ -122,27 +118,26 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
       <a href="#vicky" style="--c:var(--c-vicky)"><b>03</b>Vicky・陽光體育系辣妹</a>
       <a href="#nanami" style="--c:var(--c-nanami)"><b>04</b>Nanami・成熟溫柔少婦</a>
     </nav>
-    <div class="bulk"><button type="button" data-bulk="open">全部展開</button><button type="button" data-bulk="close">全部收合</button></div>
   </header>
 
   <!-- 01 WENDY -->
   <section class="sheet" id="wendy" style="--c:var(--c-wendy)">
     <div class="gallery">
       <figure class="photo">
-        <img src="img/wendy2.jpg" alt="Wendy 第二張：白天辦公室，坐黑色皮革辦公椅翹腿、雙手抱胸，頭微後仰睨著鏡頭，銀灰短髮黑框眼鏡、項鍊，白襯衫黑窄裙黑絲襪、黑色漆皮高跟鞋" loading="lazy">
+        <img src="img/wendy2.jpg" alt="Wendy 第二張：白天辦公室，坐黑色皮革辦公椅翹腿、雙手抱胸，頭微後仰睨著鏡頭，銀灰短髮黑框眼鏡、項鍊，白襯衫黑窄裙黑絲襪、黑色漆皮高跟鞋" width="960" height="1280" loading="lazy">
         <p class="quote">我是 Wendy，你新上任的主管，請多指教。
 醜話先說在前頭，我可是很嚴厲的。
 不想被我榨乾的話，就給我好好幹，聽懂了嗎？</p>
       </figure>
       <figure class="photo">
-        <img src="img/wendy3.jpg" alt="Wendy 第三張：夜晚居酒屋吧台，一手靠在桌上、一手舉起生啤酒朝鏡頭乾杯，喝酒微醺泛紅，銀灰短髮黑框眼鏡、紅唇，白襯衫" loading="lazy">
+        <img src="img/wendy3.jpg" alt="Wendy 第三張：夜晚居酒屋吧台，一手靠在桌上、一手舉起生啤酒朝鏡頭乾杯，喝酒微醺泛紅，銀灰短髮黑框眼鏡、紅唇，白襯衫" width="960" height="1280" loading="lazy">
         <p class="quote">哼～沒想到你這小子……還挺耐操的嘛，做事效率也、也還算過得去啦……
 不過嗝……離我的標準還差得遠呢，別給我得意忘形喔。
 算了算了～今天就好好放鬆，陪我多喝幾杯……
 你該不會……想跟我說你不能喝吧？嗯？</p>
       </figure>
       <figure class="photo">
-        <img src="img/wendy.jpg" alt="Wendy 定稿：銀灰短髮戴黑框眼鏡，戴項鍊，白襯衫領口露出透膚黑蕾絲胸罩上緣，黑窄裙黑絲襪，在夜晚辦公室低角度翹腿俯視鏡頭" loading="lazy">
+        <img src="img/wendy.jpg" alt="Wendy 定稿：銀灰短髮戴黑框眼鏡，戴項鍊，白襯衫領口露出透膚黑蕾絲胸罩上緣，黑窄裙黑絲襪，在夜晚辦公室低角度翹腿俯視鏡頭" width="960" height="1280" loading="lazy">
         <p class="quote">出這麼大的包，你打算怎麼彌補？
 嘴巴這麼會講，不如用在我腳上。做好，我就當沒這回事。
 什麼？你說這在業界算一種獎勵？
@@ -150,8 +145,8 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
       </figure>
       <figure class="photo">
         <div class="pair">
-          <img src="img/wendy_trip1.jpg" alt="Wendy 出差之一：高鐵台北站手扶梯上，從下往上拍她拉著登機箱回頭冷冷看鏡頭催你快點，銀灰短髮黑框眼鏡，黑西裝外套黑窄裙黑絲高跟鞋，上方藍色「高鐵 車站大廳」指標" loading="lazy">
-          <img src="img/wendy_trip2.jpg" alt="Wendy 出差之二：台北車站大廳黑白棋盤地板上前傾蹲下穿回掉下的高跟鞋、側眼看旁邊有點慌，黑西裝外套白細肩帶、項鍊，黑窄裙黑絲，旁邊登機箱" loading="lazy">
+          <img src="img/wendy_trip1.jpg" alt="Wendy 出差之一：高鐵台北站手扶梯上，從下往上拍她拉著登機箱回頭冷冷看鏡頭催你快點，銀灰短髮黑框眼鏡，黑西裝外套黑窄裙黑絲高跟鞋，上方藍色「高鐵 車站大廳」指標" width="960" height="1286" loading="lazy">
+          <img src="img/wendy_trip2.jpg" alt="Wendy 出差之二：台北車站大廳黑白棋盤地板上前傾蹲下穿回掉下的高跟鞋、側眼看旁邊有點慌，黑西裝外套白細肩帶、項鍊，黑窄裙黑絲，旁邊登機箱" width="960" height="1286" loading="lazy">
         </div>
         <p class="quote">走那麼慢？台北車站人這麼多，跟丟了我可不會回頭找你。
 ⋯⋯等一下。
@@ -159,8 +154,8 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
       </figure>
       <figure class="photo">
         <div class="pair">
-          <img src="img/wendy_hotel1.jpg" alt="Wendy 出差飯店之一：晚上飯店房間，靠在深色木桌邊、一手撐桌面，冷冷直視鏡頭，銀灰側分髮黑框眼鏡、紅唇、細金鍊，白色羅紋細肩帶、黑高腰窄裙、黑絲，旁邊暖光檯燈" loading="lazy">
-          <img src="img/wendy_hotel2.jpg" alt="Wendy 出差飯店之二：飯店白色床上側坐、一手撐床一手放大腿，雙腿併攏收在一側，銀灰側分髮黑框眼鏡、細金鍊小圓環墜子，白色羅紋細肩帶、黑窄裙、黑絲、黑高跟鞋" loading="lazy">
+          <img src="img/wendy_hotel1.jpg" alt="Wendy 出差飯店之一：晚上飯店房間，靠在深色木桌邊、一手撐桌面，冷冷直視鏡頭，銀灰側分髮黑框眼鏡、紅唇、細金鍊，白色羅紋細肩帶、黑高腰窄裙、黑絲，旁邊暖光檯燈" width="960" height="1286" loading="lazy">
+          <img src="img/wendy_hotel2.jpg" alt="Wendy 出差飯店之二：飯店白色床上側坐、一手撐床一手放大腿，雙腿併攏收在一側，銀灰側分髮黑框眼鏡、細金鍊小圓環墜子，白色羅紋細肩帶、黑窄裙、黑絲、黑高跟鞋" width="960" height="1286" loading="lazy">
         </div>
         <p class="quote">今天辛苦了。⋯⋯不過報告還沒改完，今晚你別想回房間睡。
 看什麼？外套脫了而已，房間太熱。
@@ -206,7 +201,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
   <section class="sheet" id="kanon" style="--c:var(--c-kanon)">
     <div class="gallery">
       <figure class="photo">
-        <img src="img/kanon_genkan.jpg" alt="Kanon 第一則：哥哥視角站在她家玄關，她張開雙手扶住兩側門框擋路、歪頭壞笑，灰粉漸層雙馬尾黑蝴蝶結，白針織外套與格紋吊帶裙、白大腿襪，旁邊是哥哥的行李箱" loading="lazy">
+        <img src="img/kanon_genkan.jpg" alt="Kanon 第一則：哥哥視角站在她家玄關，她張開雙手扶住兩側門框擋路、歪頭壞笑，灰粉漸層雙馬尾黑蝴蝶結，白針織外套與格紋吊帶裙、白大腿襪，旁邊是哥哥的行李箱" width="960" height="1286" loading="lazy">
         <p class="quote">哥哥好久不見～還記得花音嗎？🎀
 小時候哥哥每次都被花音整到哭著回家吧？
 這段時間哥哥要借住在花音家對吧⋯⋯嘻嘻⋯⋯
@@ -214,12 +209,12 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 哥哥這次逃不掉了😈</p>
       </figure>
       <figure class="photo">
-        <img src="img/kanon_claw.jpg" alt="Kanon 第二則：粉色房間地毯上，雙手在臉旁比貓爪張牙舞爪，灰粉漸層雙馬尾黑蕾絲蝴蝶結，白針織外套與格紋吊帶裙、白大腿襪，戴黑色小蝙蝠耳環" loading="lazy">
+        <img src="img/kanon_claw.jpg" alt="Kanon 第二則：粉色房間地毯上，雙手在臉旁比貓爪張牙舞爪，灰粉漸層雙馬尾黑蕾絲蝴蝶結，白針織外套與格紋吊帶裙、白大腿襪，戴黑色小蝙蝠耳環" width="960" height="1286" loading="lazy">
         <p class="quote">哥哥今天有發現花音的打扮跟昨天有哪裡不一樣嗎？👀✨🎀
 沒發現的話今晚就罰你被花音小惡魔吵到不能睡覺😈💢🔔💤</p>
       </figure>
       <figure class="photo">
-        <img src="img/kanon.jpg" alt="Kanon 第三則：灰粉漸層雙馬尾、黑蝴蝶結、戴黑色貓耳髮箍，地雷妝紅唇，坐在臥室地板比貓貓手" loading="lazy">
+        <img src="img/kanon.jpg" alt="Kanon 第三則：灰粉漸層雙馬尾、黑蝴蝶結、戴黑色貓耳髮箍，地雷妝紅唇，坐在臥室地板比貓貓手" width="960" height="1285" loading="lazy">
         <p class="quote">喵～今天是花音貓貓喔🐱🎀
 哥哥今天就是花音的貓奴，還不趕快拿本貓最喜歡的牛奶過來🥛💢
 這…這是什麼…逗貓棒！😳🪶
@@ -227,8 +222,8 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
       </figure>
       <figure class="photo">
         <div class="pair">
-          <img src="img/kanon3.jpg" alt="Kanon 第三張：粉色房間的粉絨沙發上趴著雙手托腮、小腿往上翹，灰粉漸層雙馬尾黑蕾絲蝴蝶結，黑色荷葉地雷系洋裝、黑過膝襪厚底鞋，吐舌撒嬌" loading="lazy">
-          <img src="img/kanon4_cake.jpg" alt="Kanon 第四則之二：粉色房間白色小圓桌前，拿叉子吃草莓鮮奶油蛋糕、瞇眼鼓臉很滿足，嘴角沾奶油，黑色荷葉地雷系洋裝、白荷葉領、黑項圈" loading="lazy">
+          <img src="img/kanon3.jpg" alt="Kanon 第三張：粉色房間的粉絨沙發上趴著雙手托腮、小腿往上翹，灰粉漸層雙馬尾黑蕾絲蝴蝶結，黑色荷葉地雷系洋裝、黑過膝襪厚底鞋，吐舌撒嬌" width="1280" height="956" loading="lazy">
+          <img src="img/kanon4_cake.jpg" alt="Kanon 第四則之二：粉色房間白色小圓桌前，拿叉子吃草莓鮮奶油蛋糕、瞇眼鼓臉很滿足，嘴角沾奶油，黑色荷葉地雷系洋裝、白荷葉領、黑項圈" width="1280" height="956" loading="lazy">
         </div>
         <p class="quote">哥哥今天好晚喔😤📱
 花音傳了 99 則訊息你都沒讀💢
@@ -278,7 +273,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
   <section class="sheet" id="vicky" style="--c:var(--c-vicky)">
     <div class="gallery">
       <figure class="photo">
-        <img src="img/vicky.jpg" alt="Vicky 定稿：曬色高馬尾，黑運動內衣黑瑜伽褲，在皮拉提斯教室劈腿、回頭看鏡頭" loading="lazy">
+        <img src="img/vicky.jpg" alt="Vicky 定稿：曬色高馬尾，黑運動內衣黑瑜伽褲，在皮拉提斯教室劈腿、回頭看鏡頭" width="960" height="1286" loading="lazy">
         <p class="quote">Hi，我是 Vicky，你就是新來的學員哦？
 以後你的課都歸我帶，我們就是一起運動的buddy了。
 欸，你幹嘛站在那邊一直盯著我拉筋？
@@ -287,30 +282,30 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 哎，你這邊的筋也太硬了吧，壓不太下去欸～</p>
       </figure>
       <figure class="photo">
-        <img src="img/vicky4.jpg" alt="Vicky 第四張：傍晚的空中瑜伽教室，雙手抓著白色瑜伽布上撐、單腳站立把另一腿直直舉過頭頂，黑運動內衣、深炭黑瑜伽褲，身上微汗，半閉著眼往下看鏡頭" loading="lazy">
+        <img src="img/vicky4.jpg" alt="Vicky 第四張：傍晚的空中瑜伽教室，雙手抓著白色瑜伽布上撐、單腳站立把另一腿直直舉過頭頂，黑運動內衣、深炭黑瑜伽褲，身上微汗，半閉著眼往下看鏡頭" width="960" height="1286" loading="lazy">
         <p class="quote">看清楚喔，腿要這樣抬上來。
 上次你筋硬成那樣，今天先看我示範就好。
 欸，我叫你看腳，你是不是在看其他地方啊？
 ⋯⋯算了，等一下換你上布，我在下面扶你。</p>
       </figure>
       <figure class="photo">
-        <img src="img/vicky2.jpg" alt="Vicky 第二張：泳池躺椅上穿黑色比基尼，一手放頭上，一手搭在抹了防曬乳的大腿上" loading="lazy">
+        <img src="img/vicky2.jpg" alt="Vicky 第二張：泳池躺椅上穿黑色比基尼，一手放頭上，一手搭在抹了防曬乳的大腿上" width="960" height="716" loading="lazy">
         <p class="quote">難得一起出來游泳，幹嘛還不下水？
 你說我？我還在塗防曬啊，你先去。
 還是你要來幫我塗一下？</p>
       </figure>
       <figure class="photo">
         <div class="triple">
-          <img src="img/vicky_run1.jpg" alt="Vicky 晨跑之一：高雄蓮池潭邊清晨伸手自拍大笑，後方湖對岸龍虎塔，白色短版運動上衣汗濕、戴白色智慧錶" loading="lazy">
-          <img src="img/vicky_run2.jpg" alt="Vicky 晨跑之二：從背後拍她沿著蓮池潭湖邊跑步回頭笑，黑色運動短褲，手上白錶，遠方龍虎塔" loading="lazy">
-          <img src="img/vicky_run3.jpg" alt="Vicky 晨跑之三：仰頭喝水、水沿下巴流下，汗濕白色上衣，背景龍虎塔" loading="lazy">
+          <img src="img/vicky_run1.jpg" alt="Vicky 晨跑之一：高雄蓮池潭邊清晨伸手自拍大笑，後方湖對岸龍虎塔，白色短版運動上衣汗濕、戴白色智慧錶" width="960" height="1286" loading="lazy">
+          <img src="img/vicky_run2.jpg" alt="Vicky 晨跑之二：從背後拍她沿著蓮池潭湖邊跑步回頭笑，黑色運動短褲，手上白錶，遠方龍虎塔" width="960" height="1286" loading="lazy">
+          <img src="img/vicky_run3.jpg" alt="Vicky 晨跑之三：仰頭喝水、水沿下巴流下，汗濕白色上衣，背景龍虎塔" width="960" height="1286" loading="lazy">
         </div>
         <p class="quote">在蓮池潭跑了一圈，運動上衣整件濕到黏在身上😂
 大家早安☀️
 欸，下次你要不要一起跑？我跑前面，你跟後面就好～</p>
       </figure>
       <figure class="photo">
-        <img src="img/vicky3.jpg" alt="Vicky 第三張：健身房單手平板撐，一手撐地一手扶腰、赤腳，黑運動內衣、黑色白滾邊真理褲，滿身汗、地上有滴落的汗水，臉頰泛紅、皺眉喘氣、一眼瞇著看鏡頭" loading="lazy">
+        <img src="img/vicky3.jpg" alt="Vicky 第三張：健身房單手平板撐，一手撐地一手扶腰、赤腳，黑運動內衣、黑色白滾邊真理褲，滿身汗、地上有滴落的汗水，臉頰泛紅、皺眉喘氣、一眼瞇著看鏡頭" width="1280" height="960" loading="lazy">
         <p class="quote">啊⋯呼⋯嘶——呃啊啊啊⋯⋯
 快、快不行了⋯⋯好累⋯⋯
 也太久了吧⋯⋯我真的要不行了⋯⋯
@@ -358,8 +353,8 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
     <div class="gallery">
       <figure class="photo">
         <div class="pair">
-          <img src="img/nanami3.jpg" alt="Nanami 第三張之一：從樓下仰拍，她在現代公寓二樓陽台探身伸手，想抓住掉下來的小可愛，頭髮被甩起、一臉驚慌" loading="lazy">
-          <img src="img/nanami4.jpg" alt="Nanami 第三張之二：第一人稱視角，她在公寓一樓大門口對鏡頭鞠躬道謝，畫面下方是遞還給她的小可愛" loading="lazy">
+          <img src="img/nanami3.jpg" alt="Nanami 第三張之一：從樓下仰拍，她在現代公寓二樓陽台探身伸手，想抓住掉下來的小可愛，頭髮被甩起、一臉驚慌" width="960" height="1285" loading="lazy">
+          <img src="img/nanami4.jpg" alt="Nanami 第三張之二：第一人稱視角，她在公寓一樓大門口對鏡頭鞠躬道謝，畫面下方是遞還給她的小可愛" width="960" height="1285" loading="lazy">
         </div>
         <p class="quote">啊！剛曬好的衣服掉下去了⋯⋯樓下那位先生，可以幫我撿一下嗎？
 
@@ -371,20 +366,20 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
         <p class="note">（「曹先生」是一個梗，懂的都懂）</p>
       </figure>
       <figure class="photo">
-        <img src="img/nanami5.jpg" alt="Nanami 超市：夜晚超市蔬果區推著放滿食物與日用品的推車，背對鏡頭回頭笑，米白短版細肩帶針織、淺藍高腰牛仔褲，左手拿著一根大黃瓜" loading="lazy">
+        <img src="img/nanami5.jpg" alt="Nanami 超市：夜晚超市蔬果區推著放滿食物與日用品的推車，背對鏡頭回頭笑，米白短版細肩帶針織、淺藍高腰牛仔褲，左手拿著一根大黃瓜" width="960" height="1286" loading="lazy">
         <p class="quote">抱歉又麻煩你來陪我買菜，我一個人實在提不動這麼多東西。
 你說這邊的大黃瓜很好吃，很推薦？好，我買一根回家試試。</p>
       </figure>
       <figure class="photo">
-        <img src="img/nanami.jpg" alt="Nanami 定稿：黑長髮、細肩帶背心，在家中餐桌用筷子夾焦黑的肉餵向鏡頭，桌上全是煮失敗的料理" loading="lazy">
+        <img src="img/nanami.jpg" alt="Nanami 定稿：黑長髮、細肩帶背心，在家中餐桌用筷子夾焦黑的肉餵向鏡頭，桌上全是煮失敗的料理" width="960" height="1280" loading="lazy">
         <p class="quote">這是我做給我老公的愛妻晚餐，
 看在你平時總是幫我的份上，就破例讓你先嚐嚐。
 什麼？你說你還不餓？</p>
       </figure>
       <figure class="photo">
         <div class="pair">
-          <img src="img/nanami2.jpg" alt="Nanami 第二張：夜晚廚房地板上跌坐，粉色針織洋裝與開襟外套，眨眼吐舌，旁邊是摔破盤子的蛋包飯" loading="lazy">
-          <img src="img/nanami2_sofa.jpg" alt="Nanami 第四則之二：夜晚客廳米色沙發上側躺、手肘撐著撥頭髮，淡粉色針織吊帶短洋裝與同色開襟外套，雙腿彎曲朝鏡頭，露齒甜笑" loading="lazy">
+          <img src="img/nanami2.jpg" alt="Nanami 第二張：夜晚廚房地板上跌坐，粉色針織洋裝與開襟外套，眨眼吐舌，旁邊是摔破盤子的蛋包飯" width="960" height="1285" loading="lazy">
+          <img src="img/nanami2_sofa.jpg" alt="Nanami 第四則之二：夜晚客廳米色沙發上側躺、手肘撐著撥頭髮，淡粉色針織吊帶短洋裝與同色開襟外套，雙腿彎曲朝鏡頭，露齒甜笑" width="960" height="1285" loading="lazy">
         </div>
         <p class="quote">啊……這次好不容易做成功的蛋包飯……嗚嗚嗚。
 我沒受傷啦，只是不小心跌倒而已，我已經習慣了，老公也常說我笨手笨腳的😜
@@ -445,27 +440,22 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 </dialog>
 <script>
 (function(){
-  var KEY='luscena-catalog-collapsed', saved={};
-  try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){saved={};}
-  function save(){try{localStorage.setItem(KEY,JSON.stringify(saved));}catch(e){}}
+  var narrow=window.matchMedia('(max-width:760px)');
   var sheets=[].slice.call(document.querySelectorAll('section.sheet'));
   sheets.forEach(function(s){
-    var h2=s.querySelector('.name h2'), no=s.querySelector('.name .no');
-    var posts=s.querySelectorAll('.gallery .photo').length;
-    var b=document.createElement('button'); b.type='button'; b.className='sheetbar';
-    b.innerHTML='<span class="chev" aria-hidden="true"></span><span class="t"></span><span class="m"></span>';
-    b.querySelector('.t').textContent=(no?no.textContent+'　':'')+(h2?h2.textContent:s.id);
-    b.querySelector('.m').textContent=posts+' 則貼文';
-    s.insertBefore(b,s.firstChild);
-    s._set=function(c){s.classList.toggle('collapsed',c); b.setAttribute('aria-expanded',String(!c)); saved[s.id]=c;};
-    s._set(!!saved[s.id]);
-    b.addEventListener('click',function(){s._set(!s.classList.contains('collapsed')); save();});
-  });
-  [].forEach.call(document.querySelectorAll('[data-bulk]'),function(btn){
-    btn.addEventListener('click',function(){var c=btn.getAttribute('data-bulk')==='close'; sheets.forEach(function(s){s._set(c);}); save();});
-  });
-  [].forEach.call(document.querySelectorAll('nav.roster a'),function(a){
-    a.addEventListener('click',function(){var s=document.querySelector(a.getAttribute('href')); if(s&&s._set&&s.classList.contains('collapsed')){s._set(false); save();}});
+    var g=s.querySelector('.gallery'), d=s.querySelector('.data'); if(!g) return;
+    var n=g.querySelectorAll('.photo').length;
+    var h=document.createElement('div'); h.className='ghead';
+    h.innerHTML='<span>貼文・照發文順序</span><span>共 <b>'+n+'</b> 則<span class="more">・往下滑</span></span>';
+    g.insertBefore(h,g.firstChild);
+    var f=document.createElement('div'); f.className='gfade'; f.setAttribute('aria-hidden','true'); g.appendChild(f);
+    function edge(){var over=g.scrollHeight>g.clientHeight+4; g.classList.toggle('fits',!over); g.classList.toggle('at-end',!over||g.scrollTop+g.clientHeight>=g.scrollHeight-4);}
+    function fit(){g.style.height=narrow.matches?'':Math.max(d?d.offsetHeight:0,560)+'px'; edge();}
+    g.addEventListener('scroll',edge,{passive:true});
+    if(window.ResizeObserver&&d) new ResizeObserver(fit).observe(d);
+    window.addEventListener('resize',fit);
+    [].forEach.call(g.querySelectorAll('img'),function(im){im.addEventListener('load',edge);});
+    fit();
   });
 
   var dlg=document.querySelector('dialog.lb'), big=dlg.querySelector('img'), cap=dlg.querySelector('.lb-cap');
