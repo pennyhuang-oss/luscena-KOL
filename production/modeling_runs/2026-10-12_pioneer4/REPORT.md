@@ -3618,3 +3618,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 方法紀錄：Nano Banana Pro 換臉黏住原臉時（追加 192），Seedream＋Element 只重畫頭部裁切、再以眼鏡對齊貼回，可保住已確認的構圖。
 - 狀態：等製作師確認臉；之後第 ③ 步擴成 3:4，再修大腿上方黑絲橫線。
 - 點數：1 點。本專案本批累計 648.90 點。
+
+## 追加 192（2026-10-19）：Nanami 沙發定稿圖——修右大腿膝蓋上方凸起
+
+- 製作師：右大腿（上面那條腿）膝蓋上方有一塊凸起，修掉（先口誤為左大腿）。
+- 先試本機液化兩次（左膝、右膝上緣壓圓），製作師看了仍有凸起，不採用。
+- 改用 Nano Banana 2.1：裁切 700×700（左上 500,950，media `b2e3ad88-ce36-4ade-88fa-45ba599178fc`），只把膝蓋與上方大腿改成順的弧線：`83a98f10-0fd7-4a1b-a61c-5ab27584c577`（2 點）→ 凸角消失、大腿順順接到膝蓋 ✅。對齊後橢圓羽化遮罩貼回，其他地方不動。
+- 已覆蓋定稿 `社群媒體/nanami/nanami_post4_sofa_job6f0d8f15.jpg`、本機備份、型錄 `catalog/img/nanami2_sofa.jpg`。
+- 點數：2 點。本專案本批累計 643.90 點。
