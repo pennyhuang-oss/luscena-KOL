@@ -3925,3 +3925,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 第 1 張臉紅：本機同第 2 張做法（紅色 a 值高出部分壓到 35%、臉頰加大範圍淡暖色，避開嘴唇與眼睛）→ 跟第 2 張一致的自然泛紅 ✅（vrest/v26mat3.png）。
 - 狀態：候選，等製作師看。
 - 點數：2 點（被擋那次通常退點）。
+
+## 定稿＋排程更新（2026-10-20，製作師決定）：Vicky V-03 平板撐改 2 張輪播
+
+- 製作師（定稿前追加）：第二張服裝和身上的汗仿照第一張（上衣汗濕不夠）；之後再說上衣色差太多要回調。
+  - Nano Banana Pro，圖 1＝vp37d（上傳 `35e5f4e1`）、圖 2＝第一張（上傳 `8360ad15`）：運動內衣加汗濕深色塊、皮膚汗光加重：`2d3c87e4-ff0c-4395-ae53-2147d6d4041a`（2 點）✅。
+  - 本機回調上衣色差：運動內衣範圍（低彩度布料遮罩）內亮度往中間值收、斑塊對比降到約 35%、去色 50% → 汗濕斑塊仍在但不突兀（vrest/vp37f.png）。
+- 最終檔（JPEG 品質 95）：
+  1. `社群媒體/vicky/vicky_post_plank1_mat_job2248981a.jpg`（2400×1792；v26 加薄瑜伽墊與墊上汗、臉紅本機改自然）——取代舊檔 `vicky_img3_v26.jpg`（已刪，備份同步刪）。
+  2. `社群媒體/vicky/vicky_post_plank2_rest_job2d3c87e4.jpg`（1792×2400；俯拍側躺休息，臀部本機液化、臉紅本機修、上衣汗濕回調）。
+- 本機備份 `Documents\Luscena_KOL_定稿備份\vicky\` 同步。
+- 型錄：Vicky 平板撐那格改成兩張並排（`catalog/img/vicky3.jpg` 換新、新增 `vicky3_rest.jpg`）。
+- 排程：Metricool 貼文（原 399723309）配圖改兩張，時間不變 2026-10-21 18:00、IG＋Threads，配文不變；新編號 400895183（uuid 8540377358838089199）。圖片經 Higgsfield 上傳（media `2d64df06`、`bcfa1e8a`）。
+- 點數：2 點。
