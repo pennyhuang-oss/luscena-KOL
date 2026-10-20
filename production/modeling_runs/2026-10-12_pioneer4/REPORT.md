@@ -3802,3 +3802,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - 第 2 次只給頭部裁切、文字描述加濃妝：`67527084-0218-418f-bd2a-62bdb58c264d`（2 點）→ 粉紅眼影、眼下紅暈與臥蠶、腮紅、深紅唇，跟第二張一致 ✅；笑容、淚痣（只在右眼下）沒變 ✅。橢圓羽化貼回 → kdonut/k1e.png。
 - 心得：有白色糖粉／奶粉沾在嘴唇或胸口的圖不要拿來當參考圖，容易被判 NSFW。
 - 點數：2 點（被擋那次通常退點）。本專案本批累計 686.90 點。
+
+## 定稿＋排程（2026-10-20，製作師決定）：Kanon K-05 西門町爆紅甜甜圈 2 張輪播
+
+- 最終檔（皆 1792×2400、JPEG 品質 95）：
+  1. `社群媒體/kanon/kanon_post5_donut1_job746db3b4.jpg`（追加 202 本機修淚痣＋追加 203 妝加濃 67527084 貼回）
+  2. `kanon_post5_donut2_jobf0c5fb00.jpg`（追加 202 本機修淚痣）
+- 本機備份 `Documents\Luscena_KOL_定稿備份\kanon\` 同步。第三張（舔手指 89391f82）不用。
+- 型錄：Kanon 第 5 格（兩張並排＋配文＋「10/20 預定發布」）。
+- 排程：2026-10-20 20:00 台北時間、Instagram（貼文、標示 AI 生成）＋Threads，Metricool 貼文編號 400816809（uuid -5627221354730012494）。圖片經 Higgsfield 上傳取公開網址（media `25ff963b`、`8b231e07`）。
