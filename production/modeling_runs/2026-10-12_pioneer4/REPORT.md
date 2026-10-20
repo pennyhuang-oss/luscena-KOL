@@ -4036,3 +4036,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 心得：本機補色怎麼修都會留下原物件邊緣的明暗轉折；要「完全看不出來」時，局部裁切給 AI 重繪再貼回最乾淨。
 - 狀態：候選，等製作師看。
 - 點數：2 點。
+
+## 定稿＋排程（2026-10-20，製作師決定）：Nanami N-06 東門市場送魚→紫色魚湯 3 張輪播
+
+- 製作師：用沒有修白色布料那張定稿（即追加 222 版本；追加 223–225 的大腿白布修改不用）；文案表情符號 😭 改 😥；不加 hashtag。
+- 最終檔（JPEG 品質 95）：
+  1. `社群媒體/nanami/nanami_post6_fish1_jobb5798027.jpg`（1792×2400，追加 216）
+  2. `nanami_post6_fish2_job2b38abbb.jpg`（1792×2400，追加 217）
+  3. `nanami_post6_fish3_soup_jobf2f8d003.jpg`（1728×2304，追加 219–222：去手機框、去短褲、湯勺照原形縮小、zoom out、頭髮微捲披肩後、臉換回 Nanami）
+- 本機備份 `Documents\Luscena_KOL_定稿備份\nanami\` 同步。
+- 文案：「今天去逛東門市場／魚攤阿伯說：太太這麼漂亮，這尾送妳！／回家照著網路教學煮了魚湯……為什麼會是紫色的😥／老公又出差了，有人要來幫我喝嗎？」
+- 型錄：Nanami 第 6 格（3 張並排＋配文＋「10/22 預定發布」）。
+- 排程：2026-10-22 08:00 台北時間、Instagram（貼文、標示 AI 生成）＋Threads，Metricool 貼文編號 400968648（uuid 7241001254460738196）。圖片經 Higgsfield 上傳取公開網址（media `5307d82f`、`3c34a0c6`、`8d1391de`）。
