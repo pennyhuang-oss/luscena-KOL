@@ -3938,3 +3938,4 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 型錄：Vicky 平板撐那格改成兩張並排（`catalog/img/vicky3.jpg` 換新、新增 `vicky3_rest.jpg`）。
 - 排程：Metricool 貼文（原 399723309）配圖改兩張，時間不變 2026-10-21 18:00、IG＋Threads，配文不變；新編號 400895183（uuid 8540377358838089199）。圖片經 Higgsfield 上傳（media `2d64df06`、`bcfa1e8a`）。
 - 點數：2 點。
+- 再修（製作師：上衣調錯方向，參考第一張應該是淺色的地方要更深）：改從 2d3c87e4 重做，運動內衣範圍（低彩度布料遮罩，避開下方皮膚汗光）亮度高於暗部的部分壓到 28%、去色 40% → 整件變深色、汗濕深塊仍在，跟第一張一致 ✅（vrest/vp37g.png）。定稿檔、備份、型錄 `vicky3_rest.jpg` 已覆蓋；Metricool 第 2 張配圖換新（media `cb93c35e`），新編號 400897996。
