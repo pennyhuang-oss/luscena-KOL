@@ -4442,3 +4442,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 圖 2＝第 2 張定稿 `a0a62b49`：Seedream 5.0 Flash `f261a4c8-12b0-4b94-b780-58327e6f9950` → NSFW；Grok Image 2.0 `5d5d3e22-523e-44fe-853f-1119cefae0a9` → NSFW；Seedream 4.5＋Element `b9a11e32-9d99-43a0-9b55-084f592a692a`（1 點）→ ✅ 淺米白三角褲、唇色變淡；⚠️ 暖光太橘太飽和（像夕陽），比第 2 張的柔和晨光重很多；鏡頭拉近、腳被切掉。
 - 狀態：候選，等製作師看。
 - 點數：1 點（被擋通常退點）。
+
+## 追加 264（2026-10-21）：Nanami 粉紅襯衫正面——本機調光線、腳入鏡
+
+- 製作師：本機調光線，腳也要入鏡。
+- 本機：以 `b9a11e32` 為底，Lab 均值標準差對齊第 2 張定稿（a、b 全量、L 70%），橘黃感壓下 → pf4_color（0 點）。
+- 腳入鏡：FLUX.2 Pro Outpaint 先後撞尺寸上限（2560px、4MP），縮圖後再送 `6182ad04-0845-4519-b819-becf65187f9b` → NSFW。改本機縮 76% 置頂、下方與兩側模糊填底（media `7e6aec2c-7c96-4af5-a5aa-951a4bf12728`），再請模型補滿：
+  - Seedream 4.5＋Element `84f2e2bc-63a1-414c-bcb5-8978268d7695`（1 點）：⚠️ 兩側仍殘留模糊色帶。
+  - Seedream 5.0 Flash `dc86d3c1-9e86-4b03-a4ef-ebb0e52bf1c6`：✅ 全身頭到腳、赤腳站在地磚上、洗衣籃完整、邊框乾淨、光線維持調過的柔和暖光。
+- 狀態：建議 Flash 版，等製作師看。
+- 點數：1 點＋其他以帳上實際扣款為準。
