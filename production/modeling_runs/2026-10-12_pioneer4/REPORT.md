@@ -4390,3 +4390,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - Grok Image 2.0 `8f55f630-fff3-45bb-b5b8-9d60ea2e651b`：✅ 皮膚質感同樣改善；⚠️ 窗框變成黑色粗框、和其他張的白框不一致。
 - 狀態：建議 Flash 版，等製作師看。
 - 點數：以帳上實際扣款為準。
+
+## 追加 258（2026-10-21）：Nanami 粉紅襯衫洗衣機前——妝感調淡、眉形對齊參考
+
+- 製作師：中間那張（Flash `9c76ddb1`）妝感還是太重，尤其鼻子、嘴唇、眼睛上面；臉頰可以微微紅；眉形參考她之前的圖或給的參考圖（第 2 張定稿的臉部截圖，media `9f2d60af-fab4-4014-bf29-b16b2f5cd35a`）。
+- 以 `9c76ddb1` 為底、圖 2＝參考臉：
+  - Seedream 5.0 Flash `6aa31a1b-72ef-4fa8-9dc7-1f4f3d850aa3`：✅ 鼻樑沒有打亮、眼皮無眼影眼線、唇色自然不亮、眉毛較平較柔、臉頰微紅；構圖身體不變。
+  - Grok Image 2.0 `72c3d628-c93e-4ce1-b285-3770095a0bfb`：⚠️ 唇色仍偏粉亮、眼線還在。
+- 狀態：建議 Flash 版，等製作師看。
+- 點數：以帳上實際扣款為準。
