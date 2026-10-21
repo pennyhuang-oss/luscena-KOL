@@ -4174,3 +4174,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 心得：蕾絲內衣類的整張改圖，能過又能保留構圖的是 Seedream 5.0 Pro／Flash、Grok Image 2.0；Seedream 4.5 會重排構圖；Google、FLUX、OpenAI 系列都擋。
 - 狀態：A／B／D 候選，等製作師選。
 - 點數：以帳上實際扣款為準（各模型單價不同，被擋通常退點）。
+
+## 定稿＋排程（2026-10-21，製作師決定）：Wendy W-06 失眠、睡前運動 3 張輪播
+
+- 製作師：第 3 張用 A（Seedream 5.0 Pro `fb3dade8`）；三張定稿；文案用原本那版。
+- 最終檔（JPEG 品質 95）：
+  1. `社群媒體/wendy/wendy_post6_sleep1_bed_jobce1248e9.jpg`（3456×4608；`ce1248e9` 暖光原版＋臉部 `8213bc32` 去眼鏡淡口紅兩眼閉，追加 233）
+  2. `wendy_post6_sleep2_bed_job24dc8b33.jpg`（3456×4608；`24dc8b33`＋臉部 `422453d5` 去眼鏡淡口紅一眼微張，追加 232）
+  3. `wendy_post6_sleep3_window_jobfb3dade8.jpg`（1760×2352；Seedream 5.0 Pro 清晨高雄港窗台，追加 237）
+- 本機備份 `Documents\Luscena_KOL_定稿備份\wendy\` 同步。
+- 文案：「出差飯店的床太軟，昨天又失眠到三點。／是不是該養成睡前運動的習慣？聽說對睡眠很有幫助。／……你們睡前都做什麼運動？」（無 hashtag）
+- 型錄：Wendy 第 6 格（3 張並排＋配文＋「10/22 預定發布」）。
+- 排程：製作師未指定時間，照 Wendy 預設 18:00 → 2026-10-22 18:00 台北時間（10/21 18:00 已有 Vicky、10/22 08:00 是 Nanami），Instagram（貼文、標示 AI 生成）＋Threads，Metricool 貼文編號 401874468（uuid -2655005901836432304）。圖片經 Higgsfield 上傳（media `c66961f0`、`52fb3aea`、`5ea5f134`）。
