@@ -4364,3 +4364,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 頭部裁切 600×600（左上 520,40，media `1f206ab5-1b9f-4c4e-9a67-53dc19c21556`），Nano Banana Pro＋臉 `6ee6ba88`：`029bbf81-5464-406d-82b0-adc2d8abe99c`（2 點）→ ✅ 側臉臉頰變圓潤、下巴線條柔和、珍珠耳環；羽化貼回 → npink/p1_final_face.png。
 - 狀態：候選，等製作師看。
 - 點數：2 點。
+
+## 追加 255（2026-10-21）：Nanami 粉紅襯衫洗衣機前——臉重做＋「糟糕了」表情
+
+- 製作師：臉變得有點不像她，重看；表情要是「糟糕了」的表情。
+- Nano Banana Pro 頭部裁切＋臉 `6ee6ba88`＋第 2 張換好的臉 `fe2c7078`：`02bfd77a-a2e9-40ed-ab12-7c1e8d7716fb`（2 點）→ 臉很像 Nanami、表情對、珍珠耳環，但畫面被拉近重構，對不回原圖。再以它為參考、要求不要縮放：`3de6e810-24fc-47b6-9f63-c82e51137a42`（2 點）→ 頭抬得太正，角度對不上原圖，不採用。
+- 改 Seedream 5.0 Flash 整張改（圖 1＝`b00ad3d0`、圖 2＝`02bfd77a` 表情臉、圖 3＝臉 `6ee6ba88`）：`aad4071d-bd65-48b7-b30d-81c8bd01d5b9` → ✅ 構圖全身完全不變、側臉圓潤像 Nanami、眼睛睜大嘴微張的「糟糕了」表情、珍珠耳環。
+- 心得：側臉低頭的臉部修改，頭部裁切給 Pro 容易被重構；改用 Seedream 5.0 Flash 整張改＋給一張目標臉當參考，構圖最穩。
+- 狀態：候選，等製作師看。
+- 點數：4 點＋Flash（以帳上實際扣款為準）。
