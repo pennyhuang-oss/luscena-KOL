@@ -4357,3 +4357,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - Grok Image 2.0 `33c96201-3b34-463f-89e5-0a85151b79f2`：✅ 腿變長；⚠️ 人物略往右移、更靠近洗衣機。
 - 狀態：兩張候選，等製作師看。
 - 點數：以帳上實際扣款為準。
+
+## 追加 254（2026-10-21）：Nanami 粉紅襯衫洗衣機前——選 Flash 版、對臉後修側臉與耳環
+
+- 製作師：用中間那張（Seedream 5.0 Flash `b00ad3d0`），對臉；對臉結果：側臉下巴偏尖、耳環是金色小耳釘（前兩張是珍珠）→ 製作師：修。
+- 頭部裁切 600×600（左上 520,40，media `1f206ab5-1b9f-4c4e-9a67-53dc19c21556`），Nano Banana Pro＋臉 `6ee6ba88`：`029bbf81-5464-406d-82b0-adc2d8abe99c`（2 點）→ ✅ 側臉臉頰變圓潤、下巴線條柔和、珍珠耳環；羽化貼回 → npink/p1_final_face.png。
+- 狀態：候選，等製作師看。
+- 點數：2 點。
