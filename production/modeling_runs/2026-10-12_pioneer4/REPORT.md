@@ -4196,3 +4196,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 兩張淚痣都只有一顆，在畫面左邊那隻眼睛下（和 K-05 定稿同側）。兩張都是一次生成，沒有被擋。
 - 檔案在執行者端 scratchpad/k06/。狀態：候選，等製作師看。
 - 點數：4 點。
+
+## 定稿＋排程（2026-10-21，製作師決定）：Kanon K-06 西門町試衣間萬聖節二選一 2 張輪播
+
+- 製作師：兩張定稿；文案拿掉「選錯的話……嘻嘻，罰你陪花音去夜市😈」這一句。
+- 最終檔（皆 1792×2400、JPEG 品質 95，無後製）：
+  1. `社群媒體/kanon/kanon_post6_halloween1_devil_job3fddc2d6.jpg`
+  2. `kanon_post6_halloween2_cat_jobcc2dc8d2.jpg`
+- 本機備份 `Documents\Luscena_KOL_定稿備份\kanon\` 同步（同時補齊先前漏備份的 post1～post4 與 v2_skinfix_mole，並刪掉被取代的 v2_skinfix）。
+- 型錄：Kanon 第 6 格（兩張並排＋配文＋「10/21 預定發布」）。
+- 排程：2026-10-21 20:00 台北時間、Instagram（貼文、標示 AI 生成）＋Threads，Metricool 貼文編號 401880600（uuid 3308926859667000807）。圖片直接用 Higgsfield 原圖網址（定稿未後製）。
