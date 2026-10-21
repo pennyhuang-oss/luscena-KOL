@@ -4373,3 +4373,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 心得：側臉低頭的臉部修改，頭部裁切給 Pro 容易被重構；改用 Seedream 5.0 Flash 整張改＋給一張目標臉當參考，構圖最穩。
 - 狀態：候選，等製作師看。
 - 點數：4 點＋Flash（以帳上實際扣款為準）。
+
+## 追加 256（2026-10-21）：Nanami 粉紅襯衫洗衣機前——去口紅、頭縮小
+
+- 製作師：不要口紅；頭的比例有點太大。
+- Seedream 5.0 Flash，以 `aad4071d` 為底：`c6db5ecd-0def-44e4-8598-867d42273cb9` → ✅ 唇色變淡較自然、構圖表情不變；⚠️ 頭只縮小一點點，肉眼差異不大，唇仍略帶粉紅。
+- 狀態：候選，等製作師看。
+- 點數：以帳上實際扣款為準。
