@@ -4072,3 +4072,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖：✅ 從床尾往上拍、右手放肚子、左臂平伸放床上、人與睡衣與房間都對；✗ 膝蓋沒有彎起，變成一條腿伸直抬高、腳掌大大地伸到鏡頭前；鏡頭仍偏高，看得到整張床。
 - 狀態：姿勢未達，等製作師決定。
 - 點數：1 點。
+
+## 追加 229（2026-10-21）：Wendy 睡前運動——GPT Image 2.5 試蕾絲睡衣原版
+
+- 製作師：選方案 1（直接用 GPT 試蕾絲睡衣原版，被擋就退點）。
+- GPT Image 2.5 high 3:4，參考＝線稿／W-05／服裝，prompt 去掉身材字眼、只寫 babydoll nightgown：`074da1e2-217e-4330-aef8-f16621d5bbc2` → 立刻 NSFW 擋下。
+- 心得：GPT Image 2.5 對「蕾絲睡衣＋躺床」直接擋，與 METHODS_PLAYBOOK「GPT 遇擦邊幾乎都擋」一致。
+- 點數：0（被擋通常退點）。
