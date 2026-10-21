@@ -4314,3 +4314,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - Seedream 5.0 Flash，以 `46585a05` 為底、圖 2＝第 2 張：`79f75ae6-5005-4a47-adca-fba6e5f77fc2` → ✅ 寬鬆運動短褲換成貼身短版淺米白短褲，其餘構圖、髮、白襯衫、粉襯衫都不變。
 - 狀態：候選，等製作師看。
 - 點數：以帳上實際扣款為準。
+
+## 追加 249（2026-10-21）：Nanami 粉紅襯衫洗衣機前——身材參考超市推車那張
+
+- 製作師：身材參考 N-03 超市推車定稿（`dd0fffae`）。
+- 以 `79f75ae6` 為底：Seedream 5.0 Flash `e596f781-52fb-4fc5-ba92-dfd78a3c8d6f` → NSFW；Seedream 4.5＋Element `ee2bdc78-66c4-45e1-a2a4-502a877a6a17`（1 點）→ ✅ 臀部變圓翹、腰收；⚠️ 大腿變粗、鏡頭略拉近（腳被切掉），比超市那張的腿粗。
+- 狀態：候選，等製作師看。
+- 點數：1 點（被擋通常退點）。
