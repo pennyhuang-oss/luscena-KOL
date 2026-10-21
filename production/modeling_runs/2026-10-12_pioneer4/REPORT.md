@@ -4287,3 +4287,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 換臉後頭部裁切（同 706,330 600×600，media `5cace2bc-4c95-44e8-b67a-565f634e5335`），Nano Banana Pro，圖 2＝換臉前頭部（表情參考 `244cccbf`）：`6c3272f9-7e33-45ec-942c-c1d827e22ac1`（2 點）→ ✅ 臉型膚色維持 Nanami、眉頭皺起、苦笑，哭笑不得感回來；羽化貼回 → npink/p2_final_expr.png。
 - 狀態：候選，等製作師看。
 - 點數：2 點。
+
+## 定稿（2026-10-21，製作師決定）：Nanami N-07 粉紅襯衫輪播——第 2 張
+
+- 最終檔：`社群媒體/nanami/nanami_post7_pink2_shirt_joba0a62b49.jpg`（1776×2368，JPEG 品質 95）＝ Seedream 5.0 Flash `a0a62b49` ＋ 頭部換臉 `fe2c7078` ＋ 表情 `6c3272f9`（追加 243～245）。
+- 本機備份 `Documents\Luscena_KOL_定稿備份\nanami\` 同步。
+- 另一張（洗衣機前）製作師會另找參考圖；型錄、文案、排程等兩張都定稿後再做。
