@@ -4490,3 +4490,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 替代方案（待製作師決定）：以 `dce4d5af`（2K、臉不變）為底，只在本機對三角褲區域調色（不去背、不合成），0 點。
 - 狀態：候選，等製作師看。
 - 點數：以帳上實際扣款為準（被擋通常退點）。
+
+## 追加 268（2026-10-21，遠端 session）：Nanami 粉紅襯衫正面——三角褲同色改試 Nano Banana
+
+- 製作師：問 Nano Banana 可不可以。
+- 以 `dce4d5af` 為底、同追加 267 的措辭：Nano Banana Pro `8f20ed65-7a02-4123-9bae-388c7773c50a` → NSFW（後台實際跑 nano_banana_2）。
+- 狀態：同色版目前只有 Grok `e8a9f804`（低解析度、臉略變）可用；本機局部調色方案仍待製作師決定。
+- 點數：被擋通常退點，以帳上實際扣款為準。
