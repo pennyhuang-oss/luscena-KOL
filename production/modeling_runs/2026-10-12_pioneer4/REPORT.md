@@ -4280,3 +4280,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 依「先看圖、OK 再對臉」：與 253n 定臉、魚市場第 1 張比對 → 臉型偏長、膚色偏深、偏成熟。
 - 頭部裁切 600×600（左上 706,330，media `244cccbf-5e55-4e31-b76d-f7f02a2bb86b`），Nano Banana Pro＋臉 `6ee6ba88`：`fe2c7078-57bd-4028-98a9-7f9e77c3579c`（2 點）→ 圓臉、白皙、較年輕，接近 Nanami ✅；⚠️ 表情變成單純低頭微笑，皺眉含淚的「哭笑不得」感變淡。本機相位對齊＋橢圓羽化貼回 → npink/p2_final_face.png（未存定稿，等製作師看）。
 - 點數：2 點。
+
+## 追加 245（2026-10-21）：Nanami 粉紅襯衫第 2 張——換臉後改回哭笑不得表情
+
+- 製作師：用換臉後這張，表情改回哭笑不得。
+- 換臉後頭部裁切（同 706,330 600×600，media `5cace2bc-4c95-44e8-b67a-565f634e5335`），Nano Banana Pro，圖 2＝換臉前頭部（表情參考 `244cccbf`）：`6c3272f9-7e33-45ec-942c-c1d827e22ac1`（2 點）→ ✅ 臉型膚色維持 Nanami、眉頭皺起、苦笑，哭笑不得感回來；羽化貼回 → npink/p2_final_expr.png。
+- 狀態：候選，等製作師看。
+- 點數：2 點。
