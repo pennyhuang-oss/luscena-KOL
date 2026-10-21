@@ -2,7 +2,7 @@
 
 - 決定者：製作師（Vincent）。本檔取代 `REPORT.md`「身材補充」中 Vicky 的那一列；其他三人沿用。
 - 規則：數字只寫在文件，prompt 用身形描述，不直接給數字。十人都是成年人。
-- 變更紀錄：2026-10-12 Vicky 罩杯 C → E，身形改為前凸後翹明顯的沙漏型（REPORT 追加 27）。2026-10-13 新增 §2.5 美肌程度（依角色區分，REPORT 追加 46、47）。
+- 變更紀錄：2026-10-12 Vicky 罩杯 C → E，身形改為前凸後翹明顯的沙漏型（REPORT 追加 27）。2026-10-13 新增 §2.5 美肌程度（依角色區分，REPORT 追加 46、47）。2026-10-21 新增第五人 Rainie Hsu（夜店咖、皮衣；製作師照執行者提案定案）。
 
 ## 1. 設定表
 
@@ -12,8 +12,10 @@
 | Kanon Komori | 155 | 84／58／86 | 84／68 | D（65D） | 嬌小、腰細 | 沿用 |
 | **Vicky Lin** | 168 | **94／63／92** | **94／74** | **E（75E）** | **沙漏型：胸大前凸、腰細、臀圓翹、大腿厚實；運動型、曬色** | **v2（2026-10-12）** |
 | Nanami Fujiwara | 160 | 90／62／91 | 90／70 | E（70E） | 柔軟豐滿 | 沿用 |
+| **Rainie Hsu** | 167 | **88／57／88** | **88／68** | **E（70E）** | **纖腰長腿、胸型飽滿；骨架細，不走肌肉線條** | **新增（2026-10-21）** |
 
 - Vicky 臀圍：製作師只指示「後翹明顯」，未給數字；表中 92 沿用 v1。執行者提案改 96（PROPOSED，待製作師定）。
+- Rainie 與其他人的區隔：Vicky 同樣高挑，但是運動型沙漏、大腿厚實，Rainie 是細骨架、五人裡腰最細；Nanami 同樣 E 罩杯，但是柔軟豐滿，Rainie 較高、較瘦；Wendy 骨感、胸型偏小。生日 2001-11-13（天蠍座，執行者擬、製作師採用），2026-10 時 24 歲。
 
 ## 2. Vicky 的 prompt 身形描述（v2，定稿 job 309 用的寫法）
 
@@ -36,6 +38,7 @@
 | Vicky Lin | 輕美肌 | job 314、319 | 約 10 | 健康曬色路線，看得到汗與毛孔才像運動的人 |
 | Kanon Komori | 重磨皮 | job 404 | 約 4 | 地雷系本來就流行重磨皮、瓷娃娃感 |
 | Nanami Fujiwara | 重磨皮 | job 253n | 約 5 | 現況；柔焦、溫柔感 |
+| Rainie Hsu | 輕美肌 | 尚無定稿（形象照待出） | — | 夜店燈光下保留質感，和 Wendy、Vicky 同一級 |
 
 prompt 寫法：
 - **輕美肌**（已用在 Vicky 316～319）：`Skin finish: a light phone beauty filter only. Skin looks smooth, even and clean, but fine natural pores are still faintly visible on the cheeks, nose and forehead, like an iPhone photo with light retouching. Not airbrushed, not plastic, not waxy; no film grain and no noise.`
@@ -52,3 +55,4 @@ prompt 寫法：
 - `REPORT.md` 追加 27：變更的原始紀錄。
 - `ARCHETYPES_v2_2026-10-12.md`：十人個性類型，不含身材。
 - 六人（Somi、Mia、Zhiyi、Yerin、Miu、Emma）身材仍未設定（製作師：之後再定）。
+- 第五人 Rainie Hsu（2026-10-21 製作師選定，型錄夜生活／派對女王，Soul `Rainie Hsu v2`）：身材見 §1、美肌見 §2.5；prompt 身形描述待形象照定稿後補。
