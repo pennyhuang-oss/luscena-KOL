@@ -4149,3 +4149,28 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 心得：要「構圖不動、只換背景／光線」時，去背＋背景底圖＋本機調光最可靠；要換頭方向，給一張「目標方向」的頭部參考圖，且裁切要含肩膀與背景一起改，不要只裁頭再分層拼。
 - 狀態：候選，等製作師看。
 - 點數：7 點（擋下通常退點；去背另計，帳上若有扣款以實際為準）。
+
+## 追加 237（2026-10-21）：Wendy 第 3 張——全模型一次生成測試
+
+- 製作師：之後盡量不要用去背＋合成的方式（去背不乾淨、頭也沒轉對方向）；先把所有能用的模型測一輪，盡量一次生成好，都不行再換方式。頭的方向：看向窗外＝頭往後轉、越過肩膀看身後玻璃外。
+- 同一個 prompt（保留構圖姿勢服裝，只改：頭往後轉看窗外、清晨、高雄港景），以 `af13c4d9` 為底，各 1 張：
+
+| 模型 | job | 結果 |
+|---|---|---|
+| Seedream 5.0 Pro（is_inpaint） | `fb3dade8-eabb-430d-b397-ae9f5a5bad7d` | ✅ 姿勢構圖保留、頭往後看窗外、清晨港景〔A〕 |
+| Seedream 5.0 Flash | `e3cb45d9-68ca-4a6f-8382-2ce7f20b05e6` | ✅ 同上，構圖最接近原圖〔B〕 |
+| Seedream 5.0 Lite | `c9a2521a-be50-4a6d-8c95-fd7b76ca56e9` | ⚠️ 上身轉成背對、看得到內衣背帶〔C〕 |
+| Grok Image 2.0 | `c29640f9-fbe9-415a-b447-81f576492dfc` | ✅ 構圖與原圖幾乎一致、側臉朝窗、清晨港景〔D〕 |
+| Grok Image（quality） | `02596d43-a597-4a26-b7fc-dab082a6e86c` | ✗ 構圖變、臉朝前 |
+| Kling O1 Image | `c8733cdf-4f07-45e9-8d20-da04c78d3d43` | ✗ 改成背影 |
+| Ideogram 4.5 | `f02fe7fe-52bf-491a-988c-153a4c6a1744` | ✗ 改成背影 |
+| Soul 2.0 | `98c7cbe8-2940-40c2-a413-1f8040f82658` | ✗ 沒照原圖，金髮、台北夜景 |
+| FLUX 3 Image | `c87dd98b-f164-4226-9127-020ac05fcf22` | NSFW |
+| FLUX Kontext | `3aa7eb3b-b02b-417d-b676-869340ae67f8` | NSFW |
+| FLUX.2 Pro | `1744a44e-a679-45c5-b12f-e1531c941e6d` | NSFW |
+| Nano Banana 2 | `88c140f6-2a73-4698-8a9c-cd188771e271` | NSFW |
+| （先前）Nano Banana Pro／2.1、GPT Image 2.5 | — | NSFW |
+
+- 心得：蕾絲內衣類的整張改圖，能過又能保留構圖的是 Seedream 5.0 Pro／Flash、Grok Image 2.0；Seedream 4.5 會重排構圖；Google、FLUX、OpenAI 系列都擋。
+- 狀態：A／B／D 候選，等製作師選。
+- 點數：以帳上實際扣款為準（各模型單價不同，被擋通常退點）。
