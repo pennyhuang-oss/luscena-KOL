@@ -4048,3 +4048,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 文案：「今天去逛東門市場／魚攤阿伯說：太太這麼漂亮，這尾送妳！／回家照著網路教學煮了魚湯……為什麼會是紫色的😥／老公又出差了，有人要來幫我喝嗎？」
 - 型錄：Nanami 第 6 格（3 張並排＋配文＋「10/22 預定發布」）。
 - 排程：2026-10-22 08:00 台北時間、Instagram（貼文、標示 AI 生成）＋Threads，Metricool 貼文編號 400968648（uuid 7241001254460738196）。圖片經 Higgsfield 上傳取公開網址（media `5307d82f`、`3c34a0c6`、`8d1391de`）。
+
+## 追加 226（2026-10-21）：Vicky 西子灣晨跑第 1 張（中止）
+
+- 依 POST_IDEAS「下一篇企劃方向」Vicky 方向（西子灣週一晨跑）出第 1 張：Seedream 4.5 high＋Vicky Element＋胸型裁切 `4bba0f85`，3:4：`4c2654d7-15af-4d94-8346-aee841e3f79c`（1 點），已下載到執行者端 vsea/，未看圖、未進 repo。
+- 製作師中途喊停：Vicky 先不用；V-06 蓮池潭已做過晨跑，這個方向重複，不再出。企劃已註記作廢。
+- 製作師：另外三人（Wendy、Kanon、Nanami）先給文字企劃，確認後再出圖。
+- 點數：1 點。
