@@ -4273,3 +4273,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - Seedream 5.0 Flash `a0a62b49-c54c-4436-ba4d-f06bd6b0ce10`：✅ 白襯衫穿回雙肩、短褲淺米白、洗衣籃襯衫變大、內衣維持薄款；⚠️ 手上那件只稍大、拿在胸前，往前延伸不明顯。
 - 狀態：兩張候選，等製作師看。
 - 點數：以帳上實際扣款為準。
+
+## 追加 244（2026-10-21）：Nanami 粉紅襯衫第 2 張——製作師選 Seedream 5.0 Flash 版，核對臉後換臉
+
+- 製作師：用右邊那張（Seedream 5.0 Flash `a0a62b49`）定稿，現在換第二張。
+- 依「先看圖、OK 再對臉」：與 253n 定臉、魚市場第 1 張比對 → 臉型偏長、膚色偏深、偏成熟。
+- 頭部裁切 600×600（左上 706,330，media `244cccbf-5e55-4e31-b76d-f7f02a2bb86b`），Nano Banana Pro＋臉 `6ee6ba88`：`fe2c7078-57bd-4028-98a9-7f9e77c3579c`（2 點）→ 圓臉、白皙、較年輕，接近 Nanami ✅；⚠️ 表情變成單純低頭微笑，皺眉含淚的「哭笑不得」感變淡。本機相位對齊＋橢圓羽化貼回 → npink/p2_final_face.png（未存定稿，等製作師看）。
+- 點數：2 點。
