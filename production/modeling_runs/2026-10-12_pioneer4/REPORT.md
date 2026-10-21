@@ -4466,3 +4466,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 遠端環境限制：無法直接下載 cloudfront 圖檔，改在 Higgsfield 沙盒處理、以公開網址給製作師看。
 - 狀態：候選，等製作師看。
 - 點數：以帳上實際扣款為準。
+
+## 追加 266（2026-10-21，遠端 session）：Nanami 粉紅襯衫正面——第 2 步：四角褲改三角褲
+
+- 製作師：妝感 OK（追加 265 `06b1caae` 採用），接著改三角褲。
+- 以 `06b1caae` 為底：
+  - Seedream 5.0 Flash `fb44f2b8-a93d-4eaa-8e37-baa607e8e989` → NSFW。
+  - Grok Image 2.0 `c013b8f8-d056-4c9d-a780-4a7cb498080d`（措辭改 high-cut bikini bottom）→ NSFW。
+  - Seedream 5.0 Pro（is_inpaint）`dce4d5af-67bd-4b9a-b545-45d78e63311a` → ✅ 改成淺米白三角褲、不透；臉、妝、表情、構圖、襯衫、光線、腳都不變。⚠️ 三角褲顏色比原短褲稍偏粉白；輸出 1760×2352（原 1776×2368，略裁）。
+- 等比例對照圖（全身）已上傳 media `8bf40213-f731-4924-9109-bc6396466b9a`；下半身特寫 `4978a895-b134-41aa-8569-8cb9c20e8d31` 上傳時被判 NSFW，不使用。
+- 狀態：候選，等製作師看；下一步光線（調色對齊第 2 張定稿）。
+- 點數：以帳上實際扣款為準（被擋通常退點）。
