@@ -5300,3 +5300,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 建議下一步：依 METHODS_PLAYBOOK，用 Seedream 4.5＋Vicky Element 只重畫頭部裁切（1:1，圖 2＝定稿臉），對齊後橢圓羽化貼回第 2、3 張。
 - 狀態：等製作師決定換臉做法。
 - 點數：以帳上實際扣款為準（Nano Banana Pro 3 張）。
+
+## 定稿（2026-10-22，製作師決定）：Nanami N-07 第 1 張（老公白襯衫染粉 2 張輪播）
+
+- 製作師：N-07 第 1 張定稿（追加 323 貼回版 `p1_E`，臉 `331c7e83`），做定稿後步驟。
+- 最終檔：`社群媒體/nanami/nanami_post7_pink1_front_job331c7e83.jpg`（1776×2368、JPEG 95）；第 2 張 `nanami_post7_pink2_shirt_joba0a62b49.jpg` 不變。本機備份 `Documents\Luscena_KOL_定稿備份\nanami\` 同步（逐檔一致）。
+- 型錄：Nanami 第 7 格（`catalog/img/nanami7_pink1.jpg`、`nanami7_pink2.jpg`，兩張並排＋配文＋「10/24 預定發布」）。
+- POST_IDEAS：新增 N-07 段落（Nanami 第 7 則、10/24 08:00）。
+- 公開網址（Metricool 用，已上傳 Higgsfield 並確認可讀）：第 1 張 media `10e33693-8cc5-4ba8-ad69-e67a2aa8ac28`、第 2 張 media `60621111-603e-4dfc-9acb-21a6420dd7cf`。
+- 排程：**尚未排入**——依 `HANDOFF_2026-10-21.md` §1 第 5 點，文案製作師尚未明確確認，排程前先問一次。確認後排 2026-10-24 08:00 Asia/Taipei、Instagram（POST、標示 AI 生成）＋Threads，Nanami brand 7436561。
+- 第 1 張最終做法摘要（供之後參考）：線稿法重出（比例線稿 v3＋正面身形定稿＋原底圖場景，Flash）→ Flash 改身高／低頭／美肌／肩 → Flash 換臉＋減磨皮 → Flash 光線 → Flash 人放大 → Flash 膚色（B2）→ Flash 襯衫揪起（B2）→ Flash 肩收＋襯衫（Pass 1）→ Grok 臉（Pass 2）→ 裁臉 Nano Banana Pro 換 253n 貼回 → Grok 白襯衫加長＋粉襯衫回原長 → 裁臉 Nano Banana Pro 換 253n 貼回（定稿）。
