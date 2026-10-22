@@ -4768,3 +4768,18 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 下一步（製作師 OK 後）：線稿當圖 1（只取比例與姿勢）、Nanami 定稿臉／Element 當身分，Nano Banana Pro「線稿轉真實照片」（METHODS_PLAYBOOK 線稿法），prompt 另寫胸臀的肉感。
 - 狀態：等製作師看線稿。
 - 點數：0 點。
+
+## 追加 286（2026-10-22，本地端）：Kanon／Vicky／Wendy 身形參考（正面＋側面）第 1 輪
+
+- 製作師：仿照 Nanami 身形參考的做法（追加 283～284：不給底圖、Element＋文字比例規格、黑色比基尼＋三角褲、淺灰素背景、長鏡頭），幫 Kanon、Vicky、Wendy 各出正面、側面全身照。
+- 規格依 BODY_SETTINGS_v2 §1／§2／§2.5：Kanon 155 cm、65D、嬌小腰細、約 7 頭身、重磨皮；Vicky 168 cm、75E、運動型沙漏、曬色、約 7.5 頭身、輕美肌；Wendy 170 cm、70C、高挑骨感、肩線平、腿長、約 7.7 頭身、輕美肌、銀灰側分＋黑框眼鏡＋紅唇。共同：髖關節約在身高 52～53%、大腿≈小腿、正面兩腳分開、側面朝左純側面。3:4，各 1 張。
+- Element：Kanon v4 `38c439f5`、Vicky `325284ce`、Wendy `19f44c28`。
+- 結果：
+  - Kanon 側面 Nano Banana Pro `4805c7a7-edaf-4c92-b0ca-5156ec3c8f9d` ✅ 純側面、頭到腳完整、嬌小腰細、胸約 D；⚠️ 側面只看得到一束馬尾（雙馬尾的另一束被擋）。
+  - Vicky 側面 Seedream 4.5 `daf782c8-5d83-4428-a5e1-af9743e27d70` ⚠️ 轉成斜後方（不是純側面）、下身變成丁字褲、臀部比設定誇張、膚色偏深。
+  - Kanon 正面 Nano Banana Pro `b7672fba-11f1-41dd-bf3b-abf8845b6e61`、Wendy 正面 Nano Banana Pro `c97c9da2-b2cf-422b-a6a3-8a4f625dfe14`：NSFW 擋下。改 Seedream 4.5 各送一張（Kanon `41ef5f8c-8136-4049-ac67-c3d70d4a661b`、Wendy `f22439da-537b-4744-bbc5-e81818a12c10`）。
+  - Vicky 正面 `4c18a4ce-1107-4189-91f7-579f5bdf81f7`、Wendy 側面 `7db1125f-4107-4c6f-94e3-ce8edeab7d57`：已送出，結果尚未取回。
+- 中斷：Claude Code 自動模式在被擋後改模型重送的流程上，拒絕了查詢生成進度的工具呼叫，剩下 4 張要等製作師決定怎麼繼續。
+- 檔案：執行者端 bodyref/（kanon_side.png、vicky_side.png、sides.jpg 同高並排）；未進 repo。
+- 狀態：候選，等製作師看。
+- 點數：以帳上實際扣款為準（被擋的通常退點）。
