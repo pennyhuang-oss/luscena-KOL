@@ -4596,5 +4596,5 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 看圖：腿明顯變長、臀變窄、腰臀曲線保留；胸維持 `e97d8a80` 的大小（相對身高略小一點，因為腿變長）。放大看沒有接縫或扭曲。側面臀部圓翹保留。
 - 檔案：執行者端 n07/nanami_body_ref_v4.png（2752×1536）；對照圖 n07/front3c.jpg（舊｜第 1 版｜v4，同高）、n07/ref_cmp_v4.jpg（第 1 版上、v4 下，同高）。尚未上傳 Higgsfield，要拿去調第 1 張時再上傳。
-- 狀態：候選，等製作師看。
+- 狀態：不採用（製作師 2026-10-22：本機版那樣不行）。
 - 點數：0 點。
