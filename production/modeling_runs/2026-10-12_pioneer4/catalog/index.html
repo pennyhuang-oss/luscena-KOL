@@ -177,7 +177,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
         <p class="quote">出差飯店的床太軟，昨天又失眠到三點。
 是不是該養成睡前運動的習慣？聽說對睡眠很有幫助。
 ……你們睡前都做什麼運動？</p>
-        <p class="pubdate" data-pub="2026-10-22T18:00:00+08:00">（10/22 預定發布）</p>
+        <p class="pubdate" data-pub="2026-10-22T18:00:00+08:00">（10/22 發布）</p>
       </figure>
     </div>
     <div class="data">
@@ -260,7 +260,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 排了一個小時才買到的🍩
 第一口要給哥哥喔……才怪😛 花音自己吃掉了～
 ……衣服上都是糖粉了啦😤 哥哥幫我拍一下嘛（靠過去）🎀</p>
-        <p class="pubdate" data-pub="2026-10-20T20:00:00+08:00">（10/20 預定發布）</p>
+        <p class="pubdate" data-pub="2026-10-20T20:00:00+08:00">（10/20 發布）</p>
       </figure>
       <figure class="photo">
         <div class="pair">
@@ -270,7 +270,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
         <p class="quote">今天去西門町挑萬聖節的衣服🎃
 小惡魔跟黑貓，花音兩套都好想要😣
 哥哥選一個，萬聖節那天花音就穿給你看🎀</p>
-        <p class="pubdate" data-pub="2026-10-21T20:00:00+08:00">（10/21 預定發布）</p>
+        <p class="pubdate" data-pub="2026-10-21T20:00:00+08:00">（10/21 發布）</p>
       </figure>
     </div>
     <div class="data">
@@ -470,7 +470,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 魚攤阿伯說：太太這麼漂亮，這尾送妳！
 回家照著網路教學煮了魚湯……為什麼會是紫色的😥
 老公又出差了，有人要來幫我喝嗎？</p>
-        <p class="pubdate" data-pub="2026-10-22T08:00:00+08:00">（10/22 預定發布）</p>
+        <p class="pubdate" data-pub="2026-10-22T08:00:00+08:00">（10/22 發布）</p>
       </figure>
     </div>
     <div class="data">
@@ -525,7 +525,7 @@ footer{margin-top:40px;font-size:12.5px;color:var(--muted);display:grid;gap:4px}
 </dialog>
 <script>
 (function(){
-  [].forEach.call(document.querySelectorAll('.pubdate[data-pub]'),function(p){var t=new Date(p.getAttribute('data-pub')); if(t>new Date()) p.textContent=p.textContent.replace('發布','預定發布');});
+  [].forEach.call(document.querySelectorAll('.pubdate[data-pub]'),function(p){var t=new Date(p.getAttribute('data-pub')); var md=p.getAttribute('data-pub').slice(5,10).split('-').map(Number).join('/'); p.textContent='（'+md+(t>new Date()?' 預定發布':' 發布')+'）';});
   var narrow=window.matchMedia('(max-width:760px)');
   var sheets=[].slice.call(document.querySelectorAll('section.sheet'));
   sheets.forEach(function(s){
