@@ -5286,3 +5286,17 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照：執行者端 vgym/set_v1.jpg（三張候選）、cmp_all.jpg（參考對照）、cmp3b.jpg（第 3 張線稿與各模型）。
 - 狀態：候選，等製作師看。
 - 點數：以帳上實際扣款為準（Nano Banana Pro 4 張、Seedream 4.5 1 張、Flash 1 張）。
+
+## 追加 325（2026-10-22，本地端）：Vicky 健身房三張——對臉、第 2／3 張換臉、第 1 張換白高筒襪＋白布鞋
+
+- 製作師：第 3 張用第 3 版（Flash `6cc8aa6d`），現在對臉；途中追加：第 1 張改穿白色高筒襪跟白布鞋。
+- 對臉（關節點放大裁切，對照 V-01 形象照、V-02 泳池、V-06 蓮池潭自拍）：
+  - 第 1 張 `fef1aa63`：側後方、只看到側臉，鼻唇與膚色接近，可接受。
+  - 第 2 張 `d7028f61`：下巴偏尖、眉偏粗、輪廓偏硬，不太像。
+  - 第 3 張 `6cc8aa6d`：臉偏寬、眉粗、五官不同，不像（Flash 沒有 Element）。
+- 換臉（Nano Banana Pro 3:4、2k＋Vicky Element，圖 1＝底圖、圖 2＝泳池頭部裁切 `3b2e3517`，只改臉）：第 2 張 `9a0f4b83-4611-4620-9bce-9bfd1dada1c6`、第 3 張 `ede093aa-323e-4cb6-93ab-87688fdfd8f0` → 都沒被擋，構圖不變，但**臉幾乎沒變**（Pro 以底圖改時黏住原臉，同 METHODS_PLAYBOOK「換臉時 Pro 黏住原臉不動」）。
+- 第 1 張換鞋襪（Nano Banana Pro，以 `fef1aa63` 為底，只改腳）：`fd5027ee-9cd6-4136-80b7-e848f5f7a80c` ✅ 白色羅紋高筒襪（到小腿中段、蓋在瑜伽褲外）＋白色低筒帆布鞋；其他不變。
+- 對照：執行者端 vgym/g1_shoes_cmp.jpg、face_cmp.jpg、face_cmp2.jpg、full_face2.jpg。
+- 建議下一步：依 METHODS_PLAYBOOK，用 Seedream 4.5＋Vicky Element 只重畫頭部裁切（1:1，圖 2＝定稿臉），對齊後橢圓羽化貼回第 2、3 張。
+- 狀態：等製作師決定換臉做法。
+- 點數：以帳上實際扣款為準（Nano Banana Pro 3 張）。
