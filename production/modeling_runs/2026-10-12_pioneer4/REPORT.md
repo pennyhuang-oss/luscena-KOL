@@ -5217,3 +5217,17 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照：三張並排 nmeas/p1_C2_cmp.jpg（Pass 1｜Pass 2｜第 2 張定稿）；臉部三連 nmeas/face_C2.jpg（253n｜Pass 1｜Pass 2）。
 - 狀態：候選，等製作師看。
 - 點數：以帳上實際扣款為準（Flash 1 張成功＋2 張被擋、Grok 1 張）。
+
+## 追加 320（2026-10-22，本地端）：N-07 第 1 張——裁臉換成 253n（Nano Banana Pro）＋減磨皮，橢圓羽化貼回
+
+- 製作師：裁頭肩區用 Nano Banana Pro 換臉成 253n，再貼回，磨皮一起減。另要求傳 BA 看身體到底改了什麼 → 已傳 nmeas/BA_full.jpg（B2｜Pass 2 全圖）與 BA_upper.jpg（上半身放大）：肩寬／頭寬 2.54 → 2.26、襯衫下襬到膝、腰臀大腿露出；其餘相同。
+- 裁切與被擋：
+  - 頭肩 1000×1000（含胸口）media `1d2b8ad3`、760×760 media `02f4e2bf` → Nano Banana Pro `6aec18c6-a0c3-41c9-90a1-a21445b6fe73` **NSFW**（裁到乳溝）。
+  - 改只裁臉到領口 620×620（左上 630,0）media `b7e8f67e-2840-497f-beef-e8b4ebebe28a`，圖 2＝253n 臉部裁切 `e896d326`，prompt 明寫圖 1 是底圖、圖 2 只取臉、保留低頭角度與張嘴表情、皮膚不修：
+    - Nano Banana Pro `524e52e8-33a2-4e75-aef0-1a5daa48275b` ✅（2 點）
+    - Seedream 4.5＋Element `d361bc6e-3a9d-49db-ae06-ec6370f072cf` ✅ 出圖但臉較尖、較不像、較平滑（1 點），不用。
+- 看臉（253n｜底圖裁切｜NB Pro｜Seedream 四連 nmeas/head_cmp.jpg）：NB Pro 版臉圓、頰飽滿、鼻唇接近 253n，低頭張嘴保留，皮膚有油光與紋理、不蠟。
+- 貼回：本機把 NB Pro 結果縮回 620×620，橢圓羽化（半徑 0.40×0.46、羽化 28px）覆蓋回 `p1_C2` 原位（原位覆蓋、不縮放不變形）→ `p1_C3.png`。放大檢查無接縫，髮際、領口、背景連續。
+- 三張並排（Pass 2｜貼回版｜第 2 張定稿）：nmeas/p1_C3_cmp.jpg；頭部放大 nmeas/p1_C3_head_zoom.jpg。
+- 狀態：候選，等製作師看。若 OK → 定稿後步驟（存檔、型錄、POST_IDEAS、排程 10/24 08:00、文案確認）。
+- 點數：3 點（NB Pro 2＋Seedream 1；被擋通常退點）。
