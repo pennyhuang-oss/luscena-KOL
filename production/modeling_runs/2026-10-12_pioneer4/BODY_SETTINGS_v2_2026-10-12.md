@@ -17,6 +17,19 @@
 - Vicky 臀圍：製作師只指示「後翹明顯」，未給數字；表中 92 沿用 v1。執行者提案改 96（PROPOSED，待製作師定）。
 - Rainie 與其他人的區隔：Vicky 同樣高挑，但是運動型沙漏、大腿厚實，Rainie 是細骨架、五人裡腰最細；Nanami 同樣 E 罩杯，但是柔軟豐滿，Rainie 較高、較瘦；Wendy 骨感、胸型偏小。生日 2001-11-13（天蠍座，執行者擬、製作師採用），2026-10 時 24 歲。
 
+## 1.5 身形比例參考圖（定稿）
+
+之後出圖要對身形比例時，以這裡的圖為準。檔案在 `社群媒體/身形參考/`，備份在 `Documents\Luscena_KOL_定稿備份\身形參考\`。
+
+| 角色 | 正面 | 側面 | 定稿 | 做法 |
+|---|---|---|---|---|
+| Kanon Komori | `kanon_body_front_job5e868709.jpg` | `kanon_body_side_job4805c7a7.jpg` | 製作師 2026-10-22 | 先出側面（Nano Banana Pro＋Kanon v4 Element、文字比例規格），再以側面當參考生成正面（REPORT 追加 284～291） |
+| Vicky Lin | — | — | 製作中 | REPORT 追加 285～293 |
+| Wendy Yeo | — | — | 製作中 | REPORT 追加 285～288 |
+| Nanami Fujiwara | — | — | 另一視窗製作中 | REPORT 追加 251～284 |
+
+- 已知小差異（製作師接受）：Kanon 正面兩眼下各有一顆痣（設定只有一顆），用來對身形時不影響。
+
 ## 2. Vicky 的 prompt 身形描述（v2，定稿 job 309 用的寫法）
 
 - 整體：`dramatic hourglass figure, athletic and curvy`
