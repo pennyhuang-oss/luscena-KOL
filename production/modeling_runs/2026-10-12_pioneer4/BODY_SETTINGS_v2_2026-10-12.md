@@ -26,7 +26,7 @@
 | Kanon Komori | `kanon_body_front_job5e868709.jpg` | `kanon_body_side_job4805c7a7.jpg` | 製作師 2026-10-22 | 先出側面（Nano Banana Pro＋Kanon v4 Element、文字比例規格），再以側面當參考生成正面（REPORT 追加 284～291） |
 | Vicky Lin | — | — | 製作中 | REPORT 追加 285～293 |
 | Wendy Yeo | — | — | 製作中 | REPORT 追加 285～288 |
-| Nanami Fujiwara | — | — | 另一視窗製作中 | REPORT 追加 251～284 |
+| Nanami Fujiwara | `nanami_body_front_job693e4809.jpg` | 候選 `42685e11`（待製作師定） | 正面：製作師 2026-10-22 | 先畫比例線稿（頭高為單位，依已發文圖 3D 量測＋製作師修正肩／小腿／腰，v3），線稿＋253n 臉用 Seedream 5.0 Flash 轉真人，再用 Flash 把胸縮到 E；側面以正面定稿當參考用 Flash 生成（REPORT 追加 280～297） |
 
 - 已知小差異（製作師接受）：Kanon 正面兩眼下各有一顆痣（設定只有一顆），用來對身形時不影響。
 
@@ -69,3 +69,14 @@ prompt 寫法：
 - `ARCHETYPES_v2_2026-10-12.md`：十人個性類型，不含身材。
 - 六人（Somi、Mia、Zhiyi、Yerin、Miu、Emma）身材仍未設定（製作師：之後再定）。
 - 第五人 Rainie Hsu（2026-10-21 製作師選定，型錄夜生活／派對女王，Soul `Rainie Hsu v2`）：身材見 §1、美肌見 §2.5；prompt 身形描述待形象照定稿後補。
+
+## 2.6 Nanami 的身形比例與 prompt 身形描述（2026-10-22，依線稿 v3 與正面定稿）
+
+- 比例（頭高＝1）：身高 7.3 頭；肩關節寬 1.45（0.67×軀幹長 2.15）；髖關節寬 1.10；胸最寬 1.52（略寬於肩）；腰 0.92（0.6×臀）；臀最寬 1.54；髖關節離地 52%、胯下 47%；腿（髖→踝）3.50；大腿 1.62、小腿 1.88（小腿＝1.16×大腿）。線稿：執行者端 nsketch/nanami_proportion_sketch_v3.png（REPORT 追加 289）。
+- 出圖對身形時：圖 2 放 `社群媒體/身形參考/nanami_body_front_job693e4809.jpg`（只當身形參考，不取衣服／背景）；prompt 身形描述：
+  - 整體：`soft, curvy, voluptuous hourglass figure; not slim, not athletic`
+  - 肩：`soft, narrow, slightly sloping feminine shoulders, narrower than the bust`
+  - 胸：`very full, round, natural E-cup bust, projecting clearly forward, much wider than the waist`（不寫「heavy／頭大／深乳溝」，會被擋）
+  - 腰臀：`small soft waist (about 0.6 of the hip width), strong hourglass; round, full, fleshy hips about as wide as the bust`
+  - 腿：`long legs, hip joint at just over half her height; lower legs slightly longer than the thighs; soft full thighs tapering to slender calves and fine ankles`
+  - 皮膚：重磨皮（§2.5）。
