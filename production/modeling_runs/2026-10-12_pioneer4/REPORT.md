@@ -5310,3 +5310,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 公開網址（Metricool 用，已上傳 Higgsfield 並確認可讀）：第 1 張 media `10e33693-8cc5-4ba8-ad69-e67a2aa8ac28`、第 2 張 media `60621111-603e-4dfc-9acb-21a6420dd7cf`。
 - 排程：**尚未排入**——依 `HANDOFF_2026-10-21.md` §1 第 5 點，文案製作師尚未明確確認，排程前先問一次。確認後排 2026-10-24 08:00 Asia/Taipei、Instagram（POST、標示 AI 生成）＋Threads，Nanami brand 7436561。
 - 第 1 張最終做法摘要（供之後參考）：線稿法重出（比例線稿 v3＋正面身形定稿＋原底圖場景，Flash）→ Flash 改身高／低頭／美肌／肩 → Flash 換臉＋減磨皮 → Flash 光線 → Flash 人放大 → Flash 膚色（B2）→ Flash 襯衫揪起（B2）→ Flash 肩收＋襯衫（Pass 1）→ Grok 臉（Pass 2）→ 裁臉 Nano Banana Pro 換 253n 貼回 → Grok 白襯衫加長＋粉襯衫回原長 → 裁臉 Nano Banana Pro 換 253n 貼回（定稿）。
+
+## 追加 326（2026-10-22，本地端）：N-07 第 1 張——眼睛改回往下看（Nano Banana Pro 只改眼）
+
+- 製作師：比較喜歡原本眼睛往下看的樣子（Grok 版的眼：上眼皮下垂、半閉看手上的襯衫），改回來看看。
+- Nano Banana Pro（1:1），圖 1＝定稿版臉部裁切 `331c7e83`（底圖，臉型、皮膚、嘴、髮、背景全部不動）、圖 2＝Grok 版臉部裁切 `6bf9be1a`（只當視線方向參考）；只改眼睛：上眼皮下垂、半閉直視下方、眉毛放鬆：`2344bd03-9bb6-44e7-be47-6ef0bd64f19a`（2 點）。
+- 本機橢圓羽化貼回 Grok 版原位（同追加 320 參數）→ `p1_F.png`。
+- 看圖（臉三連 nmeas/BA_F_face.jpg：Grok 版的臉｜定稿版｜改回往下看；全圖 BA nmeas/BA_F_full.jpg）：✅ 眼睛回到往下看、眼皮半垂，與 Grok 版的視線一致；臉型、頰、嘴、膚質維持換臉後的樣子；無接縫。
+- 狀態：候選，等製作師看。若採用 → 取代定稿檔 `nanami_post7_pink1_front_job331c7e83.jpg`（改名為 `_job2344bd03`）、備份、型錄 img、公開網址重新上傳；排程仍待文案確認。
+- 點數：2 點。
