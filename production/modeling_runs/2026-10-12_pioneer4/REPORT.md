@@ -5394,3 +5394,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 型錄：Vicky 第 7 格（3 張並排 `.triple`，`catalog/img/vicky_gym1～3.jpg`），發布時間 10/22 19:00。
 - POST_IDEAS V-07 改為定稿＋排程資訊。
 - 點數：0 點。
+
+## 定稿＋排程（2026-10-22，製作師決定）：Nanami N-07 第 1 張改用 B2，排程 10/24 08:00
+
+- 製作師：用 B2（去紅 6 成，追加 332 `p1_J`）取代定稿，文案照原版，排 10/24 08:00。
+- 定稿檔：`社群媒體/nanami/nanami_post7_pink1_front_jobbcd42ad5_tone.jpg`（1776×2368、JPEG 95；舊檔 `_job331c7e83` 已從 repo 與備份移除），備份同步、逐檔一致。
+- 型錄：`catalog/img/nanami7_pink1.jpg` 換成 B2，index.html 的 src 加 `?v=2` 破快取。
+- 公開網址：第 1 張 media `f6864c42-0e74-4299-8cb8-889bc6f32ea1`、第 2 張 media `60621111`（已確認可讀）。
+- 排程：2026-10-24 08:00 台北時間、Instagram（POST、isAiGenerated）＋Threads、2 張輪播（第 1 張正面、第 2 張坐地），Metricool 貼文編號 403021985（uuid -5144981146865417416），Nanami brand 7436561。
+- 文案（原版，製作師確認）：
+  > 老公的白襯衫……全部變成粉紅色了😭
+  > 都是一件紅色的小毛巾混進去
+  > 這還救得回來嗎？在線等，很急！！
+- POST_IDEAS N-07 已更新檔名與排程資訊。
