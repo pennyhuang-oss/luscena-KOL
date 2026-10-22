@@ -5231,3 +5231,8 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 三張並排（Pass 2｜貼回版｜第 2 張定稿）：nmeas/p1_C3_cmp.jpg；頭部放大 nmeas/p1_C3_head_zoom.jpg。
 - 狀態：候選，等製作師看。若 OK → 定稿後步驟（存檔、型錄、POST_IDEAS、排程 10/24 08:00、文案確認）。
 - 點數：3 點（NB Pro 2＋Seedream 1；被擋通常退點）。
+
+## 追加 321（2026-10-22，本地端）：Wendy 身形參考維持現狀
+
+- 製作師：Wendy 身形參考維持現狀就好（正面大腿不加寬）。定稿仍為 `wendy_body_front_job883d828a.jpg`／`wendy_body_side_job92349cd1.jpg`。
+- 點數：0 點。
