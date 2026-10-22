@@ -5357,3 +5357,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖（BA 四連 nmeas/BA_I_face.jpg：基準｜BEFORE｜A｜B；全圖 nmeas/BA_I_full.jpg）：B 的臉頰紅暈退到接近定稿、唇色變自然粉；A 幾乎看不出差別。
 - 狀態：候選，建議 B；等製作師看。若採用 B → 取代定稿檔（改名 `_jobbcd42ad5_tone`）、備份、型錄 img、重新上傳公開網址；排程待文案確認。
 - 點數：2 點。
+
+## 追加 330（2026-10-22，本地端）：Vicky V-07 健身房三張定稿＋文案三版
+
+- 製作師：看不太出換臉差異，原本的就不錯；採用執行者建議的三張（第 1 張白高筒襪＋白布鞋版 `fd5027ee`、第 2 張原圖 `d7028f61`、第 3 張原圖第 3 版 `6cc8aa6d`），出文案。追加 325～328 的換臉版不採用。
+- 存檔（PNG 轉 JPG）：`社群媒體/vicky/vicky_post7_gym1_plate_squat_jobfd5027ee.jpg`（1792×2400）、`vicky_post7_gym2_barbell_squat_jobd7028f61.jpg`（1792×2400）、`vicky_post7_gym3_pov_spot_job6cc8aa6d.jpg`（1776×2368）。
+- 備份：`Documents\Luscena_KOL_定稿備份\vicky\` 三張，逐檔比對一致；備份資料夾與 repo `社群媒體/vicky/` 清單一致。
+- 文案：POST_IDEAS 新增 V-07（A 課表＋換你／B 數數＋臉紅（建議）／C 問大家），時段建議 10/25（日）18:00。
+- 點數：0 點。
