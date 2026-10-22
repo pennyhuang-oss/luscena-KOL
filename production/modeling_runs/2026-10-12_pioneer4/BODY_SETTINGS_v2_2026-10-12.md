@@ -26,7 +26,7 @@
 | Kanon Komori | `kanon_body_front_job5e868709.jpg` | `kanon_body_side_job4805c7a7.jpg` | 製作師 2026-10-22 | 先出側面（Nano Banana Pro＋Kanon v4 Element、文字比例規格），再以側面當參考生成正面（REPORT 追加 284～291） |
 | Vicky Lin | — | — | 製作中 | REPORT 追加 285～293 |
 | Wendy Yeo | — | — | 製作中 | REPORT 追加 285～288 |
-| Nanami Fujiwara | `nanami_body_front_job693e4809.jpg` | 候選 `42685e11`（待製作師定） | 正面：製作師 2026-10-22 | 先畫比例線稿（頭高為單位，依已發文圖 3D 量測＋製作師修正肩／小腿／腰，v3），線稿＋253n 臉用 Seedream 5.0 Flash 轉真人，再用 Flash 把胸縮到 E；側面以正面定稿當參考用 Flash 生成（REPORT 追加 280～297） |
+| Nanami Fujiwara | `nanami_body_front_job693e4809.jpg` | `nanami_body_side_job42685e11.jpg` | 製作師 2026-10-22 | 先畫比例線稿（頭高為單位，依已發文圖 3D 量測＋製作師修正肩／小腿／腰，v3），線稿＋253n 臉用 Seedream 5.0 Flash 轉真人，再用 Flash 把胸縮到 E；側面以正面定稿當參考用 Flash 生成（REPORT 追加 280～297） |
 
 - 已知小差異（製作師接受）：Kanon 正面兩眼下各有一顆痣（設定只有一顆），用來對身形時不影響。
 

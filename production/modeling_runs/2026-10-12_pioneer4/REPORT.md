@@ -4934,3 +4934,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照（正面定稿｜側面，同高）：執行者端 nmeas/side_cmp.jpg。
 - 狀態：側面候選，等製作師定；定案後存 `nanami_body_side_job42685e11.jpg`＋備份、補 §1.5。
 - 點數：以帳上實際扣款為準（Flash 1 張）。
+
+## 定稿（2026-10-22，製作師決定）：Nanami 身形參考側面
+
+- 製作師：側面定案，存進 repo，然後回頭調 N-07 第 1 張。
+- `42685e11` → `社群媒體/身形參考/nanami_body_side_job42685e11.jpg`（1776×2368、JPEG 95），備份 `Documents\Luscena_KOL_定稿備份\身形參考\` 同步；BODY_SETTINGS §1.5 Nanami 列正面＋側面皆定稿。
+- 之後 Nanami 出圖對身形：圖 2＝正面定稿、（需要時）圖 3＝側面定稿，只當身形參考。
