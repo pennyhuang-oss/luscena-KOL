@@ -5382,3 +5382,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照（標籤燒在圖上）：臉四連 nmeas/BA_J_face.jpg（基準｜BEFORE｜B｜B2）；全圖 nmeas/BA_J_full.jpg（BEFORE｜B2｜定稿）。
 - 狀態：候選，等製作師看；要再微調可直接說比例（例如 5 成或 7 成）。
 - 點數：0 點。
+
+## 追加 333（2026-10-22，本地端）：V-07 排程發布（今天 19:00）＋型錄同步
+
+- 製作師：V-07 文案用 B2；排今天 19:00。
+- 圖片：三張定稿 JPG 上傳 Higgsfield 取公開網址（media `c82f0215-0474-4bc4-a2e9-6e0d527000ef`、`e0fb3cf4-cf8e-4238-8116-fa9661ea99e0`、`3fe58b33-dd41-4e79-9fdc-db34152ca803`）。
+- Metricool：Vicky brand 7436560，2026-10-22 19:00 Asia/Taipei，Instagram（POST、isAiGenerated true）＋Threads，3 張輪播，貼文編號 403019716（uuid -3092587289974455237），18:49 排入，兩平台狀態 PENDING。
+- 文案（實際送出）：
+  > 學員說：教練妳幫我扶著，我一定推得起來。
+  > 結果我一扶，他臉紅到推不動😂 是不是重量放太重了？
+- 型錄：Vicky 第 7 格（3 張並排 `.triple`，`catalog/img/vicky_gym1～3.jpg`），發布時間 10/22 19:00。
+- POST_IDEAS V-07 改為定稿＋排程資訊。
+- 點數：0 點。
