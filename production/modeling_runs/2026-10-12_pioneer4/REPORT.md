@@ -4621,3 +4621,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照（胸加大版上、收肩版下，同高）：執行者端 nmeas/sh_cmp.jpg。
 - 狀態：收肩沒成功，等製作師決定下一步（換 Seedream 5.0 Flash／Grok Image 2.0 各試一張，或只在本機收肩這一項）。
 - 點數：2 點。
+
+## 追加 277（2026-10-22，本地端）：四人下一則企劃
+
+- 製作師：繼續規劃四人今天的貼文。
+- Metricool 查 10/22～11/05：只剩 Wendy W-06 今晚 18:00；Nanami N-06 今早 08:00 已發；Kanon、Vicky 沒有排程。
+- 提案寫進 POST_IDEAS「下一則企劃（2026-10-22）」：Kanon K-07 東區拍大頭貼（10/23 20:00）、Vicky V-07 旗津沙灘排球（10/25 18:00）、Wendy W-07 週一黑絲／膚色二選一（10/26 08:00，沿用 10/20 提案）、Nanami 先完成 N-07（10/24 08:00），之後接北投泡湯。
+- 狀態：PROPOSED，待製作師。
+- 點數：0 點。
