@@ -4795,3 +4795,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 檔案：執行者端 nsketch/nanami_proportion_sketch_v2.png（1536×2048）。v1 作廢。
 - 狀態：等製作師看。
 - 點數：0 點。
+
+## 追加 288（2026-10-22，本地端）：Kanon／Vicky／Wendy 身形參考——取回剩下 4 張
+
+- 製作師開放查進度權限後取回（接追加 286）：
+  - Kanon 正面 Seedream 4.5 `41ef5f8c`：⚠️ 衣服變成黑色連身泳衣（側面是兩截式，不一致）；人在畫面中偏小、上方留白多；雙馬尾 ✅、兩腳幾乎併攏；身形纖細、腰細。
+  - Vicky 正面 Seedream 4.5 `4c18a4ce`：⚠️ 臀和大腿過寬過粗（臀寬明顯超過肩寬），比設定誇張；下身高衩；胸大 ✅、站姿正面對稱 ✅。
+  - Wendy 正面 Seedream 4.5 `f22439da`：⚠️ 衣服變成黑色連身泳衣；銀灰髮、黑框眼鏡 ✅；高挑、腿長、骨感 ✅；兩腳併攏。
+  - Wendy 側面 Nano Banana Pro `7db1125f`：**失敗**（無圖）。
+- 等高並排（Kanon 正｜Kanon 側｜Vicky 正｜Vicky 側｜Wendy 正）：執行者端 bodyref/all5.jpg。
+- 狀態：候選，等製作師看。臉尚未核對（製作師 OK 後再對臉）。
+- 點數：以帳上實際扣款為準。
