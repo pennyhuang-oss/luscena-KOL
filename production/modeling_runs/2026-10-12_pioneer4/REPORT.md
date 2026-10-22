@@ -5365,3 +5365,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 備份：`Documents\Luscena_KOL_定稿備份\vicky\` 三張，逐檔比對一致；備份資料夾與 repo `社群媒體/vicky/` 清單一致。
 - 文案：POST_IDEAS 新增 V-07（A 課表＋換你／B 數數＋臉紅（建議）／C 問大家），時段建議 10/25（日）18:00。
 - 點數：0 點。
+
+## 追加 331（2026-10-22，本地端）：V-07 文案參考對標帳號運動類貼文重寫
+
+- 製作師：參考之前對標的幾個帳號怎麼寫。
+- 從四帳號全部貼文篩運動類關鍵字（健身、深蹲、跑步、運動、教練、瑜伽、流汗、腹肌等，排除串文回覆），依讚數排序：yuan 7 篇、mina 5 篇、ariel 3 篇、eiko 4 篇。
+- 歸納：yuan 運動文（晨跑）讚數最高，短、日記口吻、具體數字、早安、💪；mina 一句話自嘲＋反轉、常引用教練台詞，20～40 字；ariel 隨口一句中等；eiko 英文＋hashtag 低。
+- POST_IDEAS V-07 新增依對標改寫的 A2（數字日記）／B2（學員台詞＋反轉，建議）／C2（第一人稱短版）。
+- 點數：0 點。
