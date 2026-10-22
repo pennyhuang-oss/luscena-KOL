@@ -4806,3 +4806,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 等高並排（Kanon 正｜Kanon 側｜Vicky 正｜Vicky 側｜Wendy 正）：執行者端 bodyref/all5.jpg。
 - 狀態：候選，等製作師看。臉尚未核對（製作師 OK 後再對臉）。
 - 點數：以帳上實際扣款為準。
+
+## 追加 289（2026-10-22，本地端）：Nanami 比例線稿 v3——腰依超市圖收窄
+
+- 製作師：腰參考超市推車那張（`nanami_img5_jobdd0fffae_supermarket`，背面 3/4、拿大黃瓜回頭）。
+- 那張目測：腰最窄處約為牛仔褲臀最寬處的 0.6，腰線高、往臀部的曲線明顯（3/4 背面＋扭腰會放大臀寬，取保守值）。
+- v3 改動（頭高＝1）：腰 1.00 → **0.92**（＝0.6×臀 1.54、0.61×胸 1.52）；胸下到腰收得更快、腰到臀的外擴更明顯（沙漏更強）。其他同 v2（肩 1.45、髖關節 1.10、臀 1.54、大腿 1.62、小腿 1.88、髖關節離地 52%）。
+- 檔案：執行者端 nsketch/nanami_proportion_sketch_v3.png（1536×2048）。v2 作廢。
+- 狀態：等製作師看。
+- 點數：0 點。
