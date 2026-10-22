@@ -4887,3 +4887,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照（線稿｜Flash｜Seedream 4.5，同高）：執行者端 nmeas/sk_three.jpg。
 - 狀態：候選，等製作師看 Flash 版；若採用，下一步可只把胸縮到 E（Flash 以此圖為底局部改）再定案。
 - 點數：1 點（Seedream 4.5）＋ Flash 以帳上實際扣款為準；被擋通常退點。
+
+## 追加 294（2026-10-22，本地端）：Kanon 身形參考定稿
+
+- 製作師：花音的圖定稿，當作之後身形比例的參考。
+- 存檔（2k 原圖轉 JPG）：`社群媒體/身形參考/kanon_body_front_job5e868709.jpg`（正面，追加 290）、`kanon_body_side_job4805c7a7.jpg`（側面，追加 286）。新增資料夾 `社群媒體/身形參考/`，之後四人的身形參考都放這裡。
+- 備份：`Documents\Luscena_KOL_定稿備份\身形參考\` 兩張，逐檔比對一致。
+- 文件：BODY_SETTINGS_v2 新增 §1.5「身形比例參考圖」；METHODS_PLAYBOOK §1 新增「身形比例參考圖」一列（先出側面、再由側面生成正面；正面直接出易被擋）。
+- 更正：commit 01c599f 誤把未追蹤的 `社群媒體/參考圖/` 一起加進版控，本次已從版控移除（本機檔案不動）；01c599f 的 REPORT 段落當時沒寫進去，本段補上。
+- 點數：0 點。
