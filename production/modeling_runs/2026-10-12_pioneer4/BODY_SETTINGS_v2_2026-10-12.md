@@ -25,7 +25,7 @@
 |---|---|---|---|---|
 | Kanon Komori | `kanon_body_front_job5e868709.jpg` | `kanon_body_side_job4805c7a7.jpg` | 製作師 2026-10-22 | 先出側面（Nano Banana Pro＋Kanon v4 Element、文字比例規格），再以側面當參考生成正面（REPORT 追加 284～291） |
 | Vicky Lin | `vicky_body_front_jobe4a01981.jpg` | `vicky_body_side_job0b2bf642.jpg` | 製作師 2026-10-22 | 文字描述版（依已發文三張）腿偏短、胸偏小 → 轉線稿（指尖以下到腳踝拉長使腿 +15%、胸放射狀放大）→ 側面 Seedream 5.0 Flash 轉真人、正面以新側面＋正面線稿用 Nano Banana Pro＋Element 生成 → 兩張 Nano Banana Pro 換臉（泳池定稿頭部）。髖關節到腳踝約 55.5%（REPORT 追加 285～302） |
-| Wendy Yeo | — | — | 製作中 | REPORT 追加 285～288 |
+| Wendy Yeo | `wendy_body_front_job883d828a.jpg` | `wendy_body_side_job92349cd1.jpg` | 製作師 2026-10-22 | 先出側面（Nano Banana Pro＋Wendy Element）；由側面生成正面時 Nano Banana Pro 被擋，改 Seedream 5.0 Flash；製作師嫌太瘦，以 W-05 飯店書桌圖當身形參考用 Flash 補肉感；側面照新正面重做、再縮胸轉回純側面。採換臉前版本（換臉後髮型、五官不採用）。髖關節到腳踝約 54%（REPORT 追加 286～314） |
 | Nanami Fujiwara | `nanami_body_front_job693e4809.jpg` | `nanami_body_side_job42685e11.jpg` | 製作師 2026-10-22 | 先畫比例線稿（頭高為單位，依已發文圖 3D 量測＋製作師修正肩／小腿／腰，v3），線稿＋253n 臉用 Seedream 5.0 Flash 轉真人，再用 Flash 把胸縮到 E；側面以正面定稿當參考用 Flash 生成（REPORT 追加 280～297） |
 
 - 已知小差異（製作師接受）：Kanon 正面兩眼下各有一顆痣（設定只有一顆），用來對身形時不影響。

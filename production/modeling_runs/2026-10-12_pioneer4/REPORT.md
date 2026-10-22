@@ -5149,3 +5149,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 三張並排（A2｜B2｜第 2 張定稿，同高）：執行者端 nmeas/p1_AB2_cmp.jpg。
 - 狀態：兩版候選，等製作師看。
 - 點數：以帳上實際扣款為準（Flash 2 張）。
+
+## 追加 315（2026-10-22，本地端）：Wendy 身形參考定稿（換臉前版本）
+
+- 製作師：用換臉前的版本。
+- 存檔（2k 原圖轉 JPG）：`社群媒體/身形參考/wendy_body_front_job883d828a.jpg`（正面，追加 307）、`wendy_body_side_job92349cd1.jpg`（側面，追加 309）。換臉第 1、2 次（追加 310、313）不採用。
+- 備份：`Documents\Luscena_KOL_定稿備份\身形參考\` 兩張，逐檔比對一致；備份資料夾與 repo `社群媒體/身形參考/` 檔案清單一致。
+- 文件：BODY_SETTINGS_v2 §1.5 Wendy 一列補上檔名與做法。四人身形參考全部到齊（Kanon、Vicky、Wendy、Nanami）。
+- 點數：0 點。
