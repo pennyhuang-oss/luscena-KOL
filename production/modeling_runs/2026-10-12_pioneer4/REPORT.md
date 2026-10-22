@@ -4983,3 +4983,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照：執行者端 bodyref/vicky_face_cmp.jpg（修前）、vicky_face_cmp2.jpg（換臉後）、vicky_body_cmp4.jpg（全身前後）。
 - 狀態：等製作師看換臉版。
 - 點數：4 點。
+
+## 追加 302（2026-10-22，本地端）：Vicky 身形參考定稿
+
+- 製作師：Vicky 換臉版可以，定稿當身形參考。
+- 存檔（2k 原圖轉 JPG）：`社群媒體/身形參考/vicky_body_front_jobe4a01981.jpg`（正面）、`vicky_body_side_job0b2bf642.jpg`（側面），追加 301 換臉版。
+- 備份：`Documents\Luscena_KOL_定稿備份\身形參考\` 兩張，逐檔比對一致。
+- 文件：BODY_SETTINGS_v2 §1.5 Vicky 一列補上檔名與做法；METHODS_PLAYBOOK「身形比例參考圖」一列補「成品轉線稿改腿長／胸」的做法與結果。
+- 剩 Wendy 的身形參考未完成（正面 Seedream 4.5 是連身泳衣、側面失敗，追加 288）。
+- 點數：0 點。

@@ -24,7 +24,7 @@
 | 角色 | 正面 | 側面 | 定稿 | 做法 |
 |---|---|---|---|---|
 | Kanon Komori | `kanon_body_front_job5e868709.jpg` | `kanon_body_side_job4805c7a7.jpg` | 製作師 2026-10-22 | 先出側面（Nano Banana Pro＋Kanon v4 Element、文字比例規格），再以側面當參考生成正面（REPORT 追加 284～291） |
-| Vicky Lin | — | — | 製作中 | REPORT 追加 285～293 |
+| Vicky Lin | `vicky_body_front_jobe4a01981.jpg` | `vicky_body_side_job0b2bf642.jpg` | 製作師 2026-10-22 | 文字描述版（依已發文三張）腿偏短、胸偏小 → 轉線稿（指尖以下到腳踝拉長使腿 +15%、胸放射狀放大）→ 側面 Seedream 5.0 Flash 轉真人、正面以新側面＋正面線稿用 Nano Banana Pro＋Element 生成 → 兩張 Nano Banana Pro 換臉（泳池定稿頭部）。髖關節到腳踝約 55.5%（REPORT 追加 285～302） |
 | Wendy Yeo | — | — | 製作中 | REPORT 追加 285～288 |
 | Nanami Fujiwara | `nanami_body_front_job693e4809.jpg` | `nanami_body_side_job42685e11.jpg` | 製作師 2026-10-22 | 先畫比例線稿（頭高為單位，依已發文圖 3D 量測＋製作師修正肩／小腿／腰，v3），線稿＋253n 臉用 Seedream 5.0 Flash 轉真人，再用 Flash 把胸縮到 E；側面以正面定稿當參考用 Flash 生成（REPORT 追加 280～297） |
 
