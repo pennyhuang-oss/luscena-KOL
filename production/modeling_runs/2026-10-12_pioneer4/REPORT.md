@@ -5540,3 +5540,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 修正：第 2、4 張下巴痣本機小範圍 inpaint 去掉 → 執行者端 batch1027/k2_dress_m2.png、k4_tw_m2.png；臉部放大 k24_mole_fixed2.jpg，九張定稿臉 kanon_finals_faces.jpg。
 - **Kanon 痣規格補充：只有右眼下一顆（畫面左邊），下巴、臉頰都沒有。**
 - 點數：0 點。
+
+## 追加 345（2026-10-27，本地端）：Kanon 第 2、4 張右眼下痣調淡
+
+- 製作師：之前痣只有淡淡的，現在太明顯。
+- 量測（Lab 亮度，痣中心比周圍皮膚暗多少）：已定稿的玄關、蛋糕、萬聖節小惡魔、甜甜圈第 2 張約 20～70（多在 30～60），偏灰褐；第 2、4 張新圖分別 152、120，接近純黑。
+- 做法：本機只動痣——先 inpaint 出無痣的皮膚，再把原痣以約 0.3 倍強度疊回（邊緣微柔、色調往褐色偏），兩張都調到約 40，大小不變。
+- 檔案（執行者端 batch1027）：k2_dress_m3.png、k4_tw_m3.png；對照 k24_mole_soft.jpg（調淡前／後放大）、Kanon_4_2_now.jpg（兩張目前版本）。
+- **Kanon 痣規格補充：右眼下一顆，淡淡的灰褐色小點，不要純黑。** 之後新圖要檢查並調淡。
+- 點數：0 點。
