@@ -5407,3 +5407,21 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   > 都是一件紅色的小毛巾混進去
   > 這還救得回來嗎？在線等，很急！！
 - POST_IDEAS N-07 已更新檔名與排程資訊。
+
+## 追加 334（2026-10-27，本地端）：四人各 4 張撩人情境圖（文案未寫、服裝場景自由）
+
+- 製作師：每個人各生 4 張圖，文案先不用想，有撩就好，服裝場景隨意。
+- 做法：全部 Nano Banana Pro 3:4、各 1 張；prompt 內嵌各自 Element，圖 1＝各自正面身形定稿（只取身形；Kanon 不放身形圖）；美肌依 §2.5（Wendy／Vicky／Nanami 輕美肌，Kanon 重磨皮）。Kanon 依 POST_IDEAS 守線（長相偏稚氣）只做可愛型撩（比心、餵你、撐傘），全身穿著完整、不做性感姿勢。
+- Element：Wendy `19f44c28-fb6b-45e1-bd13-6b88a5223dd8`、Vicky `325284ce-670c-4efd-a8a9-2773ad0c53f7`、Nanami `825a3a16-c9ff-4fb7-992e-840b883fd1bb`、Kanon v4 `38c439f5-d90e-4038-b3cd-97b8e1f7c6f3`。
+  - 執行者失誤：Vicky 第一次填成 `d86a3d4a`（那是 job，不是 Element），4 張送出即被拒、未扣點；改正後重送。
+- 結果（job）：
+  - Wendy：1 深夜辦公室坐桌邊翹腿黑絲 `a4196ca2-a2d2-41e8-95da-0a36cde241b2`｜2 飯店酒吧黑色細肩帶洋裝回眸 `6f6ba2e6-0184-4af5-942e-dcd2858fd9bb`｜3 電梯鏡子黑絲全身 `e10e9d7e-a40c-4c7d-9054-b254ee7c69cb`｜4 深夜在家穿男襯衫窩沙發 `5b2148e0-cae7-4e77-9bc8-028901a9c03d`
+  - Vicky：1 更衣室鏡子自拍 `ef56be92-227f-4d27-abc1-7dea3d2c9e6c`｜2 旗津沙灘排球 `27de1628-5d66-4350-9fd7-f6e23469f76d`｜3 瑜伽教室第一人稱伸手拉你 `542951c7-0e0e-433c-844d-71aac6b797b4`｜4 晨間洗完澡喝高蛋白 `65e7387d-eff1-4dac-9645-a86fa43bf366`
+  - Nanami：1 廚房圍裙餵湯、肩帶滑落 `2bc5e5c7-212c-42ef-be1f-20ad64ea9b25`｜2 陽台晾衣毛衣滑肩咬夾子 `1c065525-5668-4b71-b3e7-2373ddb859f5`｜3 北投溫泉旅館浴衣捧茶 `29fbe3a1-7f04-406c-9337-28fded17fd3c`｜4 雨天沙發遞餅乾 `21296f53-4e62-4296-b3c9-1217b9bda6dd`
+  - Kanon：1 房間比愛心嘟嘴 `b5488f0f-488f-4e13-86ef-ce6c09ae50e2`｜2 甜點店拿芭菲眨眼 `a086081d-e515-40a6-9646-a832f64367bb`｜3 夾娃娃機抱兔子比 YA `e384e9d5-3bac-4ea3-9fcc-67c06887cb80`｜4 雨天撐傘 `d4bbb2ce-9dd8-4116-9f13-a4ddad4846bc`（原第 4 張「門後抱枕頭不讓你走」`53a104a1` 被判 NSFW，改此場景）
+- 看圖要注意：
+  - Kanon 1、2 背景出現三麗鷗角色（酷洛米、美樂蒂、Hello Kitty）的玩偶與裝飾，是真實 IP，發文前要換掉或裁掉；Kanon 3、4 招牌是日文，不像西門町。
+  - Kanon 2 是她自己吃，不是餵向鏡頭。
+  - Wendy 4 髮型變成短髮綁起，和其他三張不同。
+- 拼圖（每人一張、標號燒在圖上）：執行者端 batch1027/Wendy_4.jpg、Vicky_4.jpg、Nanami_4.jpg、Kanon_4.jpg；原圖同資料夾。皆為候選，未進 社群媒體/。
+- 點數：16 張成功 × 2 ＝ 32 點（被擋 1 張通常退點）。
