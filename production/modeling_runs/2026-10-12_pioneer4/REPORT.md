@@ -5566,3 +5566,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 兩張是本機修過痣的版本，先用 Higgsfield media 上傳取得公開網址（media d1391f56、588c4026）再給 Metricool。
 - 排程：2026-10-27 20:00（Asia/Taipei，Kanon 原本的晚上時段），Instagram（isAiGenerated）＋Threads，2 張輪播（撐傘在前、聖代在後），Metricool 貼文編號 407555741。
 - 型錄：catalog/img/kanon7_rain1.jpg、kanon7_rain2.jpg，Kanon 第 7 格兩張並排。POST_IDEAS K-07 已更新。
+
+## 追加 348（2026-10-27，本地端）：Vicky 改成健身房更衣室準備換衣服
+
+- 製作師：Vicky 改在健身房更衣室準備換衣服。
+- 以追加 334 的第 1 張（更衣室鏡子自拍 ef56be92）為場景、衣服參考，身形參考＝Vicky 正面身形定稿 e4a01981，prompt 內嵌 Vicky Element 325284ce，輕美肌。照 Vicky 文案規則：她沒察覺有人在看，做成朋友隨手拍、不是自拍。
+- 送出時選 nano_banana_pro，但任務紀錄顯示實際跑的是 nano_banana_2。
+- 第 1 次（job 47ff063f-4a0f-4458-9094-4e987c14cb2c）：雙手交叉抓運動內衣下緣往上拉 → 結果變成手臂交叉抱在胸下，看不出在換衣服，不採用。
+- 第 2 次（job db010227-4012-4108-bf59-1d04e4cacc04）：以第 1 次為底，加一件寬白 T 恤套在運動內衣外，雙手抓下襬往上掀到胸下 → 看得出正要脫 T 恤換衣服；露出腹肌與黑色運動內衣下緣。場景：打開的置物櫃、門上掛毛巾、長椅上健身包和換洗衣物、背後洗手台與鏡子。
+- 待注意：胸、臀比身形定稿小一圈；雙手是直接抓下襬往上掀，不是交叉。
+- 檔案（執行者端 batch1027）：v1_change.png、v1_change2.png；對照 BA_v1_change2.jpg（標籤燒在圖上）。
+- 點數：nano_banana 兩張。
