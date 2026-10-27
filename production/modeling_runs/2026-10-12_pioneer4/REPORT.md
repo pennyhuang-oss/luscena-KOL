@@ -5514,3 +5514,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 存檔：`社群媒體/nanami/nanami_post8_balcony_laundry_job25bb6d19.jpg`（PNG 轉 JPG q95，1776×2368），已備份到 `Documents\Luscena_KOL_定稿備份\nanami\`。
 - 文案 A／B／C 寫在 POST_IDEAS N-08，待製作師選；選定後再同步型錄、排程。
 - 點數：0 點。
+
+## 追加 342（2026-10-27，本地端）：Nanami N-08 文案定稿＋排程
+
+- 製作師：方向改成「颱風過了終於可以晾衣服了」；執行者寫 D／E／F，製作師選 D 並拿掉最後一句。
+- 定稿文案：
+  > 颱風終於走了，衣服堆了好幾天，今天總算可以拿出來曬了☀️
+  > 這次我有把夾子夾好，應該不會再掉下去了吧……
+- 排程：2026-10-27 18:00（Asia/Taipei），Instagram（isAiGenerated）＋Threads，單張，Metricool 貼文編號 407539997。
+- 型錄：catalog/img/nanami8_balcony.jpg（960×1280），Nanami 第 8 格。POST_IDEAS N-08 已更新。
