@@ -5494,3 +5494,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照圖：batch1027/BA_n2_fix3.jpg、waist_zoom3.jpg（標籤已燒在圖上）。
 - 經驗：Flash 改腰寬，「slightly」幾乎無效，要寫明百分比和「wasp-like／sharp pinch」這類負面描述才會動。
 - 點數：Flash 兩張。
+
+## 追加 340（2026-10-27，本地端）：Nanami 陽台晾衣——臀部改小、腰收回一點
+
+- 製作師：臀部修小一點，肚子那邊修回來一點。
+- 底圖：追加 339 的腰加寬版（job 22b8bfef）。
+- 第 1 次 Seedream 5.0 Flash（job dd8d0c02-7fc4-4418-af48-339d211405cb）：寫明臀部窄約 10%、腰窄約 5%。放大比對，臀寬、腰寬和底圖幾乎一樣，沒改到，作廢。
+- 第 2 次 Grok Image 2.0（job 25bb6d19-45d7-41b9-8297-257581d0b8d7）：寫明臀部每側窄約 12%、腰每側窄約 6%。
+  - 臀部外緣往內收約 5～7%，看起來比上一版小一點，仍圓翹。
+  - 腰寬幾乎沒變，仍是加寬後的寬度。
+  - 整體對比、飽和稍高；臉、表情、手、場景不變。
+- 對照圖：batch1027/BA_n2_fix5.jpg、waist_zoom5.jpg（三版：腰加寬前／上一版／Grok 版，標籤燒在圖上）。
+- 經驗：Flash 改「縮小」幾乎不動，「加大」才會動；Grok 縮臀有效但幅度只到要求的一半左右。
+- 點數：Flash 一張、Grok 一張。
