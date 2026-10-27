@@ -5483,3 +5483,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照圖：batch1027/BA_n2_fix1.jpg（標籤已燒在圖上）。
 - 待製作師確認：臀部的幅度是否剛好（若嫌太多，可用同底圖、改寫成 slightly rounder 再出一張）。
 - 點數：Flash 一張。
+
+## 追加 339（2026-10-27，本地端）：Nanami 陽台晾衣——腰改寬一點
+
+- 製作師：腰太細，再修回來一點，其他可以。
+- 第 1 次（job 6212585d-b5c6-41f1-ac79-793c7ea3afe8）：Seedream 5.0 Flash，底圖＝追加 338（job 577e8587），prompt 寫「slightly wider and softer」。放大比對腰幾乎沒變，作廢。
+- 第 2 次（job 22b8bfef-8b0d-4bf8-b476-237590c48e82）：同底圖，改寫成「too tiny and wasp-like… about 15% wider on both sides… gentle inward curve instead of a sharp pinch」，並要求褲頭跟著變寬。
+  - 腰部放大比對：露出的那截腰兩側都往外，約寬 10～15%，褲頭跟著變寬，腰到臀的轉折變緩。
+  - 副作用：臀部整體也略變寬、變大一點；臉、表情、手、場景、光線不變。
+- 對照圖：batch1027/BA_n2_fix3.jpg、waist_zoom3.jpg（標籤已燒在圖上）。
+- 經驗：Flash 改腰寬，「slightly」幾乎無效，要寫明百分比和「wasp-like／sharp pinch」這類負面描述才會動。
+- 點數：Flash 兩張。
