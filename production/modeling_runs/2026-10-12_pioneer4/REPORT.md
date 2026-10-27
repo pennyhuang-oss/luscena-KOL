@@ -5556,3 +5556,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 存檔：`社群媒體/kanon/kanon_post7_rain1_umbrella_job4b3a31ca.jpg`（第 1 張）、`kanon_post7_rain2_parfait_job503fa7bf.jpg`（第 2 張），皆為追加 345 痣調淡後的版本（PNG 轉 JPG q95），已備份到 `Documents\Luscena_KOL_定稿備份\kanon\`。
 - 文案 A／B／C 寫在 POST_IDEAS K-07，待製作師選。
 - 點數：0 點。
+
+## 追加 347（2026-10-27，本地端）：Kanon K-07 文案定稿＋排程
+
+- 製作師選 C：
+  > 颱風天大家都在幹嘛呢🌀
+  > 花音在吃最喜歡的草莓聖代🍓🍨✨
+  > 什麼？颱風已經過了？……哥哥再說一次試試看😈
+- 兩張是本機修過痣的版本，先用 Higgsfield media 上傳取得公開網址（media d1391f56、588c4026）再給 Metricool。
+- 排程：2026-10-27 20:00（Asia/Taipei，Kanon 原本的晚上時段），Instagram（isAiGenerated）＋Threads，2 張輪播（撐傘在前、聖代在後），Metricool 貼文編號 407555741。
+- 型錄：catalog/img/kanon7_rain1.jpg、kanon7_rain2.jpg，Kanon 第 7 格兩張並排。POST_IDEAS K-07 已更新。
