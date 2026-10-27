@@ -5532,3 +5532,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 痣：Kanon 固定規格＝右眼下一顆（畫面左邊）＋下巴一顆小點（追加 137）。兩張 prompt 都寫了只留右眼下一顆，但模型沒照做：第 2 張兩眼下都有痣、右眼下另有一個小點；第 4 張兩眼下都有痣。本機小範圍 inpaint（TELEA，只修痣、不動身形）去掉左眼下的痣和第 2 張多出的小點 → 兩張都只剩右眼下一顆＋下巴一顆。
 - 檔案（執行者端 batch1027）：k4_tw_m.png、k2_dress_m.png；對照 BA_k4_final.jpg、BA_k2_final.jpg、k24_mole_fixed.jpg（標籤燒在圖上）。未進 社群媒體/，待製作師確認。
 - 點數：Flash 兩張。
+
+## 追加 344（2026-10-27，本地端）：Kanon 第 2、4 張去下巴痣
+
+- 製作師：她之前下巴沒痣吧。
+- 核對：Kanon 已定稿九張（玄關、貓爪、貓耳、蛋糕、沙發、甜甜圈兩張、萬聖節兩張）臉部並排，下巴都沒有痣，只有右眼下一顆。追加 343 誤把下巴小點當成要保留的特徵（是從 K-04 舊紀錄「右眼下那顆與下方小點」推的，那個小點是在眼下，不是下巴）。
+- 修正：第 2、4 張下巴痣本機小範圍 inpaint 去掉 → 執行者端 batch1027/k2_dress_m2.png、k4_tw_m2.png；臉部放大 k24_mole_fixed2.jpg，九張定稿臉 kanon_finals_faces.jpg。
+- **Kanon 痣規格補充：只有右眼下一顆（畫面左邊），下巴、臉頰都沒有。**
+- 點數：0 點。
