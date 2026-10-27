@@ -5507,3 +5507,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照圖：batch1027/BA_n2_fix5.jpg、waist_zoom5.jpg（三版：腰加寬前／上一版／Grok 版，標籤燒在圖上）。
 - 經驗：Flash 改「縮小」幾乎不動，「加大」才會動；Grok 縮臀有效但幅度只到要求的一半左右。
 - 點數：Flash 一張、Grok 一張。
+
+## 追加 341（2026-10-27，本地端）：Nanami 陽台晾衣定稿（N-08）
+
+- 製作師：這版定稿（追加 340 的 Grok 版，job 25bb6d19-45d7-41b9-8297-257581d0b8d7），給文案三個方向。
+- 存檔：`社群媒體/nanami/nanami_post8_balcony_laundry_job25bb6d19.jpg`（PNG 轉 JPG q95，1776×2368），已備份到 `Documents\Luscena_KOL_定稿備份\nanami\`。
+- 文案 A／B／C 寫在 POST_IDEAS N-08，待製作師選；選定後再同步型錄、排程。
+- 點數：0 點。
