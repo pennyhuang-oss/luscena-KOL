@@ -5549,3 +5549,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 檔案（執行者端 batch1027）：k2_dress_m3.png、k4_tw_m3.png；對照 k24_mole_soft.jpg（調淡前／後放大）、Kanon_4_2_now.jpg（兩張目前版本）。
 - **Kanon 痣規格補充：右眼下一顆，淡淡的灰褐色小點，不要純黑。** 之後新圖要檢查並調淡。
 - 點數：0 點。
+
+## 追加 346（2026-10-27，本地端）：Kanon K-07 兩張存檔＋文案三版
+
+- 製作師給文案方向（颱風天大家都在幹嘛，晚發但不准有意見；花音去喜歡的甜點店吃草莓聖代），視為兩張圖已通過。
+- 存檔：`社群媒體/kanon/kanon_post7_rain1_umbrella_job4b3a31ca.jpg`（第 1 張）、`kanon_post7_rain2_parfait_job503fa7bf.jpg`（第 2 張），皆為追加 345 痣調淡後的版本（PNG 轉 JPG q95），已備份到 `Documents\Luscena_KOL_定稿備份\kanon\`。
+- 文案 A／B／C 寫在 POST_IDEAS K-07，待製作師選。
+- 點數：0 點。
