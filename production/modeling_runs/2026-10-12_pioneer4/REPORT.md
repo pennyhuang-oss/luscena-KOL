@@ -5425,3 +5425,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - Wendy 4 髮型變成短髮綁起，和其他三張不同。
 - 拼圖（每人一張、標號燒在圖上）：執行者端 batch1027/Wendy_4.jpg、Vicky_4.jpg、Nanami_4.jpg、Kanon_4.jpg；原圖同資料夾。皆為候選，未進 社群媒體/。
 - 點數：16 張成功 × 2 ＝ 32 點（被擋 1 張通常退點）。
+
+## 定稿＋排程（2026-10-27，製作師決定）：Wendy W-07 收假前一晚飯店酒吧
+
+- 製作師：Wendy 用酒吧那張（追加 334 第 2 張 `6f6ba2e6-0184-4af5-942e-dcd2858fd9bb`），文案「四天連假過去了，又要上班……」方向；三版中選 C、拿掉最後一句，定稿。
+- 最終檔：`社群媒體/wendy/wendy_post7_bar_job6f6ba2e6.jpg`（1792×2400、JPEG 95，未後製）；備份 `Documents\Luscena_KOL_定稿備份\wendy\` 同步、逐檔一致。
+- 型錄：Wendy 第 7 格（`catalog/img/wendy7_bar.jpg`、單張＋配文＋「10/27 預定發布」）。
+- POST_IDEAS：新增 W-07；原 W-07 企劃（黑絲／膚色二選一）改名 W-08 順延。
+- 排程：2026-10-27 18:00 台北時間（製作師未指定，照 Wendy 預設），Instagram（POST、isAiGenerated）＋Threads，Metricool 貼文編號 407514719（uuid -3791508906306680352），Wendy brand 7436555；圖片用 Higgsfield 原圖網址。
+- 文案：
+  > 四天連假一下就沒了，又要上班……
+  > 你們收假前一晚都在幹嘛？
