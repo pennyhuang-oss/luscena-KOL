@@ -5655,3 +5655,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 提示詞（英文，送 Higgsfield）：
   > One continuous shot, no cuts, the camera moves smoothly the whole time. She holds the one-arm plank with her free hand on her hip, her supporting arm trembling, face straining, breathing hard. After about two seconds the supporting arm gives out; she exhales, drops onto the mat and curls up on her side in the pose shown in the reference image: lying on her side with her knees drawn up and her legs crossed, her head resting on her folded arms, panting, chest rising and falling. Use the reference image only for this side-lying pose, not for its overhead camera angle. After a short rest she slowly rolls onto her back: her left knee bends and rises, her right hand settles on her stomach, her left arm stretches out flat on the floor beside her, her head tilts back slightly; she keeps breathing heavily, eyes half closed looking up at the ceiling, mouth slightly open, sweat glistening on her skin. Meanwhile the camera glides slowly from its starting side view around toward her feet and lowers, ending low near her feet looking up along her body toward her head, with gentle perspective and her whole body in frame. Natural real-time speed, realistic body weight. Audio: heavy breathing, a soft thud on the mat, quiet gym ambience; no music, no speech.
 - 點數：0 點（尚未生成）。
+
+## 追加 357（2026-10-28，本地端）：Vicky 10 秒短片——Seedance 被擋（NSFW），已退點
+
+- 製作師：生成（追加 356 設定）。
+- 第一次送出被「IN THE DARK」preset 推薦攔下（未扣點），以 declined_preset_id 照原文重送 → job f800cd16-bc4b-4a33-9013-6666279fd0a4，約 4 分鐘後狀態 nsfw。扣 45 點後已全額退回（交易紀錄 refund 45）。
+- 推測觸發點：結尾鏡頭「從腳邊低處沿身體往上拍」＋仰躺立起一膝＋「半閉眼、嘴微張、頭往後仰、大口喘氣、胸口起伏、汗光」疊在一起。
+- 改寫提案（待製作師）：
+  - A（保留腳邊低角度）：拿掉嘴微張、半閉眼、頭往後仰、胸口起伏；改成睜眼、累得笑出來、用手背擦額頭的汗；鏡頭寫「在她腳邊稍高處、看到全身」，不寫「沿身體往上」。
+  - B（A 仍被擋時）：結尾鏡頭改成停在她身側、胸口高度拍全身。
+- 點數：0 點（已退）。
