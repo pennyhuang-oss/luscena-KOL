@@ -5706,3 +5706,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 第一版：L 整體平移 +14、彩度 ×0.8 → 黑地板被拉灰、畫面發霧，捨棄。
 - 採用：L 套 gamma 0.82（提亮中間調、保留暗部），a/b 彩度 ×0.82 → 平均 L 111.3，彩度 std 8.0/8.8，接近平板撐段。
 - 只做本機調色，沒有拉伸變形。檔案：c5_rest_graded.mp4、vicky_gym_montage_v3_graded.mp4、v3_grade_compare.jpg（前後對比，有標籤）。未花點數。
+
+## 追加 362（Vicky 健身剪輯 v4：加拉筋、抬腿＋調色，臥推段放大）
+
+- 製作師：「把拉筋跟抬腿也加進來，並調色」；中途「抬腿 zoom in」「先給我看圖」→ 看完首幀說「可以，繼續」；再來「c3 抓比例，胸部在視覺中心」（附截圖）。
+- 素材：拉筋＝V-01 形象照 job 314（墊上劈腿，vicky_v2_job314_10747f77.jpg）；抬腿＝空中瑜伽定稿（vicky_img5_yoga_aerial_split.jpg）。
+- 首幀：拉筋上傳 9d0f3441 → outpaint 9:16 b64c2151（2 點）。抬腿上傳 d920babb → outpaint da597e63（2 點，人太小，不用）→ 改本機把原圖裁 9:16（x 105–1455）上傳 eca5bcfc。對比圖 v4_startframes.jpg。
+- Seedance 2.0、4 秒、無音訊（各 18 點）：
+  - d8fb85fa 拉筋：start b64c2151。"She holds the side split on the yoga mat, reaching her arm overhead and slowly leaning deeper into the stretch, then breathes out and relaxes her shoulders. Camera stays still, like a phone propped on the floor. ..." → 動作幅度很小。
+  - ab11dae9 抬腿：start eca5bcfc。"... keeps one leg raised straight up in a standing split ... The camera slowly zooms in toward her." 第一次被系統推薦 Earth zoom in 預設（f7561a2d），declined 後照字面送出。結果：從遠景（她拉著布、腿側抬）一路推近到抬腿首幀構圖，腿抬起過程無變形 ✅。
+- 調色（本機，L 用 gamma 提亮中間調、a/b 平移到中性並降彩度）：拉筋 gamma 0.70、彩度 ×0.80 → L 71.7→99.1；抬腿 gamma 0.88、彩度 ×0.65 → L 98.1→106.2，a/b 134.9/137.5→129.8/130.2。對比圖 v4_grade_compare.jpg。
+- c3 臥推 POV：本機裁 crop=625:1111:48:75（放大約 1.15 倍，胸口置中）再縮回 720×1280。
+- v4（18.5 秒）：拉筋 0.5–2.7｜槓片 0–2.5｜槓鈴 1.0–3.3｜臥推(放大) 0.5–3.0｜抬腿 0.6–3.9｜平板撐 0–2.7｜側躺(調色) 0.5–3.5＋尾 0.3 秒淡出。無字幕、靜音音軌。
+- 本輪花費：outpaint 4＋Seedance 36＝40 點。
