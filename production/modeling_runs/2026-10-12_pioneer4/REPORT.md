@@ -5794,3 +5794,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 另存 9:16 裁切（x 105 起）`影片製作/vicky_gym_montage/legraise_final_916.jpg`，可當抬腿影片新首幀；對比圖 legraise_final_compare.jpg。
 - 第一～三版修臉（facefix / facefix2 / facefix3）不採用，檔案留在影片製作資料夾供參考。
 - 未花點數。抬腿影片尚未用新首幀重做。
+
+## 追加 370（Vicky 抬腿圖：差異其實在膚色）
+
+- 製作師：「重新看了一下，發現好像差的只有膚色而已」。
+- 量臉部膚色（臉頰橢圓、排除頭髮眼睛，Lab 中位數）：原圖 a 156／b 152、色相 40.6°；目前定稿 a 150、色相 46.3°；其他 Vicky 定稿 a 144–149、色相 49–59°（身形正面 49.6、大頭照 55.3、槓鈴 59.3、形象照 51.1、晨跑 49.4）。原圖明顯偏紅偏粉；製作師選的定稿（d755a203）五官跟原圖幾乎一樣，主要也是膚色變淡。
+- 試做（本機、未花點數）：舊原圖只調膚色——膚色區遮罩（a>136、色相 20–70°、彩度>12、L>50，羽化 σ6）a −8、b +1.5 → 臉部 a 148、色相 51.3°，落在其他定稿範圍。檔案 legraise_orig_skinfix_full.jpg；對比圖 legraise_skintone_compare.jpg（原圖／原圖只調膚色／目前定稿）。
+- 狀態：目前定稿仍是追加 369 版本；等製作師選要不要改用「原圖＋只調膚色」。
