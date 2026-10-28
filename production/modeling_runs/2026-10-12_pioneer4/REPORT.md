@@ -5885,3 +5885,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   > 吹直笛也可以去車站摻一腳嗎？哥哥會來聽吧🎀
 - 型錄：Kanon 第 8 格（`catalog/img/kanon8_flute.jpg`，960×1286），標 10/28 預定發布。
 - 點數：0 點。
+
+## 追加 379（Nanami 煮湯段重做：不皺眉、沒發現怪湯）
+
+- 製作師：「煮湯改不要皺眉，像是她從頭到尾都沒發現自己做出怪東西」。
+- Seedance 2.0、5 秒、9:16、無音訊，start 80b73ead → ed293a62（22.5 點）："In the kitchen she happily stirs the pot of purple steaming soup with the ladle, scoops some up, blows on it and looks at it with a proud, satisfied smile, nodding to herself, completely unaware that anything is wrong with the strange purple soup. Cheerful and content the whole time, no frowning. ..."
+- 結果 ✅：從頭笑到尾，攪湯→舀起來吹一吹→滿意微笑，沒有皺眉；未被擋。
+- 檔案：影片製作/nanami_montage/c4_soup_v2.mp4（720×1280、5.04 秒、無聲、未調色）。
