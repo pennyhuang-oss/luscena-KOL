@@ -5725,3 +5725,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 製作師：「抬腿那段重作，動作放慢50%」。
 - 不重生影片，本機處理：c_legraise_graded 取 0.6–3.9（3.3 秒）→ ffmpeg minterpolate（mci、aobmc、bidir）補成 48fps → setpts 2 倍 → 24fps，得 6.67 秒（c_legraise_slow50.mp4）。抽 6 格檢查：補出的格無鬼影、無變形。
 - v5（21.9 秒）：拉筋 2.2｜槓片 2.5｜槓鈴 2.3｜臥推(放大) 2.5｜抬腿(慢 50%) 6.67｜平板撐 2.7｜側躺 3.0。其餘同 v4。未花點數。
+
+## 追加 364（Vicky 抬腿段重生成：動作放慢）
+
+- 製作師：「重新生成那一段，不用再剪在一起，我自己剪，也不用調色」；之後「我一樣用 5 秒」。
+- Prompt（兩次相同）："She holds the aerial yoga silk with both hands above her head and slowly raises one leg straight up into a standing split, balancing steadily, then holds the pose. All of her movement is slow and smooth, about half the normal speed. The camera slowly zooms in toward her. Natural, realistic movement." start eca5bcfc，declined preset f7561a2d，無音訊。
+- fc033e44（8 秒，36 點）：製作師喊改 5 秒前已送出、無法取消。結果 ✅：雙腳站立→約 0–4 秒慢慢把腿抬直→之後維持，鏡頭緩慢推近；無變形。存 c_legraise_slow_8s.mp4（未調色）。
+- a45624a0（5 秒）：被判 NSFW，22.5 點已退回。同一句 prompt、8 秒版沒被擋，屬隨機判定。
+- 本輪實際花費：36 點。
