@@ -5630,3 +5630,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 看圖：仍是從腳邊往上拍、仰躺、左膝立起、一手放肚子、一手伸到右邊 ✅；大腿、胸回到正常大小，全身入鏡 ✅。透視仍在，腳在前景偏大、腿顯得很長；立起那條腿彎得不多。
 - 檔案（執行者端 vplank/）：p3_fix.png；對照 p3_fix_compare.jpg（三張並排、標籤燒在圖上）。
 - 點數：Flash 一張。
+
+## 追加 354（2026-10-28，本地端）：Vicky 短片第二段——不用尾幀、改 10 秒（提示詞待確認）
+
+- 製作師：不要用固定尾幀；最後的姿勢在影片提示詞裡用文字描述，改 10 秒，先給提示詞看。（追加 352、353 的新尾幀圖改為只當文字描述依據，不送進影片。）
+- 規劃：第二段 start_image＝第一段的尾幀（俯拍側躺 9:16，job 13009eb7），不給 end_image；Seedance 2.0、10 秒、720p、9:16、含聲音；生成後接在第一段（c0cdd92d）後面。
+- 提示詞（英文，送 Higgsfield）：
+  > One continuous shot, no cuts. She lies curled on her side on the mat, panting, chest rising and falling, resting for a moment. Then she slowly rolls onto her back: her left knee bends and rises, her right hand settles on her stomach, her left arm stretches out flat on the floor beside her, her head tilts back slightly. She keeps breathing heavily, eyes half closed looking up at the ceiling, mouth slightly open, sweat glistening on her skin. Meanwhile the camera moves slowly and smoothly from directly above her, down and toward her feet, and ends low near her feet looking up along her body toward her head, with gentle perspective and her whole body in frame. Natural real-time speed, realistic body weight. Audio: heavy breathing, quiet gym ambience; no music, no speech.
+- 點數：0 點（尚未生成）。
