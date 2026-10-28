@@ -5801,3 +5801,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 量臉部膚色（臉頰橢圓、排除頭髮眼睛，Lab 中位數）：原圖 a 156／b 152、色相 40.6°；目前定稿 a 150、色相 46.3°；其他 Vicky 定稿 a 144–149、色相 49–59°（身形正面 49.6、大頭照 55.3、槓鈴 59.3、形象照 51.1、晨跑 49.4）。原圖明顯偏紅偏粉；製作師選的定稿（d755a203）五官跟原圖幾乎一樣，主要也是膚色變淡。
 - 試做（本機、未花點數）：舊原圖只調膚色——膚色區遮罩（a>136、色相 20–70°、彩度>12、L>50，羽化 σ6）a −8、b +1.5 → 臉部 a 148、色相 51.3°，落在其他定稿範圍。檔案 legraise_orig_skinfix_full.jpg；對比圖 legraise_skintone_compare.jpg（原圖／原圖只調膚色／目前定稿）。
 - 狀態：目前定稿仍是追加 369 版本；等製作師選要不要改用「原圖＋只調膚色」。
+
+## 追加 371（Vicky 健身剪輯 Vicky1028 排程）
+
+- 製作師：「做好影片了。不用改，直接上排程，名稱叫 Vicky1028；文案寫：要來跟我一起做運動嗎 #健身」。
+- 檔案：製作師自剪 `影片製作/vicky_gym_montage/Vicky1028.mp4`（1080×1920、25fps、14.84 秒、含音軌）。未修改。
+- 上傳 Higgsfield media a15a8fb4（取得公開網址）→ Metricool Vicky（7436560）排程：2026-10-28 18:00 台北時間，Instagram Reels（isAiGenerated true、顯示於動態）＋Threads，貼文編號 408742636。排程前查過該週沒有其他 Vicky 排程。
+- 文案原文：「要來跟我一起做運動嗎 #健身」（含 hashtag，製作師明確要求）。
+- 定稿存 `社群媒體/vicky/vicky_video8_gym_montage_Vicky1028.mp4`，已備份到 Documents/Luscena_KOL_定稿備份/vicky/；POST_IDEAS 新增 V-08；型錄新增第 8 則（截圖 catalog/img/vicky8_gym_video.jpg）。
+- 未花點數。
