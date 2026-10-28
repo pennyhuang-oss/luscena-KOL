@@ -5638,3 +5638,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 提示詞（英文，送 Higgsfield）：
   > One continuous shot, no cuts. She lies curled on her side on the mat, panting, chest rising and falling, resting for a moment. Then she slowly rolls onto her back: her left knee bends and rises, her right hand settles on her stomach, her left arm stretches out flat on the floor beside her, her head tilts back slightly. She keeps breathing heavily, eyes half closed looking up at the ceiling, mouth slightly open, sweat glistening on her skin. Meanwhile the camera moves slowly and smoothly from directly above her, down and toward her feet, and ends low near her feet looking up along her body toward her head, with gentle perspective and her whole body in frame. Natural real-time speed, realistic body weight. Audio: heavy breathing, quiet gym ambience; no music, no speech.
 - 點數：0 點（尚未生成）。
+
+## 追加 355（2026-10-28，本地端）：Vicky 短片改成一支 10 秒、從單手撐開始（取代追加 354）
+
+- 製作師：要把原本單手撐那段也加進來，不該從躺地板開始。
+- 執行者誤解：追加 354 以為是「第一段保留＋第二段從側躺開始」再串接。改正：只做一支 10 秒，從單手撐開始，不用尾幀、不串接。追加 354 作廢。
+- 規劃：Seedance 2.0、10 秒、720p、9:16、含聲音；start_image＝首幀 9:16（單手平板撐，job 9a7f5a12），不給 end_image；側躺、仰躺兩個姿勢都用文字描述。鏡頭寫成一路平順移動、不跳成俯拍，避免第一次的硬切。
+- 提示詞（英文，送 Higgsfield）：
+  > One continuous shot, no cuts, the camera moves smoothly the whole time. She holds the one-arm plank with her free hand on her hip, her supporting arm trembling, face straining, breathing hard. After about two seconds the supporting arm gives out; she exhales, drops onto the mat and curls up on her side, resting her head on her folded arms, panting, chest rising and falling. After a short rest she slowly rolls onto her back: her left knee bends and rises, her right hand settles on her stomach, her left arm stretches out flat on the floor beside her, her head tilts back slightly; she keeps breathing heavily, eyes half closed looking up at the ceiling, mouth slightly open, sweat glistening on her skin. Meanwhile the camera glides slowly from its starting side view around toward her feet and lowers, ending low near her feet looking up along her body toward her head, with gentle perspective and her whole body in frame. Natural real-time speed, realistic body weight. Audio: heavy breathing, a soft thud on the mat, quiet gym ambience; no music, no speech.
+- 點數：0 點（尚未生成）。
