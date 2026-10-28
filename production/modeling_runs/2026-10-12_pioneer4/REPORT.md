@@ -5621,3 +5621,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 檔案（執行者端 vplank/）：p3_lying.png、p3_flash.png；對照 p3_compare.jpg。
 - 下一步（待製作師）：第二段影片 start＝舊尾幀（俯拍側躺）、end＝新尾幀，再和第一段串接。
 - 點數：圖兩張。
+
+## 追加 353（2026-10-28，本地端）：Vicky 新尾幀——Flash 角度＋Nano Banana 比例
+
+- 製作師：先把圖弄好。Nano Banana 那張比例比較對，但喜歡 Flash 那張的角度；Flash 那張比例怪，重新調。
+- 判斷：Flash 版像超廣角，近處大腿、臀、胸都被放大，身體顯短。
+- Seedream 5.0 Flash（2k、9:16），圖 1＝Flash 版（取角度、姿勢、臉、服裝）、圖 2＝Nano Banana 版（只取身體比例）；prompt：鏡頭往後、稍高（約膝蓋高度、一般 50mm 鏡頭感），透視變緩，從立起的膝蓋、雙腳到頭都入鏡 → job 0580160d-0e8c-4362-ab95-a0a3cbacfb36（1584×2816）。
+- 看圖：仍是從腳邊往上拍、仰躺、左膝立起、一手放肚子、一手伸到右邊 ✅；大腿、胸回到正常大小，全身入鏡 ✅。透視仍在，腳在前景偏大、腿顯得很長；立起那條腿彎得不多。
+- 檔案（執行者端 vplank/）：p3_fix.png；對照 p3_fix_compare.jpg（三張並排、標籤燒在圖上）。
+- 點數：Flash 一張。
