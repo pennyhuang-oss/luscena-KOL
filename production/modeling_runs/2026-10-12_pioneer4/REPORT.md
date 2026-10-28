@@ -5747,3 +5747,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - 頭髮與妝感：抬腿濕亂髮絲垂在臉旁、偏紅棕髮色、腮紅重；其他張是乾淨後梳馬尾、自然妝。
   - 仰角從下往上拍，讓下巴、鼻孔、臉下半部被放大，加重了不像。
 - 未修改、未花點數；修法待製作師決定。
+
+## 追加 366（Vicky 抬腿圖修臉）
+
+- 製作師：「修臉」。
+- 素材：本機從 vicky_img5_yoga_aerial_split.jpg 裁頭部 720×720（左上 555,300）上傳 f06de029；Vicky 臉部參考＝身形參考正面裁頭部（中心 860,300，520 方形→1024）上傳 62462c42。
+- 第 1 次：Nano Banana Pro（實跑 nano_banana_2）1:1，圖 1＝頭部、圖 2＝只取臉 → aa463575（2 點）：幾乎沒變，黏住原臉 ✗。
+- 第 2 次：Seedream 4.5 high＋Vicky Element 325284ce，同兩張參考 → d755a203（1 點）：也照抄原臉 ✗。
+- 第 3 次：本機把臉部用洋紅橢圓蓋掉（中心 378,405，軸 118×150，傾斜 −8°）上傳 05409d5f；Nano Banana Pro 補臉 → 7a0df21e 被判 NSFW，2 點已退 ✗。
+- 第 4 次：同洋紅蓋臉圖＋Seedream 4.5 high＋Element → 881bf1f7（1 點）✅：眉毛變平直、杏眼雙眼皮、鼻樑變窄、嘴唇較自然、下巴較尖，和 Vicky 參考接近；仰角、頭髮、汗光、背景保留。
+- 本機貼回：ECC 對齊（位移 <1 px，背景差 4.8），橢圓（中心 378,400，軸 140×178）高斯羽化 σ14 貼回原圖 → legraise_facefix_full.jpg（1792×2400）、legraise_facefix_916.jpg（裁 9:16，x 105 起，可當新首幀）。對比圖：legraise_facefix_compare.jpg（臉部放大＋參考）、legraise_facefix_full_compare.jpg（整張）。
+- 方法紀錄：NB Pro 與 Seedream 都黏住原臉時，先把臉用洋紅蓋掉再讓 Seedream＋Element 補臉，就會照 Element 畫；NB Pro 吃洋紅蓋臉圖被判 NSFW。
+- 狀態：等製作師確認臉；尚未覆蓋定稿、尚未重做影片。
+- 本輪花費：4 點（2＋1＋1，NSFW 那次已退）。
