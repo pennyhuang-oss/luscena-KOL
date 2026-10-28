@@ -5719,3 +5719,9 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - c3 臥推 POV：本機裁 crop=625:1111:48:75（放大約 1.15 倍，胸口置中）再縮回 720×1280。
 - v4（18.5 秒）：拉筋 0.5–2.7｜槓片 0–2.5｜槓鈴 1.0–3.3｜臥推(放大) 0.5–3.0｜抬腿 0.6–3.9｜平板撐 0–2.7｜側躺(調色) 0.5–3.5＋尾 0.3 秒淡出。無字幕、靜音音軌。
 - 本輪花費：outpaint 4＋Seedance 36＝40 點。
+
+## 追加 363（Vicky 健身剪輯 v5：抬腿段放慢 50%）
+
+- 製作師：「抬腿那段重作，動作放慢50%」。
+- 不重生影片，本機處理：c_legraise_graded 取 0.6–3.9（3.3 秒）→ ffmpeg minterpolate（mci、aobmc、bidir）補成 48fps → setpts 2 倍 → 24fps，得 6.67 秒（c_legraise_slow50.mp4）。抽 6 格檢查：補出的格無鬼影、無變形。
+- v5（21.9 秒）：拉筋 2.2｜槓片 2.5｜槓鈴 2.3｜臥推(放大) 2.5｜抬腿(慢 50%) 6.67｜平板撐 2.7｜側躺 3.0。其餘同 v4。未花點數。
