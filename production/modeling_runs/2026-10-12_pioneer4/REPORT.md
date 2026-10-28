@@ -5873,3 +5873,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 備份：`Documents\Luscena_KOL_定稿備份\kanon\`，逐檔比對一致；備份資料夾與 repo `社群媒體/kanon/` 清單一致。
 - POST_IDEAS K-08 改為定稿（A2 文案、Kanon 第 8 則）；尚未排程、型錄待排程時同步。
 - 點數：0 點。
+
+## 追加 378（2026-10-28，本地端）：Kanon K-08 排程發布（今天 19:00）＋型錄同步
+
+- 製作師：文案維持 A2（不改最後一句）；排今天 19:00。
+- 圖片上傳 Higgsfield 取公開網址：media `95a80290-68d3-4573-a6ba-7e3ec89a240d`。
+- Metricool：Kanon brand 7436558，2026-10-28 19:00 Asia/Taipei，Instagram（POST、isAiGenerated true）＋Threads，單張，貼文編號 408782475（uuid -8558138636188367906），18:38 排入，兩平台 PENDING。
+- 文案（實際送出）：
+  > 最近台南車站的鋼琴好熱鬧🎹 不只彈鋼琴，還有人去拉大提琴、唱聲樂，大家都好厲害✨
+  > 可是花音不會彈鋼琴⋯⋯花音會的樂器只有直笛😣🎵
+  > 吹直笛也可以去車站摻一腳嗎？哥哥會來聽吧🎀
+- 型錄：Kanon 第 8 格（`catalog/img/kanon8_flute.jpg`，960×1286），標 10/28 預定發布。
+- 點數：0 點。
