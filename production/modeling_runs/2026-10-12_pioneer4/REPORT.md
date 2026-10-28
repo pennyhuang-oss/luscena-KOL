@@ -5600,3 +5600,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   > One continuous shot, no cuts. She holds the one-arm plank with her free hand on her hip, her supporting arm trembling, face straining, breathing hard. After about two seconds the supporting arm gives out; she exhales, drops onto the mat and rolls onto her side, curling her legs and resting her head on her folded arms, panting, chest rising and falling, and glances up at the camera with a tired look. Meanwhile the camera smoothly rises and tilts down until it looks straight down at her from above. Natural real-time speed, realistic body weight. Audio: heavy breathing, a soft thud on the mat, quiet gym ambience; no music, no speech.
 - 檔案（執行者端 vplank/）：p1_916.png、p2_916.png、plank_916_pair.jpg。
 - 點數：outpaint 4 點。
+
+## 追加 351（2026-10-28，本地端）：Vicky 平板撐短片——Seedance 2.0 第一次
+
+- 製作師：生成。
+- Seedance 2.0（std、720p、9:16、5 秒、含聲音），start_image＝首幀 9a7f5a12、end_image＝尾幀 13009eb7，prompt 照追加 350。查價 22.5 點。job c0cdd92d-b1f4-45d8-9a02-7a752335843f（720×1280、5.06 秒、含音軌；執行者端 vplank/plank_seedance.mp4）。
+- 看片（每 0.5 秒抽格＋2.4～3.2 秒逐格＋場景偵測）：
+  - 0～2 秒：單手平板撐、手抖 ✅；2～2.8 秒：撐不住、側倒、趴在墊子上 ✅。
+  - ⚠️ 約 2.83 秒硬切成俯拍（場景偵測門檻 0.15 抓到這一點），不是鏡頭慢慢升上去；切之前她是趴姿，切之後直接是尾幀的側躺姿勢。
+  - 2.9～5 秒：俯拍側躺、喘氣，接尾幀 ✅。
+- 可改方向（待製作師）：延長到 8 秒給鏡頭移動時間；或不用尾幀、只用首幀，讓她倒下後鏡頭停在原角度；或接受目前的硬切。
+- 點數：22.5 點。
