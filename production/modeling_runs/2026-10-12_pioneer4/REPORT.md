@@ -5847,3 +5847,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 文案三版寫進 POST_IDEAS K-08。
 - 狀態：等製作師看圖、選文案。
 - 點數：2 點。
+
+## 追加 375（Nanami 推車段重做：首幀背對、尾幀原圖）
+
+- 製作師：「推車那一張重新做一次。先截一張她背對鏡頭的圖當首幀，原本的圖當尾幀。」
+- 首幀：從 c3_cucumber.mp4 截 1.2 秒（完全背對、雙手推車、小黃瓜已在車內）→ c3_back_start.png，上傳 801ec5a6。尾幀：原圖 9:16 裁切 96c68cd9。
+- Seedance 2.0、5 秒、9:16、無音訊 → a9ac196d（22.5 點）："She pushes the shopping cart forward a few steps ... with her back to the camera, then stops, picks the cucumber up out of the cart, turns her head and upper body back toward the camera, and opens her mouth wide in exaggerated surprise while holding the cucumber up as if to say it is huge, then breaks into a playful smile, ending in the pose of the last frame. ..."
+- 結果 ✅：0–2.4 秒背對推車往前；2.4–3 秒順順轉身、從車裡拿起小黃瓜（12fps 檢查無硬切）；3–4 秒張大嘴驚訝；最後笑著停在原圖姿勢。
+- 檔案：影片製作/nanami_montage/c3_cucumber_v2.mp4（720×1280、5.04 秒、無聲、未調色）。
