@@ -5892,3 +5892,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - Seedance 2.0、5 秒、9:16、無音訊，start 80b73ead → ed293a62（22.5 點）："In the kitchen she happily stirs the pot of purple steaming soup with the ladle, scoops some up, blows on it and looks at it with a proud, satisfied smile, nodding to herself, completely unaware that anything is wrong with the strange purple soup. Cheerful and content the whole time, no frowning. ..."
 - 結果 ✅：從頭笑到尾，攪湯→舀起來吹一吹→滿意微笑，沒有皺眉；未被擋。
 - 檔案：影片製作/nanami_montage/c4_soup_v2.mp4（720×1280、5.04 秒、無聲、未調色）。
+
+## 追加 380（Nanami 煮湯首幀加白色小碗）
+
+- 製作師：「首幀先多加一個白色的小碗放在桌上，影片變成她把湯吹一下、盛到白色小碗裡，最後端給鏡頭」。
+- 第 1 次：Nano Banana Pro 整張 9:16 首幀（80b73ead）加碗 → 0dec31ed 被判 NSFW（只穿圍裙），2 點已退 ✗。
+- 第 2 次：本機只裁流理台區（9:16 首幀 x 540–1296、y 1737–2304，不含人臉身體，只有圍裙下緣和手）上傳 a65375ae；Nano Banana Pro 4:3 加一個空的白色小陶瓷碗（砧板左上、菜皮旁）→ b6d31831（2 點）✅。
+- 本機貼回：只取碗的範圍（橢圓中心 226,110、軸 118×95、羽化 σ8）貼回首幀 → n4_soup_bowl_916.jpg；對比圖 n4_bowl_compare.jpg。
+- 方法紀錄：人物只穿圍裙等容易被擋的圖，要加道具時只裁「不含人」的區域給模型改，再貼回。
+- 狀態：等製作師看首幀後再生成影片（吹湯→盛進小碗→端給鏡頭，約 22.5 點）。
