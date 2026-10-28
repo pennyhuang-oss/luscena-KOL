@@ -5588,3 +5588,15 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 短片 prompt（首幀＋尾幀，建議 Seedance 2.0、5 秒、720p，只寫動作）：
   > One continuous shot, fixed camera, no cuts. She holds the one-arm plank with her free hand on her hip, her supporting arm trembling, face straining, breathing hard. After about two seconds the supporting arm gives out; she exhales, drops to her knees and rolls over onto her back on the mat. She lies there panting, chest rising and falling, lays one forearm across her forehead and lets out a small tired laugh. Natural real-time speed, realistic body weight. Audio: heavy breathing, a soft thud on the mat, a small laugh, quiet gym ambience; no music, no speech.
 - 點數：0 點（尚未生成）。
+
+## 追加 350（2026-10-28，本地端）：Vicky 平板撐短片——首尾幀改 9:16、短片 prompt 改寫
+
+- 製作師：尾幀直接用原本那張（`vicky_post_plank2_rest_job2d3c87e4.jpg`，俯拍側躺）；兩張都改成 9:16。prompt 送 Higgsfield 用英文，給製作師看用中文。（追加 349 的尾幀圖 prompt 作廢。）
+- 做法：兩張定稿上傳（media dc4347d5-1772-4629-97e0-8bec1f8f6b08、e4f38019-b90e-4744-8807-fe382046287a），Higgsfield outpaint 9:16（每張 2 點）：
+  - 首幀 job 9a7f5a12-ebb3-44af-9ae2-9031c332ebbc（1536×2752）：上方補天花板、窗、冷氣，下方補地板、啞鈴；人物與原圖相同，畫面中人變小。
+  - 尾幀 job 13009eb7-8e19-4cee-b2b4-3976af06ea3d（1536×2752）：上下補地板，左側多了滾筒與水瓶。
+- 因尾幀是俯拍、首幀是側面低角度，短片 prompt 要加「鏡頭一路升高、轉成正上方俯拍」才接得起來。
+- 短片 prompt（英文，送 Higgsfield；建議 Seedance 2.0、5 秒、720p、9:16，start_image＝首幀、end_image＝尾幀）：
+  > One continuous shot, no cuts. She holds the one-arm plank with her free hand on her hip, her supporting arm trembling, face straining, breathing hard. After about two seconds the supporting arm gives out; she exhales, drops onto the mat and rolls onto her side, curling her legs and resting her head on her folded arms, panting, chest rising and falling, and glances up at the camera with a tired look. Meanwhile the camera smoothly rises and tilts down until it looks straight down at her from above. Natural real-time speed, realistic body weight. Audio: heavy breathing, a soft thud on the mat, quiet gym ambience; no music, no speech.
+- 檔案（執行者端 vplank/）：p1_916.png、p2_916.png、plank_916_pair.jpg。
+- 點數：outpaint 4 點。
