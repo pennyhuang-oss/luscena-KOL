@@ -5865,3 +5865,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 對照：執行者端 kflute/cmp.jpg（有標註）。
 - 狀態：等製作師看圖、選 A2／B2。
 - 點數：2 點。
+
+## 追加 377（2026-10-28，本地端）：Kanon K-08 吹直笛定稿（文案 A2）
+
+- 製作師：圖定稿，文案用 A2。
+- 存檔：`社群媒體/kanon/kanon_post8_flute_job0304bb7a.jpg`（`0304bb7a` 轉 JPG，1792×2400）。
+- 備份：`Documents\Luscena_KOL_定稿備份\kanon\`，逐檔比對一致；備份資料夾與 repo `社群媒體/kanon/` 清單一致。
+- POST_IDEAS K-08 改為定稿（A2 文案、Kanon 第 8 則）；尚未排程、型錄待排程時同步。
+- 點數：0 點。
