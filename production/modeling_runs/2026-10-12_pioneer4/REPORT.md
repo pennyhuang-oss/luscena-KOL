@@ -5577,3 +5577,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 待注意：胸、臀比身形定稿小一圈；雙手是直接抓下襬往上掀，不是交叉。
 - 檔案（執行者端 batch1027）：v1_change.png、v1_change2.png；對照 BA_v1_change2.jpg（標籤燒在圖上）。
 - 點數：nano_banana 兩張。
+
+## 追加 349（2026-10-28，本地端）：Vicky 平板撐短片——首尾幀 prompt（未生成）
+
+- 製作師：更衣室那張先不管。成效不好，改拿舊圖做像泳池那樣的簡單短片，越簡單越好；首幀＝Vicky 手撐地板那張（V-03 單手平板撐，`社群媒體/vicky/vicky_post_plank1_mat_job2248981a.jpg`，job 2248981a-f0e6-4740-ab90-e0d584277a8a），尾幀＝翻過去躺在地板上。先寫 prompt。
+- 已有的 `vicky_post_plank2_rest_job2d3c87e4.jpg` 是俯拍直式，鏡頭和首幀不同，不能當同一鏡頭的尾幀，所以尾幀要以首幀為底重出（同鏡頭、只改姿勢）。
+- 注意：首幀是橫式 4:3（2400×1792）。若要直式，裁切會切到腳，要先往上下擴圖（outpaint）成 3:4 或 9:16，尾幀跟著同比例。
+- 尾幀圖 prompt（以首幀為底，Nano Banana Pro 或 Seedream 5.0 Flash）：
+  > Edit this photo. Keep the exact same camera angle, framing, gym, light, black mat, foam roller and water bottle. Change only her pose: she has just collapsed out of the plank and rolled onto her back on the same black mat, lying face up with her head toward the left side of the frame, one forearm resting across her forehead, the other hand on her stomach, knees slightly bent and relaxed. Chest rising with heavy breathing, eyes half closed, mouth slightly open catching her breath, flushed cheeks, sweat glistening on her skin and a few drops on the mat. Same woman, same face, same black sports bra and black shorts with white trim, same high ponytail. She is not posing and not looking at the camera. Skin finish: a light phone beauty filter only; fine natural pores faintly visible; no film grain and no noise.
+- 短片 prompt（首幀＋尾幀，建議 Seedance 2.0、5 秒、720p，只寫動作）：
+  > One continuous shot, fixed camera, no cuts. She holds the one-arm plank with her free hand on her hip, her supporting arm trembling, face straining, breathing hard. After about two seconds the supporting arm gives out; she exhales, drops to her knees and rolls over onto her back on the mat. She lies there panting, chest rising and falling, lays one forearm across her forehead and lets out a small tired laugh. Natural real-time speed, realistic body weight. Audio: heavy breathing, a soft thud on the mat, a small laugh, quiet gym ambience; no music, no speech.
+- 點數：0 點（尚未生成）。
