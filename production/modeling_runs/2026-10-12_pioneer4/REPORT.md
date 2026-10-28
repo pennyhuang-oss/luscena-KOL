@@ -5678,3 +5678,18 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 動作描述一律平實（不寫喘、嘴張、半閉眼、低角度沿身體往上拍），避開上次 NSFW 擋。
 - 3:4 圖要先擴成 9:16（每張 2 點）；每段 Seedance 5 秒約 22.5 點，剪 2–3 秒用。音樂/字幕剪輯時統一加。
 - 待製作師確認分鏡、字幕、是否要補新圖後才生成。
+
+## 追加 359（Vicky 健身多段剪輯 v1 完成，待製作師看）
+
+- 製作師：「照分鏡做」。
+- 擴圖 9:16（Outpaint，各 2 點）：上傳 post7 三張定稿（media a68305a7 / 211c5ad3 / 32d0c2d0）→ outpaint f7f252ec（槓片深蹲背影）、75f4af56（槓鈴背蹲）、bd90afde（POV 臥推）。
+- Seedance 2.0 改用 4 秒（每段 18 點，有無音訊同價；設 generate_audio false），全部未被擋：
+  - 39e28368 槓片深蹲：start f7f252ec。"She holds the weight plate with both hands and slowly squats down, then stands back up and glances over her shoulder. Camera stays still, like a phone propped on the floor. Natural, realistic gym workout movement."
+  - edb53b8f 槓鈴背蹲：start 75f4af56。"She squats down with the barbell resting on her shoulders, then pushes back up to standing and exhales through her mouth. Camera stays still on a tripod. ..."（實際有輕微推近）
+  - 504b816b POV 臥推：start bd90afde。"First-person view of a man lying on a bench doing a dumbbell press. His arms push the dumbbells upward while she holds his wrists and guides them up, ... small encouraging nod. ..."（動作幅度小）
+  - ef97b270 側躺休息：start 13009eb7。"She lies on her side on the yoga mat resting after a workout, breathing slowly and calmly, then slowly opens her eyes and smiles a little. Camera stays still from above."（動作幅度小）
+- 平板撐段沿用舊 5 秒 c0cdd92d 的 0–2.7 秒：剛好從撐著到倒下，再接側躺俯拍很順。
+- 剪輯 v1（13 秒）：槓片 0–2.5｜槓鈴 1.0–3.3｜POV 0.5–3.0｜平板撐 0–2.7｜側躺 0.5–3.5（尾 0.3 秒淡出）。字幕微軟正黑粗體白字黑邊 y=980：Day 1 練腿／（無）／換我幫你顧／Day 2 核心／今天到這。
+- 配樂：Higgsfield 這個帳號沒有可單獨用的音樂模型（suno 不在，sonilo 僅限遊戲流程），v1 為靜音音軌，建議上架時在 IG/TikTok 內加熱門音樂。
+- 檔案：影片製作/vicky_gym_montage/（v1 成片＋四段原始＋舊平板撐）。
+- 本輪花費：outpaint 6＋Seedance 72＝78 點。
