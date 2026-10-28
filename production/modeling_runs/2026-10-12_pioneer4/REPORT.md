@@ -5901,3 +5901,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 本機貼回：只取碗的範圍（橢圓中心 226,110、軸 118×95、羽化 σ8）貼回首幀 → n4_soup_bowl_916.jpg；對比圖 n4_bowl_compare.jpg。
 - 方法紀錄：人物只穿圍裙等容易被擋的圖，要加道具時只裁「不含人」的區域給模型改，再貼回。
 - 狀態：等製作師看首幀後再生成影片（吹湯→盛進小碗→端給鏡頭，約 22.5 點）。
+
+## 追加 381（Nanami 煮湯段第三版：盛進小碗端給鏡頭）
+
+- 製作師：「生成影片」（首幀＝加白色小碗版 n4_soup_bowl_916.jpg）。
+- 上傳首幀 f7b9e78b；Seedance 2.0、5 秒、9:16、無音訊 → cd4fbbc3（22.5 點）："she scoops some purple soup from the pot with the ladle, blows on it gently, pours it into the small white bowl on the counter, then picks up the bowl with both hands and happily holds it out toward the camera, offering it to the viewer with a proud, sweet smile. She is cheerful the whole time and does not notice anything wrong with the soup. ..."
+- 結果 ✅：舀湯→吹一吹→倒進白色小碗→雙手捧碗笑著遞向鏡頭；全程開心、沒發現湯怪；未被擋。
+- 檔案：影片製作/nanami_montage/c4_soup_v3_bowl.mp4（720×1280、5.04 秒、無聲、未調色）。
