@@ -5760,3 +5760,16 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 方法紀錄：NB Pro 與 Seedream 都黏住原臉時，先把臉用洋紅蓋掉再讓 Seedream＋Element 補臉，就會照 Element 畫；NB Pro 吃洋紅蓋臉圖被判 NSFW。
 - 狀態：等製作師確認臉；尚未覆蓋定稿、尚未重做影片。
 - 本輪花費：4 點（2＋1＋1，NSFW 那次已退）。
+
+## 追加 367（Vicky 抬腿圖修臉第二版）
+
+- 製作師：「臉再修」。
+- 執行者判讀第一版仍不像處：眼睛偏小、上眼皮腫、沒精神；臉下半偏圓不夠 V；鼻翼寬；嘴唇偏厚。
+- 加大頭照臉部裁切（vicky_avatar.png 155,215–805,865 → 1024）上傳 f248e5f9。
+- 第 1 次：Seedream 4.5 high＋Element，參考＝洋紅蓋臉 05409d5f＋身形正面 62462c42＋大頭照 f248e5f9，prompt 加強「大而亮的杏眼、不腫、V 臉尖下巴、鼻翼窄、唇不厚、淡笑」→ de727383（1 點）：臉很像，但整張重新構圖（拉遠、手臂改成拉布），無法貼回 ✗。
+- 第 2 次：參考改為蓋臉＋大頭照（2 張）→ c6ed1edf（1 點）：頭往上移、仰角更大，臉也偏離 ✗。
+- 第 3 次：參考回到蓋臉＋身形正面（同第一版成功組合）、用加強版 prompt → c347968a（1 點）✅：大眼雙眼皮、V 臉、鼻翼窄、唇較薄、淡笑；構圖保住（ECC 0.83），但頭部略往左上偏約 40/24 px。
+- 本機貼回：改貼較大範圍（頭＋頭髮＋脖子，橢圓中心 375,390、軸 205×275、羽化 σ22），避免臉和原本頭髮錯位 → legraise_facefix2_full.jpg、legraise_facefix2_916.jpg。對比圖：legraise_facefix2_compare.jpg（原圖／第一版／第二版／兩張參考）、legraise_facefix2_full_compare.jpg。
+- 方法紀錄：Seedream 參考圖放 3 張會丟掉構圖；蓋臉圖＋1 張正面臉部參考最能保構圖。
+- 狀態：等製作師確認；尚未覆蓋定稿、尚未重做影片。
+- 本輪花費：3 點。
