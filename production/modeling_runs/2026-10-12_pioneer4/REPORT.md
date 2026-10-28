@@ -5810,3 +5810,17 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 文案原文：「要來跟我一起做運動嗎 #健身」（含 hashtag，製作師明確要求）。
 - 定稿存 `社群媒體/vicky/vicky_video8_gym_montage_Vicky1028.mp4`，已備份到 Documents/Luscena_KOL_定稿備份/vicky/；POST_IDEAS 新增 V-08；型錄新增第 8 則（截圖 catalog/img/vicky8_gym_video.jpg）。
 - 未花點數。
+
+## 追加 372（Nanami 多段短片：分鏡與提示詞提案，未生成）
+
+- 製作師：「娜娜米也照這樣的方式」，5 張圖：①② 去買魚、③ 買菜、④ 煮紫色的湯、⑤ 餵食。
+- 對應定稿：① nanami_post6_fish1_jobb5798027.jpg、② nanami_post6_fish2_job2b38abbb.jpg、③ nanami_img5_jobdd0fffae_supermarket.jpg、④ nanami_post6_fish3_soup_jobf2f8d003.jpg、⑤ nanami_v2_job253n_9afdfb27.jpg。
+- 首幀：5 張都可直接本機裁 9:16（不用擴圖），預覽 影片製作/nanami_montage/crop916_preview.jpg；⑤ 拿筷子的手在左緣略被切，裁切位置可再往左。
+- 提案（照 Vicky 做法：Seedance 2.0、每段 5 秒、無音訊、不調色、不剪接，交給製作師自己剪）：
+  1. 她彎腰用手指點冰上的魚，抬頭對攤販笑著問價錢。
+  2. 攤販戴藍手套把魚遞過來，她驚喜笑開、雙手接過魚放進菜籃。
+  3. 推著購物車往前走，回頭對鏡頭笑，手上的小黃瓜晃一晃。
+  4. 用湯勺攪冒紫煙的鍋子、舀起來看，表情從期待變成愣住、皺眉。
+  5. 筷子夾著焦黑的菜往鏡頭送過來、張嘴「啊～」，另一手在下面接著。
+- 風險：④ 只穿圍裙，Seedance 可能判 NSFW（會退點）。
+- 費用估計：5 段 × 22.5＝112.5 點。待製作師確認後生成。
