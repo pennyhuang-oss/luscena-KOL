@@ -5698,3 +5698,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 
 - 製作師：「字幕拿掉」。
 - 同 v1 剪點與淡出，只移除四段字幕疊圖 → 影片製作/vicky_gym_montage/vicky_gym_montage_v2_nosub.mp4（13 秒，靜音音軌）。未花點數。
+
+## 追加 361（Vicky 健身剪輯 v3：最後一段調色）
+
+- 製作師：「最後一段跟前面顏色不太一樣，幫我微調一下」。
+- 量測各段 Lab 平均亮度：槓片 141.5／槓鈴 122.8／臥推 114.2／平板撐 106.8／側躺 95.7（最暗，且 a/b 彩度最高、偏橘）。
+- 第一版：L 整體平移 +14、彩度 ×0.8 → 黑地板被拉灰、畫面發霧，捨棄。
+- 採用：L 套 gamma 0.82（提亮中間調、保留暗部），a/b 彩度 ×0.82 → 平均 L 111.3，彩度 std 8.0/8.8，接近平板撐段。
+- 只做本機調色，沒有拉伸變形。檔案：c5_rest_graded.mp4、vicky_gym_montage_v3_graded.mp4、v3_grade_compare.jpg（前後對比，有標籤）。未花點數。
