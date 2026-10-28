@@ -5693,3 +5693,8 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 配樂：Higgsfield 這個帳號沒有可單獨用的音樂模型（suno 不在，sonilo 僅限遊戲流程），v1 為靜音音軌，建議上架時在 IG/TikTok 內加熱門音樂。
 - 檔案：影片製作/vicky_gym_montage/（v1 成片＋四段原始＋舊平板撐）。
 - 本輪花費：outpaint 6＋Seedance 72＝78 點。
+
+## 追加 360（Vicky 健身剪輯 v2：拿掉字幕）
+
+- 製作師：「字幕拿掉」。
+- 同 v1 剪點與淡出，只移除四段字幕疊圖 → 影片製作/vicky_gym_montage/vicky_gym_montage_v2_nosub.mp4（13 秒，靜音音軌）。未花點數。
