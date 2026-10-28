@@ -5855,3 +5855,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - Seedance 2.0、5 秒、9:16、無音訊 → a9ac196d（22.5 點）："She pushes the shopping cart forward a few steps ... with her back to the camera, then stops, picks the cucumber up out of the cart, turns her head and upper body back toward the camera, and opens her mouth wide in exaggerated surprise while holding the cucumber up as if to say it is huge, then breaks into a playful smile, ending in the pose of the last frame. ..."
 - 結果 ✅：0–2.4 秒背對推車往前；2.4–3 秒順順轉身、從車裡拿起小黃瓜（12fps 檢查無硬切）；3–4 秒張大嘴驚訝；最後笑著停在原圖姿勢。
 - 檔案：影片製作/nanami_montage/c3_cucumber_v2.mp4（720×1280、5.04 秒、無聲、未調色）。
+
+## 追加 376（2026-10-28，本地端）：Kanon K-08 直笛修正＋文案改兩版
+
+- 製作師：修直笛就好，上面不要有音符，直笛要含在嘴裡（玩偶不改）。途中追加：文案 A 或 B 可以，再加「很多人去那邊演奏其他樂器，有大提琴跟聲樂等等」。
+- Nano Banana Pro 3:4、2k，以第 1 版 `7c25f948` 為底，只改直笛（吹嘴含在唇間、臉頰微鼓、手指按孔；拿掉音符貼紙、純象牙白）：`0304bb7a-6319-4554-ad3a-19dfd7c41a0e`（2 點）→ 沒被擋。
+- 看圖：✅ 直笛含在嘴裡、像真的在吹，音符拿掉；臉、髮型、衣服、房間、玩偶、構圖不變。⚠️ 因為含著笛子，表情從微笑變成平靜（眼睛仍看鏡頭）。
+- 文案：POST_IDEAS K-08 新增 A2／B2（加入大提琴、聲樂）。
+- 對照：執行者端 kflute/cmp.jpg（有標註）。
+- 狀態：等製作師看圖、選 A2／B2。
+- 點數：2 點。
