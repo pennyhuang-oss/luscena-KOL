@@ -5908,3 +5908,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 上傳首幀 f7b9e78b；Seedance 2.0、5 秒、9:16、無音訊 → cd4fbbc3（22.5 點）："she scoops some purple soup from the pot with the ladle, blows on it gently, pours it into the small white bowl on the counter, then picks up the bowl with both hands and happily holds it out toward the camera, offering it to the viewer with a proud, sweet smile. She is cheerful the whole time and does not notice anything wrong with the soup. ..."
 - 結果 ✅：舀湯→吹一吹→倒進白色小碗→雙手捧碗笑著遞向鏡頭；全程開心、沒發現湯怪；未被擋。
 - 檔案：影片製作/nanami_montage/c4_soup_v3_bowl.mp4（720×1280、5.04 秒、無聲、未調色）。
+
+## 追加 382（Nanami 煮湯段第四版：湯勺不靠嘴）
+
+- 製作師：「湯勺靠太近，像是她在喝，不要這麼近。用前一版湯勺已經在鍋子裡的截圖當首幀，時間比較充裕」。
+- 首幀：從 c4_soup_v3_bowl.mp4 截 0.5 秒（湯勺剛從鍋裡舀起、桌上有白碗）→ c4_ladle_start.png，上傳 3b520366。
+- Seedance 2.0、5 秒、9:16、無音訊 → ac176b54（22.5 點）："She lifts the ladle of purple soup out of the pot and blows on it gently from a distance, keeping the ladle low at chest level and well away from her mouth, never bringing it to her lips. Then she pours the soup ... into the small white bowl ..., picks up the bowl with both hands and happily holds it out toward the camera ..."
+- 結果：吹湯時湯勺停在下巴到胸口高度，離嘴約一個手掌，不像在喝（上一版湯勺碰到嘴唇）；倒進小碗→雙手捧碗遞向鏡頭；全程笑；未被擋。對比圖 c4_ladle_v3_v4_compare.jpg（有標籤）。
+- 檔案：影片製作/nanami_montage/c4_soup_v4.mp4（720×1280、5.04 秒、無聲、未調色）。
