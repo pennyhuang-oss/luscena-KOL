@@ -5785,3 +5785,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 方法紀錄：換好臉後要調角度／表情／顏色，用 Nano Banana Pro 只放換好臉的圖＋文字描述；把原圖當參考會讓原本的臉外洩回來。
 - 狀態：等製作師確認；尚未覆蓋定稿、尚未重做影片。
 - 本輪花費：4 點。
+
+## 追加 369（Vicky 抬腿圖定稿：用 Seedream 頭部重畫 d755a203）
+
+- 製作師（附 d755a203 截圖）：「你用這張定稿好了」。即追加 366 第 2 次 Seedream 4.5 high＋Element 重畫頭部那張（執行者當時判讀為變化不大，製作師選定）。
+- 本機貼回：d755a203 縮成 720×720，ECC 對齊（位移 0.5 px，背景差 4.6），頭＋髮＋脖子橢圓（375,390，205×275，σ22）貼回原圖。
+- 已覆蓋定稿 `社群媒體/vicky/vicky_img5_yoga_aerial_split.jpg`、本機備份 `Documents/Luscena_KOL_定稿備份/vicky/` 同名檔、型錄 `catalog/img/vicky4.jpg`（960×1286）。
+- 另存 9:16 裁切（x 105 起）`影片製作/vicky_gym_montage/legraise_final_916.jpg`，可當抬腿影片新首幀；對比圖 legraise_final_compare.jpg。
+- 第一～三版修臉（facefix / facefix2 / facefix3）不採用，檔案留在影片製作資料夾供參考。
+- 未花點數。抬腿影片尚未用新首幀重做。
