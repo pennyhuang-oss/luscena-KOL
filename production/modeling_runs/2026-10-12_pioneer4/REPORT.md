@@ -5934,3 +5934,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 結果：吹湯時湯勺仍離嘴一段距離；倒湯→湯勺放回鍋→雙手端碗在胸前看鏡頭。4.3 秒後抬頭正對鏡頭，臉維持原本五官與霧面膚質，不再變寬、不油亮（第四版的問題消失）。未被擋。
 - 檔案：c4_soup_v5.mp4（720×1280、5.04 秒、無聲、未調色）、c4_soup_v4_v5_face_compare.jpg（有標籤）。
 - 方法心得：Seedance 人物最後才轉正對鏡頭時，給一張臉正確的尾幀可避免臉部失真。
+
+## 追加 385（Nanami 海鮮剪輯 娜娜米1029 排程）
+
+- 製作師：「檔案名稱：娜娜米1029 做好了，今天發」；文案：「今天要來我家吃海鮮嗎? 我親自下廚喔」。
+- 檔案：製作師自剪 `影片製作/nanami_montage/娜娜米1029.mp4`（1080×1920、16.8 秒、含音軌）。未修改。
+- 上傳 Higgsfield media d1e87114-1a2d-412e-9d08-46f56af2c762（取得公開網址）→ Metricool Nanami（LC_黃芷柔，7436561）排程：2026-10-29 18:00 台北時間，Instagram Reels（isAiGenerated true、顯示於動態）＋Threads，貼文編號 409826012。排程前查過 10/29～10/31 沒有其他 Nanami 排程。
+- 文案原文：「今天要來我家吃海鮮嗎? 我親自下廚喔」（製作師原文照用，半形問號保留）。
+- 定稿存 `社群媒體/nanami/nanami_video9_seafood_montage_娜娜米1029.mp4`，已備份到 Documents/Luscena_KOL_定稿備份/nanami/；POST_IDEAS 新增 N-09；型錄新增 Nanami 第 9 則（截圖 catalog/img/nanami9_seafood_video.jpg，取 1 秒魚攤畫面）。
+- 未花點數。
