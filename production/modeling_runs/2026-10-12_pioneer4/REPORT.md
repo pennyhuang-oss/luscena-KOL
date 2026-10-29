@@ -5925,3 +5925,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   - 結果：臉、髮型、圍裙、廚房不變；湯勺放回鍋中，雙手端紫湯白碗在胸前遞向鏡頭。未被擋。
 - 檔案：n4_end_bowl_offer.png、n4_end_compare.jpg。
 - 待 Vincent 確認尾幀後，再以 c4_ladle_start.png 為首幀、此圖為尾幀重生 5 秒 Seedance。
+
+## 追加 384（娜娜米煮湯第五版：加尾幀）
+- 製作師確認尾幀後指示「生成影片」。
+- 尾幀 n4_end_bowl_offer.png 上傳 3854beaf-8e2f-4cc0-912e-6746ee9c523d；首幀沿用 c4_ladle_start.png（3b520366-4de3-47a0-b4f0-ad2a11c8c3da）。
+- Seedance 2.0、5 秒、9:16、無音訊、start_image＋end_image → efc273bc-caee-438a-8b05-6cbbc6bdc36f（22.5 點）：
+  "She lifts the ladle of purple soup out of the pot and blows on it gently from a distance, keeping the ladle low at chest level and well away from her mouth, never bringing it to her lips. Then she pours the soup from the ladle into the small white bowl on the counter, puts the ladle back in the pot, picks up the bowl with both hands and holds it in front of her chest toward the camera, looking at the camera with a sweet proud smile. She stays standing upright in place and does not lean toward the camera. Cheerful the whole time, unaware anything is wrong with the soup. Camera stays steady. Natural, realistic movement, natural matte skin."
+- 結果：吹湯時湯勺仍離嘴一段距離；倒湯→湯勺放回鍋→雙手端碗在胸前看鏡頭。4.3 秒後抬頭正對鏡頭，臉維持原本五官與霧面膚質，不再變寬、不油亮（第四版的問題消失）。未被擋。
+- 檔案：c4_soup_v5.mp4（720×1280、5.04 秒、無聲、未調色）、c4_soup_v4_v5_face_compare.jpg（有標籤）。
+- 方法心得：Seedance 人物最後才轉正對鏡頭時，給一張臉正確的尾幀可避免臉部失真。
