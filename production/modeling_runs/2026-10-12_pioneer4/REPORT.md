@@ -5916,3 +5916,12 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - Seedance 2.0、5 秒、9:16、無音訊 → ac176b54（22.5 點）："She lifts the ladle of purple soup out of the pot and blows on it gently from a distance, keeping the ladle low at chest level and well away from her mouth, never bringing it to her lips. Then she pours the soup ... into the small white bowl ..., picks up the bowl with both hands and happily holds it out toward the camera ..."
 - 結果：吹湯時湯勺停在下巴到胸口高度，離嘴約一個手掌，不像在喝（上一版湯勺碰到嘴唇）；倒進小碗→雙手捧碗遞向鏡頭；全程笑；未被擋。對比圖 c4_ladle_v3_v4_compare.jpg（有標籤）。
 - 檔案：影片製作/nanami_montage/c4_soup_v4.mp4（720×1280、5.04 秒、無聲、未調色）。
+
+## 追加 383（娜娜米煮湯：端碗尾幀）
+- 問題：c4_soup_v4.mp4 從 4.0 秒抬頭正對鏡頭開始臉失真（變寬、皮膚油亮、不像娜娜米），前 3.9 秒正常。
+- 對策：先做尾幀，讓影片最後收在臉正確的畫面。
+- 尾幀：nano_banana_pro（實際跑 nano_banana_2），純文字編輯 n4_soup_bowl_916.jpg（media f7b9e78b-9164-4790-a816-935bceb7eec6），9:16，job 5d0c68c4-573d-4c0d-bd99-8f16fb3e4e31，2 點。
+  - Prompt：Edit this photo. The woman has put the ladle down into the pot. She now holds the small white bowl, filled with purple soup, with both hands and offers it toward the camera, arms slightly extended in front of her chest, bowl clearly visible. She stands upright in the same spot, not leaning forward. Keep her face exactly the same: same identity, same sweet happy smile looking at the camera, same natural matte skin, same hairstyle, same white apron, same kitchen, counter, pot, vegetables, lighting and camera framing. Photorealistic.
+  - 結果：臉、髮型、圍裙、廚房不變；湯勺放回鍋中，雙手端紫湯白碗在胸前遞向鏡頭。未被擋。
+- 檔案：n4_end_bowl_offer.png、n4_end_compare.jpg。
+- 待 Vincent 確認尾幀後，再以 c4_ladle_start.png 為首幀、此圖為尾幀重生 5 秒 Seedance。
