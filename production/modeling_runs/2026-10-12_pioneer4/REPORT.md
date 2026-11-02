@@ -5992,3 +5992,14 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 備份：`Documents\Luscena_KOL_定稿備份\kanon\`，逐位元比對一致；備份資料夾與 repo `社群媒體/kanon/` 清單一致。
 - POST_IDEAS K-09 改為圖定稿（Kanon 第 9 則）；文案（A／B）與發文時間待製作師，尚未排程、型錄待排程時同步。
 - 點數：0 點（K-09 累計 12 點）。
+
+## 追加 391（Kanon K-09 排程發布（今天 20:00）＋型錄同步）
+
+- 製作師：文案用 B 版；排今天 20:00。
+- 圖片上傳 Higgsfield 取公開網址：media `63b1c263-89fe-49fb-b8a9-9e1a3568c067`。
+- Metricool：Kanon brand 7436558，2026-11-02 20:00 Asia/Taipei，Instagram（POST、isAiGenerated true）＋Threads，單張，貼文編號 413784590（uuid -1953595385242302902），18:30 排入，兩平台 PENDING。排程前查過 11/2～11/3 沒有其他 Kanon 排程。
+- 文案（實際送出）：
+  > 大家知道固力跑跑人要熄燈了嗎？😭
+  > 花音特地跑來心齋橋跟他說掰掰🏃‍♀️💨🎀
+- 型錄：Kanon 第 9 格（catalog/img/kanon9_glico.jpg，960×1286）；POST_IDEAS K-09 狀態改為已排程。
+- 點數：0 點。
