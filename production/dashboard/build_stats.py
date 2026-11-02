@@ -25,7 +25,18 @@ def main():
     idx = {m: i for i, m in enumerate(raw["metrics"])}
     out = {"updatedAt": raw["fetchedAt"], "from": raw["from"], "to": raw["to"], "accounts": []}
     for key, name, role, handle in ACCOUNTS:
-        rows = sorted(raw["brands"].get(key, []), key=lambda r: r[idx["date"]])
+        rows = raw["brands"].get(key, [])
+        good = HERE / "data" / "last_good" / f"{key}.json"
+        stale = None
+        if len(rows) <= 1 and good.exists():
+            # Metricool returns only today's row when the brand's networks are disconnected:
+            # keep showing the last complete history instead of dropping to zero.
+            prev = json.loads(good.read_text(encoding="utf-8"))
+            rows, stale = prev["rows"], prev["fetchedAt"]
+        elif len(rows) > 1:
+            good.parent.mkdir(exist_ok=True)
+            good.write_text(json.dumps({"fetchedAt": raw["fetchedAt"], "rows": rows}, ensure_ascii=False), encoding="utf-8")
+        rows = sorted(rows, key=lambda r: r[idx["date"]])
         daily, last = [], {"THEV01": None, "IGEV01": None}
         tot = {"thViews": 0, "thLikes": 0, "igViews": 0, "igLikes": 0}
         for r in rows:
@@ -48,6 +59,7 @@ def main():
             "threads": {"followers": int(last["THEV01"] or 0), "views": int(tot["thViews"]), "likes": int(tot["thLikes"])},
             "instagram": {"followers": int(last["IGEV01"] or 0), "views": int(tot["igViews"]), "likes": int(tot["igLikes"])},
             "daily": daily,
+            "staleSince": stale,
         })
     (HERE / "data" / "stats.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps([{a["key"]: [a["threads"], a["instagram"]]} for a in out["accounts"]], ensure_ascii=False))
