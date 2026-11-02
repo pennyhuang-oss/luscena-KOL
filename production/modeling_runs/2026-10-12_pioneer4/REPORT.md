@@ -6003,3 +6003,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
   > 花音特地跑來心齋橋跟他說掰掰🏃‍♀️💨🎀
 - 型錄：Kanon 第 9 格（catalog/img/kanon9_glico.jpg，960×1286）；POST_IDEAS K-09 狀態改為已排程。
 - 點數：0 點。
+
+## 追加 392（Wendy／Nanami 時事版方向提案）
+
+- 製作師：看 Wendy、Nanami 有沒有可以跟時事結合的。
+- 查證時事：BTS 高雄場 11/19、21、22；草嶺古道芒花季 10/31～11/29；新北耶誕城 11/13 開城；金馬獎 11/22。避開選舉、政治與金融（臺灣週）。
+- 提案寫進 POST_IDEAS「時事版企劃（2026-11-02）」：Wendy＝下屬都請 11/21 的假去高雄（BTS）；Nanami＝草嶺古道芒花季。
+- 尚未生成，未花點數。
