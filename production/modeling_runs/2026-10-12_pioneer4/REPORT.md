@@ -5984,3 +5984,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 仍未處理：「日樸エステム」「かんに汝萊」兩塊小招牌字（製作師這輪沒提）。
 - 狀態：等製作師看第 5 版。
 - 本輪點數：4 點（K-09 累計 12 點）。
+
+## 追加 390（Kanon K-09 心齋橋固力跑跑人定稿）
+
+- 製作師：第 5 版可以定稿。
+- 存檔：`社群媒體/kanon/kanon_post9_glico_shinsaibashi_v5.jpg`（第 5 版合成圖轉 JPG，1792×2400）。
+- 備份：`Documents\Luscena_KOL_定稿備份\kanon\`，逐位元比對一致；備份資料夾與 repo `社群媒體/kanon/` 清單一致。
+- POST_IDEAS K-09 改為圖定稿（Kanon 第 9 則）；文案（A／B）與發文時間待製作師，尚未排程、型錄待排程時同步。
+- 點數：0 點（K-09 累計 12 點）。
