@@ -5943,3 +5943,13 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 文案原文：「今天要來我家吃海鮮嗎? 我親自下廚喔」（製作師原文照用，半形問號保留）。
 - 定稿存 `社群媒體/nanami/nanami_video9_seafood_montage_娜娜米1029.mp4`，已備份到 Documents/Luscena_KOL_定稿備份/nanami/；POST_IDEAS 新增 N-09；型錄新增 Nanami 第 9 則（截圖 catalog/img/nanami9_seafood_video.jpg，取 1 秒魚攤畫面）。
 - 未花點數。
+
+## 追加 386（11/02 今日圖文方向提案，Vicky 暫停）
+
+- 製作師：「設計今天的圖文方向，vicky 先不用」。
+- 依據：dashboard 數據太少（各帳號瀏覽數個位到一百多，只有 Vicky 的 IG Reels 有 124），不足以判斷題材，所以改依故事線、季節（天冷、立冬、雙 11）和之前留下的備用題材。
+- 提案寫在 POST_IDEAS「今日企劃（2026-11-02）」：
+  - Wendy：A 週一黑絲／膚色二選一（W-08 順延企劃）／B 下班一個人吃薑母鴨。
+  - Nanami：A 北投泡湯（已同意的備用 A）／B 遛柯基。
+  - Kanon：A 雙 11 購物車塞爆／B 東區大頭貼。
+- 尚未生成，未花點數。
