@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-30T11:24:30+08:00",
+  "updatedAt": "2026-11-02T14:09:40+08:00",
   "from": "2026-10-15",
-  "to": "2026-10-30",
+  "to": "2026-11-02",
   "accounts": [
     {
       "key": "wendy",
@@ -126,6 +126,27 @@
         },
         {
           "date": "2026-10-30",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-31",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-01",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-02",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -260,6 +281,27 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-10-31",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-01",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-02",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ]
     },
@@ -280,7 +322,7 @@
       },
       "daily": [
         {
-          "date": "2026-10-30",
+          "date": "2026-11-02",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -300,7 +342,7 @@
       },
       "instagram": {
         "followers": 0,
-        "views": 4,
+        "views": 8,
         "likes": 0
       },
       "daily": [
@@ -406,11 +448,32 @@
           "date": "2026-10-29",
           "thViews": 5.0,
           "thLikes": 0,
-          "igViews": 4.0,
+          "igViews": 8.0,
           "igLikes": 0
         },
         {
           "date": "2026-10-30",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-10-31",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-01",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-02",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
