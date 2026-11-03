@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-02T14:09:40+08:00",
+  "updatedAt": "2026-11-03T11:09:00+08:00",
   "from": "2026-10-15",
-  "to": "2026-11-02",
+  "to": "2026-11-03",
   "accounts": [
     {
       "key": "wendy",
@@ -151,6 +151,13 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-03",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -162,7 +169,7 @@
       "handle": "kanon20060401",
       "threads": {
         "followers": 0,
-        "views": 134,
+        "views": 154,
         "likes": 0
       },
       "instagram": {
@@ -299,6 +306,13 @@
         },
         {
           "date": "2026-11-02",
+          "thViews": 20.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-03",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -568,6 +582,13 @@
         },
         {
           "date": "2026-11-02",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-03",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
