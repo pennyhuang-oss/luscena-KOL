@@ -6074,3 +6074,10 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 ## 追加 400（Kanon K-10 文案加表情符號）
 
 - 製作師 2026-11-06 指示最後一段加表情符號：改成「大家覺得四張哪一張比較可愛呢？🥺💕」。發文時間仍待確認。
+
+## 追加 401（Kanon K-10 東區大頭貼發布）
+
+- 製作師 2026-11-06 說「立即」：排在 2026-11-06 18:10（台北），Instagram（POST、標示 AI 生成）＋Threads，2 張輪播，Metricool 貼文編號 418731963，uuid -3334477083943352010。
+- 文案：「今天去東區拍大頭貼📸／大家覺得四張哪一張比較可愛呢？🥺💕」
+- 圖片網址：第 2 張上傳 Higgsfield 後被判 NSFW（誤判，衣服完整），拿不到公開網址；兩張都改用 GitHub raw 網址（repo 是公開的），已確認大小與本機定稿一致。
+- 型錄：Kanon 第 10 格（catalog/img/kanon10_purikura1.jpg、kanon10_purikura2.jpg，960×1286）。
