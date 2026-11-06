@@ -6056,3 +6056,11 @@ Scene: cream brick wall with dark wood beams, blue sky with clouds at the top le
 - 檔案：執行者端 kpuri/p1c_fix.png、p2c_fix.png；對照 mole_fix.jpg（有標註）。
 - 狀態：等製作師看；OK 後存定稿。
 - 點數：0 點。
+
+## 追加 398（Kanon K-10 東區大頭貼定稿）
+- 製作師：可以定稿。
+- 存檔：`社群媒體/kanon/kanon_post10_purikura1_jobd0c8f2c3.jpg`、`kanon_post10_purikura2_jobd8c2191f.jpg`（追加 397 修痣版轉 JPG，1792×2400）。
+- 備份：`Documents\Luscena_KOL_定稿備份\kanon\` 兩張，逐檔比對一致；備份資料夾與 repo `社群媒體/kanon/` 清單一致。
+- POST_IDEAS 新增 K-10（圖定稿、新服裝說明、文案草稿待確認、Kanon 第 10 則）；尚未排程。
+- K-10 本系列累計點數：誤送 2 張 4 點＋格紋版 4 點＋服裝照 2 點＋新服裝 4 點＝14 點。
+- 點數：0 點。
