@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T01:16:00+08:00",
+  "updatedAt": "2026-11-09T13:45:05+08:00",
   "from": "2026-10-15",
-  "to": "2026-11-06",
+  "to": "2026-11-09",
   "accounts": [
     {
       "key": "wendy",
@@ -179,6 +179,27 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-07",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-08",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-09",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -190,8 +211,8 @@
       "handle": "kanon20060401",
       "threads": {
         "followers": 1,
-        "views": 162,
-        "likes": 0
+        "views": 170,
+        "likes": 1
       },
       "instagram": {
         "followers": 0,
@@ -244,7 +265,7 @@
         {
           "date": "2026-10-21",
           "thViews": 36.0,
-          "thLikes": 0,
+          "thLikes": 1.0,
           "igViews": 0,
           "igLikes": 0
         },
@@ -292,7 +313,7 @@
         },
         {
           "date": "2026-10-28",
-          "thViews": 15.0,
+          "thViews": 16.0,
           "thLikes": 0,
           "igViews": 8.0,
           "igLikes": 0
@@ -327,7 +348,7 @@
         },
         {
           "date": "2026-11-02",
-          "thViews": 27.0,
+          "thViews": 28.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -355,6 +376,27 @@
         },
         {
           "date": "2026-11-06",
+          "thViews": 6.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-07",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-08",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-09",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -370,7 +412,7 @@
       "handle": "vicky20010721",
       "threads": {
         "followers": 0,
-        "views": 15,
+        "views": 18,
         "likes": 0
       },
       "instagram": {
@@ -402,7 +444,7 @@
         },
         {
           "date": "2026-10-18",
-          "thViews": 1.0,
+          "thViews": 2.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -430,7 +472,7 @@
         },
         {
           "date": "2026-10-22",
-          "thViews": 1.0,
+          "thViews": 2.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -472,7 +514,7 @@
         },
         {
           "date": "2026-10-28",
-          "thViews": 2.0,
+          "thViews": 3.0,
           "thLikes": 0,
           "igViews": 6.0,
           "igLikes": 0
@@ -511,6 +553,27 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-07",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-08",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-09",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -522,7 +585,7 @@
       "handle": "nanami19990520",
       "threads": {
         "followers": 1,
-        "views": 38,
+        "views": 41,
         "likes": 1
       },
       "instagram": {
@@ -617,7 +680,7 @@
         },
         {
           "date": "2026-10-27",
-          "thViews": 4.0,
+          "thViews": 6.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -631,7 +694,7 @@
         },
         {
           "date": "2026-10-29",
-          "thViews": 8.0,
+          "thViews": 9.0,
           "thLikes": 0,
           "igViews": 8.0,
           "igLikes": 0
@@ -687,6 +750,27 @@
         },
         {
           "date": "2026-11-06",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-07",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-08",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-09",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
