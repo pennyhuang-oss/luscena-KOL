@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-09T13:45:05+08:00",
+  "updatedAt": "2026-11-12T15:24:30+08:00",
   "from": "2026-10-15",
-  "to": "2026-11-09",
+  "to": "2026-11-12",
   "accounts": [
     {
       "key": "wendy",
@@ -10,7 +10,7 @@
       "handle": "wendyyeo19980214",
       "threads": {
         "followers": 0,
-        "views": 8,
+        "views": 9,
         "likes": 0
       },
       "instagram": {
@@ -200,6 +200,27 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-10",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-11",
+          "thViews": 1.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-12",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -211,7 +232,7 @@
       "handle": "kanon20060401",
       "threads": {
         "followers": 1,
-        "views": 170,
+        "views": 172,
         "likes": 1
       },
       "instagram": {
@@ -401,6 +422,27 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-10",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-11",
+          "thViews": 2.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-12",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -412,7 +454,7 @@
       "handle": "vicky20010721",
       "threads": {
         "followers": 0,
-        "views": 18,
+        "views": 19,
         "likes": 0
       },
       "instagram": {
@@ -574,6 +616,27 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-10",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-11",
+          "thViews": 1.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-12",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -585,7 +648,7 @@
       "handle": "nanami19990520",
       "threads": {
         "followers": 1,
-        "views": 41,
+        "views": 48,
         "likes": 1
       },
       "instagram": {
@@ -771,6 +834,27 @@
         },
         {
           "date": "2026-11-09",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-10",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-11",
+          "thViews": 7.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-12",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
