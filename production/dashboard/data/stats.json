@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-17T14:36:00+08:00",
+  "updatedAt": "2026-11-18T09:14:40+08:00",
   "from": "2026-10-15",
-  "to": "2026-11-17",
+  "to": "2026-11-18",
   "accounts": [
     {
       "key": "wendy",
@@ -256,6 +256,13 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-18",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -267,7 +274,7 @@
       "handle": "kanon20060401",
       "threads": {
         "followers": 1,
-        "views": 308,
+        "views": 317,
         "likes": 2
       },
       "instagram": {
@@ -474,7 +481,7 @@
         },
         {
           "date": "2026-11-12",
-          "thViews": 33.0,
+          "thViews": 34.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -502,13 +509,20 @@
         },
         {
           "date": "2026-11-16",
-          "thViews": 14.0,
+          "thViews": 18.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-17",
+          "thViews": 4.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-18",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -524,7 +538,7 @@
       "handle": "vicky20010721",
       "threads": {
         "followers": 0,
-        "views": 46,
+        "views": 54,
         "likes": 0
       },
       "instagram": {
@@ -717,27 +731,34 @@
         },
         {
           "date": "2026-11-14",
-          "thViews": 11.0,
+          "thViews": 13.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-15",
-          "thViews": 7.0,
+          "thViews": 8.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-16",
-          "thViews": 0,
+          "thViews": 5.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-17",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-18",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -995,6 +1016,13 @@
         },
         {
           "date": "2026-11-17",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-18",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
