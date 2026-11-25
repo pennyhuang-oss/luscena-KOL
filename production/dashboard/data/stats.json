@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-24T12:50:05+08:00",
+  "updatedAt": "2026-11-25T07:16:28+08:00",
   "from": "2026-10-15",
-  "to": "2026-11-24",
+  "to": "2026-11-25",
   "accounts": [
     {
       "key": "wendy",
@@ -301,6 +301,13 @@
         },
         {
           "date": "2026-11-24",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-25",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
@@ -611,6 +618,13 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-25",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -889,6 +903,13 @@
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
+        },
+        {
+          "date": "2026-11-25",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
         }
       ],
       "staleSince": null
@@ -900,7 +921,7 @@
       "handle": "nanami19990520",
       "threads": {
         "followers": 1,
-        "views": 86,
+        "views": 104,
         "likes": 1
       },
       "instagram": {
@@ -946,7 +967,7 @@
         },
         {
           "date": "2026-10-20",
-          "thViews": 10.0,
+          "thViews": 11.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -1100,70 +1121,70 @@
         },
         {
           "date": "2026-11-11",
-          "thViews": 9.0,
+          "thViews": 10.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-12",
-          "thViews": 3.0,
-          "thLikes": 0,
-          "igViews": 0,
-          "igLikes": 0
-        },
-        {
-          "date": "2026-11-13",
           "thViews": 4.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
+          "date": "2026-11-13",
+          "thViews": 6.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
           "date": "2026-11-14",
-          "thViews": 5.0,
-          "thLikes": 0,
-          "igViews": 0,
-          "igLikes": 0
-        },
-        {
-          "date": "2026-11-15",
-          "thViews": 3.0,
-          "thLikes": 0,
-          "igViews": 0,
-          "igLikes": 0
-        },
-        {
-          "date": "2026-11-16",
           "thViews": 7.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
+          "date": "2026-11-15",
+          "thViews": 5.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-16",
+          "thViews": 9.0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
           "date": "2026-11-17",
-          "thViews": 2.0,
+          "thViews": 4.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-18",
-          "thViews": 2.0,
+          "thViews": 4.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
         },
         {
           "date": "2026-11-19",
-          "thViews": 3.0,
+          "thViews": 5.0,
           "thLikes": 0,
           "igViews": 4.0,
           "igLikes": 0
         },
         {
           "date": "2026-11-20",
-          "thViews": 1.0,
+          "thViews": 2.0,
           "thLikes": 0,
           "igViews": 0,
           "igLikes": 0
@@ -1191,6 +1212,13 @@
         },
         {
           "date": "2026-11-24",
+          "thViews": 0,
+          "thLikes": 0,
+          "igViews": 0,
+          "igLikes": 0
+        },
+        {
+          "date": "2026-11-25",
           "thViews": 0,
           "thLikes": 0,
           "igViews": 0,
